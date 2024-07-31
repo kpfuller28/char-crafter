@@ -1,0 +1,60 @@
+{
+    "description": "In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization. You might or might not come from an upper-class family; your talents, rather than the circumstances of your birth, could have secured you this position. You might have been one of the many functionaries, attendants, and other hangers-on in the Court of Silverymoon, or perhaps you traveled in Waterdeep's baroque and sometimes cutthroat conglomeration of guilds, nobles, adventurers, and secret societies. You might have been one of the behind-the-scenes law-keepers or functionaries in Baldur's Gate or Neverwinter, or you might have grown up in and around the castle of Daggerford. Even if you are no longer a full-fledged member of the group that gave you your start in life, your relationships with your former fellows can be an advantage for you and your adventuring comrades. You might undertake missions with your new companions that further the interest of the organization that gave you your start in life. In any event, the abilities that you honed while serving as a courtier will stand you in good stead as an adventurer.",
+    "source": "Sword Coast Adventurer's Guide",
+    "skill_proficiencies": ["Insight", "Persuasion"],
+    "tool_proficiencies": [],
+    "languages": ["Two of your choice"],
+    "equipment": [
+      "A set of fine clothes",
+      "a pouch containing 5gp"
+    ],
+    "features": {
+      "court_functionary": {
+        "description": "Your knowledge of how bureaucracies function lets you gain access to the records and inner workings of any noble court or government you encounter. You know who the movers and shakers are, whom to go to for the favors you seek, and what the current intrigues of interest in the group are."
+      }
+    },
+    "suggested_characteristics": {
+        "personality_traits": [
+          { "d8": 1, "trait": "I believe that anything worth doing is worth doing right. I can't help it – I'm a perfectionist." },
+          { "d8": 2, "trait": "I'm a snob who looks down on those who can't appreciate fine art." },
+          { "d8": 3, "trait": "I always want to know how things work and what makes people tick." },
+          { "d8": 4, "trait": "I'm full of witty aphorisms and have a proverb for every occasion." },
+          { "d8": 5, "trait": "I'm rude to people who lack my commitment to hard work and fair play." },
+          { "d8": 6, "trait": "I like to talk at length about my profession." },
+          { "d8": 7, "trait": "I don't part with my money easily and will haggle tirelessly to get the best deal possible." },
+          { "d8": 8, "trait": "I'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me." }
+        ]
+      },
+      "ideals": {
+        "d6": [
+          { "1": "Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)" },
+          { "2": "Generosity. My talents were given to me so that I could use them to benefit the world. (Good)" },
+          { "3": "Freedom. Everyone should be free to pursue his or her own livelihood. (Chaotic)" },
+          { "4": "Greed. I'm only in it for the money. (Evil)" },
+          { "5": "People. I'm committed to the people I care about, not to ideals. (Neutral)" },
+          { "6": "Aspiration. I work hard to be the best there is at my craft. (Any)" }
+        ]
+      },
+      "bonds": {
+        "d6": [
+          { "1": "The workshop where I learned my trade is the most important place in the world to me." },
+          { "2": "I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy." },
+          { "3": "I owe my guild a great debt for forging me into the person I am today." },
+          { "4": "I pursue wealth to secure someone's love." },
+          { "5": "One day I will return to my guild and prove that I am the greatest artisan of them all." },
+          { "6": "I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood." }
+        ]
+      },
+      "flaws": {
+        "d6": [
+          { "1": "I'll do anything to get my hands on something rare or priceless." },
+          { "2": "I'm quick to assume that someone is trying to cheat me." },
+          { "3": "No one must ever learn that I once stole money from guild coffers." },
+          { "4": "I'm never satisfied with what I have – I always want more." },
+          { "5": "I would kill to acquire a noble title." },
+          { "6": "I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals." }
+        ]
+      }
+    }
+    
+  

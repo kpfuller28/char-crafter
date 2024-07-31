@@ -1,0 +1,64 @@
+{
+    "description": "You are the heir to something of great value – not mere coin or wealth, but an object that has been entrusted to you and you alone. Your inheritance might have come directly to you from a member of your family, by right of birth, or it could have been left to you by a friend, a mentor, a teacher, or someone else important in your life. The revelation of your inheritance changed your life, and might have set you on the path to adventure, but it could also come with many dangers, including those who covet your gift and want to take it from you – by force, if need be.",
+    "source": "Sword Coast Adventurer's Guide",
+    "skill_proficiencies": ["Survival", "Arcana/History/Religion"],
+    "tool_proficiencies": ["Gaming set or musical instrument"],
+    "languages": ["Any one of your choice"],
+    "equipment": [
+      "Your inheritance",
+      "A set of traveler's clothes",
+      "The tool you chose for this background’s tool proficiency",
+      "A pouch containing 15 gp"
+    ],
+    "features": {
+      "inheritance": {
+        "description": "Choose or randomly determine your inheritance from among the possibilities in the table below. Work with your DM to come up with details: Why is your inheritance so important, and what is its full story? You might prefer for the DM to invent these details as part of the game, allowing you to learn more about your inheritance as your character does. The DM is free to use your inheritance as a story hook, sending you on quests to learn more about its history or true nature, or confronting you with foes who want to claim it for themselves or prevent you from learning what you seek. The DM also determines the properties of your inheritance and how they figure into the item's history and importance. For instance, the object might be a minor magic item, or one that begins with a modest ability and increases in potency with the passage of time. Or, the true nature of your inheritance might not be apparent at first and is revealed only when certain conditions are met. When you begin your adventuring career, you can decide whether to tell your companions about your inheritance right away. Rather than attracting attention to yourself, you might want to keep your inheritance a secret until you learn more about what it means to you and what it can do for you.",
+        "d8": [
+          { "1": "A document such as a map, a letter, or a journal" },
+          { "2-3": "A trinket" },
+          { "4": "An article of clothing" },
+          { "5": "A piece of jewelry" },
+          { "6": "An arcane book or formulary" },
+          { "7": "A written story, song, poem, or secret" },
+          { "8": "A tattoo or other body marking" }
+        ]
+      }
+    },
+    "suggested_characteristics": {
+      "personality_traits": [
+        { "d8": 1, "trait": "I am always looking for more information about my inheritance and its history." },
+        { "d8": 2, "trait": "I feel a deep sense of responsibility to protect and honor my inheritance." },
+        { "d8": 3, "trait": "I am cautious about revealing the true nature of my inheritance to others." },
+        { "d8": 4, "trait": "I am driven by a desire to prove myself worthy of my inheritance." },
+        { "d8": 5, "trait": "I often find myself daydreaming about the past events associated with my inheritance." },
+        { "d8": 6, "trait": "I have a tendency to be secretive and guarded about personal matters." },
+        { "d8": 7, "trait": "I am always seeking allies who might help me uncover more about my inheritance." },
+        { "d8": 8, "trait": "I take great pride in my inheritance and often brag about it to those who will listen." }
+      ],
+      "ideals": [
+        { "d6": 1, "ideal": "Legacy. I must honor and protect my inheritance, for it represents my family's or my mentor's legacy. (Good)" },
+        { "d6": 2, "ideal": "Knowledge. The true nature of my inheritance holds the key to great knowledge and understanding. (Any)" },
+        { "d6": 3, "ideal": "Power. My inheritance will grant me the power to achieve greatness and command respect. (Evil)" },
+        { "d6": 4, "ideal": "Responsibility. I bear the weight of my inheritance with honor and a sense of duty. (Lawful)" },
+        { "d6": 5, "ideal": "Discovery. I seek to uncover the secrets and true nature of my inheritance. (Any)" },
+        { "d6": 6, "ideal": "Secrecy. My inheritance is a closely guarded secret that must remain hidden from those who would misuse it. (Neutral)" }
+      ],
+      "bonds": [
+        { "d6": 1, "bond": "I would do anything to protect my inheritance and those who might help me with it." },
+        { "d6": 2, "bond": "The person who entrusted me with my inheritance is someone I deeply respect and owe much to." },
+        { "d6": 3, "bond": "I am determined to prove my worthiness to inherit this precious item or responsibility." },
+        { "d6": 4, "bond": "My inheritance is connected to a larger legacy or story that I am committed to exploring." },
+        { "d6": 5, "bond": "There are enemies who covet my inheritance, and I must protect it from them at all costs." },
+        { "d6": 6, "bond": "I feel a personal connection to the past events related to my inheritance and strive to honor that legacy." }
+      ],
+      "flaws": [
+        { "d6": 1, "flaw": "I am overly protective of my inheritance, to the point of paranoia." },
+        { "d6": 2, "flaw": "My obsession with my inheritance sometimes blinds me to other important matters." },
+        { "d6": 3, "flaw": "I have trouble trusting others with knowledge about my inheritance." },
+        { "d6": 4, "flaw": "I feel a sense of entitlement due to my inheritance and may come across as arrogant." },
+        { "d6": 5, "flaw": "I am haunted by fears that others will try to take my inheritance from me." },
+        { "d6": 6, "flaw": "I often act impulsively to protect my inheritance, even when it is not warranted." }
+      ]
+    }
+  }
+  
