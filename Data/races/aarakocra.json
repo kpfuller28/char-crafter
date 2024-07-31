@@ -1,0 +1,36 @@
+{
+  "Aarakocra": {
+    "Description": "A winged people who originated on the Elemental Plane of Air. They have avian features, typically standing about 5 feet tall, with feathers of various colors and long, narrow legs tapering to sharp talons. Their heads resemble those of parrots or eagles.",
+    "Source": "Mordenkainen Presents: Monsters of the Multiverse",
+    "Ability Score Increase": {
+      "Options": [
+        "Increase one score by 2 and a different score by 1",
+        "Increase three different scores by 1 each"
+      ],
+      "Maximum": 20
+    },
+    "Creature Type": "Humanoid",
+    "Size": "Medium",
+    "Speed": {
+      "Walking": "30 feet",
+      "Flying": "30 feet (not usable with medium or heavy armor)"
+    },
+    "Talons": {
+      "Description": "Talons that can be used for unarmed strikes.",
+      "Damage": "1d6 + Strength modifier slashing damage"
+    },
+    "Wind Caller": {
+      "Description": "Ability to cast Gust of Wind spell.",
+      "Casting": [
+        "At 3rd level, cast Gust of Wind without material components",
+        "Can cast Gust of Wind using spell slots of 2nd level or higher"
+      ],
+      "Spellcasting Ability": "Intelligence, Wisdom, or Charisma (choose when selecting race)",
+      "Rest": "Can only use this trait once per long rest"
+    },
+    "Languages": {
+      "Primary": "Common",
+      "Additional": "One other language chosen with DM's agreement"
+    }
+  }
+}

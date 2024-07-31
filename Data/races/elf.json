@@ -1,0 +1,168 @@
+{
+  "Elf": {
+    "Description": "Elves are a magical people with a strong connection to nature and the arts. They live in beautiful, ethereal environments and are known for their grace and longevity.",
+    "Ability Score Increase": {
+      "Dexterity": "+2"
+    },
+    "Age": "Reach adulthood around 100 years and live up to 750 years.",
+    "Alignment": "Lean towards chaotic good, valuing freedom and self-expression. Drow are often evil due to their Underdark lifestyle.",
+    "Size": "Medium",
+    "Speed": "30 feet",
+    "Darkvision": "Can see in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light. Colors in darkness are shades of gray.",
+    "Fey Ancestry": "Advantage on saving throws against being charmed. Magic can't put you to sleep.",
+    "Trance": "Meditate for 4 hours instead of sleeping. Gain benefits similar to 8 hours of sleep.",
+    "Keen Senses": "Proficiency in Perception skill.",
+    "Languages": "Common and Elven"
+  },
+  "Drow": {
+    "Description": "Dark-skinned elves from the Underdark, following the path of the goddess Lolth. They are often smaller and thinner than other elves and have pale eyes.",
+    "Ability Score Increase": {
+      "Charisma": "+1"
+    },
+    "Superior Darkvision": "Range of 120 feet.",
+    "Sunlight Sensitivity": "Disadvantage on attack rolls and Wisdom (Perception) checks in direct sunlight.",
+    "Drow Magic": {
+      "Cantrips": "Dancing Lights",
+      "3rd Level": "Faerie Fire (once per long rest)",
+      "5th Level": "Darkness (once per long rest)",
+      "Spellcasting Ability": "Charisma"
+    },
+    "Drow Weapon Training": "Proficiency with rapiers, shortswords, and hand crossbows."
+  },
+  "High Elf": {
+    "Description": "Elves with a keen mind and some magical ability. They are often seen as either haughty or friendly depending on the world.",
+    "Ability Score Increase": {
+      "Intelligence": "+1"
+    },
+    "Cantrip": "One cantrip of your choice from the Wizard spell list.",
+    "Elf Weapon Training": "Proficiency with longsword, shortsword, shortbow, and longbow.",
+    "Extra Language": "One additional language of your choice."
+  },
+  "Wood Elf": {
+    "Description": "Elves with keen senses and swift feet, often seen as reclusive and distrustful of non-elves.",
+    "Ability Score Increase": {
+      "Wisdom": "+1"
+    },
+    "Elf Weapon Training": "Proficiency with longsword, shortsword, shortbow, and longbow.",
+    "Fleet of Foot": "Base walking speed increases to 35 feet.",
+    "Mask of the Wild": "Can attempt to hide in natural phenomena like foliage, rain, snow, and mist."
+  },
+  "Pallid Elf": {
+    "Description": "Elves from the Pallid Grove with a mystical and insightful nature, often wandering the world with curiosity.",
+    "Ability Score Increase": {
+      "Wisdom": "+1"
+    },
+    "Incisive Sense": "Advantage on Investigation and Insight checks.",
+    "Blessing of the Moonweaver": {
+      "Cantrips": "Light",
+      "3rd Level": "Sleep (once per long rest)",
+      "5th Level": "Invisibility (Self Only, once per long rest)",
+      "Spellcasting Ability": "Wisdom"
+    }
+  },
+  "Mark of Shadow": {
+    "Description": "Elves with the Mark of Shadow, featuring traits linked to stealth and illusion.",
+    "Ability Score Increase": {
+      "Charisma": "+1"
+    },
+    "Cunning Intuition": "Add a d4 to Dexterity (Stealth) and Charisma (Performance) checks.",
+    "Shape Shadows": {
+      "Cantrips": "Minor Illusion",
+      "3rd Level": "Invisibility (once per long rest)",
+      "Spellcasting Ability": "Charisma"
+    },
+    "Spells of the Mark": {
+      "1st Level": "Disguise Self, Silent Image",
+      "2nd Level": "Darkness, Pass Without Trace",
+      "3rd Level": "Clairvoyance, Major Image",
+      "4th Level": "Greater Invisibility, Hallucinatory Terrain",
+      "5th Level": "Mislead"
+    }
+  },
+  "Astral Elf": {
+    "Description": "Elves who lived on the Astral Plane, embodying a divine light and viewing time with a unique perspective.",
+    "Ability Score Increase": {
+      "Primary": "+2",
+      "Secondary": "+1",
+      "Alternative": "Three different scores by +1 each"
+    },
+    "Creature Type": "Humanoid, considered an elf for prerequisites.",
+    "Size": "Medium",
+    "Speed": "30 feet",
+    "Astral Fire": "Cantrip of your choice: Dancing Lights, Light, or Sacred Flame.",
+    "Darkvision": "Can see in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light.",
+    "Fey Ancestry": "Advantage on saving throws to avoid or end the charmed condition.",
+    "Keen Senses": "Proficiency in Perception skill.",
+    "Starlight Step": "Teleport up to 30 feet as a bonus action, uses equal to proficiency bonus, regains after a long rest.",
+    "Astral Trance": "4 hours of trance for rest, gain proficiency in one skill and one weapon or tool of your choice."
+  },
+  "Bishtahar/Tirahar Elf": {
+    "Description": "Elves from Kaladesh, either utilizing technology for cultivation (Bishtahar) or rejecting it in favor of nature (Tirahar).",
+    "Ability Score Increase": {
+      "Wisdom": "+1"
+    },
+    "Elf Weapon Training": "Proficiency with longsword, shortsword, shortbow, and longbow.",
+    "Fleet of Foot": "Base walking speed increases to 35 feet.",
+    "Mask of the Wild": "Can attempt to hide in natural phenomena."
+  },
+  "Vahadar Elf": {
+    "Description": "Elves from Kaladesh who are comfortable with technology and live in integrated urban settings.",
+    "Ability Score Increase": {
+      "Wisdom": "+1"
+    },
+    "Elf Weapon Training": "Proficiency with longsword, shortsword, shortbow, and longbow.",
+    "Cantrip": "One cantrip of your choice from the Druid spell list.",
+    "Extra Language": "One additional language of your choice."
+  },
+  "Tajuru": {
+    "Description": "Elves from the Tajuru nation of Zendikar, open to other races and new lifestyles.",
+    "Ability Score Increase": {
+      "Charisma": "+1"
+    },
+    "Skill Versatility": "Proficiency in two skills or tools of your choice."
+  },
+  "Juraga": {
+    "Description": "Elves from the Joraga nation of Zendikar, known for their disdain of other races and strong survival focus.",
+    "Ability Score Increase": {
+      "Dexterity": "+1"
+    },
+    "Elf Weapon Training": "Proficiency with longsword, shortsword, shortbow, and longbow.",
+    "Fleet of Foot": "Base walking speed increases to 35 feet.",
+    "Mask of the Wild": "Can attempt to hide in natural phenomena."
+  },
+  "Mul Daya": {
+    "Description": "Elves from the Mul Daya nation of Zendikar, deeply connected to the spirit world.",
+    "Ability Score Increase": {
+      "Strength": "+1"
+    },
+    "Superior Darkvision": "Radius of 120 feet.",
+    "Sunlight Sensitivity": "Disadvantage on attack rolls and Wisdom (Perception) checks in direct sunlight.",
+    "Mul Daya Magic": {
+      "Cantrips": "Chill Touch",
+      "3rd Level": "Hex (once per long rest)",
+      "5th Level": "Darkness (once per long rest)",
+      "Spellcasting Ability": "Wisdom"
+    },
+    "Elf Weapon Training": "Proficiency with longsword, shortsword, shortbow, and longbow."
+  },
+  "Eladrin": {
+    "Description": "Elves of the Feywild who embody different seasons, with abilities reflecting their current season.",
+    "Ability Score Increase": {
+      "Primary": "+2",
+      "Secondary": "+1",
+      "Alternative": "Three different scores by +1 each"
+    },
+    "Creature Type": "Humanoid, considered an elf for prerequisites.",
+    "Size": "Medium",
+    "Speed": "30 feet",
+    "Darkvision": "Can see in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light.",
+    "Fey Ancestry": "Advantage on saving throws to avoid or end the charmed condition.",
+    "Fey Step": {
+      "Teleportation": "Up to 30 feet as a bonus action.",
+      "Seasonal Effects": {
+        "Autumn": "Charm up to two creatures within 10 feet.",
+        "Winter": "Frighten one creature within 5 feet"
+      }
+    }
+  }
+}

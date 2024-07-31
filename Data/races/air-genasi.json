@@ -1,0 +1,50 @@
+{
+  "Air Genasi": {
+    "Description": "Descended from djinn of the Elemental Plane of Air, air genasi embody airy traits and draw upon their connection to the winds. Their skin can range from shades of blue to human tones with bluish or ashen casts, sometimes marked by lines of bluish-white energy. Their hair may blow in a phantom wind or be made of clouds or vapor.",
+    "Ability Score Increase": {
+      "Option1": {
+        "Score1": "+2",
+        "Score2": "+1",
+        "Restrictions": "You can't raise any of your scores above 20."
+      },
+      "Option2": {
+        "Score1": "+1",
+        "Score2": "+1",
+        "Score3": "+1",
+        "Restrictions": "You can't raise any of your scores above 20."
+      }
+    },
+    "Creature Type": "Humanoid",
+    "Size": {
+      "Options": ["Medium", "Small"],
+      "Note": "You choose the size when you select this race."
+    },
+    "Speed": "35 feet",
+    "Darkvision": {
+      "Range": "60 feet",
+      "Description": "You can see in dim light as if it were bright light and in darkness as if it were dim light. You discern colors in darkness only as shades of gray."
+    },
+    "Unending Breath": {
+      "Description": "You can hold your breath indefinitely while you’re not incapacitated."
+    },
+    "Lightning Resistance": {
+      "Damage Type": "Lightning",
+      "Description": "You have resistance to lightning damage."
+    },
+    "Mingle with the Wind": {
+      "Cantrip": "Shocking Grasp",
+      "Spells": {
+        "Feather Fall": {
+          "Level": 3,
+          "Usage": "You can cast the Feather Fall spell without requiring a material component. You can cast it once per long rest or using spell slots."
+        },
+        "Levitate": {
+          "Level": 5,
+          "Usage": "You can cast the Levitate spell without requiring a material component. You can cast it once per long rest or using spell slots."
+        }
+      },
+      "Spellcasting Ability": "Intelligence, Wisdom, or Charisma (choose when you select this race)"
+    },
+    "Languages": "Common and one additional language chosen with your DM"
+  }
+}

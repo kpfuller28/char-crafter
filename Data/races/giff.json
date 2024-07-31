@@ -1,0 +1,30 @@
+{
+  "name": "Giff",
+  "description": "Giff are tall, broad-shouldered folk with hippo-like features. Some have smooth skin, while others have short bristles on their faces and the tops of their heads. Giff are noticed wherever they go due to their impressive size and unforgettable appearance. Most giff believe they originated on one world, but their home world is now the stuff of legend. The divine beings who created giff have likewise been forgotten, and their petrified bodies drift on the Astral Sea.",
+  "traits": {
+    "ability_score_increase": {
+      "description": "Increase one ability score by 2, and increase a different one by 1, or increase three different scores by 1."
+    },
+    "creature_type": {
+      "description": "You are a Humanoid."
+    },
+    "size": {
+      "description": "You are Medium."
+    },
+    "speed": {
+      "description": "Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
+    },
+    "astral_spark": {
+      "description": "Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest."
+    },
+    "firearms_mastery": {
+      "description": "You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll."
+    },
+    "hippo_build": {
+      "description": "You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+    },
+    "languages": {
+      "description": "You can speak, read, and write Common and one other language that you and your DM agree is appropriate."
+    }
+  }
+}

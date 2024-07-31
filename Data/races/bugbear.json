@@ -1,0 +1,42 @@
+{
+  "Bugbear": {
+    "Description": "Bugbears are hulking cousins of goblins and hobgoblins with roots in the Feywild. They are long of limb, covered in coarse hair, and have wedge-shaped ears and pointed teeth. Despite their formidable build, bugbears are skilled at hiding, thanks to a fey magic that allows them to fit into spaces seemingly too small for them.",
+    "Ability Score Increase": {
+      "Option1": {
+        "Score1": "+2",
+        "Score2": "+1",
+        "Restrictions": "You can't raise any of your scores above 20."
+      },
+      "Option2": {
+        "Score1": "+1",
+        "Score2": "+1",
+        "Score3": "+1",
+        "Restrictions": "You can't raise any of your scores above 20."
+      }
+    },
+    "Creature Type": "Humanoid (goblinoid)",
+    "Size": "Medium",
+    "Speed": "30 feet",
+    "Traits": {
+      "Darkvision": {
+        "Description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+      },
+      "Fey Ancestry": {
+        "Description": "You have advantage on saving throws you make to avoid or end the charmed condition on yourself."
+      },
+      "Long-Limbed": {
+        "Description": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+      },
+      "Powerful Build": {
+        "Description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+      },
+      "Sneaky": {
+        "Description": "You are proficient in the Stealth skill. Additionally, without squeezing, you can move through and stop in a space large enough for a Small creature."
+      },
+      "Surprise Attack": {
+        "Description": "If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn’t taken a turn yet in the current combat."
+      }
+    },
+    "Languages": "Common and one other language chosen with your DM"
+  }
+}

@@ -18,59 +18,50 @@
   "suggested_characteristics": {
     "personality_traits": [
       {
-        "d8": 1,
-        "trait": "I idolize a particular hero of my faith, and constantly refer to that person's deeds and example."
+        "1": "I idolize a particular hero of my faith, and constantly refer to that person's deeds and example."
       },
       {
-        "d8": 2,
-        "trait": "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace."
+        "2": "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace."
       },
       {
-        "d8": 3,
-        "trait": "I see omens in every event and action. The gods try to speak to us, we just need to listen."
+        "3": "I see omens in every event and action. The gods try to speak to us, we just need to listen."
       },
-      { "d8": 4, "trait": "Nothing can shake my optimistic attitude." },
+      { "4": "Nothing can shake my optimistic attitude." },
       {
-        "d8": 5,
-        "trait": "I quote (or misquote) sacred texts and proverbs in almost every situation."
+        "5": "I quote (or misquote) sacred texts and proverbs in almost every situation."
       },
       {
-        "d8": 6,
-        "trait": "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods."
+        "6": "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods."
       },
       {
-        "d8": 7,
-        "trait": "I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me."
+        "7": "I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me."
       },
       {
-        "d8": 8,
-        "trait": "I've spent so long in the temple that I have little practical experience dealing with people in the outside world."
+        "8": "I've spent so long in the temple that I have little practical experience dealing with people in the outside world."
+
       }
     ],
     "ideals": [
       {
-        "d6": 1,
-        "ideal": "Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)"
+
+        "1": "Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld.",
+        "alignment": "(Lawful)"
       },
       {
-        "d6": 2,
-        "ideal": "Charity. I always try to help those in need, no matter what the personal cost. (Good)"
+        "2": "Charity. I always try to help those in need, no matter what the personal cost. (Good)"
       },
       {
-        "d6": 3,
-        "ideal": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)"
+        "3": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)"
       },
       {
-        "d6": 4,
-        "ideal": "Power. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)"
+        "4": "Power. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)"
       },
       {
-        "d6": 5,
-        "ideal": "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)"
+        "5": "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)"
       },
       {
-        "d6": 6,
-        "ideal": "Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against their teachings. (Any)"
+        "6": "Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against their teachings. (Any)"
+
       }
     ],
     "bonds": [
