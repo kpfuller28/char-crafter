@@ -1,18 +1,26 @@
 import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Question from "./Components/Question";
-
+// @ts-expect-error miss type declaration
+import { characterDecider } from "./helpers/characterDecider.js";
 const questions = [
   "Do you want to weapon, cast spells, or a bit of both?",
-  "Do you want to be a human, elf, dwarf, halfling?",
   "Do you want to be melee or ranged?",
+  "Do you want to be a human, elf, dwarf, halfling?",
 ];
+
+/*
+weapon, melee = fighter
+weapon, ranged = rogue
+spells, melee = cleric
+spells, ranged = wizard
+both, melee = paladin
+both, ranged = ranger
+*/
 const options = [
   ["Weapon", "Spells", "Both"],
-  ["Human", "Elf", "Dwarf", "Halfling"],
   ["Melee", "Ranged"],
+  ["Human", "Elf", "Dwarf", "Halfling"],
 ];
 
 function App() {
@@ -22,6 +30,7 @@ function App() {
   const [questionIndex, setQuestionIndex] = useState(0);
   const [optionIndex, setOptionIndex] = useState(0);
   const [fade, setFade] = useState(false);
+  const [characterClass, setCharacterClass] = useState("");
 
   function handleAnswer(answer) {
     setFade(true);
@@ -29,21 +38,16 @@ function App() {
       setAnswers([...answers, answer]);
       setQuestionIndex(questionIndex + 1);
       setOptionIndex(optionIndex + 1);
+      if (questionIndex === questions.length - 1) {
+        setCharacterClass(characterDecider(answers));
+      }
       setFade(false);
     }, 500);
   }
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Welcome Nate</h1>
+      <h1>Welcome Adventurer</h1>
 
       {questionIndex < questions.length ? (
         <div className={`fade ${fade ? "fade-enter" : "fade-exit"}`}>
@@ -54,13 +58,30 @@ function App() {
           />
         </div>
       ) : (
-        <div>
+        <div className={`fade ${fade ? "fade-enter" : "fade-exit"}`}>
           <div>Here are your answers bitch</div>
+          <div>
+            You clearly want to play a {answers[2]} {characterClass}
+          </div>
           <ul style={{ listStyleType: "none" }}>
             {answers.map((answer) => {
               return <li>{answer}</li>;
             })}
           </ul>
+          <button
+            onClick={() => {
+              setFade(true);
+              setTimeout(() => {
+                setOptionIndex(0);
+                setQuestionIndex(0);
+                setAnswers([]);
+                setCharacterClass("");
+                setFade(false);
+              }, 500);
+            }}
+          >
+            Go Back to Beginning
+          </button>
         </div>
       )}
 
