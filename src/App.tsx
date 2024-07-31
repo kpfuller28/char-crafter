@@ -54,13 +54,26 @@ function App() {
           />
         </div>
       ) : (
-        <div>
+        <div className={`fade ${fade ? "fade-enter" : "fade-exit"}`}>
           <div>Here are your answers bitch</div>
           <ul style={{ listStyleType: "none" }}>
             {answers.map((answer) => {
               return <li>{answer}</li>;
             })}
           </ul>
+          <button
+            onClick={() => {
+              setFade(true);
+              setTimeout(() => {
+                setOptionIndex(0);
+                setQuestionIndex(0);
+                setAnswers([]);
+                setFade(false);
+              }, 500);
+            }}
+          >
+            Go Back to Beginning
+          </button>
         </div>
       )}
 
