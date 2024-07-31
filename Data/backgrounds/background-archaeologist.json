@@ -1,0 +1,68 @@
+
+{
+  "source": "Tomb of Annihilation",
+  "description": "An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains – their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms.",
+  "skill_proficiencies": ["History", "Survival"],
+  "tool_proficiencies": "Cartographer's tools or navigator's tools",
+  "languages": "One of your choice",
+  "equipment": [
+    "A wooden case containing a map to a ruin or dungeon",
+    "a bullseye lantern",
+    "a miner's pick",
+    "a set of traveler's clothes",
+    "a shovel",
+    "a two-person tent",
+    "a trinket recovered from a dig site",
+    "a pouch containing 25gp"
+  ],
+  "features": {
+    "dust_digger": "Prior to becoming an adventurer, you spent most of your young life crawling around in the dust, pilfering relics of questionable value from crypts and ruins. Though you managed to sell a few of your discoveries and earn enough coin to buy proper adventuring gear, you have held onto an item that has great emotional value to you. Roll on the Signature Item table to see what you have, or choose an item from the table.",
+    "signature_item": [
+      {"d8": 1, "item": "10-foot pole"},
+      {"d8": 2, "item": "Medallion"},
+      {"d8": 3, "item": "Crowbar"},
+      {"d8": 4, "item": "Shovel"},
+      {"d8": 5, "item": "Hat"},
+      {"d8": 6, "item": "Sledgehammer"},
+      {"d8": 7, "item": "Hooded lantern"},
+      {"d8": 8, "item": "Whip"}
+    ],
+    "historical_knowledge": "When you enter a ruin or dungeon, you can correctly ascertain its original purpose and determine its builders, whether those were dwarves, elves, humans, yuan-ti, or some other known race. In addition, you can determine the monetary value of art objects more than a century old."
+  },
+  "suggested_characteristics": {
+    "personality_traits": [
+      {"d8": 1, "trait": "I love a good puzzle or mystery."},
+      {"d8": 2, "trait": "I'm a pack rat who never throws anything away."},
+      {"d8": 3, "trait": "Fame is more important to me than money."},
+      {"d8": 4, "trait": "I have no qualms about stealing from the dead."},
+      {"d8": 5, "trait": "I'm happier in a dusty old tomb than I am in the centers of civilization."},
+      {"d8": 6, "trait": "Traps don't make me nervous. Idiots who trigger traps make me nervous."},
+      {"d8": 7, "trait": "I might fail, but I will never give up."},
+      {"d8": 8, "trait": "You might think I'm a scholar, but I love a good brawl. These fists were made for punching."}
+    ],
+    "ideals": [
+      {"d6": 1, "ideal": "Preservation. That artifact belongs in a museum. (Good)"},
+      {"d6": 2, "ideal": "Greed. I won't risk my life for nothing. I expect some kind of payment. (Any)"},
+      {"d6": 3, "ideal": "Death Wish. Nothing is more exhilarating than a narrow escape from the jaws of death. (Chaotic)"},
+      {"d6": 4, "ideal": "Dignity. The dead and their belongings deserve to be treated with respect. (Lawful)"},
+      {"d6": 5, "ideal": "Immortality. All my exploring is part of a plan to find the secret of everlasting life. (Any)"},
+      {"d6": 6, "ideal": "Danger. With every great discovery comes grave danger. The two walk hand in hand. (Any)"}
+    ],
+    "bonds": [
+      {"d6": 1, "bond": "Ever since I was a child, I've heard stories about a lost city. I aim to find it, learn its secrets, and earn my place in the history books."},
+      {"d6": 2, "bond": "I want to find my mentor, who disappeared on an expedition some time ago."},
+      {"d6": 3, "bond": "I have a friendly rival. Only one of us can be the best, and I aim to prove it's me."},
+      {"d6": 4, "bond": "I won't sell an art object or other treasure that has historical significance or is one of a kind."},
+      {"d6": 5, "bond": "I'm secretly in love with the wealthy patron who sponsors my archaeological exploits."},
+      {"d6": 6, "bond": "I hope to bring prestige to a library, a museum, or a university."}
+    ],
+    "flaws": [
+      {"d6": 1, "flaw": "I have a secret fear of some common wild animal – and in my work, I see them everywhere."},
+      {"d6": 2, "flaw": "I can't leave a room without searching it for secret doors."},
+      {"d6": 3, "flaw": "When I'm not exploring dungeons or ruins, I get jittery and impatient."},
+      {"d6": 4, "flaw": "I have no time for friends or family. I spend every waking moment thinking about and preparing for my next expedition."},
+      {"d6": 5, "flaw": "When given the choice of going left or right, I always go left."},
+      {"d6": 6, "flaw": "I can't sleep except in total darkness."}
+    ]
+  }
+}
