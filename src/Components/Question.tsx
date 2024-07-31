@@ -1,6 +1,6 @@
 export default function Question({ question, onAnswer, options }) {
   return (
-    <div>
+    <div className="fade">
       <p>{question}</p>
       {options.map((option) => {
         return (

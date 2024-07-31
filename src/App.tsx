@@ -22,6 +22,7 @@ function App() {
   const [answers, setAnswers] = useState([]);
   const [questionIndex, setQuestionIndex] = useState(0);
   const [optionIndex, setOptionIndex] = useState(0);
+  const [fade, setFade] = useState(false);
   const [races, setRaces] = useState([]);
   const url = "https://www.dnd5eapi.co/graphql";
   const raceQuery = `
@@ -52,9 +53,13 @@ function App() {
   // }, []);
 
   function handleAnswer(answer) {
-    setAnswers([...answers, answer]);
-    setQuestionIndex(questionIndex + 1);
-    setOptionIndex(optionIndex + 1);
+    setFade(true);
+    setTimeout(() => {
+      setAnswers([...answers, answer]);
+      setQuestionIndex(questionIndex + 1);
+      setOptionIndex(optionIndex + 1);
+      setFade(false);
+    }, 500);
   }
 
   return (
@@ -70,11 +75,13 @@ function App() {
       <h1>Welcome Nate</h1>
 
       {questionIndex < questions.length ? (
-        <Question
-          question={questions[questionIndex]}
-          onAnswer={handleAnswer}
-          options={options[optionIndex]}
-        />
+        <div className={`fade ${fade ? "fade-enter" : "fade-exit"}`}>
+          <Question
+            question={questions[questionIndex]}
+            onAnswer={handleAnswer}
+            options={options[optionIndex]}
+          />
+        </div>
       ) : (
         <div>
           <div>Here are your answers bitch</div>
