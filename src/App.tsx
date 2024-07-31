@@ -99,7 +99,7 @@ function App() {
 
       <div className="card">
         <button onClick={() => setCount((count) => count + 1000)}>
-          KIEL is {count}
+          NATE is {count}
         </button>
         <p>
           Edit <code>src/App.tsx</code> and Nate to Nate HMR
