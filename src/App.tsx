@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import axios from "axios";
 import Question from "./Components/Question";
 
 const questions = [
@@ -23,34 +22,6 @@ function App() {
   const [questionIndex, setQuestionIndex] = useState(0);
   const [optionIndex, setOptionIndex] = useState(0);
   const [fade, setFade] = useState(false);
-  const [races, setRaces] = useState([]);
-  const url = "https://www.dnd5eapi.co/graphql";
-  const raceQuery = `
-          query Monsters {
-            monsters {
-              armor_class {
-                value
-                type
-              }
-              name
-            }
-          }`;
-  // useEffect(() => {
-  //   axios
-  //     .post(
-  //       url,
-  //       { query: query },
-  //       {
-  //         headers: {
-  //           "Content-Type": "application/json",
-  //         },
-  //       }
-  //     )
-  //     .then((response) => {
-  //       setMonsters(response.data.data.monsters);
-  //       console.log("MONSTER LIST: ", monsters);
-  //     });
-  // }, []);
 
   function handleAnswer(answer) {
     setFade(true);
@@ -92,17 +63,6 @@ function App() {
           </ul>
         </div>
       )}
-
-      {/* <ul>
-        {monsters.map((monster) => {
-          return (
-            <div>
-              <li>{monster.name}</li>
-              <li>{monster.armor_class[0].value}</li>
-            </div>
-          );
-        })}
-      </ul> */}
 
       <div className="card">
         <button onClick={() => setCount((count) => count + 1000)}>
