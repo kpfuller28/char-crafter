@@ -1,0 +1,36 @@
+{
+  "Centaur": {
+    "Description": "Centaurs from the Feywild combine elven features with the bodies of horses. They resonate with the natural world and are known for their swift, powerful forms.",
+    "Ability Score Increase": {
+      "Option1": {
+        "Score1": "+2",
+        "Score2": "+1",
+        "Restrictions": "You can't raise any of your scores above 20."
+      },
+      "Option2": {
+        "Score1": "+1",
+        "Score2": "+1",
+        "Score3": "+1",
+        "Restrictions": "You can't raise any of your scores above 20."
+      }
+    },
+    "Creature Type": "Fey",
+    "Size": "Medium",
+    "Speed": "40 feet",
+    "Traits": {
+      "Charge": {
+        "Description": "If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves."
+      },
+      "Equine Build": {
+        "Description": "You count as one size larger when determining your carrying capacity and the weight you can push or drag. Climbing that requires hands and feet is especially difficult, costing 4 extra feet of movement per foot climbed."
+      },
+      "Hooves": {
+        "Description": "You have hooves that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage."
+      },
+      "Natural Affinity": {
+        "Description": "You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival."
+      }
+    },
+    "Languages": "Common and one other language chosen with your DM"
+  }
+}

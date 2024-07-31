@@ -1,0 +1,69 @@
+{
+    "description": "War has been your life for as long as you care to remember. You trained as a youth, studied the use of weapons and armor, learned basic survival techniques, including how to stay alive on the battlefield. You might have been part of a standing national army or a mercenary company, or perhaps a member of a local militia who rose to prominence during a recent war. When you choose this background, work with your DM to determine which military organization you were a part of, how far through its ranks you progressed, and what kind of experiences you had during your military career. Was it a standing army, a town guard, or a village militia? Or it might have been a noble's or merchant's private army, or a mercenary company.",
+    "source": "Player's Handbook",
+    "skill_proficiencies": ["Athletics", "Intimidation"],
+    "tool_proficiencies": ["One type of gaming set", "vehicles (land)"],
+    "languages": [],
+    "equipment": [
+      "An insignia of rank",
+      "A trophy taken from a fallen enemy (a dagger, broken blade, or piece of a banner)",
+      "A set of bone dice or a deck of cards",
+      "A set of common clothes",
+      "A pouch containing 10 gp"
+    ],
+    "features": {
+      "specialty": {
+        "description": "During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role.",
+        "options": [
+          { "d8": 1, "specialty": "Officer" },
+          { "d8": 2, "specialty": "Scout" },
+          { "d8": 3, "specialty": "Infantry" },
+          { "d8": 4, "specialty": "Cavalry" },
+          { "d8": 5, "specialty": "Healer" },
+          { "d8": 6, "specialty": "Quartermaster" },
+          { "d8": 7, "specialty": "Standard bearer" },
+          { "d8": 8, "specialty": "Support staff (cook, blacksmith, or the like)" }
+        ]
+      },
+      "military_rank": {
+        "description": "You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized."
+      }
+    },
+    "suggested_characteristics": {
+      "personality_traits": [
+        { "d8": 1, "trait": "I'm always polite and respectful." },
+        { "d8": 2, "trait": "I'm haunted by memories of war. I can't get the images of violence out of my mind." },
+        { "d8": 3, "trait": "I've lost too many friends, and I'm slow to make new ones." },
+        { "d8": 4, "trait": "I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation." },
+        { "d8": 5, "trait": "I can stare down a hell hound without flinching." },
+        { "d8": 6, "trait": "I enjoy being strong and like breaking things." },
+        { "d8": 7, "trait": "I have a crude sense of humor." },
+        { "d8": 8, "trait": "I face problems head-on. A simple, direct solution is the best path to success." }
+      ],
+      "ideals": [
+        { "d6": 1, "ideal": "Greater Good. Our lot is to lay down our lives in defense of others.", "alignment": "Good" },
+        { "d6": 2, "ideal": "Responsibility. I do what I must and obey just authority.", "alignment": "Lawful" },
+        { "d6": 3, "ideal": "Independence. When people follow orders blindly, they embrace a kind of tyranny.", "alignment": "Chaotic" },
+        { "d6": 4, "ideal": "Might. In life as in war, the stronger force wins.", "alignment": "Evil" },
+        { "d6": 5, "ideal": "Live and Let Live. Ideals aren't worth killing over or going to war for.", "alignment": "Neutral" },
+        { "d6": 6, "ideal": "Nation. My city, nation, or people are all that matter.", "alignment": "Any" }
+      ],
+      "bonds": [
+        { "d6": 1, "bond": "I would still lay down my life for the people I served with." },
+        { "d6": 2, "bond": "Someone saved my life on the battlefield. To this day, I will never leave a friend behind." },
+        { "d6": 3, "bond": "My honor is my life." },
+        { "d6": 4, "bond": "I'll never forget the crushing defeat my company suffered or the enemies who dealt it." },
+        { "d6": 5, "bond": "Those who fight beside me are those worth dying for." },
+        { "d6": 6, "bond": "I fight for those who cannot fight for themselves." }
+      ],
+      "flaws": [
+        { "d6": 1, "flaw": "The monstrous enemy we faced in battle still leaves me quivering with fear." },
+        { "d6": 2, "flaw": "I have little respect for anyone who is not a proven warrior." },
+        { "d6": 3, "flaw": "I made a terrible mistake in battle that cost many lives – and I would do anything to keep that mistake secret." },
+        { "d6": 4, "flaw": "My hatred of my enemies is blind and unreasoning." },
+        { "d6": 5, "flaw": "I obey the law, even if the law causes misery." },
+        { "d6": 6, "flaw": "I'd rather eat my armor than admit when I'm wrong." }
+      ]
+    }
+  }
+  

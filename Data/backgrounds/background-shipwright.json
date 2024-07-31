@@ -1,0 +1,67 @@
+{
+    "description": "You have sailed into war on the decks of great ships, patching their hulls with soup bowls and prayers. You once helped build a fishing vessel that single-handedly saved a town from starvation. You have seen a majestic prow in your dreams that you have not been able to replicate in wood. Since childhood, you have loved the water and have been captivated by the many vessels that travel on it.",
+    "source": "Player's Handbook",
+    "skill_proficiencies": ["History", "Perception"],
+    "tool_proficiencies": ["Carpenter's tools", "Vehicles (water)"],
+    "languages": [],
+    "equipment": [
+      "A set of well-loved carpenter's tools",
+      "A blank book",
+      "1 ounce of ink",
+      "An ink pen",
+      "A set of traveler's clothes",
+      "A leather pouch with 10 gp"
+    ],
+    "features": {
+      "ill_patch_it": {
+        "description": "Provided you have carpenter's tools and wood, you can perform repairs on a water vehicle. When you use this ability, you restore a number of hit points to the hull of a water vehicle equal to 5 × your proficiency modifier. A vehicle cannot be patched by you in this way again until after it has been pulled ashore and fully repaired."
+      }
+    },
+    "life_at_sea": {
+      "seas_influence": [
+        { "d6": 1, "influence": "Grand Designs. You are working on plans and schematics for a new, very fast ship. You must examine as many different kinds of vessels as possible to help ensure the success of your design." },
+        { "d6": 2, "influence": "Solid and Sound. You patched up a war galley and prevented it from sinking. The local navy regards you as a friend." },
+        { "d6": 3, "influence": "Favored. You insisted on thicker planking for a merchant vessel's hull, which saved it from sinking when it smashed against a reef. You have a standing invitation to visit the merchant's distant mansion." },
+        { "d6": 4, "influence": "Master of Armaments. You specialized in designing and mounting defenses for the navy. You easily recognize and determine the quality of such items." },
+        { "d6": 5, "influence": "Low Places. You have contacts in the smuggling outfits along the coast; you occasionally repair the criminals' ships in exchange for coin and favors." },
+        { "d6": 6, "influence": "Mysteries of the Deep. You experienced an encounter with a possibly divine being while sailing alone. Work with your DM to determine the secret about the deep waters of the sea that this entity revealed to you." }
+      ]
+    },
+    "suggested_characteristics": {
+      "personality_traits": [
+        { "d8": 1, "trait": "I love talking and being heard more than I like to listen." },
+        { "d8": 2, "trait": "I'm extremely fond of puzzles." },
+        { "d8": 3, "trait": "I thrive under pressure." },
+        { "d8": 4, "trait": "I love sketching and designing objects, especially boats." },
+        { "d8": 5, "trait": "I'm not afraid of hard work—in fact, I prefer it." },
+        { "d8": 6, "trait": "A pipe, an ale, and the smell of the sea: paradise." },
+        { "d8": 7, "trait": "I have an endless supply of cautionary tales related to the sea." },
+        { "d8": 8, "trait": "I don't mind getting my hands dirty." }
+      ],
+      "ideals": [
+        { "d6": 1, "ideal": "Crew. If everyone on deck pitches in, we'll never sink.", "alignment": "Good" },
+        { "d6": 2, "ideal": "Careful Lines. A ship must be balanced according to the laws of the universe.", "alignment": "Lawful" },
+        { "d6": 3, "ideal": "Invention. Make what you need out of whatever is at hand.", "alignment": "Chaotic" },
+        { "d6": 4, "ideal": "Perfection. To measure a being and find it lacking is the greatest disappointment.", "alignment": "Evil" },
+        { "d6": 5, "ideal": "Reflection. Muddied water always clears in time.", "alignment": "Any" },
+        { "d6": 6, "ideal": "Hope. The horizon at sea holds the greatest promise.", "alignment": "Any" }
+      ],
+      "bonds": [
+        { "d6": 1, "bond": "I must visit all the oceans of the world and behold the ships that sail there." },
+        { "d6": 2, "bond": "Much of the treasure I claim will be used to enrich my community." },
+        { "d6": 3, "bond": "I must find a kind of wood rumored to possess magical qualities." },
+        { "d6": 4, "bond": "I repair broken things to redeem what's broken in myself." },
+        { "d6": 5, "bond": "I will craft a boat capable of sailing through the most dangerous of storms." },
+        { "d6": 6, "bond": "A kraken destroyed my masterpiece; its teeth shall adorn my hearth." }
+      ],
+      "flaws": [
+        { "d6": 1, "flaw": "I don't know when to throw something away. You never know when it might be useful again." },
+        { "d6": 2, "flaw": "I get frustrated to the point of distraction by shoddy craftsmanship." },
+        { "d6": 3, "flaw": "Though I am an excellent crafter, my work tends to look as though it belongs on a ship." },
+        { "d6": 4, "flaw": "I am so obsessed with sketching my ideas for elaborate inventions that I sometimes forget little things like eating and sleeping." },
+        { "d6": 5, "flaw": "I'm judgmental of those who are not skilled with tools of some kind." },
+        { "d6": 6, "flaw": "I sometimes take things that don't belong to me, especially if they are very well made." }
+      ]
+    }
+  }
+  

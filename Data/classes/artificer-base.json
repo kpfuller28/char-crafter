@@ -1,0 +1,99 @@
+{
+    "description": "Masters of invention, artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. Artificers use a variety of tools to channel their arcane power, producing wonders from mundane items and outlandish inventions.",
+    "requirements": {
+      "multiclass": "Intelligence score of 13 or higher"
+    },
+    "spell_slots_per_level": {
+      "1st": [2, 2, "-", "-", "-", "-"],
+      "2nd": [2, 2, 2, "-", "-", "-"],
+      "3rd": [2, 2, 3, "-", "-", "-"],
+      "4th": [2, 2, 3, "-", "-", "-"],
+      "5th": [2, 2, 4, 2, "-", "-"],
+      "6th": [3, 2, 4, 2, "-", "-"],
+      "7th": [3, 2, 4, 3, "-", "-"],
+      "8th": [3, 2, 4, 3, "-", "-"],
+      "9th": [4, 2, 4, 3, 2, "-"],
+      "10th": [4, 3, 4, 3, 2, "-"],
+      "11th": [4, 3, 4, 3, 3, "-"],
+      "12th": [4, 3, 4, 3, 3, "-"],
+      "13th": [5, 4, 4, 3, 3, 1],
+      "14th": [5, 5, 4, 4, 3, 1],
+      "15th": [5, 5, 4, 4, 3, 2],
+      "16th": [5, 5, 4, 4, 3, 2],
+      "17th": [6, 5, 4, 4, 3, 3, 1],
+      "18th": [6, 6, 4, 4, 3, 3, 3, 1],
+      "19th": [6, 6, 4, 4, 3, 3, 3, 2],
+      "20th": [6, 6, 4, 4, 3, 3, 3, 2]
+    },
+    "class_features": {
+      "hit_points": {
+        "hit_dice": "1d8 per artificer level",
+        "hit_points_at_1st_level": "8 + your Constitution modifier",
+        "hit_points_at_higher_levels": "1d8 (or 5) + your Constitution modifier per artificer level after 1st"
+      },
+      "proficiencies": {
+        "armor": ["Light armor", "Medium armor", "Shields"],
+        "weapons": ["Simple weapons"],
+        "tools": ["Thieves’ tools", "Tinker’s tools", "One type of artisan’s tools of your choice"],
+        "saving_throws": ["Constitution", "Intelligence"],
+        "skills": ["Choose two from Arcana, History, Investigation, Medicine, Nature, Perception, Sleight of Hand"]
+      },
+      "equipment": [
+        "Any two simple weapons",
+        "A light crossbow and 20 bolts",
+        "(a) studded leather armor or (b) scale mail",
+        "Thieves’ tools and a dungeoneer’s pack",
+        "Alternatively, you may start with 5d4x10 starting gold"
+      ],
+      "optional_rule_firearm_proficiency": "If your Dungeon Master uses the rules on firearms, your artificer is proficient with them."
+    },
+    "features": {
+      "magical_tinkering": {
+        "description": "At 1st level, you can invest a spark of magic into mundane objects. You can bestow one of the following properties on a Tiny nonmagical object: emit light, record a message, produce an odor or sound, or display a static visual effect. The property lasts indefinitely and can be ended early by touching the object again.",
+        "properties": [
+          "Sheds bright light in a 5-foot radius and dim light for an additional 5 feet.",
+          "Emits a recorded message heard up to 10 feet away.",
+          "Continuously emits an odor or nonverbal sound perceivable up to 10 feet away.",
+          "Displays a static visual effect on one surface of the object."
+        ]
+      },
+      "spellcasting": {
+        "description": "Artificers cast spells through their tools. You need a spellcasting focus (thieves' tools or artisan's tools) to cast spells with the 'M' component. You prepare artificer spells based on your Intelligence modifier and level, and you can replace cantrips and prepared spells when you gain a level."
+      },
+      "infuse_item": {
+        "description": "At 2nd level, you can imbue nonmagical items with magical properties. You can infuse a number of items equal to your Intelligence modifier. The infusion remains until you die, replace the infusion, or use the feature again. Each item can only bear one infusion at a time.",
+        "infusions_known": "Choose four infusions to learn at 2nd level, gaining more as you level up."
+      },
+      "artificer_specialist": {
+        "description": "At 3rd level, you choose a specialization (Alchemist, Armorer, Artillerist, Battle Smith, or others from various sources). This choice grants you features at 5th, 9th, and 15th levels."
+      },
+      "the_right_tool_for_the_job": {
+        "description": "At 3rd level, you can magically create a set of artisan’s tools in an unoccupied space within 5 feet of you. The tools are nonmagical and vanish when you use this feature again. This process takes 1 hour and can coincide with a short or long rest."
+      },
+      "ability_score_improvement": {
+        "description": "At 4th, 8th, 12th, 16th, and 19th levels, you can increase one ability score by 2, or two ability scores by 1 each. You cannot increase an ability score above 20."
+      },
+      "tool_expertise": {
+        "description": "At 6th level, your proficiency bonus is doubled for ability checks using your proficiency with a tool."
+      },
+      "flash_of_genius": {
+        "description": "At 7th level, you can use your reaction to add your Intelligence modifier to an ability check or saving throw made by you or a creature you can see within 30 feet. You can use this feature a number of times equal to your Intelligence modifier (minimum of once) per long rest."
+      },
+      "magic_item_adept": {
+        "description": "At 10th level, you can attune to up to four magic items at once and craft common or uncommon magic items in a quarter of the normal time and for half the cost."
+      },
+      "spell-storing_item": {
+        "description": "At 11th level, you can store a 1st- or 2nd-level spell in a weapon or spellcasting focus. The spell can be used a number of times equal to twice your Intelligence modifier before it vanishes or is replaced."
+      },
+      "magic_item_savant": {
+        "description": "At 14th level, you can attune to up to five magic items and ignore all class, race, spell, and level requirements for attuning to or using magic items."
+      },
+      "magic_item_master": {
+        "description": "At 18th level, you can attune to up to six magic items."
+      },
+      "soul_of_artifice": {
+        "description": "At 20th level, you gain a +1 bonus to all saving throws per magic item you're attuned to. If reduced to 0 hit points, you can use your reaction to end one of your artificer infusions to drop to 1 hit point instead of 0."
+      }
+    }
+  }
+  

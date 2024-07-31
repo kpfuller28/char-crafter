@@ -1,0 +1,57 @@
+{
+    "description": "You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You've survived despite all odds, and did so through cunning, strength, speed, or some combination of each. You begin your adventuring career with enough money to live modestly but securely for at least ten days. How did you come by that money? What allowed you to break free of your desperate circumstances and embark on a better life?",
+    "source": "Player's Handbook",
+    "skill_proficiencies": ["Sleight of Hand", "Stealth"],
+    "tool_proficiencies": ["Disguise kit", "Thieves' tools"],
+    "languages": [],
+    "equipment": [
+      "A small knife",
+      "A map of the city you grew up in",
+      "A pet mouse",
+      "A token to remember your parents by",
+      "A set of common clothes",
+      "A pouch containing 10 gp"
+    ],
+    "features": {
+      "city_secrets": {
+        "description": "You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow."
+      }
+    },
+    "suggested_characteristics": {
+      "personality_traits": [
+        { "d8": 1, "trait": "I hide scraps of food and trinkets away in my pockets." },
+        { "d8": 2, "trait": "I ask a lot of questions." },
+        { "d8": 3, "trait": "I like to squeeze into small places where no one else can get to me." },
+        { "d8": 4, "trait": "I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms." },
+        { "d8": 5, "trait": "I eat like a pig and have bad manners." },
+        { "d8": 6, "trait": "I think anyone who's nice to me is hiding evil intent." },
+        { "d8": 7, "trait": "I don't like to bathe." },
+        { "d8": 8, "trait": "I bluntly say what other people are hinting at or hiding." }
+      ],
+      "ideals": [
+        { "d6": 1, "ideal": "Respect. All people, rich or poor, deserve respect.", "alignment": "Good" },
+        { "d6": 2, "ideal": "Community. We have to take care of each other, because no one else is going to do it.", "alignment": "Lawful" },
+        { "d6": 3, "ideal": "Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things.", "alignment": "Chaotic" },
+        { "d6": 4, "ideal": "Retribution. The rich need to be shown what life and death are like in the gutters.", "alignment": "Evil" },
+        { "d6": 5, "ideal": "People. I help the people who help me-that's what keeps us alive.", "alignment": "Neutral" },
+        { "d6": 6, "ideal": "Aspiration. I'm going to prove that I'm worthy of a better life.", "alignment": "Any" }
+      ],
+      "bonds": [
+        { "d6": 1, "bond": "My town or city is my home, and I'll fight to defend it." },
+        { "d6": 2, "bond": "I sponsor an orphanage to keep others from enduring what I was forced to endure." },
+        { "d6": 3, "bond": "I owe my survival to another urchin who taught me to live on the streets." },
+        { "d6": 4, "bond": "I owe a debt I can never repay to the person who took pity on me." },
+        { "d6": 5, "bond": "I escaped my life of poverty by robbing an important person, and I'm wanted for it." },
+        { "d6": 6, "bond": "No one else should have to endure the hardships I've been through." }
+      ],
+      "flaws": [
+        { "d6": 1, "flaw": "If I'm outnumbered, I will run away from a fight." },
+        { "d6": 2, "flaw": "Gold seems like a lot of money to me, and I'll do just about anything for more of it." },
+        { "d6": 3, "flaw": "I will never fully trust anyone other than myself." },
+        { "d6": 4, "flaw": "I'd rather kill someone in their sleep than fight fair." },
+        { "d6": 5, "flaw": "It's not stealing if I need it more than someone else." },
+        { "d6": 6, "flaw": "People who can't take care of themselves get what they deserve." }
+      ]
+    }
+  }
+  

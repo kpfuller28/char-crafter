@@ -1,0 +1,66 @@
+{
+  "Dragonborn": {
+    "Description": "Dragonborn are proud beings born of dragons, combining draconic and humanoid traits. They are shaped by draconic gods or dragons themselves and walk through a world that often greets them with fear.",
+    "Ability Score Increase": {
+      "Strength": "+2",
+      "Charisma": "+1"
+    },
+    "Age": "Young dragonborn grow quickly, reaching adulthood by 15 and living to around 80 years.",
+    "Alignment": "Dragonborn tend towards extremes, choosing between Good (Bahamut) and Evil (Tiamat). Some follow other dragon deities or none at all.",
+    "Size": "Medium (taller and heavier than humans, averaging over 6 feet tall and around 250 pounds)",
+    "Speed": "30 feet",
+    "Draconic Ancestry": {
+      "Black": {
+        "Damage Type": "Acid",
+        "Breath Weapon": "5' by 30' line (DEX save)"
+      },
+      "Blue": {
+        "Damage Type": "Lightning",
+        "Breath Weapon": "5' by 30' line (DEX save)"
+      },
+      "Brass": {
+        "Damage Type": "Fire",
+        "Breath Weapon": "5' by 30' line (DEX save)"
+      },
+      "Bronze": {
+        "Damage Type": "Lightning",
+        "Breath Weapon": "5' by 30' line (DEX save)"
+      },
+      "Copper": {
+        "Damage Type": "Acid",
+        "Breath Weapon": "5' by 30' line (DEX save)"
+      },
+      "Gold": {
+        "Damage Type": "Fire",
+        "Breath Weapon": "15' cone (DEX save)"
+      },
+      "Green": {
+        "Damage Type": "Poison",
+        "Breath Weapon": "15' cone (CON save)"
+      },
+      "Red": {
+        "Damage Type": "Fire",
+        "Breath Weapon": "15' cone (DEX save)"
+      },
+      "Silver": {
+        "Damage Type": "Cold",
+        "Breath Weapon": "15' cone (CON save)"
+      },
+      "White": {
+        "Damage Type": "Cold",
+        "Breath Weapon": "15' cone (CON save)"
+      }
+    },
+    "Breath Weapon": {
+      "Description": "As an action, you can exhale destructive energy. The damage and area of effect are determined by your ancestry. Creatures in the area must make a saving throw (DC = 8 + Constitution modifier + proficiency bonus). Damage starts at 2d6, increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. You cannot use it again until a short or long rest, or a number of times equal to your Constitution modifier.",
+      "Damage Progression": {
+        "2d6": "starting damage",
+        "3d6": "at 6th level",
+        "4d6": "at 11th level",
+        "5d6": "at 16th level"
+      }
+    },
+    "Damage Resistance": "Resistance to the damage type associated with your ancestry",
+    "Languages": "Common and Draconic"
+  }
+}

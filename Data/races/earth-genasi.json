@@ -1,0 +1,22 @@
+{
+  "Earth Genasi": {
+    "Description": "Tracing their ancestry to dao, the genies of the Elemental Plane of Earth, earth genasi inherit dao’s steadfast strength and control over earth. Their skin can be stone-colored or a human tone with gem-like sparkles, and their hair can resemble stone, crystal, or spun metal.",
+    "Life Span": "120 years",
+    "Ability Score Increase": {
+      "Primary": "+2",
+      "Secondary": "+1",
+      "Alternative": "Three different scores by +1 each"
+    },
+    "Creature Type": "Humanoid",
+    "Size": "Medium or Small (choose upon selection)",
+    "Speed": "30 feet",
+    "Darkvision": "Can see in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light. Only shades of gray are discernible in darkness.",
+    "Earth Walk": "Move across difficult terrain without expending extra movement while using walking speed on the ground or a floor.",
+    "Merge with Stone": {
+      "Cantrips": "Blade Ward (can be cast as normal and as a bonus action a number of times equal to proficiency bonus, regaining all expended uses after a long rest)",
+      "5th Level": "Can cast Pass Without Trace without requiring a material component (once per long rest), or using spell slots of 2nd level or higher."
+    },
+    "Spellcasting Ability": "Intelligence, Wisdom, or Charisma (choose upon selection)",
+    "Languages": "Common and one other language agreed upon with the DM. The Player’s Handbook list is a guideline, but the DM may modify it."
+  }
+}

@@ -1,0 +1,59 @@
+{
+    "description": "You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new.",
+    "source": "Player's Handbook",
+    "skill_proficiencies": ["Athletics", "Perception"],
+    "tool_proficiencies": ["Navigator's tools", "Vehicles (water)"],
+    "languages": [],
+    "equipment": [
+      "A belaying pin (club)",
+      "50 feet of silk rope",
+      "A lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5)",
+      "A set of common clothes",
+      "A pouch containing 10 gp"
+    ],
+    "features": {
+      "ship_passage": {
+        "description": "When you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you're calling in a favor, you can't be certain of a schedule or route that will meet your every need. Your DM will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage."
+      },
+      "bad_reputation": {
+        "description": "If your character has a pirate background, you may select this background feature instead of Ship's Passage. No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
+      }
+    },
+    "suggested_characteristics": {
+      "personality_traits": [
+        { "d8": 1, "trait": "My friends know they can rely on me, no matter what." },
+        { "d8": 2, "trait": "I work hard so that I can play hard when the work is done." },
+        { "d8": 3, "trait": "I enjoy sailing into new ports and making new friends over a flagon of ale." },
+        { "d8": 4, "trait": "I stretch the truth for the sake of a good story." },
+        { "d8": 5, "trait": "To me, a tavern brawl is a nice way to get to know a new city." },
+        { "d8": 6, "trait": "I never pass up a friendly wager." },
+        { "d8": 7, "trait": "My language is as foul as an otyugh nest." },
+        { "d8": 8, "trait": "I like a job well done, especially if I can convince someone else to do it." }
+      ],
+      "ideals": [
+        { "d6": 1, "ideal": "Respect. The thing that keeps a ship together is mutual respect between captain and crew.", "alignment": "Good" },
+        { "d6": 2, "ideal": "Fairness. We all do the work, so we all share in the rewards.", "alignment": "Lawful" },
+        { "d6": 3, "ideal": "Freedom. The sea is freedom—the freedom to go anywhere and do anything.", "alignment": "Chaotic" },
+        { "d6": 4, "ideal": "Mastery. I'm a predator, and the other ships on the sea are my prey.", "alignment": "Evil" },
+        { "d6": 5, "ideal": "People. I'm committed to my crewmates, not to ideals.", "alignment": "Neutral" },
+        { "d6": 6, "ideal": "Aspiration. Someday I'll own my own ship and chart my own destiny.", "alignment": "Any" }
+      ],
+      "bonds": [
+        { "d6": 1, "bond": "I'm loyal to my captain first, everything else second." },
+        { "d6": 2, "bond": "The ship is most important – crewmates and captains come and go." },
+        { "d6": 3, "bond": "I'll always remember my first ship." },
+        { "d6": 4, "bond": "In a harbor town, I have a paramour whose eyes nearly stole me from the sea." },
+        { "d6": 5, "bond": "I was cheated out of my fair share of the profits, and I want to get my due." },
+        { "d6": 6, "bond": "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine." }
+      ],
+      "flaws": [
+        { "d6": 1, "flaw": "I follow orders, even if I think they're wrong." },
+        { "d6": 2, "flaw": "I'll say anything to avoid having to do extra work." },
+        { "d6": 3, "flaw": "Once someone questions my courage, I never back down no matter how dangerous the situation." },
+        { "d6": 4, "flaw": "Once I start drinking, it's hard for me to stop." },
+        { "d6": 5, "flaw": "I can't help but pocket loose coins and other trinkets I come across." },
+        { "d6": 6, "flaw": "My pride will probably lead to my destruction." }
+      ]
+    }
+  }
+  

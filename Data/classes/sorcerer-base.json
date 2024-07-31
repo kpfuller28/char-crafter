@@ -1,0 +1,381 @@
+{
+  "Sorcerer": {
+    "Level": {
+      "1": {
+        "Proficiency Bonus": "+2",
+        "Sorcery Points": "-",
+        "Features": ["Spellcasting", "Sorcerous Origin"],
+        "Cantrips Known": 4,
+        "Spells Known": 2,
+        "Spell Slots": {
+          "1st": 2,
+          "2nd": "-",
+          "3rd": "-",
+          "4th": "-",
+          "5th": "-"
+        }
+      },
+      "2": {
+        "Proficiency Bonus": "+2",
+        "Sorcery Points": 2,
+        "Features": ["Font of Magic"],
+        "Cantrips Known": 4,
+        "Spells Known": 3,
+        "Spell Slots": {
+          "1st": 3,
+          "2nd": 3,
+          "3rd": "-",
+          "4th": "-",
+          "5th": "-"
+        }
+      },
+      "3": {
+        "Proficiency Bonus": "+2",
+        "Sorcery Points": 3,
+        "Features": ["Metamagic"],
+        "Cantrips Known": 4,
+        "Spells Known": 4,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 4,
+          "3rd": 2,
+          "4th": "-",
+          "5th": "-"
+        }
+      },
+      "4": {
+        "Proficiency Bonus": "+2",
+        "Sorcery Points": 4,
+        "Features": [
+          "Ability Score Improvement",
+          "Sorcerous Versatility (Optional)"
+        ],
+        "Cantrips Known": 5,
+        "Spells Known": 5,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": "-",
+          "4th": "-",
+          "5th": "-"
+        }
+      },
+      "5": {
+        "Proficiency Bonus": "+3",
+        "Sorcery Points": 5,
+        "Features": ["Magical Guidance (Optional)"],
+        "Cantrips Known": 5,
+        "Spells Known": 6,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 2,
+          "4th": "-",
+          "5th": "-"
+        }
+      },
+      "6": {
+        "Proficiency Bonus": "+3",
+        "Sorcery Points": 6,
+        "Features": ["Sorcerous Origin feature"],
+        "Cantrips Known": 5,
+        "Spells Known": 7,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": "-",
+          "5th": "-"
+        }
+      },
+      "7": {
+        "Proficiency Bonus": "+3",
+        "Sorcery Points": 7,
+        "Features": ["Sorcerous Origin feature"],
+        "Cantrips Known": 6,
+        "Spells Known": 8,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 1,
+          "5th": "-"
+        }
+      },
+      "8": {
+        "Proficiency Bonus": "+3",
+        "Sorcery Points": 8,
+        "Features": [
+          "Ability Score Improvement",
+          "Sorcerous Versatility (Optional)"
+        ],
+        "Cantrips Known": 6,
+        "Spells Known": 9,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 2,
+          "5th": "-"
+        }
+      },
+      "9": {
+        "Proficiency Bonus": "+4",
+        "Sorcery Points": 9,
+        "Features": ["Sorcerous Origin feature"],
+        "Cantrips Known": 6,
+        "Spells Known": 10,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 2,
+          "5th": 1
+        }
+      },
+      "10": {
+        "Proficiency Bonus": "+4",
+        "Sorcery Points": 10,
+        "Features": ["Metamagic"],
+        "Cantrips Known": 6,
+        "Spells Known": 11,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 1
+        }
+      },
+      "11": {
+        "Proficiency Bonus": "+4",
+        "Sorcery Points": 11,
+        "Features": ["Sorcerous Origin feature"],
+        "Cantrips Known": 6,
+        "Spells Known": 12,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2
+        }
+      },
+      "12": {
+        "Proficiency Bonus": "+4",
+        "Sorcery Points": 12,
+        "Features": [
+          "Ability Score Improvement",
+          "Sorcerous Versatility (Optional)"
+        ],
+        "Cantrips Known": 6,
+        "Spells Known": 13,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2
+        }
+      },
+      "13": {
+        "Proficiency Bonus": "+5",
+        "Sorcery Points": 13,
+        "Features": ["Sorcerous Origin feature"],
+        "Cantrips Known": 6,
+        "Spells Known": 14,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 3
+        }
+      },
+      "14": {
+        "Proficiency Bonus": "+5",
+        "Sorcery Points": 14,
+        "Features": ["Sorcerous Origin feature"],
+        "Cantrips Known": 6,
+        "Spells Known": 15,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 3
+        }
+      },
+      "15": {
+        "Proficiency Bonus": "+5",
+        "Sorcery Points": 15,
+        "Features": ["Sorcerous Origin feature"],
+        "Cantrips Known": 6,
+        "Spells Known": 16,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 4
+        }
+      },
+      "16": {
+        "Proficiency Bonus": "+5",
+        "Sorcery Points": 16,
+        "Features": [
+          "Ability Score Improvement",
+          "Sorcerous Versatility (Optional)"
+        ],
+        "Cantrips Known": 6,
+        "Spells Known": 17,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 4
+        }
+      },
+      "17": {
+        "Proficiency Bonus": "+6",
+        "Sorcery Points": 17,
+        "Features": ["Metamagic"],
+        "Cantrips Known": 6,
+        "Spells Known": 18,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 4
+        }
+      },
+      "18": {
+        "Proficiency Bonus": "+6",
+        "Sorcery Points": 18,
+        "Features": ["Sorcerous Origin feature"],
+        "Cantrips Known": 6,
+        "Spells Known": 19,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 4
+        }
+      },
+      "19": {
+        "Proficiency Bonus": "+6",
+        "Sorcery Points": 19,
+        "Features": [
+          "Ability Score Improvement",
+          "Sorcerous Versatility (Optional)"
+        ],
+        "Cantrips Known": 6,
+        "Spells Known": 20,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 4
+        }
+      },
+      "20": {
+        "Proficiency Bonus": "+6",
+        "Sorcery Points": 20,
+        "Features": ["Sorcerous Restoration"],
+        "Cantrips Known": 6,
+        "Spells Known": 20,
+        "Spell Slots": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 4
+        }
+      }
+    },
+    "Class Features": {
+      "Hit Points": {
+        "Hit Dice": "1d6 per sorcerer level",
+        "Hit Points at 1st Level": "6 + your Constitution modifier",
+        "Hit Points at Higher Levels": "1d6 (or 4) + your Constitution modifier per sorcerer level after 1st"
+      },
+      "Proficiencies": {
+        "Armor": "None",
+        "Weapons": [
+          "Daggers",
+          "darts",
+          "slings",
+          "quarterstaffs",
+          "light crossbows"
+        ],
+        "Tools": "None",
+        "Saving Throws": ["Constitution", "Charisma"],
+        "Skills": [
+          "Choose two from Arcana",
+          "Deception",
+          "Insight",
+          "Intimidation",
+          "Persuasion",
+          "Religion"
+        ]
+      },
+      "Equipment": [
+        "a light crossbow and 20 bolts or any simple weapon",
+        "a component pouch or an arcane focus",
+        "a dungeoneer's pack or an explorer's pack",
+        "Two daggers"
+      ],
+      "Spellcasting": {
+        "Description": "An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells.",
+        "Cantrips": "At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.",
+        "Spell Slots": "The Sorcerer table shows how many spell slots you have to cast your sorcerer spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+        "Spells Known of 1st Level and Higher": "You know two 1st-level spells of your choice from the sorcerer spell list. The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list.",
+        "Spellcasting Ability": "Charisma is your spellcasting ability for your sorcerer spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.",
+        "Spell save DC": "8 + your proficiency bonus + your Charisma modifier",
+        "Spell attack modifier": "your proficiency bonus + your Charisma modifier",
+        "Spellcasting Focus": "You can use an arcane focus as a spellcasting focus for your sorcerer spells."
+      },
+      "Sorcerous Origin": "Choose a sorcerous origin, which describes the source of your innate magical power. Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.",
+      "Font of Magic": {
+        "Description": "At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.",
+        "Sorcery Points": "You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest.",
+        "Flexible Casting": "You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.",
+        "Creating Spell Slots": {
+          "Description": "You can transform unexpended sorcery points into one spell slot as a bonus action on your turn.",
+          "Table": {
+            "1st": 2,
+            "2nd": 3,
+            "3rd": 5,
+            "4th": 6,
+            "5th": 7
+          }
+        },
+        "Converting a Spell Slot to Sorcery Points": "As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level."
+      },
+      "Metamagic": {
+        "Description": "At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level. You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.",
+        "Options": {
+          "Careful Spell": "When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.",
+          "Distant Spell": "When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.",
+          "Empowered Spell": "When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls. You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.",
+          "Extended Spell": "When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.",
+          "Heightened Spell": "When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.",
+          "Quickened Spell": "When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.",
+          "Seeking Spell": "If you make an attack roll for a spell and miss, you can spend 2 sorcerer points to reroll the d20, and you must use the new roll. You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell.",
+          "Seeking Spell (UA)": "When you cast a spell that requires you to make a spell attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 sorcery point to ignore the effects of half- and three-quarters cover against targets of the spell.",
+          "Subtle Spell": "When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.",
+          "Transmuted Spell": "When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.",
+          "Twinned Spell": "When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip). To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level."
+        }
+      },
+      "Ability Score Improvement": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+      "Sorcerous Versatility (Optional)": "When you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following: Replace one of the options you chose for the Metamagic feature with a different Metamagic option available to you; Replace one cantrip you learned from this class' spellcasting feature with another cantrip from the sorcerer spell list.",
+      "Magical Guidance (Optional)": "When you reach 5th level, you can tap into your inner wellspring of magic to try and conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.",
+      "Sorcerous Restoration": "At 20th level, you regain 4 expended sorcery points whenever you finish a short rest."
+    }
+  }
+}

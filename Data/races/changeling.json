@@ -1,0 +1,30 @@
+{
+  "Changeling": {
+    "Description": "Changelings can adopt any face they like, reflecting the mutable essence of the Feywild. They may use their shape-shifting ability for various purposes, from mischief to heroism.",
+    "Ability Score Increase": {
+      "Option1": {
+        "Score1": "+2",
+        "Score2": "+1",
+        "Restrictions": "You can't raise any of your scores above 20."
+      },
+      "Option2": {
+        "Score1": "+1",
+        "Score2": "+1",
+        "Score3": "+1",
+        "Restrictions": "You can't raise any of your scores above 20."
+      }
+    },
+    "Creature Type": "Fey",
+    "Size": "Medium or Small (choose when selecting this race)",
+    "Speed": "30 feet",
+    "Traits": {
+      "Changeling Instincts": {
+        "Description": "Gain proficiency in two of the following skills: Deception, Insight, Intimidation, Performance, or Persuasion."
+      },
+      "Shapechanger": {
+        "Description": "As an action, you can change your appearance and voice. You can adjust your coloration, hair length, sex, height, weight, and size between Medium and Small. You can't duplicate the appearance of someone you've never seen and must adopt a form with the same basic arrangement of limbs. Your clothing and equipment are not changed."
+      }
+    },
+    "Languages": "Common and one other language chosen with your DM"
+  }
+}
