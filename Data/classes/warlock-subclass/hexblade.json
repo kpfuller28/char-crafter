@@ -1,0 +1,54 @@
+{
+    "name": "Hexblade",
+    "source": "Xanathar's Guide to Everything",
+    "description": "You have made a pact with a mysterious entity from the Shadowfell, a force that manifests in sentient magic weapons. This entity, possibly linked to the Raven Queen, grants power to warlocks through these weapons or through dark magic of the Shadowfell. Many hexblade warlocks create weapons emulating those from the Shadowfell or weave its dark magic into their spellcasting.",
+    "expanded_spell_list": {
+      "1st": ["Shield", "Wrathful Smite"],
+      "2nd": ["Blur", "Branding Smite"],
+      "3rd": ["Blink", "Elemental Weapon"],
+      "4th": ["Phantasmal Killer", "Staggering Smite"],
+      "5th": ["Banishing Smite", "Cone of Cold"]
+    },
+    "features": {
+      "hexblades_curse": {
+        "description": "Starting at 1st level, you can curse a creature to gain bonuses against it. The curse lasts for 1 minute or until the target dies or you are incapacitated.",
+        "benefits": [
+          "Bonus to damage rolls equal to your proficiency bonus.",
+          "Critical hit on attack rolls of 19 or 20.",
+          "Regain hit points equal to your warlock level + Charisma modifier if the target dies."
+        ],
+        "restrictions": "Recharge on a short or long rest."
+      },
+      "hex_warrior": {
+        "description": "At 1st level, gain proficiency with medium armor, shields, and martial weapons. You can use your Charisma modifier for attack and damage rolls with a weapon of your choice until the next long rest.",
+        "mechanics": [
+          "Proficiency with medium armor, shields, and martial weapons.",
+          "Charisma modifier used for attack and damage rolls with a chosen weapon."
+        ]
+      },
+      "accursed_specter": {
+        "description": "At 6th level, you can bind the soul of a slain humanoid as a specter that serves you until the end of your next long rest.",
+        "mechanics": [
+          "Specter gains temporary hit points equal to half your warlock level.",
+          "Specter obeys your commands and gains a bonus to attack rolls equal to your Charisma modifier.",
+          "Specter lasts until the end of your next long rest."
+        ],
+        "restrictions": "Recharge on a long rest."
+      },
+      "armor_of_hexes": {
+        "description": "At 10th level, when the cursed target hits you, you can use your reaction to make the attack miss on a roll of 4 or higher on a d6.",
+        "mechanics": [
+          "Reaction to roll a d6 when attacked by the cursed target.",
+          "Attack misses on a 4 or higher."
+        ]
+      },
+      "master_of_hexes": {
+        "description": "At 14th level, you can spread your Hexblade's Curse to another creature within 30 feet when the original cursed creature dies.",
+        "mechanics": [
+          "Apply the curse to a new target within 30 feet when the original cursed creature dies.",
+          "No hit point regain from the death of the original cursed creature."
+        ]
+      }
+    }
+  }
+  

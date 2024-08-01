@@ -1,0 +1,31 @@
+{
+  "name": "Circle of the Land",
+  "source": "Player's Handbook",
+  "description": "Druids of the Circle of the Land are mystics and sages who protect ancient knowledge and rites, with their magic influenced by their homeland. They serve as chief priests and advisors, drawing their power from the land where they were initiated.",
+  "features": {
+    "bonus_cantrip": {
+      "level": 2,
+      "description": "Learn one additional druid cantrip of your choice. This cantrip doesn't count against the number of druid cantrips you know."
+    },
+    "natural_recovery": {
+      "level": 2,
+      "description": "During a short rest, recover expended spell slots with a combined level equal to or less than half your druid level (rounded up), with no slots of 6th level or higher. Cannot be used again until after a long rest."
+    },
+    "circle_spells": {
+      "level": 3,
+      "description": "Choose a land type (arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark) and gain access to circle spells. These spells are always prepared and do not count against the number of spells you can prepare each day."
+    },
+    "land_stride": {
+      "level": 6,
+      "description": "Moving through nonmagical difficult terrain costs no extra movement. Pass through nonmagical plants without being slowed or taking damage. Advantage on saving throws against magically created or manipulated plants that impede movement."
+    },
+    "natures_ward": {
+      "level": 10,
+      "description": "You are immune to poison and disease, and cannot be charmed or frightened by elementals or fey."
+    },
+    "natures_sanctuary": {
+      "level": 14,
+      "description": "Beasts and plant creatures attacking you must make a Wisdom saving throw against your druid spell save DC. On a failed save, they must choose a different target or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours."
+    }
+  }
+}

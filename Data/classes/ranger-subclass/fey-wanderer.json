@@ -1,0 +1,77 @@
+{
+  "name": "Fey Wanderer",
+  "source": "Tasha's Cauldron of Everything",
+  "description": "The Fey Wanderer embodies the magic and mirth of the Feywild. Whether through a boon from an archfey or a magical encounter, you blend the enchantment of the fey with the martial prowess of a ranger.",
+  "features": {
+    "dreadful_strikes": {
+      "description": "At 3rd level, you can infuse your weapon strikes with psychic energy, causing extra damage.",
+      "details": {
+        "extra_damage": "1d4 psychic damage, increasing to 1d6 at 11th level.",
+        "activation": "The extra damage can only be dealt once per turn."
+      }
+    },
+    "fey_wanderer_magic": {
+      "description": "Also at 3rd level, you gain access to additional spells that reflect your fey connection.",
+      "spells": [
+        {
+          "level": 3,
+          "spell": "Charm Person"
+        },
+        {
+          "level": 5,
+          "spell": "Misty Step"
+        },
+        {
+          "level": 9,
+          "spell": "Dispel Magic"
+        },
+        {
+          "level": 13,
+          "spell": "Dimension Door"
+        },
+        {
+          "level": 17,
+          "spell": "Mislead"
+        }
+      ]
+    },
+    "feywild_gifts": {
+      "description": "You receive a fey gift, which can be chosen or determined randomly.",
+      "gifts": {
+        "1": "Illusory butterflies flutter around you while you take a short or long rest.",
+        "2": "Fresh, seasonal flowers sprout from your hair each dawn.",
+        "3": "You faintly smell of cinnamon, lavender, nutmeg, or another comforting herb or spice.",
+        "4": "Your shadow dances while no one is looking directly at it.",
+        "5": "Horns or antlers sprout from your head.",
+        "6": "Your skin and hair change color to match the season at each dawn."
+      }
+    },
+    "otherworldly_glamour": {
+      "description": "At 3rd level, your fey qualities grant you a supernatural charm.",
+      "details": {
+        "charisma_bonus": "You gain a bonus to Charisma checks equal to your Wisdom modifier (minimum +1).",
+        "skill_proficiency": "You gain proficiency in Deception, Performance, or Persuasion."
+      }
+    },
+    "beguiling_twist": {
+      "description": "Beginning at 7th level, the magic of the Feywild helps you and those around you resist charm and fear.",
+      "details": {
+        "saving_throws": "You have advantage on saving throws against being charmed or frightened.",
+        "reaction_ability": "When you or a creature you can see succeeds on a saving throw against charm or fear, you can use your reaction to force a different creature within 120 feet to make a Wisdom saving throw against your spell save DC. If the save fails, the target is charmed or frightened by you for 1 minute."
+      }
+    },
+    "fey_reinforcements": {
+      "description": "At 11th level, you can call upon fey allies for assistance.",
+      "details": {
+        "summon_fey": "You know the Summon Fey spell and can cast it once without using a spell slot. You regain this ability on a long rest. The spell can be modified to not require concentration, changing its duration to 1 minute."
+      }
+    },
+    "misty_wanderer": {
+      "description": "At 15th level, you can use Misty Step to teleport swiftly and bring others along.",
+      "details": {
+        "misty_step_uses": "You can cast Misty Step without expending a spell slot a number of times equal to your Wisdom modifier (minimum once), regaining all uses after a long rest.",
+        "companion_teleport": "When you cast Misty Step, you can bring one willing creature within 5 feet of you to an unoccupied space within 5 feet of your destination."
+      }
+    }
+  }
+}

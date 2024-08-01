@@ -1,0 +1,114 @@
+{
+  "name": "Beast Master",
+  "source": "Player's Handbook",
+  "description": "The Beast Master archetype embodies a partnership between the civilized races and the beasts of the world. Rangers who follow this archetype work closely with an animal companion, fighting together against monstrous threats and defending both civilization and the wilderness.",
+  "features": {
+    "rangers_companion": {
+      "description": "Gain a beast companion to fight alongside you. The beast is trained to obey your commands and fight with you.",
+      "details": {
+        "beast_options": "Choose a beast no larger than Medium with a challenge rating of 1/4 or lower.",
+        "stats": "Add your proficiency bonus to the beast’s AC, attack rolls, damage rolls, saving throws, and skills. Its hit point maximum equals its normal maximum or four times your ranger level, whichever is higher.",
+        "commands": "You can command the beast to move, attack, dash, disengage, or help. If you don’t command it, it takes the Dodge action.",
+        "extra_attack": "Once you have Extra Attack, you can make one weapon attack yourself when you command the beast to attack.",
+        "stealth": "While traveling through your favored terrain with only the beast, you can move stealthily at a normal pace.",
+        "beast_death": "If the beast dies, you can bond with a new beast after 8 hours of magical bonding."
+      }
+    },
+    "primal_companion": {
+      "description": "An optional feature that replaces Ranger's Companion. You summon a primal beast with one of three stat blocks: Beast of the Land, Beast of the Sea, or Beast of the Sky.",
+      "details": {
+        "stat_blocks": {
+          "beast_of_the_land": {
+            "type": "Medium beast",
+            "ac": "13 + PB (natural armor)",
+            "hp": "5 + five times your ranger level",
+            "speed": "40 ft., climb 40 ft.",
+            "stats": {
+              "str": 14,
+              "dex": 14,
+              "con": 15,
+              "int": 8,
+              "wis": 14,
+              "cha": 11
+            },
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "understands the languages you speak",
+            "actions": {
+              "maul": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 2 + PB slashing damage."
+            },
+            "features": {
+              "charge": "If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage and must make a Strength saving throw or be knocked prone.",
+              "primal_bond": "Add your proficiency bonus to any ability check or saving throw the beast makes."
+            }
+          },
+          "beast_of_the_sea": {
+            "type": "Medium beast",
+            "ac": "13 + PB (natural armor)",
+            "hp": "5 + five times your ranger level",
+            "speed": "5 ft., swim 60 ft.",
+            "stats": {
+              "str": 14,
+              "dex": 14,
+              "con": 15,
+              "int": 8,
+              "wis": 14,
+              "cha": 11
+            },
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "understands the languages you speak",
+            "actions": {
+              "binding_strike": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d6 + 2 + PB piercing or bludgeoning damage (your choice), and the target is grappled (escape DC equals your spell save DC)."
+            },
+            "features": {
+              "amphibious": "The beast can breathe both air and water.",
+              "primal_bond": "Add your proficiency bonus to any ability check or saving throw the beast makes."
+            }
+          },
+          "beast_of_the_sky": {
+            "type": "Small beast",
+            "ac": "13 + PB (natural armor)",
+            "hp": "4 + four times your ranger level",
+            "speed": "10 ft., fly 60 ft.",
+            "stats": {
+              "str": 6,
+              "dex": 16,
+              "con": 13,
+              "int": 8,
+              "wis": 14,
+              "cha": 11
+            },
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "understands the languages you speak",
+            "actions": {
+              "shred": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d4 + 3 + PB slashing damage."
+            },
+            "features": {
+              "flyby": "The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.",
+              "primal_bond": "Add your proficiency bonus to any ability check or saving throw the beast makes."
+            }
+          }
+        },
+        "beast_death": "If the beast dies within the last hour, use your action and expend a 1st-level spell slot to bring it back to life. You can summon a different primal beast after a long rest."
+      }
+    },
+    "exceptional_training": {
+      "description": "Improve your beast companion’s abilities and attacks.",
+      "details": {
+        "bonus_actions": "You can use a bonus action to command the beast to Dash, Disengage, or Help.",
+        "magical_attacks": "The beast’s attacks count as magical for overcoming resistance and immunity to non-magical attacks."
+      }
+    },
+    "bestial_fury": {
+      "description": "Enhance the beast’s attacking power.",
+      "details": {
+        "actions": "When you command the beast to attack, it can make two attacks or take the Multiattack action if it has it."
+      }
+    },
+    "share_spells": {
+      "description": "Extend the benefit of your spells to your beast companion.",
+      "details": {
+        "spell_range": "When you cast a spell targeting yourself, you can also affect your beast companion if it is within 30 feet of you."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Way of the Long Death",
+  "source": ["Sword Coast Adventurer's Guide"],
+  "description": "Monks of the Way of the Long Death study the mechanics and meaning of dying. Their martial arts are influenced by their experiments with death, leading to a deadly fighting style.",
+  "features": {
+    "touch_of_death": {
+      "level": 3,
+      "description": "Extract vitality from creatures near death.",
+      "effect": "When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Wisdom modifier + your monk level (minimum of 1)."
+    },
+    "hour_of_reaping": {
+      "level": 6,
+      "description": "Unsettle or terrify those around you.",
+      "effect": "As an action, each creature within 30 feet of you that can see you must make a Wisdom saving throw or be frightened until the end of your next turn."
+    },
+    "mastery_of_death": {
+      "level": 11,
+      "description": "Escape death’s grasp.",
+      "effect": "When reduced to 0 hit points, you can expend 1 ki point to instead have 1 hit point."
+    },
+    "touch_of_the_long_death": {
+      "level": 17,
+      "description": "Channel death’s energy through your touch.",
+      "effect": "As an action, touch one creature within 5 feet and expend 1 to 10 ki points. The target makes a Constitution saving throw, taking 2d10 necrotic damage per ki point spent on a failed save, or half as much on a successful one."
+    }
+  }
+}

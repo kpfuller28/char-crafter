@@ -1,0 +1,67 @@
+{
+    "name": "Aberrant Mind",
+    "source": "Tasha's Cauldron of Everything",
+    "description": "Aberrant Mind sorcerers wield psionic power granted by an alien influence. Their abilities can alter reality and manipulate the minds of others, leaving a mark of otherworldly presence. They can be sources of awe or terror, depending on how they choose to use their powers.",
+    "features": {
+      "psionic_spells": {
+        "description": "Starting at 1st level, you learn additional spells that count as sorcerer spells for you, but don't count against the number of sorcerer spells you know. You can replace one of these spells with another divination or enchantment spell whenever you gain a sorcerer level.",
+        "spells": {
+          "1st_level": ["Arms of Hadar", "Dissonant Whispers", "Mind Sliver"],
+          "3rd_level": ["Calm Emotions", "Detect Thoughts"],
+          "5th_level": ["Hunger of Hadar", "Sending"],
+          "7th_level": ["Evard's Black Tentacles", "Summon Aberration"],
+          "9th_level": ["Rary's Telepathic Bond", "Telekinesis"]
+        }
+      },
+      "telepathic_speech": {
+        "description": "Starting at 1st level, you can form a telepathic connection with a creature within 30 feet. You and the creature can speak telepathically while within a number of miles equal to your Charisma modifier (minimum of 1 mile). The connection lasts for a number of minutes equal to your sorcerer level, and ends early if you are incapacitated, die, or use the ability with a different creature.",
+        "mechanics": [
+          "Telepathic connection with a creature within 30 feet.",
+          "Range of connection equal to Charisma modifier in miles.",
+          "Connection lasts for a number of minutes equal to sorcerer level."
+        ]
+      },
+      "psionic_sorcery": {
+        "description": "Beginning at 6th level, you can cast spells from your Psionic Spells feature either by expending a spell slot or spending sorcery points equal to the spell's level. If using sorcery points, the spell requires no verbal, somatic, or material components unless consumed by the spell.",
+        "mechanics": [
+          "Cast Psionic Spells using sorcery points instead of spell slots.",
+          "No verbal, somatic, or material components required if using sorcery points."
+        ]
+      },
+      "psychic_defenses": {
+        "description": "At 6th level, you gain resistance to psychic damage and have advantage on saving throws against being charmed or frightened.",
+        "mechanics": [
+          "Resistance to psychic damage.",
+          "Advantage on saving throws against being charmed or frightened."
+        ]
+      },
+      "revelation_in_flesh": {
+        "description": "At 14th level, you can transform your body for 10 minutes by spending 1 or more sorcery points. Each point spent grants one of the following benefits: seeing invisible creatures, gaining a flying or swimming speed, or becoming slimy and pliable to move through narrow spaces.",
+        "benefits": [
+          "See invisible creatures within 60 feet.",
+          "Gain flying speed and hover.",
+          "Gain swimming speed and breathe underwater.",
+          "Become slimy and pliable, moving through narrow spaces."
+        ]
+      },
+      "warping_implosion": {
+        "description": "At 18th level, you can teleport to an unoccupied space within 120 feet as an action. Each creature within 30 feet of your former space must make a Strength saving throw. On a failed save, creatures take 3d10 force damage and are pulled toward your former space. On a successful save, creatures take half damage and are not pulled. This feature can be used again by spending 5 sorcery points.",
+        "mechanics": [
+          "Teleport to an unoccupied space within 120 feet.",
+          "Creatures within 30 feet must make a Strength saving throw.",
+          "Failed save: 3d10 force damage and pulled toward former space.",
+          "Successful save: Half damage and not pulled.",
+          "Can be used again by spending 5 sorcery points."
+        ]
+      }
+    },
+    "aberrant_origins": {
+      "1": "You were exposed to the Far Realm's warping influence. You are convinced that a tentacle is now growing on you, but no one else can see it.",
+      "2": "A psychic wind from the Astral Plane carried psionic energy to you. When you use your powers, faint motes of light sparkle around you.",
+      "3": "You once suffered the dominating powers of an aboleth, leaving a psychic splinter in your mind.",
+      "4": "You were implanted with a mind flayer tadpole, but the ceremorphosis never completed. And now its psionic power is yours. When you use it, your flesh shines with a strange mucus.",
+      "5": "As a child, you had an imaginary friend that looked like a flumph or a strange platypus-like creature. One day, it gifted you with psionic powers, which have ended up being not so imaginary.",
+      "6": "Your nightmares whisper the truth to you: your psionic powers are not your own. You draw them from your parasitic twin!"
+    }
+  }
+  

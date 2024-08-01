@@ -1,0 +1,43 @@
+{
+    "name": "Divination Magic",
+    "source": "Player's Handbook",
+    "description": "Diviners are masters of foresight and discernment, capable of peering into the past, present, and future. They excel in spells that reveal hidden truths, provide supernatural insight, and foresee events.",
+    "features": {
+      "divination_savant": {
+        "description": "At 2nd level, the gold and time required to copy a Divination spell into your spellbook is halved.",
+        "benefits": [
+          "Halve the gold and time required to copy Divination spells into your spellbook."
+        ]
+      },
+      "portent": {
+        "description": "Starting at 2nd level, you gain glimpses of the future. After a long rest, roll two d20s and record the numbers. You can replace any attack roll, saving throw, or ability check made by you or a creature you can see with one of these rolls. Each roll can be used only once, and you lose any unused rolls after a long rest.",
+        "benefits": [
+          "Roll two d20s and record the results after a long rest.",
+          "Replace any attack roll, saving throw, or ability check with one of these rolls.",
+          "Each roll can be used only once."
+        ]
+      },
+      "expert_divination": {
+        "description": "At 6th level, casting divination spells costs less of your spellcasting resources. When you cast a divination spell of 2nd level or higher, you regain a spell slot of a level lower than the spell you cast and no higher than 5th level.",
+        "benefits": [
+          "Regain a spell slot of a level lower than the divination spell cast (up to 5th level)."
+        ]
+      },
+      "the_third_eye": {
+        "description": "Starting at 10th level, you can use your action to enhance your perception with one of the following benefits, lasting until you are incapacitated or take a short/long rest: Darkvision (60 ft.), Ethereal Sight (60 ft.), Greater Comprehension (read any language), or See Invisibility (within 10 ft.).",
+        "benefits": [
+          "Darkvision: 60 ft.",
+          "Ethereal Sight: See into the Ethereal Plane within 60 ft.",
+          "Greater Comprehension: Read any language.",
+          "See Invisibility: See invisible creatures and objects within 10 ft."
+        ]
+      },
+      "greater_portent": {
+        "description": "At 14th level, you roll three d20s for your Portent feature instead of two, providing more accurate foresight.",
+        "benefits": [
+          "Roll three d20s for Portent instead of two."
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,46 @@
+{
+  "name": "Circle of Stars",
+  "source": ["Tasha's Cauldron of Everything"],
+  "description": "Druids of the Circle of Stars draw power from the constellations and celestial patterns, using starlight to guide and empower their magic. They keep detailed records of the stars and their effects on the world, often using megalithic structures to protect their sacred knowledge.",
+  "features": {
+    "star_map": {
+      "level": 2,
+      "description": "You create a star chart as your spellcasting focus, known as a Star Map, which grants you access to the Guidance cantrip and the Guiding Bolt spell. You can cast Guiding Bolt a number of times equal to your proficiency bonus without expending a spell slot. If lost, you can create a new one with a 1-hour ceremony.",
+      "star_map_forms": {
+        "1": "A scroll covered with depictions of constellations",
+        "2": "A stone tablet with fine holes drilled through it",
+        "3": "A speckled owlbear hide, tooled with raised marks",
+        "4": "A collection of maps bound in an ebony cover",
+        "5": "A crystal that projects starry patterns when placed before a light",
+        "6": "Glass disks that depict constellations"
+      }
+    },
+    "starry_form": {
+      "level": 2,
+      "description": "You can expend a use of Wild Shape to assume a starry form, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. This form lasts for 10 minutes and grants benefits based on the chosen constellation.",
+      "constellations": {
+        "archer": {
+          "description": "You can make a ranged spell attack dealing radiant damage equal to 1d8 + your Wisdom modifier."
+        },
+        "chalice": {
+          "description": "Whenever you cast a spell that restores hit points, you or another creature within 30 feet of you regains hit points equal to 1d8 + your Wisdom modifier."
+        },
+        "dragon": {
+          "description": "You can treat a roll of 9 or lower on Intelligence or Wisdom checks or Constitution saving throws for concentration as a 10."
+        }
+      }
+    },
+    "cosmic_omen": {
+      "level": 6,
+      "description": "After a long rest, consult your Star Map for omens. Depending on the result, you can use a reaction to either grant an ally a bonus (Weal) or impose a penalty (Woe) on attack rolls, saving throws, or ability checks. You can use this reaction a number of times equal to your proficiency bonus, regaining uses after a long rest."
+    },
+    "twinkling_constellations": {
+      "level": 10,
+      "description": "The benefits of your Starry Form improve. The Archer and Chalice benefits increase to 2d8, and the Dragon benefit grants you a flying speed of 20 feet and the ability to hover. You can also change the constellation effect at the start of each of your turns while in Starry Form."
+    },
+    "full_of_stars": {
+      "level": 14,
+      "description": "While in Starry Form, you become partially incorporeal, gaining resistance to bludgeoning, piercing, and slashing damage."
+    }
+  }
+}

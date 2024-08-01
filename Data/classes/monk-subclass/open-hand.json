@@ -1,0 +1,27 @@
+{
+  "name": "Way of the Open Hand",
+  "source": ["Player's Handbook"],
+  "description": "Monks of the Way of the Open Hand master martial arts combat to the highest degree, using their skills to control and manipulate their enemies. They can push, trip, and disarm foes, heal themselves, and create protective auras.",
+  "features": {
+    "open_hand_technique": {
+      "level": 3,
+      "description": "Manipulate your enemy's ki with your attacks.",
+      "effect": "When you hit a creature with an attack from Flurry of Blows, you can impose one of the following effects: knock the target prone (Dexterity saving throw), push the target up to 15 feet away (Strength saving throw), or prevent the target from taking reactions until the end of your next turn."
+    },
+    "wholeness_of_body": {
+      "level": 6,
+      "description": "Heal yourself.",
+      "effect": "As an action, regain hit points equal to three times your monk level. Can be used once per long rest."
+    },
+    "tranquility": {
+      "level": 11,
+      "description": "Enter a meditation that surrounds you with peace.",
+      "effect": "Gain the effect of the Sanctuary spell at the end of a long rest, lasting until the start of your next long rest. The saving throw DC equals 8 + your Wisdom modifier + your proficiency bonus."
+    },
+    "quivering_palm": {
+      "level": 17,
+      "description": "Set up lethal vibrations in a creature's body.",
+      "effect": "When you hit a creature with an unarmed strike, you can spend 3 ki points to create vibrations that last for a number of days equal to your monk level. You can end the vibrations with your action. The target must make a Constitution saving throw; on a failure, it is reduced to 0 hit points. On a success, it takes 10d10 necrotic damage. You can have only one creature affected at a time and can end the vibrations harmlessly without using an action."
+    }
+  }
+}

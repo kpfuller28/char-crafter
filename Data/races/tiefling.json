@@ -1,0 +1,103 @@
+{
+  "name": "Tiefling",
+  "description": "Tieflings are often subjected to prejudice and suspicion due to their infernal heritage. Their appearance and nature are the result of a pact made long ago with the archdevil Asmodeus, affecting their bloodline and demeanor.",
+  "features": {
+    "ability_score_increase": {
+      "description": "Your Charisma score increases by 2."
+    },
+    "age": "Tieflings mature at the same rate as humans but live a few years longer.",
+    "alignment": "Tieflings may lean toward chaotic alignments, with many ending up evil due to their inherent nature.",
+    "size": "Tieflings are Medium, similar in size and build to humans.",
+    "speed": "Your base walking speed is 30 feet.",
+    "darkvision": {
+      "description": "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    "hellish_resistance": {
+      "description": "You have resistance to fire damage."
+    },
+    "languages": "You can speak, read, and write Common and Infernal."
+  },
+  "bloodlines": {
+    "bloodline_of_asmodeus": {
+      "description": "Tieflings with this bloodline are linked to the archdevil Asmodeus and possess powers related to fire and darkness.",
+      "ability_score_increase": {
+        "description": "Your Intelligence score increases by 1."
+      },
+      "infernal_legacy": {
+        "description": "You know the Thaumaturgy cantrip. At 3rd level, you can cast Hellish Rebuke once as a 2nd-level spell. At 5th level, you can also cast Darkness once. Charisma is your spellcasting ability for these spells."
+      }
+    },
+    "bloodline_of_baalzebul": {
+      "description": "Tieflings with this bloodline are connected to Baalzebul and excel at corrupting others.",
+      "ability_score_increase": {
+        "description": "Your Intelligence score increases by 1."
+      },
+      "legacy_of_maladomini": {
+        "description": "You know the Thaumaturgy cantrip. At 3rd level, you can cast Ray of Sickness once as a 2nd-level spell. At 5th level, you can also cast Crown of Madness once. Charisma is your spellcasting ability for these spells."
+      }
+    },
+    "bloodline_of_dispater": {
+      "description": "Tieflings linked to Dispater are adept spies and infiltrators.",
+      "ability_score_increase": {
+        "description": "Your Dexterity score increases by 1."
+      },
+      "legacy_of_dis": {
+        "description": "You know the Thaumaturgy cantrip. At 3rd level, you can cast Disguise Self once as a 2nd-level spell. At 5th level, you can also cast Detect Thoughts once. Charisma is your spellcasting ability for these spells."
+      }
+    },
+    "bloodline_of_fierna": {
+      "description": "Tieflings with this bloodline are manipulative and possess strong personalities.",
+      "ability_score_increase": {
+        "description": "Your Wisdom score increases by 1."
+      },
+      "legacy_of_phlegethos": {
+        "description": "You know the Friends cantrip. At 3rd level, you can cast Charm Person once as a 2nd-level spell. At 5th level, you can also cast Suggestion once. Charisma is your spellcasting ability for these spells."
+      }
+    },
+    "bloodline_of_glasya": {
+      "description": "Tieflings connected to Glasya are skilled at heists and deception.",
+      "ability_score_increase": {
+        "description": "Your Dexterity score increases by 1."
+      },
+      "legacy_of_malbolge": {
+        "description": "You know the Minor Illusion cantrip. At 3rd level, you can cast Disguise Self once as a 2nd-level spell. At 5th level, you can also cast Invisibility once as a 2nd-level spell. Charisma is your spellcasting ability for these spells."
+      }
+    },
+    "bloodline_of_levistus": {
+      "description": "Tieflings with this bloodline are linked to Levistus and gain powers related to ice and protection.",
+      "ability_score_increase": {
+        "description": "Your Constitution score increases by 1."
+      },
+      "legacy_of_stygia": {
+        "description": "You know the Ray of Frost cantrip. At 3rd level, you can cast Armor of Agathys once as a 2nd-level spell. At 5th level, you can also cast Darkness once. Charisma is your spellcasting ability for these spells."
+      }
+    },
+    "bloodline_of_mammon": {
+      "description": "Tieflings connected to Mammon are skilled in gathering and safeguarding wealth.",
+      "ability_score_increase": {
+        "description": "Your Intelligence score increases by 1."
+      },
+      "legacy_of_minauros": {
+        "description": "You know the Mage Hand cantrip. At 3rd level, you can cast Tenser's Floating Disk once as a 2nd-level spell. At 5th level, you can also cast Arcane Lock once. Charisma is your spellcasting ability for these spells."
+      }
+    },
+    "bloodline_of_mephistopheles": {
+      "description": "Tieflings linked to Mephistopheles are adept at arcane magic.",
+      "ability_score_increase": {
+        "description": "Your Intelligence score increases by 1."
+      },
+      "legacy_of_cania": {
+        "description": "You know the Mage Hand cantrip. At 3rd level, you can cast Burning Hands once as a 2nd-level spell. At 5th level, you can also cast Flame Blade once as a 3rd-level spell. Charisma is your spellcasting ability for these spells."
+      }
+    },
+    "bloodline_of_zariel": {
+      "description": "Tieflings with a blood tie to Zariel gain strength and battle-oriented magic.",
+      "ability_score_increase": {
+        "description": "Your Strength score increases by 1."
+      },
+      "legacy_of_avernus": {
+        "description": "You know the Thaumaturgy cantrip. At 3rd level, you can cast Searing Smite once as a 2nd-level spell. At 5th level, you can also cast Branding Smite once as a 3rd-level spell. Charisma is your spellcasting ability for these spells."
+      }
+    }
+  }
+}

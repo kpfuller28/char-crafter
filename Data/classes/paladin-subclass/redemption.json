@@ -1,0 +1,46 @@
+{
+  "name": "Oath of Redemption",
+  "source": "Xanathar's Guide to Everything",
+  "description": "The Oath of Redemption binds a paladin to a path of peace, only using violence as a last resort. These paladins believe in the potential for redemption in everyone and strive to bring even the most wicked to the light.",
+  "tenets": {
+    "peace": "Violence is a weapon of last resort. Diplomacy and understanding are the paths to long-lasting peace.",
+    "innocence": "All people begin life in an innocent state. It is the environment or dark forces that drive them to evil. Set a proper example and heal the world’s wounds to guide others to righteousness.",
+    "patience": "Change takes time. Remind those who have strayed from the path to stay true, and be patient as they grow into righteousness.",
+    "wisdom": "Stay clear in heart and mind. Understand when to admit defeat, but act with justice. If a creature cannot be redeemed, carefully weigh the decision to end their life."
+  },
+  "oath_spells": {
+    "3rd_level": ["Sanctuary", "Sleep"],
+    "5th_level": ["Calm Emotions", "Hold Person"],
+    "9th_level": ["Counterspell", "Hypnotic Pattern"],
+    "13th_level": ["Otiluke's Resilient Sphere", "Stoneskin"],
+    "17th_level": ["Hold Monster", "Wall of Force"]
+  },
+  "channel_divinity": {
+    "emissary_of_peace": {
+      "description": "Augment your presence to enhance your ability to persuade.",
+      "effect": "As a bonus action, gain a +5 bonus to Charisma (Persuasion) checks for the next 10 minutes."
+    },
+    "rebuke_the_violent": {
+      "description": "Punish those who use violence with radiant damage.",
+      "effect": "Immediately after an attacker within 30 feet deals damage with an attack against a creature other than you, use your reaction to force the attacker to make a Wisdom saving throw. On a failed save, the attacker takes radiant damage equal to the damage dealt. On a successful save, they take half damage."
+    }
+  },
+  "aura_of_the_guardian": {
+    "7th_level": {
+      "description": "Shield your allies by taking damage on their behalf.",
+      "effect": "When a creature within 10 feet of you takes damage, use your reaction to take that damage instead. This feature doesn’t transfer other effects that might accompany the damage and cannot be reduced or prevented. The aura's range increases to 30 feet at 18th level."
+    }
+  },
+  "protective_spirit": {
+    "15th_level": {
+      "description": "Regain hit points when you are injured in combat.",
+      "effect": "Regain hit points equal to 1d6 + half your paladin level if you end your turn in combat with fewer than half of your hit points remaining and you aren’t incapacitated."
+    }
+  },
+  "emissary_of_redemption": {
+    "20th_level": {
+      "description": "Become an avatar of peace with enhanced defensive abilities.",
+      "effect": "Gain resistance to all damage dealt by other creatures. When hit by an attack, the attacker takes radiant damage equal to half the damage you took. If you attack, cast a spell, or deal damage to the creature by any means, neither benefit works against that creature until you finish a long rest."
+    }
+  }
+}

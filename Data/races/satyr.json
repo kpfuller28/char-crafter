@@ -1,0 +1,15 @@
+{
+  "name": "Satyr",
+  "description": "Originating in the Feywild, satyrs thrive on the energy of merriment and magic. They have goatlike legs, cloven hooves, and ram or goat horns, and they are known for their innate abilities to perform, delight, and resist magical intrusion. While most often found in the Feywild, satyrs sometimes wander to other planes, including the Material Plane, where they seek to share their plane’s splendor with others.",
+  "features": {
+    "ability_score_increase": "When determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20.",
+    "creature_type": "You are a Fey.",
+    "size": "You are Medium.",
+    "speed": "Your walking speed is 35 feet.",
+    "ram": "You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.",
+    "magic_resistance": "You have advantage on saving throws against spells.",
+    "mirthful_leaps": "Whenever you make a long jump or a high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal.",
+    "reveler": "You have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.",
+    "languages": "You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The Player’s Handbook offers a list of languages to choose from. The DM is free to modify that list for a campaign."
+  }
+}

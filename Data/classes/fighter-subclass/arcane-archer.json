@@ -1,0 +1,82 @@
+{
+  "name": "Arcane Archer",
+  "source": ["Xanathar's Guide to Everything"],
+  "description": "Arcane Archers blend magic and archery to unleash powerful, enchanted arrows. Originally an elven tradition, these archers are elite warriors who use magic-infused arrows to protect their realms and are skilled in both combat and arcane arts.",
+  "features": {
+    "arcane_archer_lore": {
+      "level": 3,
+      "description": "You gain proficiency in either the Arcana or Nature skill and learn one cantrip: Prestidigitation or Druidcraft."
+    },
+    "arcane_shot": {
+      "level": 3,
+      "description": "You learn two Arcane Shot options and can apply one to your arrow when you hit. You have two uses of this ability, which recharge on a short or long rest. You gain additional options at levels 7, 10, 15, and 18.",
+      "uses_per_rest": 2,
+      "improvements": {
+        "7th_level": {
+          "description": "You gain the ability to infuse non-magical arrows with magic to overcome resistance and immunity."
+        },
+        "10th_level": {
+          "description": "You gain an additional Arcane Shot option."
+        },
+        "15th_level": {
+          "description": "When you roll initiative and have no uses of Arcane Shot remaining, you regain one use."
+        },
+        "18th_level": {
+          "description": "Your Arcane Shot options improve with increased damage or additional effects."
+        }
+      }
+    },
+    "arcane_shot_options": {
+      "options": {
+        "banishing_arrow": {
+          "description": "You attempt to banish the target to a harmless location in the Feywild. If the target fails a Charisma saving throw, it is incapacitated and reappears at the end of its next turn.",
+          "damage": {
+            "level_18": "2d6 force damage"
+          }
+        },
+        "beguiling_arrow": {
+          "description": "The target takes extra psychic damage and must make a Wisdom saving throw or be charmed by an ally until the start of your next turn.",
+          "damage": {
+            "level_18": "4d6 psychic damage"
+          }
+        },
+        "bursting_arrow": {
+          "description": "The arrow detonates, causing force damage to the target and all creatures within 10 feet.",
+          "damage": {
+            "level_18": "4d6 force damage"
+          }
+        },
+        "enfeebling_arrow": {
+          "description": "The target takes extra necrotic damage and its weapon attack damage is halved until the start of your next turn.",
+          "damage": {
+            "level_18": "4d6 necrotic damage"
+          }
+        },
+        "grasping_arrow": {
+          "description": "The target is wrapped in poisonous brambles, taking poison damage and slashing damage if it moves. The brambles last for 1 minute or until removed.",
+          "damage": {
+            "level_18": "4d6 poison damage and 4d6 slashing damage"
+          }
+        },
+        "piercing_arrow": {
+          "description": "The arrow passes through objects and creatures in a line, ignoring cover. Each creature in the line makes a Dexterity saving throw.",
+          "damage": {
+            "level_18": "2d6 piercing damage"
+          }
+        },
+        "seeking_arrow": {
+          "description": "The arrow seeks out the target, moving around corners and ignoring cover. The target makes a Dexterity saving throw.",
+          "damage": {
+            "level_18": "2d6 force damage"
+          }
+        },
+        "shadow_arrow": {
+          "description": "The arrow causes psychic damage and obscures the target’s vision, making it unable to see beyond 5 feet.",
+          "damage": {
+            "level_18": "4d6 psychic damage"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Verdan",
+  "description": "Verdan owe their existence to chaos. Descendants of goblins and hobgoblins, transformed by the shadow of That-Which-Endures, they are the newest race of Faerûn.",
+  "features": {
+    "ability_score_increase": {
+      "description": "Your Charisma score increases by 2, and your Constitution score increases by 1."
+    },
+    "age": {
+      "description": "Verdan reach adulthood at age 24 and live up to 200 years. None have yet reached old age, so the top age is speculative."
+    },
+    "alignment": {
+      "description": "Verdan are usually good aligned. Due to their newness, there is not yet a well-established framework for their alignment."
+    },
+    "size": {
+      "description": "Verdan are between 3 and 4 feet tall at the start. Your size is Small until you reach 5th level, where you undergo a 2-foot growth spurt and become Medium."
+    },
+    "speed": {
+      "description": "Your base walking speed is 30 feet."
+    },
+    "black_blood_healing": {
+      "description": "When you roll either 1 or 2 on any Hit Die, you can instantly re-roll the die and take the new roll."
+    },
+    "limited_telepathy": {
+      "description": "You can telepathically speak to any creature within 30 feet. You do not have to share a language to speak, but they must be able to speak a language. You can only communicate simple ideas."
+    },
+    "persuasive": {
+      "description": "Your people's lack of history makes you trustworthy and humble. You have proficiency in the Persuasion skill."
+    },
+    "telepathic_insight": {
+      "description": "You have advantage on all Wisdom and Charisma saving throws."
+    },
+    "languages": {
+      "description": "You can speak, read, and write Common, Goblin, and one additional language."
+    }
+  }
+}

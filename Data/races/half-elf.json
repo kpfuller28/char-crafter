@@ -1,0 +1,86 @@
+{
+  "name": "Half-Elf",
+  "description": "Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves.",
+  "traits": {
+    "ability_score_increase": {
+      "description": "Your Charisma score increases by 2, and two other ability scores of your choice each increase by 1."
+    },
+    "age": {
+      "description": "Half-elves age at much the same rate as humans, reaching adulthood at the age of 20. They live much longer than humans, however, often exceeding 180 years."
+    },
+    "alignment": {
+      "description": "Half-elves share the chaotic bent of their elven heritage. They both value personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others' demands, and sometimes prove unreliable, or at least unpredictable. They are good and evil in equal numbers, a trait they share with their human parents."
+    },
+    "size": {
+      "description": "Half-elves are more or less the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium."
+    },
+    "speed": {
+      "description": "Your base walking speed is 30 feet."
+    },
+    "darkvision": {
+      "description": "Thanks to your elven heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    "fey_ancestry": {
+      "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+    },
+    "languages": {
+      "description": "You can read, speak, and write Common, Elven, and one language of your choice."
+    },
+    "half_elf_versatility": {
+      "general": "You gain proficiency in two skills of your choice.",
+      "high_or_wood_elf_heritage": {
+        "elf_weapon_training": "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+        "cantrip": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
+        "fleet_of_foot": "Your base walking speed increases to 35 feet.",
+        "mask_of_the_wild": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+      },
+      "dark_elf_heritage": {
+        "drow_magic": "You know the Dancing Lights cantrip. When you reach 3rd level, you can cast Faerie Fire once, and it recharges after a long rest. When you reach 5th level, you can cast Darkness once, and it recharges after a long rest. Charisma is your spellcasting ability for these spells."
+      },
+      "aquatic_elf_heritage": {
+        "swim_speed": "You have a swimming speed of 30 feet."
+      }
+    }
+  },
+  "subraces": {
+    "mark_of_detection": {
+      "ability_score_increase": {
+        "description": "Your Wisdom score increases by 2, and one other Ability Score of your choice increases by 1."
+      },
+      "deductive_intuition": {
+        "description": "Whenever you make a Intelligence (Investigation) or a Wisdom (Insight) check, you can roll a d4 and add the number rolled to the total ability check."
+      },
+      "magical_detection": {
+        "description": "You can cast the Detect Magic and the Detect Poison and Disease spells with this trait. Starting at 3rd level, you can also cast the See Invisibility spell with it. Once you cast either spell with this trait, you can't cast that spell again until you finish a Long Rest. Intelligence is your Spellcasting Ability for these spells, and you don't require material components for them."
+      },
+      "spells_of_the_mark": {
+        "1st": ["Detect Magic", "Detect Poison and Disease"],
+        "2nd": ["Detect Thoughts", "Find Traps"],
+        "3rd": ["Clairvoyance", "Nondetection"],
+        "4th": ["Arcane Eye", "Divination"],
+        "5th": ["Legend Lore"]
+      }
+    },
+    "mark_of_storm": {
+      "ability_score_increase": {
+        "description": "Your Charisma score increases by 2, and your Dexterity score increases by 1."
+      },
+      "windwrights_intuition": {
+        "description": "Whenever you make a Dexterity (Acrobatics) check or any Ability Check involving Navigator's Tools, you can roll a d4 and add the number rolled to the total ability check."
+      },
+      "storms_boon": {
+        "description": "You have resistance to Lightning damage."
+      },
+      "headwinds": {
+        "description": "You know the Gust cantrip. Starting at 3rd level, you can also cast the Gust of Wind spell with it. Once you cast this spell with this trait, you can't cast that spell again until you finish a Long Rest. Charisma is your Spellcasting Ability for this spell."
+      },
+      "spells_of_the_mark": {
+        "1st": ["Feather Fall", "Fog Cloud"],
+        "2nd": ["Gust of Wind", "Levitate"],
+        "3rd": ["Sleet Storm", "Wind Wall"],
+        "4th": ["Conjure Minor Elementals", "Control Water"],
+        "5th": ["Conjure Elemental"]
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Way of the Astral Self",
+  "source": ["Tasha's Cauldron of Everything"],
+  "description": "Monks of the Way of the Astral Self view their physical form as an illusion and their true self as an astral representation. By manifesting their astral self, they gain enhanced abilities and can wield their ki to protect and serve, reflecting their inner essence.",
+  "features": {
+    "arms_of_the_astral_self": {
+      "level": 3,
+      "description": "You can summon the arms of your astral self as a bonus action by spending 1 ki point. These spectral arms hover near your shoulders or surround your arms. Each creature of your choice within 10 feet must make a Dexterity saving throw or take force damage equal to two rolls of your Martial Arts die. The arms grant you the following benefits while active for 10 minutes:\n- Use your Wisdom modifier instead of Strength for Strength checks and saving throws.\n- Use the arms to make unarmed strikes with 5 feet extra reach.\n- Use your Wisdom modifier instead of Strength or Dexterity for attack and damage rolls of the unarmed strikes made with the arms, dealing force damage."
+    },
+    "visage_of_the_astral_self": {
+      "level": 6,
+      "description": "You can summon the visage of your astral self as a bonus action, or as part of activating Arms of the Astral Self, by spending 1 ki point. The visage covers your face and grants the following benefits while active for 10 minutes:\n- **Astral Sight**: See normally in darkness, both magical and non-magical, up to 120 feet.\n- **Wisdom of the Spirit**: Advantage on Wisdom (Insight) and Charisma (Intimidation) checks.\n- **Word of the Spirit**: Speak so that only one creature within 60 feet hears you, or amplify your voice for all creatures within 600 feet to hear."
+    },
+    "body_of_the_astral_self": {
+      "level": 11,
+      "description": "When you have both your astral arms and visage summoned, you can manifest the body of your astral self. This spectral body covers you like a suit of armor, connecting with the arms and visage. It provides the following benefits:\n- **Deflect Energy**: Reduce damage from acid, cold, fire, force, lightning, or thunder by 1d10 + your Wisdom modifier (minimum reduction of 1).\n- **Empowered Arms**: Deal extra damage equal to your Martial Arts die when hitting a target with the Arms of the Astral Self once per turn."
+    },
+    "awakened_astral_self": {
+      "level": 17,
+      "description": "You can spend 5 ki points to summon and awaken the arms, visage, and body of your astral self for 10 minutes. This awakening ends early if you are incapacitated or die. While awakened, you gain the following benefits:\n- **Armor of the Spirit**: +2 bonus to Armor Class.\n- **Astral Barrage**: When using Extra Attack to attack twice, you can attack three times if all attacks are made with your astral arms."
+    }
+  }
+}

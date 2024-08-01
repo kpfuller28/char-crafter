@@ -1,0 +1,46 @@
+{
+  "name": "Psi Warrior",
+  "source": ["Tasha's Cauldron of Everything"],
+  "description": "Psi Warriors channel psionic energy to enhance their physical abilities with telekinetic and psychic powers. They use this energy to protect allies, strike with psychic force, and manipulate objects and foes with their minds.",
+  "features": {
+    "psionic_power": {
+      "level": 3,
+      "description": "You gain Psionic Energy dice (d6) equal to twice your proficiency bonus. These dice fuel your psionic powers. You can regain one expended Psionic Energy die as a bonus action once per short or long rest. The size of your Psionic Energy dice increases at 5th, 11th, and 17th levels.",
+      "powers": {
+        "protective_field": {
+          "description": "You can use your reaction to expend a Psionic Energy die and reduce damage taken by the number rolled plus your Intelligence modifier (minimum reduction of 1)."
+        },
+        "psionic_strike": {
+          "description": "When you hit a target with a weapon attack, you can expend a Psionic Energy die to deal force damage equal to the number rolled plus your Intelligence modifier."
+        },
+        "telekinetic_movement": {
+          "description": "You can move an object or creature within 30 feet with your mind. You can move it up to 30 feet or to/from your hand if Tiny. You can use this feature again by expending a Psionic Energy die."
+        }
+      }
+    },
+    "telekinetic_adept": {
+      "level": 7,
+      "description": "You master advanced telekinetic abilities.",
+      "powers": {
+        "psi_powered_leap": {
+          "description": "As a bonus action, you gain a flying speed equal to twice your walking speed until the end of your turn. You can use this again by expending a Psionic Energy die."
+        },
+        "telekinetic_thrust": {
+          "description": "When you use Psionic Strike, you can force the target to make a Strength saving throw. On a failure, you can knock the target prone or move it up to 10 feet."
+        }
+      }
+    },
+    "guarded_mind": {
+      "level": 10,
+      "description": "You gain resistance to psychic damage. If you start your turn charmed or frightened, you can expend a Psionic Energy die to end those effects on yourself."
+    },
+    "bulwark_of_force": {
+      "level": 15,
+      "description": "As a bonus action, you can protect creatures within 30 feet of you with half cover for 1 minute or until incapacitated. You can use this again by expending a Psionic Energy die."
+    },
+    "telekinetic_master": {
+      "level": 18,
+      "description": "You can cast Telekinesis without components and use your Intelligence for the spell. While concentrating on it, you can make one weapon attack as a bonus action. You can use this again by expending a Psionic Energy die."
+    }
+  }
+}

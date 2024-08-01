@@ -1,0 +1,57 @@
+{
+    "name": "Storm Sorcery",
+    "source": "Sword Coast Adventurer's Guide, Xanathar's Guide to Everything",
+    "description": "Storm Sorcerers wield the elemental power of air and storms. Their magic can be traced to a significant weather event or potent air creatures. They command wind and weather, making them essential for maritime adventures and adept at repelling waterborne threats.",
+    "features": {
+      "wind_speaker": {
+        "description": "You can speak, read, and write Primordial, allowing communication with those who speak its dialects: Aquan, Auran, Ignan, and Terran.",
+        "mechanics": [
+          "Speak, read, and write Primordial.",
+          "Understand and be understood by speakers of Aquan, Auran, Ignan, and Terran."
+        ]
+      },
+      "tempestuous_magic": {
+        "description": "Starting at 1st level, you can use a bonus action to surround yourself with whirling gusts of air. This allows you to fly up to 10 feet without provoking opportunity attacks, immediately before or after casting a spell of 1st level or higher.",
+        "mechanics": [
+          "Bonus action to use Tempestuous Magic.",
+          "Fly up to 10 feet without provoking opportunity attacks.",
+          "Can use this ability immediately before or after casting a spell of 1st level or higher."
+        ]
+      },
+      "heart_of_the_storm": {
+        "description": "At 6th level, you gain resistance to lightning and thunder damage. Additionally, when you cast a spell of 1st level or higher that deals lightning or thunder damage, stormy magic erupts from you, causing creatures of your choice within 10 feet of you to take lightning or thunder damage equal to half your sorcerer level.",
+        "mechanics": [
+          "Resistance to lightning and thunder damage.",
+          "Stormy magic eruption when casting spells of 1st level or higher dealing lightning or thunder damage.",
+          "Creatures within 10 feet take lightning or thunder damage equal to half your sorcerer level."
+        ]
+      },
+      "storm_guide": {
+        "description": "At 6th level, you gain the ability to control weather around you. You can stop rain in a 20-foot-radius sphere centered on you as an action. You can also choose the wind direction in a 100-foot-radius sphere as a bonus action each round, affecting the wind direction until the end of your next turn.",
+        "mechanics": [
+          "Action to stop rain in a 20-foot-radius sphere.",
+          "Bonus action to choose wind direction in a 100-foot-radius sphere.",
+          "Wind direction lasts until the end of your next turn."
+        ]
+      },
+      "storms_fury": {
+        "description": "Starting at 14th level, when hit by a melee attack, you can use your reaction to deal lightning damage to the attacker equal to your sorcerer level. The attacker must make a Strength saving throw against your spell save DC. On a failed save, they are pushed up to 20 feet away from you in a straight line.",
+        "mechanics": [
+          "Reaction to deal lightning damage equal to your sorcerer level when hit by a melee attack.",
+          "Attacker makes a Strength saving throw against your spell save DC.",
+          "On a failed save, attacker is pushed up to 20 feet away from you."
+        ]
+      },
+      "wind_soul": {
+        "description": "At 18th level, you gain immunity to lightning and thunder damage. You also gain a magical flying speed of 60 feet. As an action, you can reduce your flying speed to 30 feet for 1 hour, granting magical flying speed of 30 feet to up to 3 + your Charisma modifier creatures within 30 feet of you. This ability can't be used again until after a short or long rest.",
+        "mechanics": [
+          "Immunity to lightning and thunder damage.",
+          "Magical flying speed of 60 feet.",
+          "Action to reduce your flying speed to 30 feet for 1 hour.",
+          "Grant magical flying speed of 30 feet to up to 3 + your Charisma modifier creatures within 30 feet.",
+          "Ability can't be used again until after a short or long rest."
+        ]
+      }
+    }
+  }
+  

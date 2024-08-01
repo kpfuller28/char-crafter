@@ -19,38 +19,38 @@
     },
     "suggested_characteristics": {
       "personality_traits": [
-        { "d8": 1, "trait": "I hide scraps of food and trinkets away in my pockets." },
-        { "d8": 2, "trait": "I ask a lot of questions." },
-        { "d8": 3, "trait": "I like to squeeze into small places where no one else can get to me." },
-        { "d8": 4, "trait": "I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms." },
-        { "d8": 5, "trait": "I eat like a pig and have bad manners." },
-        { "d8": 6, "trait": "I think anyone who's nice to me is hiding evil intent." },
-        { "d8": 7, "trait": "I don't like to bathe." },
-        { "d8": 8, "trait": "I bluntly say what other people are hinting at or hiding." }
+        { "1": "I hide scraps of food and trinkets away in my pockets." },
+        { "2": "I ask a lot of questions." },
+        { "3": "I like to squeeze into small places where no one else can get to me." },
+        { "4": "I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms." },
+        { "5": "I eat like a pig and have bad manners." },
+        { "6": "I think anyone who's nice to me is hiding evil intent." },
+        { "7": "I don't like to bathe." },
+        { "8": "I bluntly say what other people are hinting at or hiding." }
       ],
       "ideals": [
-        { "d6": 1, "ideal": "Respect. All people, rich or poor, deserve respect.", "alignment": "Good" },
-        { "d6": 2, "ideal": "Community. We have to take care of each other, because no one else is going to do it.", "alignment": "Lawful" },
-        { "d6": 3, "ideal": "Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things.", "alignment": "Chaotic" },
-        { "d6": 4, "ideal": "Retribution. The rich need to be shown what life and death are like in the gutters.", "alignment": "Evil" },
-        { "d6": 5, "ideal": "People. I help the people who help me-that's what keeps us alive.", "alignment": "Neutral" },
-        { "d6": 6, "ideal": "Aspiration. I'm going to prove that I'm worthy of a better life.", "alignment": "Any" }
+        { "1": "Respect. All people, rich or poor, deserve respect.", "alignment": "Good" },
+        { "2": "Community. We have to take care of each other, because no one else is going to do it.", "alignment": "Lawful" },
+        { "3": "Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things.", "alignment": "Chaotic" },
+        { "4": "Retribution. The rich need to be shown what life and death are like in the gutters.", "alignment": "Evil" },
+        { "5": "People. I help the people who help me-that's what keeps us alive.", "alignment": "Neutral" },
+        { "6": "Aspiration. I'm going to prove that I'm worthy of a better life.", "alignment": "Any" }
       ],
       "bonds": [
-        { "d6": 1, "bond": "My town or city is my home, and I'll fight to defend it." },
-        { "d6": 2, "bond": "I sponsor an orphanage to keep others from enduring what I was forced to endure." },
-        { "d6": 3, "bond": "I owe my survival to another urchin who taught me to live on the streets." },
-        { "d6": 4, "bond": "I owe a debt I can never repay to the person who took pity on me." },
-        { "d6": 5, "bond": "I escaped my life of poverty by robbing an important person, and I'm wanted for it." },
-        { "d6": 6, "bond": "No one else should have to endure the hardships I've been through." }
+        { "1": "My town or city is my home, and I'll fight to defend it." },
+        { "2": "I sponsor an orphanage to keep others from enduring what I was forced to endure." },
+        { "3": "I owe my survival to another urchin who taught me to live on the streets." },
+        { "4": "I owe a debt I can never repay to the person who took pity on me." },
+        { "5": "I escaped my life of poverty by robbing an important person, and I'm wanted for it." },
+        { "6": "No one else should have to endure the hardships I've been through." }
       ],
       "flaws": [
-        { "d6": 1, "flaw": "If I'm outnumbered, I will run away from a fight." },
-        { "d6": 2, "flaw": "Gold seems like a lot of money to me, and I'll do just about anything for more of it." },
-        { "d6": 3, "flaw": "I will never fully trust anyone other than myself." },
-        { "d6": 4, "flaw": "I'd rather kill someone in their sleep than fight fair." },
-        { "d6": 5, "flaw": "It's not stealing if I need it more than someone else." },
-        { "d6": 6, "flaw": "People who can't take care of themselves get what they deserve." }
+        { "1": "If I'm outnumbered, I will run away from a fight." },
+        { "2": "Gold seems like a lot of money to me, and I'll do just about anything for more of it." },
+        { "3": "I will never fully trust anyone other than myself." },
+        { "4": "I'd rather kill someone in their sleep than fight fair." },
+        { "5": "It's not stealing if I need it more than someone else." },
+        { "6": "People who can't take care of themselves get what they deserve." }
       ]
     }
   }

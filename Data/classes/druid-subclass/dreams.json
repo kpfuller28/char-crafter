@@ -1,0 +1,23 @@
+{
+  "name": "Circle of Dreams",
+  "source": "Xanathar's Guide to Everything",
+  "description": "Druids of the Circle of Dreams are tied to the Feywild and its dreamlike realms, offering respite and joy. They use their magic to mend wounds and bring comfort to those they protect, blurring the lines between dream and reality.",
+  "features": {
+    "balm_of_the_summer_court": {
+      "level": 2,
+      "description": "Gain a pool of fey energy represented by a number of d6s equal to your druid level. As a bonus action, spend a number of dice (up to half your druid level) to restore hit points and grant temporary hit points to an ally within 120 feet. Dice are regained on a long rest."
+    },
+    "hearth_of_moonlight_and_shadow": {
+      "level": 6,
+      "description": "During a rest, create an invisible 30-foot-radius sphere of magic centered on a point you touch. Within this sphere, you and your allies gain +5 to Dexterity (Stealth) and Wisdom (Perception) checks, and light from open flames inside is not visible outside. The sphere lasts until the end of the rest or until you leave it."
+    },
+    "hidden_paths": {
+      "level": 10,
+      "description": "As a bonus action, teleport up to 60 feet to an unoccupied space you can see. Alternatively, use your action to teleport one willing creature you touch up to 30 feet. Usable a number of times equal to your Wisdom modifier (minimum of once), regained on a long rest."
+    },
+    "walker_in_dreams": {
+      "level": 14,
+      "description": "After a short rest, cast Dream (with you as the messenger), Scrying, or Teleportation Circle without expending a spell slot or materials. Special Teleportation Circle opens a portal to your last long rest location on your current plane. Usable once per long rest."
+    }
+  }
+}

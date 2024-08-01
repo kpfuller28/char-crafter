@@ -1,0 +1,27 @@
+{
+  "name": "Way of the Drunken Master",
+  "source": ["Xanathar's Guide to Everything"],
+  "description": "Monks of the Way of the Drunken Master emulate the unpredictable movements of a drunkard. They sway and stagger in battle, masking a precise and skillful fighting style. They use their erratic movements to confuse opponents, making them difficult to engage while effectively executing a dance of offense and defense.",
+  "features": {
+    "bonus_proficiencies": {
+      "level": 3,
+      "description": "You gain proficiency in the Performance skill and with brewer's supplies if you don't already have them."
+    },
+    "drunken_technique": {
+      "level": 3,
+      "description": "When you use Flurry of Blows, you benefit from the Disengage action, and your walking speed increases by 10 feet until the end of the turn."
+    },
+    "tipsy_sway": {
+      "level": 6,
+      "description": "You gain the following benefits:\n- **Leap to Your Feet**: Stand up from being prone by spending 5 feet of movement instead of half your speed.\n- **Redirect Attack**: Spend 1 ki point as a reaction to cause a missed melee attack against you to hit a creature of your choice within 5 feet of you, other than the attacker."
+    },
+    "drunkards_luck": {
+      "level": 11,
+      "description": "When you have disadvantage on an ability check, attack roll, or saving throw, you can spend 2 ki points to cancel the disadvantage for that roll."
+    },
+    "intoxicated_frenzy": {
+      "level": 17,
+      "description": "When you use Flurry of Blows, you can make up to three additional attacks (for a total of up to five Flurry of Blows attacks) provided that each attack targets a different creature this turn."
+    }
+  }
+}

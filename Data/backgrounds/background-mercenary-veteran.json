@@ -13,11 +13,11 @@
     "features": {
       "mercenaries_of_the_north": {
         "description": "Countless mercenary companies operate up and down the Sword Coast and throughout the North. Most are small-scale operations that employ a dozen to a hundred folk who offer security services, hunt monsters and brigands, or go to war in exchange for gold. Some organizations, such as the Zhentarim, Flaming Fist, and the nation of Mintarn have hundreds or thousands of members and can provide private armies to those with enough funds. A few organizations operating in the North are described below.",
-        "options": {
-          "the_chill": "The cold and mysterious Lurkwood serves as the home of numerous groups of goblinoids that have banded together into one tribe called the Chill. Unlike most of their kind, the Chill refrains from raiding the people of the North and maintains relatively good relations so that they can hire themselves out as warriors. Few city-states in the North are willing to field an army alongside the Chill, but several are happy to quietly pay the Chill to battle the Uthgardt, ores, trolls of the Evermoors, and other threats to civilization.",
-          "silent_rain": "Consisting solely of elves, Silent Rain is a legendary mercenary company operating out of Evereska. Caring little for gold or fame, Silent Rain agrees only to jobs that either promote elven causes or involve destroying ores, gnolls, and the like. Prospective employers must leave written word (in Elvish) near Evereska, and the Silent Rain sends a representative if interested.",
-          "the_bloodaxes": "Founded in Sundabar nearly two centuries ago, the Bloodaxes were originally a group of dwarves outcast from their clans for crimes against the teachings of Moradin Soulforger. They began hiring out as mercenaries to whoever in the North would pay them. Since then they have broadened their membership to other races, but every member is an exile, criminal, or misfit of some sort looking for a fresh start and a new family among the bold Bloodaxes."
-        }
+        "mercenary-companies": [
+          {"the_chill": "The cold and mysterious Lurkwood serves as the home of numerous groups of goblinoids that have banded together into one tribe called the Chill. Unlike most of their kind, the Chill refrains from raiding the people of the North and maintains relatively good relations so that they can hire themselves out as warriors. Few city-states in the North are willing to field an army alongside the Chill, but several are happy to quietly pay the Chill to battle the Uthgardt, ores, trolls of the Evermoors, and other threats to civilization."},
+          {"silent_rain": "Consisting solely of elves, Silent Rain is a legendary mercenary company operating out of Evereska. Caring little for gold or fame, Silent Rain agrees only to jobs that either promote elven causes or involve destroying ores, gnolls, and the like. Prospective employers must leave written word (in Elvish) near Evereska, and the Silent Rain sends a representative if interested."},
+          {"the_bloodaxes": "Founded in Sundabar nearly two centuries ago, the Bloodaxes were originally a group of dwarves outcast from their clans for crimes against the teachings of Moradin Soulforger. They began hiring out as mercenaries to whoever in the North would pay them. Since then they have broadened their membership to other races, but every member is an exile, criminal, or misfit of some sort looking for a fresh start and a new family among the bold Bloodaxes."}
+        ]
       },
       "mercenary_life": {
         "description": "You know the mercenary life as only someone who has experienced it can. You are able to identify mercenary companies by their emblems, and you know a little about any such company, including the names and reputations of its commanders and leaders, and who has hired them recently. You can find the taverns and festhalls where mercenaries abide in any area, as long as you speak the language. You can find mercenary work between adventures sufficient to maintain a comfortable lifestyle."
@@ -25,38 +25,38 @@
     },
     "suggested_characteristics": {
       "personality_traits": [
-        { "d8": 1, "trait": "I speak rarely but mean every word I say." },
-        { "d8": 2, "trait": "I laugh loudly and see the humor in stressful situations." },
-        { "d8": 3, "trait": "I prefer to solve problems without violence, but I finish fights decisively." },
-        { "d8": 4, "trait": "I enjoy being out in nature; poor weather never sours my mood." },
-        { "d8": 5, "trait": "I am dependable." },
-        { "d8": 6, "trait": "I am always working on some project or other." },
-        { "d8": 7, "trait": "I become cantankerous and quiet in the rain." },
-        { "d8": 8, "trait": "When the sea is within my sight, my mood is jovial and optimistic." }
+        { "1": "I speak rarely but mean every word I say." },
+        { "2": "I laugh loudly and see the humor in stressful situations." },
+        { "3": "I prefer to solve problems without violence, but I finish fights decisively." },
+        { "4": "I enjoy being out in nature; poor weather never sours my mood." },
+        { "5": "I am dependable." },
+        { "6": "I am always working on some project or other." },
+        { "7": "I become cantankerous and quiet in the rain." },
+        { "8": "When the sea is within my sight, my mood is jovial and optimistic." }
       ],
       "ideals": [
-        { "d6": 1, "ideal": "Teamwork. Success depends on cooperation and communication. (Good)" },
-        { "d6": 2, "ideal": "Code. The mercenaries' code provides a solution for every problem, and following it is imperative. (Lawful)" },
-        { "d6": 3, "ideal": "Embracing. Life is messy. Throwing yourself into the worst of it is necessary to get the job done. (Chaotic)" },
-        { "d6": 4, "ideal": "Might. The strong train so that they might rule those who are weak. (Evil)" },
-        { "d6": 5, "ideal": "Bravery. To act when others quake in fear- this is the essence of the warrior. (Any)" },
-        { "d6": 6, "ideal": "Perseverance. No injury or obstacle can turn me from my goal. (Any)" }
+        { "1": "Teamwork. Success depends on cooperation and communication.", "alignment": " (Good)" },
+        { "2": "Code. The mercenaries' code provides a solution for every problem, and following it is imperative.", "alignment": " (Lawful)" },
+        { "3": "Embracing. Life is messy. Throwing yourself into the worst of it is necessary to get the job done.", "alignment": " (Chaotic)" },
+        { "4": "Might. The strong train so that they might rule those who are weak.", "alignment": " (Evil)" },
+        { "5": "Bravery. To act when others quake in fear- this is the essence of the warrior.", "alignment": " (Any)" },
+        { "6": "Perseverance. No injury or obstacle can turn me from my goal.", "alignment": " (Any)" }
       ],
       "bonds": [
-        { "d6": 1, "bond": "I face danger and evil to offset an unredeemable act in my past." },
-        { "d6": 2, "bond": "I. Will. Finish. The. Job." },
-        { "d6": 3, "bond": "I must set an example of hope for those who have given up." },
-        { "d6": 4, "bond": "I'm searching for a fellow mercenary captured by an elusive enemy." },
-        { "d6": 5, "bond": "Fear leads to tyranny, and both must be eradicated." },
-        { "d6": 6, "bond": "My commander betrayed my unit, and I will have revenge." }
+        { "1": "I face danger and evil to offset an unredeemable act in my past." },
+        { "2": "I. Will. Finish. The. Job." },
+        { "3": "I must set an example of hope for those who have given up." },
+        { "4": "I'm searching for a fellow mercenary captured by an elusive enemy." },
+        { "5": "Fear leads to tyranny, and both must be eradicated." },
+        { "6": "My commander betrayed my unit, and I will have revenge." }
       ],
       "flaws": [
-        { "d6": 1, "flaw": "I grow combative and unpredictable when I drink." },
-        { "d6": 2, "flaw": "I find civilian life difficult and struggle to say the right thing in social situations." },
-        { "d6": 3, "flaw": "My intensity can drive others away." },
-        { "d6": 4, "flaw": "I hold grudges and have difficulty forgiving others." },
-        { "d6": 5, "flaw": "I become irrational when innocent people are hurt." },
-        { "d6": 6, "flaw": "I sometimes stay up all night listening to the ghosts of my fallen enemies." }
+        { "1": "I grow combative and unpredictable when I drink." },
+        { "2": "I find civilian life difficult and struggle to say the right thing in social situations." },
+        { "3": "My intensity can drive others away." },
+        { "4": "I hold grudges and have difficulty forgiving others." },
+        { "5": "I become irrational when innocent people are hurt." },
+        { "6": "I sometimes stay up all night listening to the ghosts of my fallen enemies." }
       ]
     }
   }

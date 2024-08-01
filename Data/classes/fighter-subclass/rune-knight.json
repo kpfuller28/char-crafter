@@ -1,0 +1,57 @@
+{
+  "name": "Rune Knight",
+  "source": ["Tasha's Cauldron of Everything"],
+  "description": "Rune Knights wield the ancient power of runes to enhance their martial capabilities, drawing on the mystical traditions of giants. They use these runes to protect themselves and their allies, empower their attacks, and even alter their size and abilities.",
+  "features": {
+    "bonus_proficiencies": {
+      "level": 3,
+      "description": "You gain proficiency with smith’s tools and learn to speak, read, and write Giant."
+    },
+    "rune_carver": {
+      "level": 3,
+      "description": "You can use magic runes to enhance your gear. You start with two runes and learn additional runes at 7th, 10th, and 15th levels. You can inscribe these runes on objects you can wear or hold, with one rune per object at a time.",
+      "runes": {
+        "cloud_rune": {
+          "description": "You have advantage on Dexterity (Sleight of Hand) and Charisma (Deception) checks. As a reaction, you can redirect an attack to another creature within 30 feet of you, using the same roll."
+        },
+        "fire_rune": {
+          "description": "You double your proficiency bonus for tool-related ability checks. When you hit with a weapon attack, you can deal an extra 2d6 fire damage and restrain the target with fiery shackles. The shackles deal 2d6 fire damage per turn until the target succeeds on a Strength saving throw."
+        },
+        "frost_rune": {
+          "description": "You have advantage on Wisdom (Animal Handling) and Charisma (Intimidation) checks. As a bonus action, you gain a +2 bonus to Strength and Constitution checks and saving throws for 10 minutes."
+        },
+        "stone_rune": {
+          "description": "You have advantage on Wisdom (Insight) checks and darkvision out to 120 feet. As a reaction, you can force a creature within 30 feet to make a Wisdom saving throw or be charmed and incapacitated for 1 minute."
+        },
+        "hill_rune": {
+          "level": 7,
+          "description": "You have advantage on saving throws against poison and resistance to poison damage. As a bonus action, you can gain resistance to bludgeoning, piercing, and slashing damage for 1 minute."
+        },
+        "storm_rune": {
+          "level": 7,
+          "description": "You have advantage on Intelligence (Arcana) checks and can't be surprised while not incapacitated. As a bonus action, you can grant advantage or disadvantage on attack rolls, saving throws, or ability checks within 60 feet for 1 minute."
+        }
+      }
+    },
+    "giant_might": {
+      "level": 3,
+      "description": "As a bonus action, you gain the following benefits for 1 minute: You become Large (or increase size if already Large), have advantage on Strength checks and saving throws, and deal an extra 1d6 damage with one attack per turn. You can use this feature a number of times equal to your proficiency bonus, regaining uses after a long rest."
+    },
+    "runic_shield": {
+      "level": 7,
+      "description": "As a reaction, you can force an attacker within 60 feet to reroll their attack roll. You can use this feature a number of times equal to your proficiency bonus, regaining uses after a long rest."
+    },
+    "great_stature": {
+      "level": 10,
+      "description": "You grow in height by rolling 3d4 inches. The extra damage from Giant's Might increases to 1d8."
+    },
+    "master_of_runes": {
+      "level": 15,
+      "description": "You can invoke each rune you know twice per rest, rather than once."
+    },
+    "runic_juggernaut": {
+      "level": 18,
+      "description": "The extra damage from Giant's Might increases to 1d10. You can increase to Huge size, which also increases your reach by 5 feet."
+    }
+  }
+}

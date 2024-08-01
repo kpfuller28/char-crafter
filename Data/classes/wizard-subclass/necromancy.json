@@ -1,0 +1,44 @@
+{
+    "name": "Necromancy Magic",
+    "source": "Player's Handbook",
+    "description": "Necromancers delve into the dark and powerful forces of life, death, and undeath. They manipulate the energy that animates life to their advantage, transforming it into magical power and commanding the undead.",
+    "features": {
+      "necromancy_savant": {
+        "description": "At 2nd level, the gold and time required to copy Necromancy spells into your spellbook is halved.",
+        "benefits": [
+          "Halve the cost and time to copy Necromancy spells into your spellbook."
+        ]
+      },
+      "grim_harvest": {
+        "description": "At 2nd level, when you kill one or more creatures with a spell of 1st level or higher, you can regain hit points equal to twice the spell's level, or three times its level if the spell is from the School of Necromancy. This does not apply to constructs or undead.",
+        "benefits": [
+          "Regain hit points equal to twice the spell's level (or three times if it's a Necromancy spell) when you kill creatures with a spell.",
+          "Does not apply to constructs or undead."
+        ]
+      },
+      "undead_thralls": {
+        "description": "At 6th level, you add the Animate Dead spell to your spellbook. When you cast Animate Dead, you can target one additional corpse or pile of bones. Created undead have increased hit points equal to your wizard level and add your proficiency bonus to their weapon damage rolls.",
+        "benefits": [
+          "Add Animate Dead to your spellbook.",
+          "Target one additional corpse or pile of bones with Animate Dead.",
+          "Created undead have increased hit points (equal to your wizard level).",
+          "Created undead add your proficiency bonus to weapon damage rolls."
+        ]
+      },
+      "inured_to_undeath": {
+        "description": "At 10th level, you gain resistance to necrotic damage and your hit point maximum cannot be reduced. This reflects your extensive experience with undead and necromantic forces.",
+        "benefits": [
+          "Resistance to necrotic damage.",
+          "Hit point maximum cannot be reduced."
+        ]
+      },
+      "command_undead": {
+        "description": "At 14th level, you can use magic to control undead, including those created by other wizards. As an action, you can force an undead within 60 feet to make a Charisma saving throw against your spell save DC. On a failure, it becomes friendly and obeys your commands. Intelligent undead have advantage on this saving throw and may repeatedly attempt to break free.",
+        "benefits": [
+          "Control undead within 60 feet with a Charisma saving throw.",
+          "Intelligent undead have advantage on saving throw and can attempt to break free after each hour."
+        ]
+      }
+    }
+  }
+  

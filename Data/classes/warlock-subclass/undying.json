@@ -1,0 +1,47 @@
+{
+    "name": "Undying",
+    "source": "Sword Coast Adventurer's Guide",
+    "description": "You have made a pact with an Undying being who has unlocked the secrets of everlasting life. These ancient entities, who once were mortal, now possess vast knowledge of life and death. Examples include Vecna, the dread Iuz, and the lich-queen Vol.",
+    "expanded_spell_list": {
+      "1st": ["False Life", "Ray of Sickness"],
+      "2nd": ["Blindness/Deafness", "Silence"],
+      "3rd": ["Feign Death", "Speak with Dead"],
+      "4th": ["Aura of Life", "Death Ward"],
+      "5th": ["Contagion", "Legend Lore"]
+    },
+    "features": {
+      "among_the_dead": {
+        "description": "At 1st level, you gain the Spare the Dying cantrip and have advantage on saving throws against disease. Additionally, undead have difficulty harming you directly. An undead must make a Wisdom saving throw to target you with an attack or harmful spell, potentially wasting the attack or spell on a failed save.",
+        "benefits": [
+          "Spare the Dying cantrip.",
+          "Advantage on saving throws against disease.",
+          "Undead must make a Wisdom saving throw to target you directly."
+        ]
+      },
+      "defy_death": {
+        "description": "At 6th level, you can regain hit points equal to 1d8 + your Constitution modifier when you succeed on a death saving throw or stabilize a creature with Spare the Dying. This feature recharges on a long rest.",
+        "benefits": [
+          "Regain hit points when succeeding on a death saving throw or stabilizing a creature with Spare the Dying."
+        ],
+        "restrictions": "Recharge on a long rest."
+      },
+      "undying_nature": {
+        "description": "At 10th level, you can hold your breath indefinitely, don't require food, water, or sleep, and age at a much slower rate. You are also immune to magical aging.",
+        "benefits": [
+          "Hold breath indefinitely.",
+          "No need for food, water, or sleep.",
+          "Age slower (1 year per 10 years).",
+          "Immune to magical aging."
+        ]
+      },
+      "indestructible_life": {
+        "description": "At 14th level, you can use a bonus action to regain hit points equal to 1d8 + your warlock level. If you reattach a severed body part using this feature, the part reattaches.",
+        "benefits": [
+          "Regain hit points equal to 1d8 + your warlock level as a bonus action.",
+          "Reattach severed body parts."
+        ],
+        "restrictions": "Recharge on a short or long rest."
+      }
+    }
+  }
+  

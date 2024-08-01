@@ -1,0 +1,48 @@
+{
+  "name": "Alchemist",
+  "source": "Tasha's Cauldron of Everything/Eberron: Rising from the Last War",
+  "description": "The Alchemist is an artificer specialization that focuses on combining reagents to create mystical effects. Alchemists can heal and harm with their creations and are versatile in both war and peace.",
+  "features": {
+    "tool_proficiency": {
+      "level": 3,
+      "description": "When you adopt this specialization at 3rd level, you gain proficiency with alchemist's supplies. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+    },
+    "alchemist_spells": {
+      "level": 3,
+      "description": "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.",
+      "spells": {
+        "3rd": ["Healing Word", "Ray of Sickness"],
+        "5th": ["Flaming Sphere", "Melf's Acid Arrow"],
+        "9th": ["Gaseous Form", "Mass Healing Word"],
+        "13th": ["Blight", "Death Ward"],
+        "17th": ["Cloudkill", "Raise Dead"]
+      }
+    },
+    "experimental_elixir": {
+      "level": 3,
+      "description": "Beginning at 3rd level, whenever you finish a long rest, you can magically produce an experimental elixir in an empty flask you touch. Roll on the Experimental Elixir table for the elixir's effect, which is triggered when someone drinks the elixir. As an action, a creature can drink the elixir or administer it to an incapacitated creature. You can create additional experimental elixirs by expending a spell slot of 1st level or higher for each one.",
+      "elixirs": {
+        "d6": {
+          "1": "Healing: The drinker regains a number of hit points equal to 2d4 + your Intelligence Modifier.",
+          "2": "Swiftness: The drinker's walking speed increases by 10 feet for 1 hour.",
+          "3": "Resilience: The drinker gains a +1 bonus to AC for 10 minutes.",
+          "4": "Boldness: The drinker can roll a d4 and add the number rolled to every attack roll and saving throw they make for the next minute.",
+          "5": "Flight: The drinker gains a flying speed of 10 feet for 10 minutes.",
+          "6": "Transformation: The drinker's body is transformed as if by the Alter Self spell. The drinker determines the transformation caused by the spell, the effects of which last for 10 minutes."
+        }
+      }
+    },
+    "alchemical_savant": {
+      "level": 5,
+      "description": "At 5th level, you've developed masterful command of magical chemicals, enhancing the healing and damage you create through them. Whenever you cast a spell using your alchemist's supplies as the spellcasting focus, you gain a bonus to one roll of the spell. That roll must restore hit points or be a damage roll that deals acid, fire, necrotic, or poison damage, and the bonus equals your Intelligence modifier (minimum of +1)."
+    },
+    "restorative_reagents": {
+      "level": 9,
+      "description": "Starting at 9th level, you can incorporate restorative reagents into some of your works: Whenever a creature drinks an experimental elixir you created, the creature gains temporary hit points equal to 2d6 + your Intelligence modifier (minimum of 1 temporary hit point). You can cast Lesser Restoration without expending a spell slot and without preparing the spell, provided you use alchemist's supplies as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+    },
+    "chemical_mastery": {
+      "level": 15,
+      "description": "By 15th level, you have been exposed to so many chemicals that they pose little risk to you, and you can use them to quickly end certain ailments: You gain resistance to acid damage and poison damage, and you are now immune to the poisoned condition. You can cast Greater Restoration and Heal without expending a spell slot, without preparing the spell, and without providing the material component, provided you use alchemist’s supplies as the spellcasting focus. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Oath of Vengeance",
+  "source": "Player's Handbook",
+  "description": "The Oath of Vengeance is a solemn commitment to punish those who have committed grievous sins. These paladins, sometimes called avengers or dark knights, focus on delivering justice to those who have done evil, prioritizing this mission over their own purity.",
+  "tenets": {
+    "fight_the_greater_evil": "Faced with a choice between combating a lesser evil or my sworn foes, I choose to fight the greater evil.",
+    "no_mercy_for_the_wicked": "Ordinary foes might win my mercy, but my sworn enemies do not.",
+    "by_any_means_necessary": "My qualms can’t get in the way of exterminating my foes.",
+    "restitution": "If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds."
+  },
+  "oath_spells": {
+    "3rd_level": ["Bane", "Hunter's Mark"],
+    "5th_level": ["Hold Person", "Misty Step"],
+    "9th_level": ["Haste", "Protection from Energy"],
+    "13th_level": ["Banishment", "Dimension Door"],
+    "17th_level": ["Hold Monster", "Scrying"]
+  },
+  "channel_divinity": {
+    "abjure_enemy": {
+      "description": "Channel your divine energy to frighten an enemy or hinder its speed.",
+      "effect": "As an action, present your holy symbol and choose one creature within 60 feet. The creature must make a Wisdom saving throw, with fiends and undead at disadvantage. On a failed save, it is frightened for 1 minute or until it takes damage, and its speed is 0. On a successful save, its speed is halved for 1 minute or until it takes damage."
+    },
+    "vow_of_enmity": {
+      "description": "Utter a vow to gain advantage on attacks against a specific foe.",
+      "effect": "As a bonus action, utter a vow of enmity against a creature within 10 feet. Gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious."
+    }
+  },
+  "relentless_avenger": {
+    "7th_level": {
+      "description": "Close off a foe's retreat after hitting them.",
+      "effect": "When you hit a creature with an opportunity attack, move up to half your speed immediately after the attack as part of the same reaction. This movement doesn’t provoke opportunity attacks."
+    }
+  },
+  "soul_of_vengeance": {
+    "15th_level": {
+      "description": "Use your Vow of Enmity to attack a foe when it attacks.",
+      "effect": "When a creature under the effect of your Vow of Enmity makes an attack, use your reaction to make a melee weapon attack against that creature if it is within range."
+    }
+  },
+  "avenging_angel": {
+    "20th_level": {
+      "description": "Transform into an angelic avenger with flight and an aura of menace.",
+      "effect": "For 1 hour, gain a flying speed of 60 feet and emit an aura of menace in a 30-foot radius. Enemies that enter the aura or start their turn there must make a Wisdom saving throw or become frightened for 1 minute or until they take damage. Attack rolls against frightened creatures have advantage. You can use this feature once per long rest."
+    }
+  }
+}

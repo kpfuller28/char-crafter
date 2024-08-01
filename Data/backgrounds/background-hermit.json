@@ -14,7 +14,7 @@
     "features": {
       "life_of_seclusion": {
         "description": "What was the reason for your isolation, and what changed to allow you to end your solitude? You can work with your DM to determine the exact nature of your seclusion, or you can choose to roll on the table below to determine the reason behind your seclusion.",
-        "d8": [
+        "seclusion_reason": [
           { "1": "I was searching for spiritual enlightenment." },
           { "2": "I was partaking of communal living in accordance with the dictates of a religious order." },
           { "3": "I was exiled for a crime I didn't commit." },
@@ -29,38 +29,32 @@
     },
     "suggested_characteristics": {
       "personality_traits": [
-        { "d8": 1, "trait": "I've been isolated for so long that I rarely speak, preferring gestures and the occasional grunt." },
-        { "d8": 2, "trait": "I am utterly serene, even in the face of disaster." },
-        { "d8": 3, "trait": "The leader of my community had something wise to say on every topic, and I am eager to share that wisdom." },
-        { "d8": 4, "trait": "I feel tremendous empathy for all who suffer." },
-        { "d8": 5, "trait": "I'm oblivious to etiquette and social expectations." },
-        { "d8": 6, "trait": "I connect everything that happens to me to a grand, cosmic plan." },
-        { "d8": 7, "trait": "I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings." },
-        { "d8": 8, "trait": "I am working on a grand philosophical theory and love sharing my ideas." }
-      ]
-    },
-    "ideals": {
-      "d6": [
-        { "1": "Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)" },
-        { "2": "Logic. Emotions must not cloud our sense of what is right and true, or our logical thinking. (Lawful)" },
-        { "3": "Free Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)" },
-        { "4": "Power. Solitude and contemplation are paths toward mystical or magical power. (Evil)" },
-        { "5": "Live and Let Live. Meddling in the affairs of others only causes trouble. (Neutral)" },
-        { "6": "Self-Knowledge. If you know yourself, there's nothing left to know. (Any)" }
-      ]
-    },
-    "bonds": {
-      "d6": [
+        { "1": "I've been isolated for so long that I rarely speak, preferring gestures and the occasional grunt." },
+        { "2": "I am utterly serene, even in the face of disaster." },
+        { "3": "The leader of my community had something wise to say on every topic, and I am eager to share that wisdom." },
+        { "4": "I feel tremendous empathy for all who suffer." },
+        { "5": "I'm oblivious to etiquette and social expectations." },
+        { "6": "I connect everything that happens to me to a grand, cosmic plan." },
+        { "7": "I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings." },
+        { "8": "I am working on a grand philosophical theory and love sharing my ideas." }
+      ],
+    "ideals": [
+        { "1": "Greater Good. My gifts are meant to be shared with all, not used for my own benefit.", "alignment": " (Good)" },
+        { "2": "Logic. Emotions must not cloud our sense of what is right and true, or our logical thinking.", "alignment": " (Lawful)" },
+        { "3": "Free Thinking. Inquiry and curiosity are the pillars of progress.", "alignment": " (Chaotic)" },
+        { "4": "Power. Solitude and contemplation are paths toward mystical or magical power.", "alignment": " (Evil)" },
+        { "5": "Live and Let Live. Meddling in the affairs of others only causes trouble.", "alignment": " (Neutral)" },
+        { "6": "Self-Knowledge. If you know yourself, there's nothing left to know.", "alignment": " (Any)" }
+      ],
+    "bonds": [
         { "1": "Nothing is more important than the other members of my hermitage, order, or association." },
         { "2": "I entered seclusion to hide from the ones who might still be hunting me. I must someday confront them." },
         { "3": "I'm still seeking the enlightenment I pursued in my seclusion, and it still eludes me." },
         { "4": "I entered seclusion because I loved someone I could not have." },
         { "5": "Should my discovery come to light, it could bring ruin to the world." },
         { "6": "My isolation gave me great insight into a great evil that only I can destroy." }
-      ]
-    },
-    "flaws": {
-      "d6": [
+      ],
+    "flaws":[
         { "1": "Now that I've returned to the world, I enjoy its delights a little too much." },
         { "2": "I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell." },
         { "3": "I am dogmatic in my thoughts and philosophy." },

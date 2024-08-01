@@ -1,0 +1,51 @@
+{
+    "name": "Celestial",
+    "source": "Xanathar's Guide to Everything",
+    "description": "Your patron is a powerful being of the Upper Planes, such as an empyrean, solar, ki-rin, unicorn, or other celestial entity. This connection allows you to channel holy light and brings a drive to fight against undead, fiends, and protect the innocent. Though you long for the celestial realms, your pact binds you to bring light to the dark places of the world.",
+    "expanded_spell_list": {
+      "1st": ["Cure Wounds", "Guiding Bolt"],
+      "2nd": ["Flaming Sphere", "Lesser Restoration"],
+      "3rd": ["Daylight", "Revivify"],
+      "4th": ["Guardian of Faith", "Wall of Fire"],
+      "5th": ["Flame Strike", "Greater Restoration"]
+    },
+    "bonus_cantrips": {
+      "1st": ["Light", "Sacred Flame"]
+    },
+    "features": {
+      "healing_light": {
+        "description": "At 1st level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s equal to 1 + your warlock level. As a bonus action, you can heal a creature within 60 feet by spending dice from this pool, with the maximum number of dice spent equal to your Charisma modifier (minimum one die). The total rolled restores hit points to the creature.",
+        "mechanics": [
+          "Pool of d6s equals 1 + your warlock level.",
+          "Bonus action to heal a creature within 60 feet.",
+          "Spend dice from the pool, maximum number of dice equal to Charisma modifier (minimum one die).",
+          "Total rolled restores hit points.",
+          "Pool regains all dice after a long rest."
+        ]
+      },
+      "radiant_soul": {
+        "description": "Starting at 6th level, you have resistance to radiant damage. Additionally, when casting a spell that deals radiant or fire damage, add your Charisma modifier to one damage roll of that spell against one target.",
+        "mechanics": [
+          "Resistance to radiant damage.",
+          "Add Charisma modifier to one radiant or fire damage roll of a spell."
+        ]
+      },
+      "celestial_resistance": {
+        "description": "Starting at 10th level, you gain temporary hit points equal to your warlock level + Charisma modifier whenever you finish a short or long rest. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain temporary hit points equal to half your warlock level + Charisma modifier.",
+        "mechanics": [
+          "Temporary hit points equal to warlock level + Charisma modifier after a short or long rest.",
+          "Choose up to five creatures to gain temporary hit points equal to half your warlock level + Charisma modifier."
+        ]
+      },
+      "searing_vengeance": {
+        "description": "Starting at 14th level, when you need to make a death saving throw, you can use radiant energy to regain hit points equal to half your hit point maximum and stand up if you choose. Creatures within 30 feet of you take radiant damage equal to 2d8 + your Charisma modifier and are blinded until the end of the current turn.",
+        "mechanics": [
+          "Regain hit points equal to half your hit point maximum when making a death saving throw.",
+          "Stand up if you choose.",
+          "Creatures within 30 feet take radiant damage equal to 2d8 + Charisma modifier and are blinded until the end of the current turn.",
+          "Once per long rest."
+        ]
+      }
+    }
+  }
+  

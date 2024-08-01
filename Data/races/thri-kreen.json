@@ -1,0 +1,28 @@
+{
+  "name": "Thri-kreen",
+  "description": "Thri-kreen have insectile features and two pairs of arms. Their bodies are encased in protective chitin, which can change color to blend in with their surroundings. They do not sleep but require periods of inactivity to rejuvenate. They communicate through mandible clacking and antennae movements, using telepathy to interact with other creatures.",
+  "features": {
+    "ability_score_increase": "Increase one ability score by 2, and increase a different score by 1, or increase three different scores by 1.",
+    "creature_type": "Monstrosity",
+    "size": "You are Medium or Small. You choose the size when you select this race.",
+    "speed": {
+      "walking": "30 feet"
+    },
+    "chameleon_carapace": {
+      "description": "While you aren’t wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier. As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity (Stealth) checks made to hide in those surroundings."
+    },
+    "darkvision": {
+      "description": "You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+    },
+    "secondary_arms": {
+      "description": "You have two slightly smaller secondary arms below your primary pair of arms. These secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property."
+    },
+    "sleepless": {
+      "description": "You do not require sleep and can choose to remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest."
+    },
+    "thri-kreen_telepathy": {
+      "description": "You use telepathy to convey your thoughts to willing creatures within 120 feet of yourself. The creature must understand at least one language but does not need to share a language with you. The telepathic link is broken if either of you moves more than 120 feet apart, if either is incapacitated, or if either mentally breaks the contact."
+    },
+    "languages": "You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character."
+  }
+}

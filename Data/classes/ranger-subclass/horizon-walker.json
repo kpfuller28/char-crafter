@@ -1,0 +1,68 @@
+{
+  "name": "Horizon Walker",
+  "source": "Xanathar's Guide to Everything",
+  "description": "Horizon Walkers protect the mortal realm from otherworldly threats, keeping watch over planar portals and traveling between planes to combat dangers that arise from beyond the material world.",
+  "features": {
+    "horizon_walker_magic": {
+      "description": "At 3rd level, you gain access to additional spells that help you guard against planar threats.",
+      "spells": [
+        {
+          "level": 3,
+          "spell": "Protection from Evil and Good"
+        },
+        {
+          "level": 5,
+          "spell": "Misty Step"
+        },
+        {
+          "level": 9,
+          "spell": "Haste"
+        },
+        {
+          "level": 13,
+          "spell": "Banishment"
+        },
+        {
+          "level": 17,
+          "spell": "Teleportation Circle"
+        }
+      ]
+    },
+    "detect_portal": {
+      "description": "At 3rd level, you can sense the presence of planar portals.",
+      "details": {
+        "ability": "As an action, you detect the distance and direction to the closest planar portal within 1 mile.",
+        "rest_requirement": "Once used, you can't use this feature again until you finish a short or long rest."
+      }
+    },
+    "planar_warrior": {
+      "description": "At 3rd level, you can channel multiversal energy to enhance your attacks.",
+      "details": {
+        "bonus_action": "As a bonus action, choose one creature you can see within 30 feet.",
+        "force_damage": "The next time you hit that creature with a weapon attack, all damage dealt becomes force damage.",
+        "extra_damage": "The creature takes an extra 1d8 force damage (increases to 2d8 at 11th level)."
+      }
+    },
+    "ethereal_step": {
+      "description": "At 7th level, you can temporarily step into the Ethereal Plane.",
+      "details": {
+        "bonus_action": "As a bonus action, cast Etherealness without expending a spell slot.",
+        "duration": "The spell ends at the end of the current turn.",
+        "rest_requirement": "You can't use this feature again until you finish a short or long rest."
+      }
+    },
+    "distant_strike": {
+      "description": "At 11th level, you can teleport short distances between attacks.",
+      "details": {
+        "teleportation": "When you use the Attack action, you can teleport up to 10 feet before each attack.",
+        "additional_attack": "If you attack at least two different creatures, you can make one additional attack against a third creature."
+      }
+    },
+    "spectral_defense": {
+      "description": "At 15th level, you can use your planar movement to reduce damage.",
+      "details": {
+        "reaction_to_damage": "When you take damage from an attack, use your reaction to gain resistance to all of that attack's damage for the turn."
+      }
+    }
+  }
+}

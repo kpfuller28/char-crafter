@@ -1,0 +1,40 @@
+{
+  "name": "Oathbreaker",
+  "source": "Dungeon Master's Guide",
+  "description": "Oathbreakers are paladins who have forsaken their sacred oaths in favor of dark ambitions or malevolent powers. Their connection to the light has been severed, leaving only darkness behind.",
+  "oath_spells": {
+    "3rd_level": ["Hellish Rebuke", "Inflict Wounds"],
+    "5th_level": ["Crown of Madness", "Darkness"],
+    "9th_level": ["Animate Dead", "Bestow Curse"],
+    "13th_level": ["Blight", "Confusion"],
+    "17th_level": ["Contagion", "Dominate Person"]
+  },
+  "channel_divinity": {
+    "control_undead": {
+      "description": "Command an undead creature to obey your orders.",
+      "effect": "As an action, target one undead creature within 30 feet. The target must make a Wisdom saving throw. On a failed save, it obeys your commands for 24 hours or until you use this feature again. Undead with a challenge rating equal to or greater than your paladin level are immune."
+    },
+    "dreadful_aspect": {
+      "description": "Instill fear in creatures around you.",
+      "effect": "As an action, create an aura of terror. Each creature of your choice within 30 feet must make a Wisdom saving throw if it can see you. On a failed save, it is frightened for 1 minute. If it ends its turn more than 30 feet away from you, it can make another Wisdom saving throw to end the effect."
+    }
+  },
+  "aura_of_hate": {
+    "7th_level": {
+      "description": "Channel hatred to empower yourself and nearby fiends and undead.",
+      "effect": "You and any fiends or undead within 10 feet of you gain a bonus to melee weapon damage rolls equal to your Charisma modifier (minimum of +1). At 18th level, this aura's range increases to 30 feet."
+    }
+  },
+  "supernatural_resistance": {
+    "15th_level": {
+      "description": "Gain resistance to non-magical weapon damage.",
+      "effect": "You gain resistance to bludgeoning, piercing, and slashing damage from non-magical weapons."
+    }
+  },
+  "dread_lord": {
+    "20th_level": {
+      "description": "Surround yourself with an aura of darkness and terror.",
+      "effect": "As an action, create an aura of gloom that lasts for 1 minute. It dims bright light in a 30-foot radius to dim light. Frightened enemies within the aura take 4d10 psychic damage at the start of their turn. You and chosen creatures within the aura gain deeper shadow, causing creatures relying on sight to have disadvantage on attack rolls. As a bonus action, you can make a melee spell attack against one creature in the aura. On a hit, it takes necrotic damage equal to 3d10 + your Charisma modifier. This feature can’t be used again until you finish a long rest."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Archfey",
+    "source": "Player's Handbook",
+    "description": "Your patron is a lord or lady of the fey, a creature of legend with motivations that are often inscrutable and whimsical. This patron might be driven by a desire for greater magical power or by ancient grudges. Notable beings include the Prince of Frost, the Queen of Air and Darkness, Titania, Oberon, Hyrsam, and ancient hags.",
+    "expanded_spell_list": {
+      "1st": ["Faerie Fire", "Sleep"],
+      "2nd": ["Calm Emotions", "Phantasmal Force"],
+      "3rd": ["Blink", "Plant Growth"],
+      "4th": ["Dominate Beast", "Greater Invisibility"],
+      "5th": ["Dominate Person", "Seeming"]
+    },
+    "features": {
+      "fey_presence": {
+        "description": "Starting at 1st level, you can project the beguiling and fearsome presence of the fey. As an action, cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. Those that fail are charmed or frightened (your choice) until the end of your next turn.",
+        "mechanics": [
+          "Action to cause creatures in a 10-foot cube to make a Wisdom saving throw.",
+          "Creatures that fail are charmed or frightened (your choice) until the end of your next turn.",
+          "Once per short or long rest."
+        ]
+      },
+      "misty_escape": {
+        "description": "Starting at 6th level, you can use your reaction to turn invisible and teleport up to 60 feet when you take damage. You remain invisible until the start of your next turn or until you attack or cast a spell.",
+        "mechanics": [
+          "Reaction to turn invisible and teleport up to 60 feet when taking damage.",
+          "Remain invisible until the start of your next turn or until you attack or cast a spell.",
+          "Once per short or long rest."
+        ]
+      },
+      "beguiling_defenses": {
+        "description": "Beginning at 10th level, you become immune to being charmed. When another creature attempts to charm you, you can use your reaction to attempt to charm the creature instead. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be charmed by you for 1 minute or until it takes damage.",
+        "mechanics": [
+          "Immune to being charmed.",
+          "Reaction to attempt to charm a creature that tries to charm you.",
+          "Creature must succeed on a Wisdom saving throw or be charmed by you for 1 minute or until it takes damage."
+        ]
+      },
+      "dark_delirium": {
+        "description": "Starting at 14th level, you can create an illusory realm to charm or frighten a creature. As an action, choose a creature within 60 feet to make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is charmed or frightened (your choice) for 1 minute or until your concentration is broken. The creature perceives itself in a misty realm of your choice, seeing and hearing only itself, you, and the illusion.",
+        "mechanics": [
+          "Action to force a Wisdom saving throw against your warlock spell save DC.",
+          "On a failed save, the creature is charmed or frightened (your choice) for 1 minute or until concentration is broken.",
+          "The creature perceives itself in a misty realm of your choice, seeing and hearing only itself, you, and the illusion.",
+          "Once per short or long rest."
+        ]
+      }
+    }
+  }
+  

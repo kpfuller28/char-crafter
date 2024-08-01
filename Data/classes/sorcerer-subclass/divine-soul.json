@@ -1,0 +1,46 @@
+{
+    "name": "Divine Soul",
+    "source": "Xanathar's Guide to Everything",
+    "description": "Divine Soul sorcerers channel divine magic that originates from a powerful celestial or prophetic source. They possess innate magic that reflects their celestial heritage or divine connection, and they can wield spells typically associated with clerics. This archetype is marked by their connection to divine power, which can be perceived as both a blessing and a threat by various religious hierarchies.",
+    "features": {
+      "divine_magic": {
+        "description": "Starting at 1st level, you can choose spells from the cleric spell list or the sorcerer spell list when your Spellcasting feature lets you learn a new spell. You must follow all restrictions for spell selection, and the spell becomes a sorcerer spell for you. Additionally, you gain an extra spell based on your chosen divine affinity, which does not count against your number of sorcerer spells known. If you later replace this spell, it must be replaced with another cleric spell.",
+        "spells": {
+          "good": "Cure Wounds",
+          "evil": "Inflict Wounds",
+          "law": "Bless",
+          "chaos": "Bane",
+          "neutrality": "Protection from Evil and Good"
+        }
+      },
+      "favored_by_the_gods": {
+        "description": "At 1st level, divine power guards your destiny. If you fail a saving throw or miss with an attack roll, you can roll 2d4 and add the result to the total. This may change the outcome. You can use this feature once per short or long rest.",
+        "mechanics": [
+          "Roll 2d4 and add the result to a failed saving throw or missed attack roll.",
+          "Use once per short or long rest."
+        ]
+      },
+      "empowered_healing": {
+        "description": "At 6th level, you can enhance healing spells with divine energy. When you or an ally within 5 feet of you rolls dice for a healing spell, you can spend 1 sorcery point to reroll any number of those dice once. This feature can be used only once per turn and only if you are not incapacitated.",
+        "mechanics": [
+          "Spend 1 sorcery point to reroll dice for healing spells.",
+          "Use only once per turn and only if not incapacitated."
+        ]
+      },
+      "angelic_form": {
+        "description": "At 14th level, you can manifest spectral wings as a bonus action, granting you a flying speed of 30 feet. The wings last until you are incapacitated, die, or dismiss them. The appearance of the wings is determined by your chosen affinity: eagle wings for good or law, bat wings for evil or chaos, and dragonfly wings for neutrality.",
+        "mechanics": [
+          "Manifest spectral wings for a flying speed of 30 feet.",
+          "Wings last until incapacitated, dead, or dismissed."
+        ]
+      },
+      "unearthly_recovery": {
+        "description": "At 18th level, you can use a bonus action to regain hit points equal to half your hit point maximum when you have fewer than half of your hit points remaining. This feature can be used once per long rest.",
+        "mechanics": [
+          "Regain hit points equal to half your hit point maximum when below half HP.",
+          "Use once per long rest."
+        ]
+      }
+    }
+  }
+  

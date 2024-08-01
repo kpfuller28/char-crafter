@@ -1,0 +1,48 @@
+{
+  "name": "Twilight Domain",
+  "source": "Tasha's Cauldron of Everything",
+  "description": "The Twilight Domain represents the calm and comfort of the transition from light to darkness. Clerics of this domain protect against the fears of the night and provide solace and safety during the hours of rest. They ensure that the darkness serves as a comfort rather than a terror.",
+  "deities": [
+    { "name": "Boldrei", "pantheon": "Eberron" },
+    { "name": "Celestian", "pantheon": "Greyhawk" },
+    { "name": "Dol Arrah", "pantheon": "Eberron" },
+    { "name": "Helm", "pantheon": "Forgotten Realms" },
+    { "name": "Ilmater", "pantheon": "Forgotten Realms" },
+    { "name": "Mishakal", "pantheon": "Dragonlance" },
+    { "name": "Selûne", "pantheon": "Forgotten Realms" },
+    { "name": "Yondalla", "pantheon": "Halfling" }
+  ],
+  "spells": {
+    "1st": ["Faerie Fire", "Sleep"],
+    "3rd": ["Moonbeam", "See Invisibility"],
+    "5th": ["Aura of Vitality", "Leomund's Tiny Hut"],
+    "7th": ["Aura of Life", "Greater Invisibility"],
+    "9th": ["Circle of Power", "Mislead"]
+  },
+  "features": {
+    "eyes_of_night": {
+      "level": 1,
+      "description": "Gain darkvision out to a range of 300 feet, and can see in dim light as if it were bright light and in darkness as if it were dim light. You can share this darkvision with willing creatures within 10 feet for 1 hour."
+    },
+    "vigilant_blessing": {
+      "level": 1,
+      "description": "Give one creature advantage on the next initiative roll it makes. The benefit ends immediately after the roll or if you use this feature again."
+    },
+    "channel_divinity_twilight_sanctuary": {
+      "level": 2,
+      "description": "Create a sphere of twilight with a 30-foot radius that moves with you and lasts for 1 minute. Creatures (including you) that end their turn in the sphere gain either temporary hit points or the end of a charm or fright effect."
+    },
+    "steps_of_night": {
+      "level": 6,
+      "description": "Gain a flying speed equal to your walking speed for 1 minute when in dim light or darkness. Usable a number of times equal to your proficiency bonus, regained on a long rest."
+    },
+    "divine_strike": {
+      "level": 8,
+      "description": "Add 1d8 radiant damage to your weapon attacks. Increases to 2d8 at 14th level."
+    },
+    "twilight_shroud": {
+      "level": 17,
+      "description": "While in the sphere created by your Twilight Sanctuary, you and your allies have half cover."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "name": "Illusion Magic",
+    "source": "Player's Handbook",
+    "description": "Illusionists specialize in creating illusions that deceive the senses and alter perceptions. Whether for entertainment or manipulation, their magic makes the impossible seem real and can influence the minds of those who witness it.",
+    "features": {
+      "illusion_savant": {
+        "description": "At 2nd level, the gold and time required to copy Illusion spells into your spellbook is halved.",
+        "benefits": [
+          "Halve the cost and time to copy Illusion spells into your spellbook."
+        ]
+      },
+      "improved_minor_illusion": {
+        "description": "When you choose this school at 2nd level, you learn the Minor Illusion cantrip, or a different wizard cantrip of your choice if you already know Minor Illusion. When casting Minor Illusion, you can create both a sound and an image with a single casting.",
+        "benefits": [
+          "Learn the Minor Illusion cantrip (or another wizard cantrip of your choice).",
+          "When casting Minor Illusion, create both a sound and an image."
+        ]
+      },
+      "malleable_illusions": {
+        "description": "Starting at 6th level, when you cast an illusion spell with a duration of 1 minute or longer, you can use your action to change the nature of that illusion, provided you can see it.",
+        "benefits": [
+          "Change the nature of an ongoing illusion spell with a duration of 1 minute or longer using your action."
+        ]
+      },
+      "illusory_self": {
+        "description": "At 10th level, you can create an illusory duplicate of yourself as a reaction when a creature attacks you. The attack automatically misses and the illusion dissipates. This feature can't be used again until you finish a short or long rest.",
+        "benefits": [
+          "Create an illusory duplicate to automatically avoid an attack.",
+          "Feature recharges after a short or long rest."
+        ]
+      },
+      "illusory_reality": {
+        "description": "By 14th level, when you cast an illusion spell of 1st level or higher, you can make one inanimate, non-magical object from the illusion real. This object remains real for 1 minute and can't deal damage or harm anyone.",
+        "benefits": [
+          "Make one inanimate, non-magical object from an illusion real for 1 minute.",
+          "The object cannot deal damage or directly harm anyone."
+        ]
+      }
+    }
+  }
+  

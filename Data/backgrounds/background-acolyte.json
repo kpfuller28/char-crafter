@@ -46,65 +46,54 @@
         "alignment": "(Lawful)"
       },
       {
-        "2": "Charity. I always try to help those in need, no matter what the personal cost. (Good)"
+        "2": "Charity. I always try to help those in need, no matter what the personal cost.",
+        "alignment": "(Good)"
       },
       {
-        "3": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)"
+        "3": "Change. We must help bring about the changes the gods are constantly working in the world.",
+        "alignment": "(Chaotic)"
       },
       {
-        "4": "Power. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)"
+        "4": "Power. I hope to one day rise to the top of my faith's religious hierarchy.",
+        "alignment": "(Lawful)"
       },
       {
-        "5": "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)"
+        "5": "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well.",
+        "alignment": "(Lawful)"
       },
       {
-        "6": "Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against their teachings. (Any)"
+        "6": "Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against their teachings.",
+        "alignment": " (Any)"
       }
     ],
     "bonds": [
       {
-        "d6": 1,
-        "bond": "I would die to recover an ancient relic of my faith that was lost long ago."
+        "1": "I would die to recover an ancient relic of my faith that was lost long ago."
       },
       {
-        "d6": 2,
-        "bond": "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic."
+        "2": "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic."
       },
       {
-        "d6": 3,
-        "bond": "I owe my life to the priest who took me in when my parents died."
+        "3": "I owe my life to the priest who took me in when my parents died."
       },
-      { "d6": 4, "bond": "Everything I do is for the common people." },
+      { "4": "Everything I do is for the common people." },
+      { "5": "I will do anything to protect the temple where I served." },
       {
-        "d6": 5,
-        "bond": "I will do anything to protect the temple where I served."
-      },
-      {
-        "d6": 6,
-        "bond": "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
+        "6": "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
       }
     ],
     "flaws": [
+      { "1": "I judge others harshly, and myself even more severely." },
       {
-        "d6": 1,
-        "flaw": "I judge others harshly, and myself even more severely."
+        "2": "I put too much trust in those who wield power within my temple's hierarchy."
       },
       {
-        "d6": 2,
-        "flaw": "I put too much trust in those who wield power within my temple's hierarchy."
+        "3": "My piety sometimes leads me to blindly trust those that profess faith in my god."
       },
+      { "4": "I am inflexible in my thinking." },
+      { "5": "I am suspicious of strangers and expect the worst of them." },
       {
-        "d6": 3,
-        "flaw": "My piety sometimes leads me to blindly trust those that profess faith in my god."
-      },
-      { "d6": 4, "flaw": "I am inflexible in my thinking." },
-      {
-        "d6": 5,
-        "flaw": "I am suspicious of strangers and expect the worst of them."
-      },
-      {
-        "d6": 6,
-        "flaw": "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+        "6": "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
       }
     ]
   }

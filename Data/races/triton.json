@@ -1,0 +1,28 @@
+{
+  "name": "Triton",
+  "description": "Tritons hail from the Elemental Plane of Water and have taken up the mantle of protectors of the oceans and the surface from evil elementals. They are well-adapted to both the sea and land, with features that include webbed hands and feet and fins on their calves.",
+  "features": {
+    "ability_score_increase": {
+      "description": "When determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20."
+    },
+    "creature_type": "Humanoid",
+    "size": "Medium",
+    "speed": "Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.",
+    "amphibious": {
+      "description": "You can breathe air and water."
+    },
+    "control_air_and_water": {
+      "description": "You can cast Fog Cloud with this trait. Starting at 3rd level, you can cast Gust of Wind. Starting at 5th level, you can also cast Water Walk. Once you cast any of these spells with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+    },
+    "darkvision": {
+      "description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+    },
+    "emissary_of_the_sea": {
+      "description": "You can communicate simple ideas to any Beast, Elemental, or Monstrosity that has a swimming speed. It can understand your words, though you have no special ability to understand it in return."
+    },
+    "guardian_of_the_depths": {
+      "description": "Adapted to the frigid ocean depths, you have resistance to cold damage."
+    },
+    "languages": "You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character."
+  }
+}

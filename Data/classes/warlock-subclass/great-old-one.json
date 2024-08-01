@@ -1,0 +1,46 @@
+{
+    "name": "Great Old One",
+    "source": "Player's Handbook",
+    "description": "Your patron is a mysterious entity from beyond reality, such as those from the Far Realm or ancient elder gods. These beings are indifferent or unaware of mortals, and their motives and knowledge are incomprehensible. Entities of this type include Ghaunadar, Tharizdun, Dendar, Zargon, and Great Cthulhu.",
+    "expanded_spell_list": {
+      "1st": ["Dissonant Whispers", "Tasha's Hideous Laughter"],
+      "2nd": ["Detect Thoughts", "Phantasmal Force"],
+      "3rd": ["Clairvoyance", "Sending"],
+      "4th": ["Dominate Beast", "Evard's Black Tentacles"],
+      "5th": ["Dominate Person", "Telekinesis"]
+    },
+    "features": {
+      "awakened_mind": {
+        "description": "Starting at 1st level, you can telepathically speak to any creature within 30 feet that understands at least one language, regardless of the language you share.",
+        "mechanics": [
+          "Telepathically speak to creatures within 30 feet.",
+          "No need for shared language; creature must understand at least one language."
+        ]
+      },
+      "entropic_ward": {
+        "description": "At 6th level, you can impose disadvantage on an attack roll against you as a reaction. If the attack misses, your next attack roll against the creature has advantage if made before the end of your next turn.",
+        "mechanics": [
+          "Use reaction to impose disadvantage on attack roll against you.",
+          "If the attack misses, gain advantage on your next attack roll against the attacker before the end of your next turn.",
+          "Recharge on a short or long rest."
+        ]
+      },
+      "thought_shield": {
+        "description": "At 10th level, your thoughts are protected from being read, and you have resistance to psychic damage. When a creature deals psychic damage to you, it takes the same amount of damage.",
+        "mechanics": [
+          "Thoughts cannot be read without your permission.",
+          "Resistance to psychic damage.",
+          "Damage dealt to you is also dealt to the attacker."
+        ]
+      },
+      "create_thrall": {
+        "description": "At 14th level, you can infect a humanoid's mind with your patron's magic. Touch an incapacitated humanoid to charm it until a Remove Curse spell is cast, the charm is removed, or you use this feature again. You can communicate telepathically with the charmed creature as long as both are on the same plane.",
+        "mechanics": [
+          "Touch incapacitated humanoid to charm it.",
+          "Charm lasts until Remove Curse is cast, charm is removed, or you use this feature again.",
+          "Telepathic communication with the charmed creature on the same plane."
+        ]
+      }
+    }
+  }
+  

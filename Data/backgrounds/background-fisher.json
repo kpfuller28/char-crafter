@@ -16,51 +16,51 @@
       "fishing_tale": {
         "description": "You can tell a compelling tale, whether tall or true, to impress and entertain others. Once a day, you can tell your story to willing listeners. At the DM's discretion, a number of those listeners become friendly toward you; this is not a magical effect, and continued amicability on their part depends on your actions. You can roll on the following table to help determine the theme of your tale or choose one that best fits your character. Alternatively, work with your DM to create your own fishing tale.",
         "d8": [
-          { "1": "Lobster Wrestling. You fought in hand-to-hand combat with an immense lobster." },
-          { "2": "It Dragged the Boat. You nearly caught a fish of monstrous size that pulled your boat for miles." },
-          { "3": "Fins of Pure Gold. You caught a sea animal whose fins were made of pure gold, but another fisher stole it." },
-          { "4": "Ghost Fish. You are haunted by a ghostly fish that only you can see." },
-          { "5": "Nemesis Clam. A large clam containing a pearl the size of your head claimed one of your fingers before jetting away; one day, you'll find that clam." },
-          { "6": "It Swallowed the Sun. You once saw a fish leap from the water and turn day into night." },
-          { "7": "Dive into the Abyss. You found yourself in an underwater cave leading to the Abyss, and your luck has been sour ever since." },
-          { "8": "Love Story. You fell in love with a creature of pure water, but your brief romance ended tragically." }
+          {"1": "Lobster Wrestling. You fought in hand-to-hand combat with an immense lobster."},
+          {"2": "It Dragged the Boat. You nearly caught a fish of monstrous size that pulled your boat for miles."},
+          {"3": "Fins of Pure Gold. You caught a sea animal whose fins were made of pure gold, but another fisher stole it."},
+          {"4": "Ghost Fish. You are haunted by a ghostly fish that only you can see."},
+          {"5": "Nemesis Clam. A large clam containing a pearl the size of your head claimed one of your fingers before jetting away; one day, you'll find that clam."},
+          {"6": "It Swallowed the Sun. You once saw a fish leap from the water and turn day into night."},
+          {"7": "Dive into the Abyss. You found yourself in an underwater cave leading to the Abyss, and your luck has been sour ever since."},
+          {"8": "Love Story. You fell in love with a creature of pure water, but your brief romance ended tragically."}
         ]
       }
     },
     "suggested_characteristics": {
       "personality_traits": [
-        { "d8": 1, "trait": "I am unmoved by the wrath of nature." },
-        { "d8": 2, "trait": "My friends are my crew; we sink or float together." },
-        { "d8": 3, "trait": "I need long stretches of quiet to clear my head." },
-        { "d8": 4, "trait": "Rich folk don't know the satisfaction of hard work." },
-        { "d8": 5, "trait": "I laugh heartily, feel deeply, and fear nothing." },
-        { "d8": 6, "trait": "I work hard; nature offers no handouts." },
-        { "d8": 7, "trait": "I dislike bargaining; state your price and mean it." },
-        { "d8": 8, "trait": "Luck favors me, and I take risks others might not." }
+        {"1": "I am unmoved by the wrath of nature."},
+        {"2": "My friends are my crew; we sink or float together."},
+        {"3": "I need long stretches of quiet to clear my head."},
+        {"4t": "Rich folk don't know the satisfaction of hard work."},
+        {"5": "I laugh heartily, feel deeply, and fear nothing."},
+        {"6": "I work hard; nature offers no handouts."},
+        {"7": "I dislike bargaining; state your price and mean it."},
+        {"8": "Luck favors me, and I take risks others might not."}
       ],
       "ideals": [
-        { "d6": 1, "ideal": "Camaraderie. Good people make even the longest voyage bearable.", "alignment": "Good" },
-        { "d6": 2, "ideal": "Luck. Our luck depends on respecting its rules—now throw this salt over your shoulder.", "alignment": "Lawful" },
-        { "d6": 3, "ideal": "Daring. The richest bounty goes to those who risk everything.", "alignment": "Chaotic" },
-        { "d6": 4, "ideal": "Plunder. Take all that you can and leave nothing for the scavengers.", "alignment": "Evil" },
-        { "d6": 5, "ideal": "Balance. Do not fish the same spot twice in a row; suppress your greed, and nature will reward you.", "alignment": "Neutral" },
-        { "d6": 6, "ideal": "Hard Work. No wave can move a soul hard at work.", "alignment": "Any" }
+        {"1": "Camaraderie. Good people make even the longest voyage bearable.", "alignment": "Good"},
+        {"2": "Luck. Our luck depends on respecting its rules—now throw this salt over your shoulder.", "alignment": "Lawful"},
+        {"3": "Daring. The richest bounty goes to those who risk everything.", "alignment": "Chaotic"},
+        {"4": "Plunder. Take all that you can and leave nothing for the scavengers.", "alignment": "Evil"},
+        {"5": "Balance. Do not fish the same spot twice in a row; suppress your greed, and nature will reward you.", "alignment": "Neutral"},
+        {"6": "Hard Work. No wave can move a soul hard at work.", "alignment": "Any"}
       ],
       "bonds": [
-        { "d6": 1, "bond": "I lost something important in the deep sea, and I intend to find it." },
-        { "d6": 2, "bond": "Someone else's greed destroyed my livelihood, and I will be compensated." },
-        { "d6": 3, "bond": "I will fish the many famous waters of this land." },
-        { "d6": 4, "bond": "The gods saved me during a terrible storm, and I will honor their gift." },
-        { "d6": 5, "bond": "My destiny awaits me at the bottom of a particular pond in the Feywild." },
-        { "d6": 6, "bond": "I must repay my village's debt." }
+        {"1": "I lost something important in the deep sea, and I intend to find it."},
+        {"2": "Someone else's greed destroyed my livelihood, and I will be compensated."},
+        {"3": "I will fish the many famous waters of this land."},
+        {"4": "The gods saved me during a terrible storm, and I will honor their gift."},
+        {"5": "My destiny awaits me at the bottom of a particular pond in the Feywild."},
+        {"6": "I must repay my village's debt."}
       ],
       "flaws": [
-        { "d6": 1, "flaw": "I am judgmental, especially of those I deem homebodies or otherwise lazy." },
-        { "d6": 2, "flaw": "I become depressed and anxious if I'm away from the sea too long." },
-        { "d6": 3, "flaw": "I have lived a hard life and find it difficult to empathize with others." },
-        { "d6": 4, "flaw": "I am inclined to tell long-winded stories at inopportune times." },
-        { "d6": 5, "flaw": "I work hard, but I play harder." },
-        { "d6": 6, "flaw": "I am obsessed with catching an elusive aquatic beast, often to the detriment of other pursuits." }
+        {"1": "I am judgmental, especially of those I deem homebodies or otherwise lazy."},
+        {"2": "I become depressed and anxious if I'm away from the sea too long."},
+        {"3": "I have lived a hard life and find it difficult to empathize with others."},
+        {"4": "I am inclined to tell long-winded stories at inopportune times."},
+        {"5": "I work hard, but I play harder."},
+        {"6": "I am obsessed with catching an elusive aquatic beast, often to the detriment of other pursuits."}
       ]
     }
   }
