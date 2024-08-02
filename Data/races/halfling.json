@@ -1,0 +1,118 @@
+{
+  "name": "Halfling",
+  "description": "The comforts of home are the goals of most halflings' lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies. Others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. Halflings work readily with others, and they are loyal to their friends, whether halfling or otherwise. They can display remarkable ferocity when their friends, families, or communities are threatened.",
+  "traits": {
+    "ability_score_increase": {
+      "description": "Your Dexterity score increases by 2."
+    },
+    "age": {
+      "description": "A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century."
+    },
+    "alignment": {
+      "description": "Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of the old ways."
+    },
+    "size": {
+      "description": "Halflings average about 3 feet tall and weigh about 40 pounds. Your size is small."
+    },
+    "speed": {
+      "description": "Your base walking speed is 25 feet."
+    },
+    "lucky": {
+      "description": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die. You must use the new result, even if it is a 1."
+    },
+    "brave": {
+      "description": "You have advantage on saving throws against being frightened."
+    },
+    "nimble": {
+      "description": "You can move through the space of any creature that is of a size larger than yours."
+    },
+    "languages": {
+      "description": "You can speak, read, and write Common and Halfling."
+    }
+  },
+  "subraces": [
+    {
+      "name": "Lightfoot",
+      "description": "As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others. In the Forgotten Realms, lightfoot halflings have spread the farthest and thus are the most common variety. Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life.",
+      "ability_score_increase": {
+        "description": "Your Charisma score increases by 1."
+      },
+      "naturally_stealthy": {
+        "description": "You can attempt to hide even when you are only obscured by a creature that is at least one size larger than you."
+      }
+    },
+    {
+      "name": "Stout",
+      "description": "As a stout halfling, you're hardier than average and have some resistance to poison. Some say that stouts have dwarven blood. In the Forgotten Realms, these halflings are called stronghearts, and they're most common in the south.",
+      "ability_score_increase": {
+        "description": "Your Constitution score increases by 1."
+      },
+      "stout_resilience": {
+        "description": "You have advantage on saving throws against poison, and you have resistance to poison damage."
+      }
+    },
+    {
+      "name": "Ghostwise",
+      "description": "Ghostwise halflings trace their ancestry back to a war among halfling tribes that sent their ancestors into flight from Luiren. Ghostwise halflings are the rarest of the hin, found only in the Chondalwood and a few other isolated forests, clustered in tight-knit clans. Many ghostwise clans select a natural landmark as the center of their territory, and members carry a piece of that landmark with them at all times. Clan warriors known as nightgliders bond with and ride giant owls as mounts.",
+      "ability_score_increase": {
+        "description": "Your Wisdom score increases by 1."
+      },
+      "silent_speech": {
+        "description": "You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time."
+      }
+    },
+    {
+      "name": "Lotusden",
+      "description": "Long tied to the natural heart of the Lotusden Greenwood, these halflings have adapted to live synergistically with the chaotic laws of the wilds.",
+      "ability_score_increase": {
+        "description": "Your Wisdom score increases by 1."
+      },
+      "children_of_the_woods": {
+        "description": "You know the Druidcraft Cantrip. At 3rd level, you can cast the Entangle spell once per long rest. At 5th level, you can cast Spike Growth spell once per long rest. These spells don't require the material components normally required. Wisdom is your spellcasting ability for these spells."
+      },
+      "timberwalk": {
+        "description": "Ability checks made to track you are at disadvantage and you can move through difficult terrain made of non-magical plants and overgrowth without expending extra movement."
+      }
+    },
+    {
+      "name": "Mark of Hospitality",
+      "description": "If you're a halfling with the Mark of Hospitality, you have this subrace, with the following traits.",
+      "ability_score_increase": {
+        "description": "Your Charisma score increases by 1."
+      },
+      "ever_hospitable": {
+        "description": "Whenever you roll a Charisma (Persuasion) check or an ability check involving Brewer's Tools or Cook's Utensils, roll a d4 and add the number rolled to the total ability check."
+      },
+      "innkeepers_magic": {
+        "description": "You know the Prestidigitation cantrip. You can also cast Purify Food and Drink and Unseen Servant with this trait. Once you cast either spell with this trait, you can't cast that spell again until you finish a long rest. Charisma is your Spellcasting Ability for these spells."
+      },
+      "spells_of_the_mark": {
+        "1st": ["Goodberry", "Sleep"],
+        "2nd": ["Aid", "Calm Emotions"],
+        "3rd": ["Create Food and Water", "Leomund's Tiny Hut"],
+        "4th": ["Aura of Purity", "Mordenkainen's Private Sanctum"],
+        "5th": ["Hallow"]
+      }
+    },
+    {
+      "name": "Mark of Healing",
+      "description": "If you're a halfling with the Mark of Healing, you have this subrace, with the following traits.",
+      "ability_score_increase": {
+        "description": "Your Wisdom score increases by 1."
+      },
+      "medical_intuition": {
+        "description": "Whenever you roll a Wisdom (Medicine) check or an ability check involving an Herbalism Kit, roll a d4 and add the number rolled to the total ability check."
+      },
+      "healing_touch": {
+        "description": "You can cast the Cure Wounds spell with this trait. Beginning at 3rd level, you can also cast the Lesser Restoration spell with this trait. Once you cast either spell with this trait, you can't cast that spell again until you finish a long rest. Wisdom is your Spellcasting Ability for these spells."
+      },
+      "spells_of_the_mark": {
+        "1st": ["Cure Wounds", "Healing Word"],
+        "2nd": ["Lesser Restoration", "Prayer of Healing"],
+        "3rd": ["Aura of Vitality", "Mass Healing Word"],
+        "4th": ["Aura of Purity", "Aura of Life"],
+        "5th": ["Greater Restoration"]
+      }
+    }
+  ]
+}

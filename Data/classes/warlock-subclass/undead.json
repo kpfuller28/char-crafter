@@ -1,0 +1,49 @@
+{
+    "name": "Undead",
+    "source": "Van Richten's Guide to Ravenloft",
+    "description": "You have made a pact with a deathless being from beyond the normal cycle of life and death. Such beings, having forsaken their mortal shells to pursue eternal ambitions, share their ancient and profane knowledge with their warlocks. This patron includes beings like the demilich Acererak, the vampire Kas the Bloody-Handed, and the lich-queen Vlaakith.",
+    "expanded_spell_list": {
+      "1st": ["Bane", "False Life"],
+      "2nd": ["Blindness/Deafness", "Phantasmal Force"],
+      "3rd": ["Phantom Steed", "Speak with Dead"],
+      "4th": ["Death Ward", "Greater Invisibility"],
+      "5th": ["Antilife Shell", "Cloudkill"]
+    },
+    "features": {
+      "form_of_dread": {
+        "description": "At 1st level, you manifest a dreadful aspect of your patron, gaining temporary hit points and the ability to frighten enemies. You are immune to the frightened condition and can transform a number of times equal to your proficiency bonus per long rest.",
+        "benefits": [
+          "Temporary hit points equal to 1d10 + your warlock level.",
+          "Frighten enemies on a hit, with a Wisdom saving throw.",
+          "Immune to the frightened condition."
+        ]
+      },
+      "grave_touched": {
+        "description": "At 6th level, you no longer need to eat, drink, or breathe. You can also convert damage to necrotic and gain additional necrotic damage while using Form of Dread.",
+        "benefits": [
+          "No need to eat, drink, or breathe.",
+          "Convert damage type to necrotic once per turn.",
+          "Additional necrotic damage dice while using Form of Dread."
+        ]
+      },
+      "necrotic_husk": {
+        "description": "At 10th level, you gain resistance to necrotic damage, and immunity while using Form of Dread. You can also explode in necrotic energy when reduced to 0 hit points, causing damage to nearby creatures but gaining exhaustion.",
+        "benefits": [
+          "Resistance to necrotic damage, immunity while using Form of Dread.",
+          "Explode in necrotic energy on reaching 0 hit points, causing damage and gaining exhaustion."
+        ],
+        "restrictions": "Recharge on 1d4 long rests."
+      },
+      "spirit_projection": {
+        "description": "At 14th level, you can project your spirit from your body, gaining benefits such as resistance to damage, flying speed, and the ability to move through objects. While projecting, you also regain hit points from necrotic damage dealt by Form of Dread.",
+        "benefits": [
+          "Resistance to bludgeoning, piercing, and slashing damage for spirit and body.",
+          "Spells of conjuration or necromancy don’t require verbal, somatic, or material components.",
+          "Flying speed, hovering, and movement through creatures and objects as difficult terrain.",
+          "Regain hit points equal to half the necrotic damage dealt while using Form of Dread."
+        ],
+        "restrictions": "Recharge on a long rest."
+      }
+    }
+  }
+  

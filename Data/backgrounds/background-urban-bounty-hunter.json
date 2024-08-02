@@ -15,38 +15,38 @@
     },
     "suggested_characteristics": {
       "personality_traits": [
-        { "d8": 1, "trait": "I always have an eye out for potential bounties, even when I'm not actively hunting." },
-        { "d8": 2, "trait": "I maintain a facade of politeness and charm, even when I’m in rough company." },
-        { "d8": 3, "trait": "I have a network of informants that keep me updated on local news and gossip." },
-        { "d8": 4, "trait": "I am meticulous in my work and leave no detail unchecked." },
-        { "d8": 5, "trait": "I am quick to make allies in the criminal underworld, knowing they can be useful." },
-        { "d8": 6, "trait": "I enjoy the thrill of the chase and take pride in my tracking skills." },
-        { "d8": 7, "trait": "I can blend in with high society when needed, but prefer the company of rougher folks." },
-        { "d8": 8, "trait": "I am always ready with a witty remark or a clever excuse to defuse tense situations." }
+        { "1": "I always have an eye out for potential bounties, even when I'm not actively hunting." },
+        { "2": "I maintain a facade of politeness and charm, even when I’m in rough company." },
+        { "3": "I have a network of informants that keep me updated on local news and gossip." },
+        { "4": "I am meticulous in my work and leave no detail unchecked." },
+        { "5": "I am quick to make allies in the criminal underworld, knowing they can be useful." },
+        { "6": "I enjoy the thrill of the chase and take pride in my tracking skills." },
+        { "7": "I can blend in with high society when needed, but prefer the company of rougher folks." },
+        { "8": "I am always ready with a witty remark or a clever excuse to defuse tense situations." }
       ],
       "ideals": [
-        { "d6": 1, "ideal": "Justice. I believe in bringing wrongdoers to account for their crimes, no matter their station.", "alignment": "Good" },
-        { "d6": 2, "ideal": "Reputation. My success as a bounty hunter depends on maintaining a good reputation among clients and competitors.", "alignment": "Lawful" },
-        { "d6": 3, "ideal": "Profit. The more successful I am, the more I earn. I will do whatever it takes to increase my wealth.", "alignment": "Chaotic" },
-        { "d6": 4, "ideal": "Independence. I prefer working alone and do not like being bound by rules or regulations.", "alignment": "Neutral" },
-        { "d6": 5, "ideal": "Order. Even in my line of work, there must be rules and codes that we follow.", "alignment": "Lawful" },
-        { "d6": 6, "ideal": "Survival. In a dangerous world, the ability to adapt and survive is the most valuable trait.", "alignment": "Any" }
+        { "1": "Justice. I believe in bringing wrongdoers to account for their crimes, no matter their station.", "alignment": "Good" },
+        { "2": "Reputation. My success as a bounty hunter depends on maintaining a good reputation among clients and competitors.", "alignment": "Lawful" },
+        { "3": "Profit. The more successful I am, the more I earn. I will do whatever it takes to increase my wealth.", "alignment": "Chaotic" },
+        { "4": "Independence. I prefer working alone and do not like being bound by rules or regulations.", "alignment": "Neutral" },
+        { "5": "Order. Even in my line of work, there must be rules and codes that we follow.", "alignment": "Lawful" },
+        { "6": "Survival. In a dangerous world, the ability to adapt and survive is the most valuable trait.", "alignment": "Any" }
       ],
       "bonds": [
-        { "d6": 1, "bond": "I have a mentor or ally in the bounty hunting business who has helped me succeed." },
-        { "d6": 2, "bond": "I owe my success to a particular city or network of informants and will return the favor when needed." },
-        { "d6": 3, "bond": "I have a rival bounty hunter who is both a friend and a competitor. We have a mutual respect for each other." },
-        { "d6": 4, "bond": "I seek to capture or bring to justice a particular high-profile target who has eluded me for years." },
-        { "d6": 5, "bond": "I am driven by a personal vendetta against a criminal who wronged me or my loved ones." },
-        { "d6": 6, "bond": "My reputation is everything to me, and I will go to great lengths to protect it." }
+        { "1": "I have a mentor or ally in the bounty hunting business who has helped me succeed." },
+        { "2": "I owe my success to a particular city or network of informants and will return the favor when needed." },
+        { "3": "I have a rival bounty hunter who is both a friend and a competitor. We have a mutual respect for each other." },
+        { "4": "I seek to capture or bring to justice a particular high-profile target who has eluded me for years." },
+        { "5": "I am driven by a personal vendetta against a criminal who wronged me or my loved ones." },
+        { "6": "My reputation is everything to me, and I will go to great lengths to protect it." }
       ],
       "flaws": [
-        { "d6": 1, "flaw": "I sometimes become so obsessed with a target that I neglect my other responsibilities." },
-        { "d6": 2, "flaw": "I have a tendency to be overly suspicious of others, even those who mean well." },
-        { "d6": 3, "flaw": "My need for information can sometimes lead me to betray confidences or break laws." },
-        { "d6": 4, "flaw": "I struggle to trust anyone outside of the criminal underworld or my network of informants." },
-        { "d6": 5, "flaw": "I can be overly secretive about my own past and motivations, causing mistrust among allies." },
-        { "d6": 6, "flaw": "I have a tendency to view every interaction through the lens of a potential transaction or deal." }
+        { "1": "I sometimes become so obsessed with a target that I neglect my other responsibilities." },
+        { "2": "I have a tendency to be overly suspicious of others, even those who mean well." },
+        { "3": "My need for information can sometimes lead me to betray confidences or break laws." },
+        { "4": "I struggle to trust anyone outside of the criminal underworld or my network of informants." },
+        { "5": "I can be overly secretive about my own past and motivations, causing mistrust among allies." },
+        { "6": "I have a tendency to view every interaction through the lens of a potential transaction or deal." }
       ]
     }
   }

@@ -1,0 +1,41 @@
+{
+    "name": "School of War Magic",
+    "source": "Xanathar's Guide to Everything",
+    "description": "The School of War Magic blends principles of evocation and abjuration, focusing on empowering spells and bolstering defenses. War mages use their magic both as a weapon and armor, excelling in tactical control and defending against magical attacks.",
+    "features": {
+      "arcane_deflection": {
+        "description": "At 2nd level, you can use your reaction to gain a +2 bonus to your AC against an attack or a +4 bonus to a saving throw. You can't cast spells other than cantrips until the end of your next turn after using this feature.",
+        "benefits": [
+          "Gain +2 AC or +4 to a saving throw when hit by an attack or failing a saving throw.",
+          "Cannot cast spells other than cantrips until the end of your next turn."
+        ]
+      },
+      "tactical_wit": {
+        "description": "Starting at 2nd level, you can add your Intelligence modifier as a bonus to your initiative rolls, allowing you to act quickly in battle.",
+        "benefits": [
+          "Add your Intelligence modifier to your initiative rolls."
+        ]
+      },
+      "power_surge": {
+        "description": "At 6th level, you can store magical energy within yourself to empower your damaging spells. You can store a number of power surges equal to your Intelligence modifier (minimum of one), resetting to one after a long rest. Gain one power surge when you successfully end a spell with Dispel Magic or Counterspell, or if you end a short rest with no power surges.",
+        "benefits": [
+          "Store power surges equal to your Intelligence modifier (minimum of one).",
+          "Gain one power surge when ending a spell with Dispel Magic or Counterspell.",
+          "Spend one power surge to deal extra force damage equal to half your wizard level once per turn."
+        ]
+      },
+      "durable_magic": {
+        "description": "Beginning at 10th level, while concentrating on a spell, you gain a +2 bonus to AC and all saving throws.",
+        "benefits": [
+          "+2 bonus to AC and saving throws while concentrating on a spell."
+        ]
+      },
+      "deflecting_shroud": {
+        "description": "At 14th level, when you use Arcane Deflection, you can cause magical energy to arc from you, dealing force damage equal to half your wizard level to up to three creatures of your choice within 60 feet.",
+        "benefits": [
+          "Deal force damage equal to half your wizard level to up to three creatures within 60 feet when using Arcane Deflection."
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,31 @@
+{
+  "name": "Samurai",
+  "source": ["Xanathar's Guide to Everything"],
+  "description": "Samurai fighters possess an unyielding resolve that drives them to overcome their foes. Their fighting spirit enables them to protect themselves and strike with precision, and their discipline extends into social situations as well.",
+  "features": {
+    "bonus_proficiency": {
+      "level": 3,
+      "description": "You gain proficiency in one of the following skills: History, Insight, Performance, or Persuasion. Alternatively, you learn one language of your choice."
+    },
+    "fighting_spirit": {
+      "level": 3,
+      "description": "As a bonus action, you can give yourself advantage on all weapon attack rolls until the end of your current turn and gain 5 temporary hit points. The temporary hit points increase to 10 at 10th level and 15 at 15th level. You can use this feature three times per long rest."
+    },
+    "elegant_courtier": {
+      "level": 7,
+      "description": "You gain a bonus to Charisma (Persuasion) checks equal to your Wisdom modifier. Additionally, you gain proficiency in Wisdom saving throws, or if you already have this proficiency, you choose to gain proficiency in Intelligence or Charisma saving throws."
+    },
+    "tireless_spirit": {
+      "level": 10,
+      "description": "When you roll initiative and have no uses of Fighting Spirit remaining, you regain one use."
+    },
+    "rapid_strike": {
+      "level": 15,
+      "description": "When you take the Attack action and have advantage on an attack roll against a target, you can forgo the advantage to make an additional weapon attack against that target as part of the same action. You can do this once per turn."
+    },
+    "strength_before_death": {
+      "level": 18,
+      "description": "If you take damage that reduces you to 0 hit points, you can use your reaction to take an extra turn before falling unconscious. While you have 0 hit points during this extra turn, taking damage causes death saving throw failures as normal. You fall unconscious if you still have 0 hit points when the extra turn ends. This feature can be used once per long rest."
+    }
+  }
+}

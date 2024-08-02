@@ -1,0 +1,48 @@
+{
+  "name": "Peace Domain",
+  "source": "Tasha's Cauldron of Everything",
+  "description": "The Peace Domain focuses on fostering harmony, resolving conflicts, and standing against forces that threaten peace. Clerics of this domain help arbitrate disputes, preside over treaties, and support the way of peace through their blessings and magic.",
+  "deities": [
+    { "name": "Angharradh", "pantheon": "Elven" },
+    { "name": "Berronar Truesilver", "pantheon": "Dwarven" },
+    { "name": "Boldrei", "pantheon": "Eberron" },
+    { "name": "Cyrrollalee", "pantheon": "Halfling" },
+    { "name": "Eldath", "pantheon": "Forgotten Realms" },
+    { "name": "Gaerdal Ironhand", "pantheon": "Gnomish" },
+    { "name": "Paladine", "pantheon": "Dragonlance" },
+    { "name": "Rao", "pantheon": "Greyhawk" }
+  ],
+  "spells": {
+    "1st": ["Heroism", "Sanctuary"],
+    "3rd": ["Aid", "Warding Bond"],
+    "5th": ["Beacon of Hope", "Sending"],
+    "7th": ["Aura of Purity", "Otiluke's Resilient Sphere"],
+    "9th": ["Greater Restoration", "Rary's Telepathic Bond"]
+  },
+  "features": {
+    "implement_of_peace": {
+      "level": 1,
+      "description": "Gain proficiency in the Insight, Performance, or Persuasion skill (your choice)."
+    },
+    "emboldening_bond": {
+      "level": 1,
+      "description": "Create a magical bond among a number of willing creatures equal to your proficiency bonus within 30 feet. For 10 minutes, bonded creatures can roll a d4 and add it to an attack roll, an ability check, or a saving throw. Each creature can add the d4 no more than once per turn. Uses per long rest equal to your proficiency bonus."
+    },
+    "channel_divinity_balm_of_peace": {
+      "level": 2,
+      "description": "Move up to your speed without provoking opportunity attacks, and restore 2d6 + your Wisdom modifier (minimum 1) hit points to any creature within 5 feet. This healing can only be applied once per creature per use of this feature."
+    },
+    "protective_bond": {
+      "level": 6,
+      "description": "Creatures affected by your Emboldening Bond feature can protect each other. When a bonded creature is about to take damage, another bonded creature within 30 feet can use its reaction to teleport to within 5 feet of the first and take all the damage instead."
+    },
+    "potent_spellcasting": {
+      "level": 8,
+      "description": "Add your Wisdom modifier to the damage you deal with any cleric cantrip."
+    },
+    "expansive_bond": {
+      "level": 17,
+      "description": "The benefits of your Emboldening Bond and Protective Bond features extend to creatures within 60 feet of each other. When a creature uses Protective Bond to take damage, it has resistance to that damage."
+    }
+  }
+}

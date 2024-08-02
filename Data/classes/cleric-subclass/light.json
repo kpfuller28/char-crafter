@@ -1,0 +1,38 @@
+{
+  "name": "Light Domain",
+  "source": "Player's Handbook",
+  "description": "Gods of Light promote ideals of rebirth, renewal, truth, vigilance, and beauty, often using the symbol of the sun. They are seen as the sun itself or as tireless sentinels who see through deception. Clerics of these deities are empowered to chase away lies and burn away darkness.",
+  "spells": {
+    "1st": ["Burning Hands", "Faerie Fire"],
+    "3rd": ["Flaming Sphere", "Scorching Ray"],
+    "5th": ["Daylight", "Fireball"],
+    "7th": ["Guardian of Faith", "Wall of Fire"],
+    "9th": ["Flame Strike", "Scrying"]
+  },
+  "features": {
+    "bonus_cantrip": {
+      "level": 1,
+      "description": "Gain the Light cantrip if you don't already know it. This cantrip doesn’t count against the number of cleric cantrips you know."
+    },
+    "warding_flare": {
+      "level": 1,
+      "description": "Use your reaction to impose disadvantage on an attack roll made by a creature within 30 feet of you that you can see. The attacker must be capable of being blinded to be affected. You can use this feature a number of times equal to your Wisdom modifier (minimum of once), regaining all uses after a long rest."
+    },
+    "channel_divinity_radiance_of_the_dawn": {
+      "level": 2,
+      "description": "As an action, present your holy symbol to dispel magical darkness within 30 feet. Each hostile creature within range must make a Constitution saving throw, taking radiant damage equal to 2d10 + your cleric level on a failed save, and half as much on a successful one. Creatures with total cover from you are unaffected."
+    },
+    "improved_flare": {
+      "level": 6,
+      "description": "You can use your Warding Flare feature when a creature you can see within 30 feet of you attacks another creature."
+    },
+    "potent_spellcasting": {
+      "level": 8,
+      "description": "Add your Wisdom modifier to the damage you deal with any cleric cantrip."
+    },
+    "corona_of_light": {
+      "level": 17,
+      "description": "As an action, create an aura of sunlight with a 60-foot radius of bright light and an additional 30 feet of dim light. Enemies in the bright light have disadvantage on saving throws against spells that deal fire or radiant damage. The aura lasts for 1 minute or until dismissed."
+    }
+  }
+}

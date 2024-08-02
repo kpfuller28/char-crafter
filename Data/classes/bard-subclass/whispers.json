@@ -1,0 +1,23 @@
+{
+  "name": "College of Whispers",
+  "source": "Xanathar's Guide to Everything",
+  "description": "Bards of the College of Whispers use their appearance as ordinary bards to their advantage. They share news, sing songs, and tell tales to gather audiences, but they are skilled manipulators who use their knowledge and magic to uncover and exploit secrets through extortion and threats. They are often disliked by other bards for their parasitic nature and typically keep their true nature hidden to infiltrate and exploit positions of power.",
+  "features": {
+    "psychic_blades": {
+      "level": 3,
+      "description": "You gain the ability to make your weapon attacks magically toxic to a creature's mind. When you hit a creature with a weapon attack, you can expend one use of your Bardic Inspiration to deal an additional 2d6 psychic damage to that target. This damage increases to 3d6 at 5th level, 5d6 at 10th level, and 8d6 at 15th level. You can use this feature only once per round on your turn."
+    },
+    "words_of_terror": {
+      "level": 3,
+      "description": "You learn to infuse innocent-seeming words with magic that inspires terror. After speaking to a humanoid alone for at least 1 minute, the target must succeed on a Wisdom saving throw against your spell save DC or be frightened for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged. If the target succeeds, it has no hint that you tried to frighten it. You can use this feature once per short or long rest."
+    },
+    "mantle_of_whispers": {
+      "level": 6,
+      "description": "You gain the ability to adopt a humanoid's persona. When a humanoid dies within 30 feet of you, you can capture its shadow with your reaction. You retain this shadow until you use it or finish a long rest. You can use the shadow to magically transform into a disguise resembling the dead person, which lasts for 1 hour or until you end it as a bonus action. You gain access to general information the humanoid would share, but not secrets. Other creatures can see through the disguise with a Wisdom (Insight) check contested by your Charisma (Deception) check, with a +5 bonus to your check. You can capture a new shadow only after a short or long rest."
+    },
+    "shadow_lore": {
+      "level": 14,
+      "description": "You can weave dark magic into your words to tap into a creature’s deepest fears. By whispering a phrase that only one creature within 30 feet can hear, the target must make a Wisdom saving throw against your spell save DC. If it fails, it is charmed by you for 8 hours or until you or your allies attack or damage it. The creature believes you know its most mortifying secret, though you gain no knowledge of it. The creature will obey your commands for fear that you will reveal its secret, but it won’t risk its life or fight for you unless it was already inclined to do so. Once this feature is used, it cannot be used again until after a long rest."
+    }
+  }
+}

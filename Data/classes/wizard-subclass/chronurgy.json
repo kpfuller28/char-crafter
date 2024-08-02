@@ -1,0 +1,44 @@
+{
+    "name": "Chronurgy Magic",
+    "source": "Explorer's Guide to Wildemount",
+    "description": "Chronurgists manipulate time itself, using their control over the flow of reality to grant advantages or hinder foes. Mastery of this magic allows them to bend time like an instrument, influencing events with precision and skill.",
+    "features": {
+      "chronal_shift": {
+        "description": "At 2nd level, you can use your reaction to force a creature you can see within 30 feet to reroll an attack roll, ability check, or saving throw after seeing the initial result. The target must use the result of the second roll. You can use this feature twice per long rest.",
+        "benefits": [
+          "Force a reroll of an attack roll, ability check, or saving throw.",
+          "Use twice per long rest."
+        ]
+      },
+      "temporal_awareness": {
+        "description": "Starting at 2nd level, you add your Intelligence modifier to your initiative rolls.",
+        "benefits": [
+          "Add Intelligence modifier to initiative rolls."
+        ]
+      },
+      "momentary_stasis": {
+        "description": "At 6th level, you can use an action to force a Large or smaller creature you can see within 60 feet to make a Constitution saving throw. On a failure, the creature is incapacitated and its speed is 0 until the end of your next turn or until it takes damage. You can use this feature a number of times equal to your Intelligence modifier per long rest.",
+        "benefits": [
+          "Force a creature to make a Constitution saving throw.",
+          "On failure, creature is incapacitated and has speed 0.",
+          "Use a number of times equal to Intelligence modifier per long rest."
+        ]
+      },
+      "arcane_abeyance": {
+        "description": "At 10th level, when you cast a spell of 4th level or lower, you can condense its magic into a Tiny bead that lasts for 1 hour. A creature holding the bead can use an action to release the spell. The spell uses your spell attack bonus and save DC. The bead has AC 15, 1 hit point, and is immune to poison and psychic damage. The bead vanishes if destroyed or after 1 hour.",
+        "benefits": [
+          "Condense a spell into a Tiny bead.",
+          "Bead lasts 1 hour or until destroyed.",
+          "Creature holding the bead can release the spell."
+        ]
+      },
+      "convergent_future": {
+        "description": "At 14th level, you can use your reaction to ensure a particular outcome when a creature you can see within 60 feet makes an attack roll, ability check, or saving throw. Choose to make the roll the minimum needed to succeed or one less than that number. Using this feature grants you one level of exhaustion, which can only be removed by a long rest.",
+        "benefits": [
+          "Ensure a roll is the minimum needed to succeed or one less.",
+          "Gain one level of exhaustion."
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,31 @@
+{
+  "name": "Echo Knight",
+  "source": ["Explorer's Guide to Wildemount"],
+  "description": "Echo Knights harness the power of dunamis to summon echoes of unrealized timelines to aid them in battle. They become a swirling swarm of shadows and strikes, using their echoes to overwhelm their foes.",
+  "features": {
+    "manifest_echo": {
+      "level": 3,
+      "description": "You can use a bonus action to manifest a magical, translucent echo of yourself in an unoccupied space within 15 feet. The echo lasts until destroyed, dismissed, or you manifest another one. You can teleport to the echo's space at the cost of 15 feet of movement. Attacks can originate from either your space or the echo's space. You can also make opportunity attacks from the echo's position."
+    },
+    "unleash_incarnation": {
+      "level": 3,
+      "description": "Whenever you take the Attack action, you can make one additional melee attack from the echo's position. You can use this feature a number of times equal to your Constitution modifier (minimum of once) per long rest."
+    },
+    "echo_avatar": {
+      "level": 7,
+      "description": "You can transfer your consciousness to your echo. While in this state, you are deafened and blinded, but you can see and hear through your echo's senses. The echo can be up to 1,000 feet away."
+    },
+    "shadow_martyr": {
+      "level": 10,
+      "description": "You can use your reaction to teleport your echo to an unoccupied space within 5 feet of a creature targeted by an attack, causing the attack to target the echo instead. This feature can be used once per short or long rest."
+    },
+    "reclaim_potential": {
+      "level": 15,
+      "description": "When your echo is destroyed, you can gain temporary hit points equal to 2d6 + your Constitution modifier, provided you don't already have temporary hit points. You can use this feature a number of times equal to your Constitution modifier (minimum of once) per long rest."
+    },
+    "legion_of_one": {
+      "level": 18,
+      "description": "You can use a bonus action to create two echoes with your Manifest Echo feature. If you create a third echo, the previous two are destroyed. You can do anything from one echo's position with the other echo as well. Additionally, when you roll initiative and have no uses of Unleash Incarnation left, you regain one use."
+    }
+  }
+}

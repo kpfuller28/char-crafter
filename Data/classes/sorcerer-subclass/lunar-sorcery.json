@@ -1,0 +1,66 @@
+{
+    "name": "Lunar Sorcery",
+    "source": "Dragonlance: Shadow of the Dragon Queen",
+    "description": "Sorcerers with a Lunar Sorcery origin draw their magical power from the moon or moons of their world. This connection imbues them with lunar magic that manifests in various ways, depending on the lunar phase they align with. Their powers reflect the changing nature of the moon, offering them unique spells and abilities that shift with the lunar cycle.",
+    "features": {
+      "lunar_embodiment": {
+        "description": "At the end of a long rest, choose a lunar phase (Full Moon, New Moon, or Crescent Moon). You can cast one 1st-level spell associated with that phase once without expending a spell slot. After casting a spell in this way, you must wait until you finish a long rest to do so again.",
+        "phases": {
+          "Full Moon": {
+            "spells": ["Shield", "Ray of Sickness", "Color Spray"]
+          },
+          "New Moon": {
+            "spells": ["Lesser Restoration", "Blindness/Deafness", "Alter Self"]
+          },
+          "Crescent Moon": {
+            "spells": ["Dispel Magic", "Vampiric Touch", "Phantom Steed"]
+          }
+        }
+      },
+      "moon_fire": {
+        "description": "At 1st level, you learn the Sacred Flame cantrip, which does not count against your total number of sorcerer cantrips. When you cast Sacred Flame, you can target two creatures within 5 feet of each other, in addition to the normal single target.",
+        "mechanics": [
+          "Learn Sacred Flame cantrip.",
+          "Can target two creatures within 5 feet of each other with Sacred Flame."
+        ]
+      },
+      "lunar_boons": {
+        "description": "Starting at 6th level, the current lunar phase affects your Metamagic. You can reduce the sorcery points spent on Metamagic by 1 (minimum 0) for spells associated with the current lunar phase. You can use this feature a number of times equal to your proficiency bonus per long rest.",
+        "phases": {
+          "Full Moon": ["Abjuration", "Divination"],
+          "New Moon": ["Enchantment", "Necromancy"],
+          "Crescent Moon": ["Illusion", "Transmutation"]
+        }
+      },
+      "waxing_and_waning": {
+        "description": "At 6th level, as a bonus action, you can spend 1 sorcery point to change your current lunar phase. You can then cast one 1st-level spell from each lunar phase once without expending a spell slot, provided your current phase matches the spell's phase. After casting a spell in this way, you must finish a long rest to use this feature again.",
+        "mechanics": [
+          "Change lunar phase with a bonus action and 1 sorcery point.",
+          "Cast one 1st-level spell from each lunar phase once without expending a spell slot."
+        ]
+      },
+      "lunar_empowerment": {
+        "description": "At 14th level, while in your chosen lunar phase, you gain the following benefits:",
+        "benefits": {
+          "Full Moon": "Shed bright light in a 10-foot radius and dim light for an additional 10 feet; advantage on Intelligence (Investigation) and Wisdom (Perception) checks within the bright light.",
+          "New Moon": "Advantage on Dexterity (Stealth) checks; disadvantage on attack rolls against you while in darkness.",
+          "Crescent Moon": "Resistance to necrotic and radiant damage."
+        }
+      },
+      "lunar_phenomenon": {
+        "description": "At 18th level, you can use a bonus action to tap into the special power of your current lunar phase. You can also use this feature as part of the bonus action to change your lunar phase using Waxing and Waning.",
+        "powers": {
+          "Full Moon": {
+            "effect": "Radiate moonlight; creatures within 30 feet must succeed on a Constitution saving throw or be blinded until the end of their next turn. Additionally, one creature in that area regains 3d8 hit points."
+          },
+          "New Moon": {
+            "effect": "Emanate gloom; creatures within 30 feet must succeed on a Dexterity saving throw or take 3d10 necrotic damage and have their speed reduced to 0 until the end of their next turn. You become invisible until the end of your next turn or after you make an attack or cast a spell."
+          },
+          "Crescent Moon": {
+            "effect": "Teleport to an unoccupied space within 60 feet; bring along one willing creature within 5 feet to an unoccupied space within 5 feet of your destination. You and that creature gain resistance to all damage until the start of your next turn."
+          }
+        }
+      }
+    }
+  }
+  

@@ -21,38 +21,38 @@
     },
     "suggested_characteristics": {
       "personality_traits": [
-        { "d8": 1, "trait": "My friends know they can rely on me, no matter what." },
-        { "d8": 2, "trait": "I work hard so that I can play hard when the work is done." },
-        { "d8": 3, "trait": "I enjoy sailing into new ports and making new friends over a flagon of ale." },
-        { "d8": 4, "trait": "I stretch the truth for the sake of a good story." },
-        { "d8": 5, "trait": "To me, a tavern brawl is a nice way to get to know a new city." },
-        { "d8": 6, "trait": "I never pass up a friendly wager." },
-        { "d8": 7, "trait": "My language is as foul as an otyugh nest." },
-        { "d8": 8, "trait": "I like a job well done, especially if I can convince someone else to do it." }
+        { "1": "My friends know they can rely on me, no matter what." },
+        { "2": "I work hard so that I can play hard when the work is done." },
+        { "3": "I enjoy sailing into new ports and making new friends over a flagon of ale." },
+        { "4": "I stretch the truth for the sake of a good story." },
+        { "5": "To me, a tavern brawl is a nice way to get to know a new city." },
+        { "6": "I never pass up a friendly wager." },
+        { "7": "My language is as foul as an otyugh nest." },
+        { "8": "I like a job well done, especially if I can convince someone else to do it." }
       ],
       "ideals": [
-        { "d6": 1, "ideal": "Respect. The thing that keeps a ship together is mutual respect between captain and crew.", "alignment": "Good" },
-        { "d6": 2, "ideal": "Fairness. We all do the work, so we all share in the rewards.", "alignment": "Lawful" },
-        { "d6": 3, "ideal": "Freedom. The sea is freedom—the freedom to go anywhere and do anything.", "alignment": "Chaotic" },
-        { "d6": 4, "ideal": "Mastery. I'm a predator, and the other ships on the sea are my prey.", "alignment": "Evil" },
-        { "d6": 5, "ideal": "People. I'm committed to my crewmates, not to ideals.", "alignment": "Neutral" },
-        { "d6": 6, "ideal": "Aspiration. Someday I'll own my own ship and chart my own destiny.", "alignment": "Any" }
+        { "1": "Respect. The thing that keeps a ship together is mutual respect between captain and crew.", "alignment": "Good" },
+        { "2": "Fairness. We all do the work, so we all share in the rewards.", "alignment": "Lawful" },
+        { "3": "Freedom. The sea is freedom—the freedom to go anywhere and do anything.", "alignment": "Chaotic" },
+        { "4": "Mastery. I'm a predator, and the other ships on the sea are my prey.", "alignment": "Evil" },
+        { "5": "People. I'm committed to my crewmates, not to ideals.", "alignment": "Neutral" },
+        { "6": "Aspiration. Someday I'll own my own ship and chart my own destiny.", "alignment": "Any" }
       ],
       "bonds": [
-        { "d6": 1, "bond": "I'm loyal to my captain first, everything else second." },
-        { "d6": 2, "bond": "The ship is most important – crewmates and captains come and go." },
-        { "d6": 3, "bond": "I'll always remember my first ship." },
-        { "d6": 4, "bond": "In a harbor town, I have a paramour whose eyes nearly stole me from the sea." },
-        { "d6": 5, "bond": "I was cheated out of my fair share of the profits, and I want to get my due." },
-        { "d6": 6, "bond": "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine." }
+        { "1": "I'm loyal to my captain first, everything else second." },
+        { "2": "The ship is most important – crewmates and captains come and go." },
+        { "3": "I'll always remember my first ship." },
+        { "4": "In a harbor town, I have a paramour whose eyes nearly stole me from the sea." },
+        { "5": "I was cheated out of my fair share of the profits, and I want to get my due." },
+        { "6": "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine." }
       ],
       "flaws": [
-        { "d6": 1, "flaw": "I follow orders, even if I think they're wrong." },
-        { "d6": 2, "flaw": "I'll say anything to avoid having to do extra work." },
-        { "d6": 3, "flaw": "Once someone questions my courage, I never back down no matter how dangerous the situation." },
-        { "d6": 4, "flaw": "Once I start drinking, it's hard for me to stop." },
-        { "d6": 5, "flaw": "I can't help but pocket loose coins and other trinkets I come across." },
-        { "d6": 6, "flaw": "My pride will probably lead to my destruction." }
+        { "1": "I follow orders, even if I think they're wrong." },
+        { "2": "I'll say anything to avoid having to do extra work." },
+        { "3": "Once someone questions my courage, I never back down no matter how dangerous the situation." },
+        { "4": "Once I start drinking, it's hard for me to stop." },
+        { "5": "I can't help but pocket loose coins and other trinkets I come across." },
+        { "6": "My pride will probably lead to my destruction." }
       ]
     }
   }

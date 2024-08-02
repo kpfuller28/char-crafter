@@ -1,0 +1,78 @@
+{
+  "name": "Drakewarden",
+  "source": "Fizban's Treasury of Dragons",
+  "description": "Drakewardens form a powerful bond with draconic spirits that manifest as drakes. As they grow in power, their drakes evolve from small companions to majestic, rideable dragons, granting the ranger dragon-like abilities.",
+  "drakewarden_origin": {
+    "description": "The origin of your bond with the draconic spirit can be chosen from the following examples.",
+    "options": {
+      "1": "You studied a dragon’s scale or claw, or a trinket from a dragon’s hoard, creating your bond through that token’s lingering draconic magic.",
+      "2": "A secret order of rangers who collect and guard draconic lore taught you their ways.",
+      "3": "A dragon gave you a geode or gemstone to care for. To your surprise, the drake hatched from that stone.",
+      "4": "You ingested a few drops of dragon blood, forever infusing your nature magic with draconic power.",
+      "5": "An ancient Draconic inscription on a standing stone empowered you when you read it aloud.",
+      "6": "You had a vivid dream of a mysterious figure accompanied by seven yellow canaries, who warned you of impending doom. When you awoke, your drake was there, watching you."
+    }
+  },
+  "features": {
+    "draconic_gift": {
+      "description": "At 3rd level, the bond with your drake grants you additional benefits.",
+      "details": {
+        "thaumaturgy": "You learn the Thaumaturgy cantrip.",
+        "tongue_of_dragons": "You can speak, read, and write Draconic or one other language of your choice."
+      }
+    },
+    "drake_companion": {
+      "description": "At 3rd level, you summon a drake bound to you. It fights alongside you and grows in power with you.",
+      "details": {
+        "summoning": "You summon the drake to an unoccupied space within 30 feet of you. You can choose its Draconic Essence damage type and its cosmetic characteristics.",
+        "actions": "The drake shares your initiative count but acts immediately after you. It can move and use its reaction on its own, but only takes the Dodge action unless you use a bonus action to command it.",
+        "drake_stats": {
+          "ac": "14 + PB (natural armor)",
+          "hp": "5 + five times your ranger level",
+          "speed": "40 ft.",
+          "stats": {
+            "str": 16,
+            "dex": 12,
+            "con": 15,
+            "int": 8,
+            "wis": 14,
+            "cha": 8
+          },
+          "saving_throws": "Dex +1 plus PB, Wis +2 plus PB",
+          "damage_immunities": "Determined by the drake’s Draconic Essence trait",
+          "senses": "darkvision 60 ft., passive Perception 12",
+          "languages": "Draconic",
+          "actions": {
+            "bite": "Melee Weapon Attack: +3 plus PB to hit, reach 5 ft., one target. Hit: 1d6 plus PB piercing damage."
+          },
+          "reactions": {
+            "infused_strikes": "When another creature within 30 feet of the drake hits a target with a weapon attack, the drake causes the target to take an extra 1d6 damage of the type determined by its Draconic Essence."
+          }
+        }
+      }
+    },
+    "bond_of_fang_and_scale": {
+      "description": "At 7th level, your bond with your drake strengthens, granting additional features.",
+      "details": {
+        "drake_mount": "The drake grows to Medium size and can be used as a mount if you are Medium or smaller. It cannot use its flying speed while you are riding it.",
+        "magic_fang": "The drake’s Bite attack deals an extra 1d6 damage of the chosen Draconic Essence type.",
+        "resistance": "You gain resistance to the damage type chosen for the drake’s Draconic Essence."
+      }
+    },
+    "drakes_breath": {
+      "description": "At 11th level, you or your drake can exhale a cone of damaging breath.",
+      "details": {
+        "damage": "Choose a damage type (acid, cold, fire, lightning, or poison). Each creature in a 30-foot cone must make a Dexterity saving throw, taking 8d6 damage on a failed save or half as much on a successful one. This damage increases to 10d6 at 15th level.",
+        "usage": "Can’t be used again until you finish a long rest, unless you expend a 3rd-level or higher spell slot."
+      }
+    },
+    "perfected_bond": {
+      "description": "At 15th level, your bond with your drake is perfected, enhancing your connection and the drake’s abilities.",
+      "details": {
+        "empowered_bite": "The drake’s Bite attack deals an extra 1d6 damage of the chosen Draconic Essence type (total of 2d6 extra damage).",
+        "large_drake": "The drake grows to Large size and can use its flying speed while you are riding it.",
+        "reflexive_resistance": "When you or the drake takes damage within 30 feet of each other, you can use your reaction to grant resistance to that damage. This can be used a number of times equal to your proficiency bonus, and all expended uses are regained after a long rest."
+      }
+    }
+  }
+}

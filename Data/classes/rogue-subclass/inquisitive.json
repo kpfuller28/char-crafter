@@ -1,0 +1,48 @@
+{
+    "name": "Inquisitive",
+    "source": "Xanathar's Guide to Everything",
+    "description": "Inquisitives excel at uncovering secrets and unraveling mysteries. They use their keen perception and understanding of others to expose hidden evils and defeat creatures that prey upon ordinary folk.",
+    "features": {
+      "ear_for_deceit": {
+        "description": "At 3rd level, you develop a keen ear for picking out lies.",
+        "mechanics": [
+          "When making a Wisdom (Insight) check to determine if a creature is lying, treat a roll of 7 or lower on the d20 as an 8."
+        ]
+      },
+      "eye_for_detail": {
+        "description": "At 3rd level, you can use a bonus action to enhance your investigative skills.",
+        "mechanics": [
+          "Use a bonus action to make a Wisdom (Perception) check to spot a hidden creature or object, or an Intelligence (Investigation) check to uncover or decipher clues."
+        ]
+      },
+      "insightful_fighting": {
+        "description": "At 3rd level, you gain the ability to understand an opponent's tactics and exploit them.",
+        "mechanics": [
+          "As a bonus action, make a Wisdom (Insight) check against a creature's Charisma (Deception) check.",
+          "If successful, you can use your Sneak Attack against that target even without advantage on the attack roll, but not if you have disadvantage.",
+          "This benefit lasts for 1 minute or until you successfully use this feature against a different target."
+        ]
+      },
+      "steady_eye": {
+        "description": "At 9th level, your observational skills improve with movement.",
+        "mechanics": [
+          "Gain advantage on Wisdom (Perception) or Intelligence (Investigation) checks if you move no more than half your speed on the same turn."
+        ]
+      },
+      "unerring_eye": {
+        "description": "At 13th level, you can detect illusions and magical deceptions.",
+        "mechanics": [
+          "As an action, sense the presence of illusions, shapechangers not in their original form, and other magic designed to deceive the senses within 30 feet, provided you aren't blinded or deafened.",
+          "You detect that an effect is attempting to trick you but gain no insight into what is hidden or its true nature.",
+          "Use this feature a number of times equal to your Wisdom modifier (minimum of once), regaining all uses on a long rest."
+        ]
+      },
+      "eye_for_weakness": {
+        "description": "At 17th level, you exploit a creature's weaknesses more effectively.",
+        "mechanics": [
+          "While your Insightful Fighting feature is applied to a creature, your Sneak Attack damage against that creature increases by 3d6."
+        ]
+      }
+    }
+  }
+  

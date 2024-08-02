@@ -1,0 +1,58 @@
+{
+    "name": "School of Transmutation",
+    "source": "Player's Handbook",
+    "description": "Transmuters study spells that alter energy and matter, seeing the world as mutable and ever-changing. They wield the raw stuff of creation, capable of both creating and destroying with their transformative magic.",
+    "features": {
+      "transmutation_savant": {
+        "description": "At 2nd level, the gold and time required to copy a Transmutation spell into your spellbook is halved.",
+        "benefits": [
+          "Halve the cost and time to copy Transmutation spells into your spellbook."
+        ]
+      },
+      "minor_alchemy": {
+        "description": "Starting at 2nd level, you can alter the physical properties of non-magical objects, changing them from one material to another. This effect lasts for 1 hour or until you lose concentration.",
+        "details": [
+          "Transform non-magical wood, stone (not gemstones), iron, copper, or silver into another material of the same group.",
+          "Transform up to 1 cubic foot of material per 10 minutes.",
+          "Reverts to original material after 1 hour or if concentration is lost."
+        ]
+      },
+      "transmuters_stone": {
+        "description": "At 6th level, you can create a transmuter's stone with one of several benefits. The stone can be used by you or given to another creature and can be changed each time you cast a transmutation spell.",
+        "benefits": [
+          "Darkvision up to 60 feet.",
+          "Increased speed by 10 feet.",
+          "Proficiency in Constitution saving throws.",
+          "Resistance to a type of damage (acid, cold, fire, lightning, or thunder)."
+        ],
+        "details": [
+          "Create a transmuter's stone with chosen benefit after 8 hours of work.",
+          "Change the stone's effect whenever you cast a transmutation spell.",
+          "Previous stones become non-functional if a new one is created."
+        ]
+      },
+      "shapechanger": {
+        "description": "At 10th level, you add the Polymorph spell to your spellbook. You can cast Polymorph without expending a spell slot, but only on yourself to turn into a beast with a challenge rating of 1 or lower.",
+        "benefits": [
+          "Cast Polymorph on yourself without using a spell slot.",
+          "Transform into a beast with a challenge rating of 1 or lower."
+        ],
+        "details": [
+          "Can’t use this feature again until you finish a short or long rest."
+        ]
+      },
+      "master_transmuter": {
+        "description": "At 14th level, you can consume the magic stored in your transmuter's stone to perform one of several powerful effects. The stone is destroyed and cannot be recreated until after a long rest.",
+        "effects": [
+          "Major Transformation: Transmute a non-magical object (5-foot cube) into another of similar size and mass.",
+          "Panacea: Remove all curses, diseases, and poisons from a creature and restore its hit points.",
+          "Restore Life: Cast Raise Dead on a creature without using a spell slot.",
+          "Restore Youth: Reduce a creature’s apparent age by 3d10 years (minimum 13 years)."
+        ],
+        "details": [
+          "The transmuter's stone is destroyed and cannot be remade until you finish a long rest."
+        ]
+      }
+    }
+  }
+  

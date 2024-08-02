@@ -1,0 +1,33 @@
+{
+  "name": "Yuan-ti",
+  "description": "Yuan-ti were originally humans who transformed themselves into serpent folk through ancient rituals. Although most were corrupted into monsters, some became a new people blending human and serpent characteristics. They possess traits such as a forked tongue or snake-like eyes and are known for their resistance to magic and poison.",
+  "features": {
+    "ability_score_increase": {
+      "description": "When determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20."
+    },
+    "creature_type": {
+      "description": "You are a Humanoid."
+    },
+    "size": {
+      "description": "You are Medium or Small. You choose the size when you select this race."
+    },
+    "speed": {
+      "description": "Your walking speed is 30 feet."
+    },
+    "darkvision": {
+      "description": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+    },
+    "magic_resistance": {
+      "description": "You have advantage on saving throws against spells."
+    },
+    "poison_resilience": {
+      "description": "You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage."
+    },
+    "serpentine_spellcasting": {
+      "description": "You know the Poison Spray cantrip. You can cast Animal Friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast Suggestion with this trait. Once you cast it, you can’t do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+    },
+    "languages": {
+      "description": "You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character."
+    }
+  }
+}

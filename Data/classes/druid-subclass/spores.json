@@ -1,0 +1,47 @@
+{
+  "name": "Circle of Spores",
+  "source": [
+    "Guildmaster's Guide to Ravnica",
+    "Tasha's Cauldron of Everything"
+  ],
+  "description": "Druids of the Circle of Spores embrace the cycle of life and death, finding beauty in decay and the transformative power of fungi. They use their symbiotic link to fungi to influence life and death, supporting the natural cycle and combating those who disrupt it.",
+  "features": {
+    "circle_spells": {
+      "level": [2, 3, 5, 7, 9],
+      "spells": {
+        "2nd": ["Chill Touch"],
+        "3rd": ["Blindness/Deafness", "Gentle Repose"],
+        "5th": ["Animate Dead", "Gaseous Form"],
+        "7th": ["Blight", "Confusion"],
+        "9th": ["Cloudkill", "Contagion"]
+      },
+      "description": "You gain access to specific circle spells based on your druid level. These spells are always prepared and do not count against your total number of spells prepared."
+    },
+    "halo_of_spores": {
+      "level": 2,
+      "description": "Invisible, necrotic spores surround you, dealing necrotic damage to creatures that enter or start their turn within 10 feet of you. The damage increases as you gain levels.",
+      "damage_die": {
+        "1d4": 2,
+        "1d6": 6,
+        "1d8": 10,
+        "1d10": 14
+      }
+    },
+    "symbiotic_entity": {
+      "level": 2,
+      "description": "You can channel magic into your spores by using a Wild Shape use to gain 4 temporary hit points per druid level. While active, you gain benefits such as increased damage from Halo of Spores and additional necrotic damage from melee weapon attacks. The benefits last for 10 minutes or until you use Wild Shape again."
+    },
+    "fungal_infestation": {
+      "level": 6,
+      "description": "You can animate a Small or Medium beast or humanoid corpse within 10 feet of you, causing it to act as a zombie for 1 hour. The zombie obeys your mental commands and can only take the Attack action."
+    },
+    "spreading_spores": {
+      "level": 10,
+      "description": "You can create a 10-foot cube of deadly spores up to 30 feet away, which persists for 1 minute. Creatures in the cube take your Halo of Spores damage if they move into or start their turn there. You can't use Halo of Spores reaction while the cube is active."
+    },
+    "fungal_body": {
+      "level": 14,
+      "description": "The spores in your body grant immunity to being blinded, deafened, frightened, or poisoned. Additionally, critical hits against you count as normal hits unless you are incapacitated."
+    }
+  }
+}

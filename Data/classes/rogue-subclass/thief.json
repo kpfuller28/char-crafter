@@ -1,0 +1,43 @@
+{
+    "name": "Thief",
+    "source": "Player's Handbook",
+    "description": "Thieves focus on agility and cunning, excelling in the larcenous arts. They are experts in burglary, treasure hunting, and exploration, using their enhanced skills to delve into ancient ruins, read unfamiliar languages, and use magic items.",
+    "features": {
+      "fast_hands": {
+        "description": "At 3rd level, you can use your Cunning Action bonus action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.",
+        "mechanics": [
+          "Use Cunning Action bonus action to make a Dexterity (Sleight of Hand) check.",
+          "Use thieves' tools to disarm a trap or open a lock.",
+          "Take the Use an Object action."
+        ]
+      },
+      "second_story_work": {
+        "description": "At 3rd level, you climb faster and more efficiently. Climbing no longer costs extra movement, and the distance of your running jump increases by a number of feet equal to your Dexterity modifier.",
+        "mechanics": [
+          "Climbing no longer costs extra movement.",
+          "Increase running jump distance by your Dexterity modifier."
+        ]
+      },
+      "supreme_sneak": {
+        "description": "Starting at 9th level, you have advantage on Dexterity (Stealth) checks if you move no more than half your speed on the same turn.",
+        "mechanics": [
+          "Gain advantage on Dexterity (Stealth) checks if moving no more than half your speed on the turn."
+        ]
+      },
+      "use_magic_device": {
+        "description": "At 13th level, you can use magic items without regard for class, race, or level requirements.",
+        "mechanics": [
+          "Ignore class, race, and level requirements for using magic items."
+        ]
+      },
+      "thiefs_reflexes": {
+        "description": "At 17th level, you can take two turns during the first round of combat. Take your first turn at your normal initiative and your second turn at your initiative minus 10. This feature can’t be used if you are surprised.",
+        "mechanics": [
+          "Take two turns during the first round of combat.",
+          "First turn at normal initiative, second turn at initiative minus 10.",
+          "Cannot use this feature if surprised."
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,27 @@
+{
+  "name": "Way of Shadow",
+  "source": ["Player's Handbook"],
+  "description": "Monks of the Way of Shadow embrace stealth and subterfuge, often taking roles as spies and assassins. They are skilled in using darkness and invisibility to their advantage, and their training allows them to move unseen and strike with precision.",
+  "features": {
+    "shadow_arts": {
+      "level": 3,
+      "description": "Duplicate the effects of certain spells.",
+      "effect": "As an action, spend 2 ki points to cast darkness, darkvision, pass without trace, or silence without material components. Gain the minor illusion cantrip if you don't already know it."
+    },
+    "shadow_step": {
+      "level": 6,
+      "description": "Teleport between shadows.",
+      "effect": "When in dim light or darkness, as a bonus action, teleport up to 60 feet to a space in dim light or darkness that you can see. You gain advantage on the first melee attack you make before the end of your turn."
+    },
+    "cloak_of_shadows": {
+      "level": 11,
+      "description": "Become invisible in dim light or darkness.",
+      "effect": "When in dim light or darkness, use your action to become invisible. Remain invisible until you attack, cast a spell, or enter bright light."
+    },
+    "opportunist": {
+      "level": 17,
+      "description": "Exploit a creature's distraction.",
+      "effect": "When a creature within 5 feet of you is hit by an attack made by another creature, use your reaction to make a melee attack against that creature."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Gloom Stalker",
+  "source": "Xanathar's Guide to Everything",
+  "description": "Gloom Stalkers thrive in darkness, using their skills to ambush foes and navigate through shadowy environments. They are experts in stealth and combat in the darkest places.",
+  "features": {
+    "gloom_stalker_magic": {
+      "description": "At 3rd level, you gain access to additional spells that enhance your abilities in the dark.",
+      "spells": [
+        {
+          "level": 3,
+          "spell": "Disguise Self"
+        },
+        {
+          "level": 5,
+          "spell": "Rope Trick"
+        },
+        {
+          "level": 9,
+          "spell": "Fear"
+        },
+        {
+          "level": 13,
+          "spell": "Greater Invisibility"
+        },
+        {
+          "level": 17,
+          "spell": "Seeming"
+        }
+      ]
+    },
+    "dread_ambusher": {
+      "description": "At 3rd level, you excel in ambushing your enemies.",
+      "details": {
+        "initiative_bonus": "You gain a bonus to your initiative rolls equal to your Wisdom modifier.",
+        "first_turn_bonus": "At the start of your first turn in combat, your walking speed increases by 10 feet until the end of that turn. If you take the Attack action, you can make an additional weapon attack. If the attack hits, the target takes an extra 1d8 damage of the weapon's damage type."
+      }
+    },
+    "umbral_sight": {
+      "description": "At 3rd level, you gain enhanced darkvision and become invisible to creatures with darkvision in darkness.",
+      "details": {
+        "darkvision": "You gain darkvision out to a range of 60 feet, or its range increases by 30 feet if you already have it.",
+        "invisibility_in_darkness": "While in darkness, you are invisible to any creature that relies on darkvision to see you."
+      }
+    },
+    "iron_mind": {
+      "description": "By 7th level, you become proficient in resisting mental effects.",
+      "details": {
+        "wisdom_saving_throws": "You gain proficiency in Wisdom saving throws. If you already have this proficiency, you gain proficiency in Intelligence or Charisma saving throws (your choice)."
+      }
+    },
+    "stalkers_flurry": {
+      "description": "At 11th level, you can make additional attacks when you miss with a weapon attack.",
+      "details": {
+        "missed_attack_reaction": "Once per turn, when you miss with a weapon attack, you can make another weapon attack as part of the same action."
+      }
+    },
+    "shadowy_dodge": {
+      "description": "At 15th level, you can use supernatural shadow to dodge attacks more effectively.",
+      "details": {
+        "reaction_to_impose_disadvantage": "When a creature makes an attack roll against you and doesn't have advantage, you can use your reaction to impose disadvantage on the attack roll. You must use this feature before knowing the outcome of the attack."
+      }
+    }
+  }
+}

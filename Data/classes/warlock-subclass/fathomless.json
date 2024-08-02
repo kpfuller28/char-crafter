@@ -1,0 +1,64 @@
+{
+    "name": "Fathomless",
+    "source": "Tasha's Cauldron of Everything",
+    "description": "You have forged a pact with an entity of the ocean or another watery realm. This power allows you to draw on the depths of the sea, whether for exploration, conquest, or to unleash cosmic floods upon the world. Your connection to the sea might come from a cult, a near-drowning experience, or other mysterious circumstances. Entities like krakens, water elementals, merfolk demigods, and sea hags could be your patrons.",
+    "expanded_spell_list": {
+      "1st": ["Create or Destroy Water", "Thunderwave"],
+      "2nd": ["Gust of Wind", "Silence"],
+      "3rd": ["Lightning Bolt", "Sleet Storm"],
+      "4th": ["Control Water", "Summon Elemental (Water only)"],
+      "5th": ["Bigby's Hand (appears as a tentacle)", "Cone of Cold"]
+    },
+    "features": {
+      "tentacle_of_the_deep": {
+        "description": "At 1st level, you can summon a spectral tentacle that strikes at your foes. This tentacle lasts for 1 minute or until you use this feature to create another tentacle. On a hit, the target takes cold damage and its speed is reduced. The damage increases at 10th level. You can summon the tentacle a number of times equal to your proficiency bonus and regain all uses after a long rest.",
+        "mechanics": [
+          "Create a 10-foot-long tentacle at a point you can see within 60 feet.",
+          "Tentacle lasts for 1 minute or until you create another.",
+          "Melee spell attack against one creature within 10 feet of the tentacle.",
+          "Damage is 1d8 cold, increases to 2d8 at 10th level.",
+          "Move the tentacle up to 30 feet and repeat the attack as a bonus action.",
+          "Number of uses equals proficiency bonus, regained after a long rest."
+        ]
+      },
+      "gift_of_the_sea": {
+        "description": "At 1st level, you gain a swimming speed of 40 feet and the ability to breathe underwater.",
+        "mechanics": [
+          "Swimming speed of 40 feet.",
+          "Ability to breathe underwater."
+        ]
+      },
+      "oceanic_soul": {
+        "description": "At 6th level, you gain resistance to cold damage. While fully submerged, you and creatures fully submerged can understand each other's speech.",
+        "mechanics": [
+          "Resistance to cold damage.",
+          "Understand and be understood by creatures fully submerged in water."
+        ]
+      },
+      "guardian_coil": {
+        "description": "Also at 6th level, your Tentacle of the Deep can interpose itself between you and others to reduce damage. The damage reduction increases at 10th level.",
+        "mechanics": [
+          "Tentacle can reduce damage to a creature within 10 feet by 1d8.",
+          "Damage reduction increases to 2d8 at 10th level."
+        ]
+      },
+      "grasping_tentacles": {
+        "description": "Starting at 10th level, you learn the spell Evard's Black Tentacles, which counts as a warlock spell for you. You can cast it once without a spell slot, regaining this ability after a long rest. Casting the spell grants you temporary hit points equal to your warlock level and prevents concentration from being broken by damage.",
+        "mechanics": [
+          "Learn Evard's Black Tentacles spell, which doesn’t count against spells known.",
+          "Cast Evard's Black Tentacles once without using a spell slot per long rest.",
+          "Gain temporary hit points equal to warlock level when casting the spell.",
+          "Damage doesn’t break concentration on the spell."
+        ]
+      },
+      "fathomless_plunge": {
+        "description": "At 14th level, you can teleport yourself and up to five other willing creatures to a body of water you’ve seen or within 30 feet of it. This teleportation uses a whirl of tentacles and has a 1-mile range.",
+        "mechanics": [
+          "Teleport up to 1 mile away in a body of water or within 30 feet of it.",
+          "Teleport up to five willing creatures with you.",
+          "Once per short or long rest."
+        ]
+      }
+    }
+  }
+  

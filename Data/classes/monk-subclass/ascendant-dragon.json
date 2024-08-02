@@ -1,0 +1,66 @@
+{
+  "name": "Way of the Ascendant Dragon",
+  "source": ["Fizban's Treasury of Dragons"],
+  "description": "Monks of the Way of the Ascendant Dragon channel draconic power to enhance their martial prowess and achieve a spiritual unity with the Material Plane. They emulate dragons to gain extraordinary abilities, from breathing destructive energy to soaring through the air on spectral wings.",
+  "features": {
+    "ascendant_dragon_origin": {
+      "description": "You decide how you unlocked the power of dragons through your ki. Possible origins include observing a dragon, being shaped by a dragon, studying at a dragon-influenced monastery, meditating in a dragon’s lair, finding a scroll in Draconic, or having a prophetic dream involving a dragonborn."
+    },
+    "draconic_disciple": {
+      "level": 3,
+      "benefits": [
+        {
+          "name": "Draconic Presence",
+          "description": "If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can use your reaction to reroll the check. Once this feature turns a failure into a success, you can’t use it again until you finish a long rest."
+        },
+        {
+          "name": "Draconic Strike",
+          "description": "When you damage a target with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison."
+        },
+        {
+          "name": "Tongue of Dragons",
+          "description": "You learn to speak, read, and write Draconic or one other language of your choice."
+        }
+      ]
+    },
+    "breath_of_the_dragon": {
+      "level": 3,
+      "description": "You can channel draconic energy in a 20-foot cone or a 30-foot line (5 feet wide). Choose a damage type (acid, cold, fire, lightning, or poison). Creatures in the area must make a Dexterity saving throw against your ki save DC, taking damage equal to two rolls of your Martial Arts die on a failed save, or half as much on a successful one. At 11th level, the damage increases to three rolls of your Martial Arts die. You can use this feature a number of times equal to your proficiency bonus, regaining uses after a long rest. You can spend 2 ki points to use it again if no uses are left."
+    },
+    "wings_unfurled": {
+      "level": 6,
+      "description": "When you use Step of the Wind, you can unfurl spectral draconic wings granting you a flying speed equal to your walking speed for the turn. You can use this feature a number of times equal to your proficiency bonus, regaining uses after a long rest."
+    },
+    "aspect_of_the_wyrm": {
+      "level": 11,
+      "benefits": [
+        {
+          "name": "Frightful Presence",
+          "description": "As a bonus action, you create an aura of draconic power for 1 minute. You can choose a creature within the aura to make a Wisdom saving throw against your ki save DC or become frightened of you for 1 minute. The frightened creature can repeat the saving throw at the end of its turns."
+        },
+        {
+          "name": "Resistance",
+          "description": "Choose a damage type (acid, cold, fire, lightning, or poison) when activating this aura. You and your allies within the aura gain resistance to that damage type."
+        }
+      ],
+      "description": "You can create an aura of draconic power that radiates 10 feet from you. You can’t create this aura again until you finish a long rest unless you expend 3 ki points."
+    },
+    "ascendant_aspect": {
+      "level": 17,
+      "benefits": [
+        {
+          "name": "Augment Breath",
+          "description": "You can spend 1 ki point to increase the shape and power of your Breath of the Dragon. The exhalation becomes either a 60-foot cone or a 90-foot line (5 feet wide). Creatures in the area take damage equal to four rolls of your Martial Arts die on a failed save, or half as much on a successful one."
+        },
+        {
+          "name": "Blindsight",
+          "description": "You gain blindsight out to 10 feet. Within this range, you can see anything that isn’t behind total cover, even if you’re blinded or in darkness."
+        },
+        {
+          "name": "Explosive Fury",
+          "description": "When you activate Aspect of the Wyrm, draconic fury explodes from you. Choose any number of creatures within your aura; each must make a Dexterity saving throw against your ki save DC or take 3d10 damage of the chosen type (acid, cold, fire, lightning, or poison)."
+        }
+      ]
+    }
+  }
+}

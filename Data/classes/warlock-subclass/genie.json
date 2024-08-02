@@ -1,0 +1,78 @@
+{
+    "name": "Genie",
+    "source": "Tasha's Cauldron of Everything",
+    "description": "You have forged a pact with a noble genie, a being of immense power from the Elemental Planes. These genies, such as the Dao, Djinni, Efreeti, or Marid, rule vast domains and possess influence over lesser genies and elemental creatures. Their motivations are varied, often involving expansion of their reach and influence over mortals.",
+    "expanded_spell_list": {
+      "1st": {
+        "Dao Spells": ["Detect Evil and Good", "Sanctuary"],
+        "Djinni Spells": ["Thunderwave", "Burning Hands"],
+        "Efreeti Spells": ["Fog Cloud"],
+        "Marid Spells": []
+      },
+      "2nd": {
+        "Dao Spells": ["Phantasmal Force", "Spike Growth"],
+        "Djinni Spells": ["Gust of Wind", "Scorching Ray"],
+        "Efreeti Spells": ["Blur"],
+        "Marid Spells": []
+      },
+      "3rd": {
+        "Dao Spells": ["Create Food and Water", "Meld into Stone"],
+        "Djinni Spells": ["Wind Wall", "Fireball"],
+        "Efreeti Spells": ["Sleet Storm"],
+        "Marid Spells": []
+      },
+      "4th": {
+        "Dao Spells": ["Phantasmal Killer", "Stone Shape"],
+        "Djinni Spells": ["Greater Invisibility", "Fire Shield"],
+        "Efreeti Spells": ["Control Water"],
+        "Marid Spells": []
+      },
+      "5th": {
+        "Dao Spells": ["Creation", "Wall of Stone"],
+        "Djinni Spells": ["Seeming"],
+        "Efreeti Spells": ["Flame Strike"],
+        "Marid Spells": ["Cone of Cold"]
+      },
+      "9th": {
+        "Dao Spells": ["Wish"],
+        "Djinni Spells": [],
+        "Efreeti Spells": [],
+        "Marid Spells": []
+      }
+    },
+    "features": {
+      "genies_vessel": {
+        "description": "At 1st level, your patron gifts you a magical vessel that serves as a spellcasting focus. The vessel is a Tiny object and can be an oil lamp, urn, ring with a compartment, stoppered bottle, hollow statuette, or ornate lantern. While touching the vessel, you can use it in several ways.",
+        "mechanics": [
+          "Bottled Respite: Enter your vessel's extradimensional space as an action. Remain inside for up to twice your proficiency bonus hours. Exit early by using a bonus action, dying, or if the vessel is destroyed.",
+          "Genie's Wrath: Deal extra damage equal to your proficiency bonus with an attack roll once per turn. Damage type is determined by patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).",
+          "Vessel Stats: AC equals your spell save DC, hit points equal to warlock level plus proficiency bonus, immune to poison and psychic damage.",
+          "Replacement: Destroyed or lost vessels can be replaced through a 1-hour ceremony during a short or long rest. Previous vessel is destroyed if it still exists. Vessel vanishes upon your death."
+        ]
+      },
+      "elemental_gift": {
+        "description": "At 6th level, gain resistance to a damage type based on your patron's kind: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid). Additionally, gain a flying speed of 30 feet for 10 minutes, usable a number of times equal to your proficiency bonus per long rest.",
+        "mechanics": [
+          "Resistance to a damage type (dao: bludgeoning, djinni: thunder, efreeti: fire, marid: cold).",
+          "Flying speed of 30 feet for 10 minutes, usable a number of times equal to proficiency bonus, regained on long rest."
+        ]
+      },
+      "sanctuary_vessel": {
+        "description": "At 10th level, you can bring up to five willing creatures into your Genie's Vessel with you. You can eject creatures as a bonus action, and anyone inside the vessel for at least 10 minutes gains the benefit of a short rest. Add your proficiency bonus to hit points regained during a short rest there.",
+        "mechanics": [
+          "Bring up to five willing creatures into the vessel.",
+          "Eject creatures as a bonus action.",
+          "Benefit of a short rest for anyone inside for at least 10 minutes. Add proficiency bonus to hit points regained during short rest."
+        ]
+      },
+      "limited_wish": {
+        "description": "At 14th level, you can request the effect of a spell of 6th level or lower with a casting time of 1 action from your Genie's Vessel. You don't need to meet the spell's requirements or components. This feature can be used once per 1d4 long rests.",
+        "mechanics": [
+          "Request the effect of a 6th level or lower spell with a casting time of 1 action.",
+          "No need to meet spell requirements or components.",
+          "Use once per 1d4 long rests."
+        ]
+      }
+    }
+  }
+  

@@ -5,14 +5,22 @@ import "./App.css";
 import Question from "./Components/Question";
 
 const questions = [
-  "Do you want to weapon, cast spells, or a bit of both?",
-  "Do you want to be a human, elf, dwarf, halfling?",
-  "Do you want to be melee or ranged?",
+  "Do you have a class in mind that you'd like to play?",
+  "Do you have a race in mind that you'd like to play?",
+  "Do you have a background in mind that you'd like to play?",
+  "In combat, do you want to use weapons, cast spells, or a mix of both?",
+  "Do you want to be a standard race or something more exotic?",
+  "Do you want to fight in melee or ranged combat?",
+  "How would you like to assign ability scores? (Ask your DM if you're not sure)"
 ];
 const options = [
-  ["Weapon", "Spells", "Both"],
-  ["Human", "Elf", "Dwarf", "Halfling"],
+  ["Yes", "No"],
+  ["Yes", "No"],
+  ["Yes", "No"],
+  ["Use Weapons", "Cast Spells", "A Mix of Both"],
+  ["Standard", "Exotic", "Don't Know"],
   ["Melee", "Ranged"],
+  ["Standard Array", "Point Buy", "Roll for Stats"]
 ];
 
 function App() {
@@ -54,8 +62,13 @@ function App() {
           />
         </div>
       ) : (
+<<<<<<< HEAD
+        <div>
+          <div>Here is your character</div>
+=======
         <div className={`fade ${fade ? "fade-enter" : "fade-exit"}`}>
           <div>Here are your answers bitch</div>
+>>>>>>> 3265b3127c3ec43ec1dacbb2d6ab7b1a26d3f48f
           <ul style={{ listStyleType: "none" }}>
             {answers.map((answer) => {
               return <li>{answer}</li>;
@@ -78,8 +91,8 @@ function App() {
       )}
 
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1000)}>
-          THIS IS KIELS UPDATE FOR ONE LAST TEST is {count}
+        <button onClick={() => setCount((count) => count + 69)}>
+          This is Nate's newest update 8/2 is {count}
         </button>
         <p>
           Edit <code>src/App.tsx</code> and Nate to Nate HMR

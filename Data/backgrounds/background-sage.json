@@ -16,14 +16,14 @@
       "specialty": {
         "description": "To determine the nature of your scholarly training, roll a d8 or choose from the options in the table below.",
         "options": [
-          { "d8": 1, "specialty": "Alchemist" },
-          { "d8": 2, "specialty": "Astronomer" },
-          { "d8": 3, "specialty": "Discredited academic" },
-          { "d8": 4, "specialty": "Librarian" },
-          { "d8": 5, "specialty": "Professor" },
-          { "d8": 6, "specialty": "Researcher" },
-          { "d8": 7, "specialty": "Wizard's apprentice" },
-          { "d8": 8, "specialty": "Scribe" }
+          { "1": "Alchemist" },
+          { "2": "Astronomer" },
+          { "3": "Discredited academic" },
+          { "4": "Librarian" },
+          { "5": "Professor" },
+          { "6": "Researcher" },
+          { "7": "Wizard's apprentice" },
+          { "8": "Scribe" }
         ]
       },
       "researcher": {
@@ -32,38 +32,38 @@
     },
     "suggested_characteristics": {
       "personality_traits": [
-        { "d8": 1, "trait": "I use polysyllabic words that convey the impression of great erudition." },
-        { "d8": 2, "trait": "I've read every book in the world's greatest libraries – or I like to boast that I have." },
-        { "d8": 3, "trait": "I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others." },
-        { "d8": 4, "trait": "There's nothing I like more than a good mystery." },
-        { "d8": 5, "trait": "I'm willing to listen to every side of an argument before I make my own judgment." },
-        { "d8": 6, "trait": "I… speak… slowly… when talking… to idiots,… which… almost… everyone… is… compared… to me." },
-        { "d8": 7, "trait": "I am horribly, horribly awkward in social situations." },
-        { "d8": 8, "trait": "I'm convinced that people are always trying to steal my secrets." }
+        { "1": "I use polysyllabic words that convey the impression of great erudition." },
+        { "2": "I've read every book in the world's greatest libraries – or I like to boast that I have." },
+        { "3": "I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others." },
+        { "4": "There's nothing I like more than a good mystery." },
+        { "5": "I'm willing to listen to every side of an argument before I make my own judgment." },
+        { "6": "I… speak… slowly… when talking… to idiots,… which… almost… everyone… is… compared… to me." },
+        { "7": "I am horribly, horribly awkward in social situations." },
+        { "8": "I'm convinced that people are always trying to steal my secrets." }
       ],
       "ideals": [
-        { "d6": 1, "ideal": "Knowledge. The path to power and self-improvement is through knowledge.", "alignment": "Neutral" },
-        { "d6": 2, "ideal": "Beauty. What is beautiful points us beyond itself toward what is true.", "alignment": "Good" },
-        { "d6": 3, "ideal": "Logic. Emotions must not cloud our logical thinking.", "alignment": "Lawful" },
-        { "d6": 4, "ideal": "No Limits. Nothing should fetter the infinite possibility inherent in all existence.", "alignment": "Chaotic" },
-        { "d6": 5, "ideal": "Power. Knowledge is the path to power and domination.", "alignment": "Evil" },
-        { "d6": 6, "ideal": "Self-Improvement. The goal of a life of study is the betterment of oneself.", "alignment": "Any" }
+        { "1": "Knowledge. The path to power and self-improvement is through knowledge.", "alignment": "Neutral" },
+        { "2": "Beauty. What is beautiful points us beyond itself toward what is true.", "alignment": "Good" },
+        { "3": "Logic. Emotions must not cloud our logical thinking.", "alignment": "Lawful" },
+        { "4": "No Limits. Nothing should fetter the infinite possibility inherent in all existence.", "alignment": "Chaotic" },
+        { "5": "Power. Knowledge is the path to power and domination.", "alignment": "Evil" },
+        { "6": "Self-Improvement. The goal of a life of study is the betterment of oneself.", "alignment": "Any" }
       ],
       "bonds": [
-        { "d6": 1, "bond": "It is my duty to protect my students." },
-        { "d6": 2, "bond": "I have an ancient text that holds terrible secrets that must not fall into the wrong hands." },
-        { "d6": 3, "bond": "I work to preserve a library, university, scriptorium, or monastery." },
-        { "d6": 4, "bond": "My life's work is a series of tomes related to a specific field of lore." },
-        { "d6": 5, "bond": "I've been searching my whole life for the answer to a certain question." },
-        { "d6": 6, "bond": "I sold my soul for knowledge. I hope to do great deeds and win it back." }
+        { "1": "It is my duty to protect my students." },
+        { "2": "I have an ancient text that holds terrible secrets that must not fall into the wrong hands." },
+        { "3": "I work to preserve a library, university, scriptorium, or monastery." },
+        { "4": "My life's work is a series of tomes related to a specific field of lore." },
+        { "5": "I've been searching my whole life for the answer to a certain question." },
+        { "6": "I sold my soul for knowledge. I hope to do great deeds and win it back." }
       ],
       "flaws": [
-        { "d6": 1, "flaw": "I am easily distracted by the promise of information." },
-        { "d6": 2, "flaw": "Most people scream and run when they see a demon. I stop and take notes on its anatomy." },
-        { "d6": 3, "flaw": "Unlocking an ancient mystery is worth the price of a civilization." },
-        { "d6": 4, "flaw": "I overlook obvious solutions in favor of complicated ones." },
-        { "d6": 5, "flaw": "I speak without really thinking through my words, invariably insulting others." },
-        { "d6": 6, "flaw": "I can't keep a secret to save my life, or anyone else's." }
+        { "1": "I am easily distracted by the promise of information." },
+        { "2": "Most people scream and run when they see a demon. I stop and take notes on its anatomy." },
+        { "3": "Unlocking an ancient mystery is worth the price of a civilization." },
+        { "4": "I overlook obvious solutions in favor of complicated ones." },
+        { "5": "I speak without really thinking through my words, invariably insulting others." },
+        { "6": "I can't keep a secret to save my life, or anyone else's." }
       ]
     }
   }

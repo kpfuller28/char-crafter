@@ -1,0 +1,35 @@
+{
+  "name": "Cavalier",
+  "source": ["Xanathar's Guide to Everything"],
+  "description": "Cavaliers excel at mounted combat and are often noble-born, adept at both leading cavalry charges and navigating courtly affairs. They protect those in their charge and are driven to right wrongs and earn prestige through glorious adventure.",
+  "features": {
+    "bonus_proficiency": {
+      "level": 3,
+      "description": "You gain proficiency in one of the following skills of your choice: Animal Handling, History, Insight, Performance, or Persuasion. Alternatively, you learn one language of your choice."
+    },
+    "born_to_the_saddle": {
+      "level": 3,
+      "description": "You have advantage on saving throws to avoid falling off your mount. If you fall off and descend no more than 10 feet, you can land on your feet if not incapacitated. Mounting or dismounting a creature costs you only 5 feet of movement."
+    },
+    "unwavering_mark": {
+      "level": 3,
+      "description": "You can mark a creature you hit with a melee weapon attack until the end of your next turn. The marked creature has disadvantage on attack rolls that don't target you. If it deals damage to anyone other than you, you can make a special melee weapon attack against it as a bonus action on your next turn with advantage. The attack deals extra damage equal to half your fighter level. You can mark a number of creatures equal to your Strength modifier (minimum once) and regain uses after a long rest."
+    },
+    "warding_maneuver": {
+      "level": 7,
+      "description": "You can use your reaction to roll 1d8 and add the result to a creature's AC against an attack. If the attack still hits, the target gains resistance to the damage. You can use this feature a number of times equal to your Constitution modifier (minimum once) and regain uses after a long rest."
+    },
+    "hold_the_line": {
+      "level": 10,
+      "description": "Creatures provoke opportunity attacks from you when they move 5 feet or more within your reach. If you hit a creature with an opportunity attack, its speed is reduced to 0 until the end of the current turn."
+    },
+    "ferocious_charger": {
+      "level": 15,
+      "description": "If you move at least 10 feet in a straight line before attacking a creature and hit it, the target must succeed on a Strength saving throw (DC 8 + proficiency bonus + Strength modifier) or be knocked prone. You can use this feature only once per turn."
+    },
+    "vigilant_defender": {
+      "level": 18,
+      "description": "You gain a special reaction that you can use once on every creature's turn, except your own. This reaction is used to make an opportunity attack, and you can't use it on the same turn you use your normal reaction."
+    }
+  }
+}

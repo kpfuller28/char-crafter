@@ -1,0 +1,41 @@
+{
+    "name": "Assassin",
+    "source": "Player's Handbook",
+    "description": "Assassins focus on the grim art of death, excelling in stealth, poison, and disguise to eliminate foes with deadly efficiency. This archetype includes hired killers, spies, bounty hunters, and specially anointed priests.",
+    "features": {
+      "bonus_proficiencies": {
+        "description": "At 3rd level, you gain proficiency with the disguise kit and the poisoner's kit."
+      },
+      "assassinate": {
+        "description": "At 3rd level, you are deadliest when attacking enemies who haven’t taken their turn yet.",
+        "mechanics": [
+          "You have advantage on attack rolls against creatures that haven't taken a turn in combat yet.",
+          "Any hit against a surprised creature is a critical hit."
+        ]
+      },
+      "infiltration_expertise": {
+        "description": "At 9th level, you can create false identities with ease.",
+        "mechanics": [
+          "Spend seven days and 25 gp to establish a false identity with a detailed history and profession.",
+          "The identity must be original and not belong to someone else.",
+          "While using this identity as a disguise, others believe you are that person unless given a clear reason to doubt it."
+        ]
+      },
+      "impostor": {
+        "description": "At 13th level, you can mimic another person’s speech, writing, and behavior perfectly.",
+        "mechanics": [
+          "Spend at least three hours studying the target’s speech, handwriting, and mannerisms.",
+          "Your imitation is indiscernible to casual observers.",
+          "You have advantage on Charisma (Deception) checks to avoid detection if someone suspects something is wrong."
+        ]
+      },
+      "death_strike": {
+        "description": "At 17th level, you master the art of instant death.",
+        "mechanics": [
+          "When you hit a surprised creature, it must make a Constitution saving throw (DC = 8 + your Dexterity modifier + your proficiency bonus).",
+          "On a failed save, the damage of your attack is doubled."
+        ]
+      }
+    }
+  }
+  

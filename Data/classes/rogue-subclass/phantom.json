@@ -1,0 +1,49 @@
+{
+    "name": "Phantom",
+    "source": "Tasha's Cauldron of Everything",
+    "description": "Phantoms are rogues who forge a connection with death itself, using their macabre powers to gather information and strike from the shadows. They are adept at harnessing the essence of the deceased and manipulating it for their benefit.",
+    "features": {
+      "whispers_of_the_dead": {
+        "description": "At 3rd level, you gain temporary proficiency in a skill or tool after each rest, thanks to the knowledge shared by spirits.",
+        "mechanics": [
+          "After a short or long rest, gain proficiency in one skill or tool of your choice.",
+          "You lose this proficiency when you choose a different one using this feature."
+        ]
+      },
+      "wails_from_the_grave": {
+        "description": "At 3rd level, you can channel the power of death to deal necrotic damage to a second creature after you deal Sneak Attack damage.",
+        "mechanics": [
+          "Immediately after dealing Sneak Attack damage to a creature, you can target a second creature within 30 feet.",
+          "Roll half the number of Sneak Attack dice (rounded up) and the second creature takes necrotic damage equal to the roll's total.",
+          "You can use this feature a number of times equal to your proficiency bonus, regaining all uses after a long rest."
+        ]
+      },
+      "tokens_of_the_departed": {
+        "description": "At 9th level, you can create and use soul trinkets from the life essence of dying creatures.",
+        "mechanics": [
+          "When a creature dies within 30 feet, you can create a Tiny trinket, called a soul trinket.",
+          "You can have a maximum number of soul trinkets equal to your proficiency bonus.",
+          "While a soul trinket is on your person, you have advantage on death saving throws and Constitution saving throws.",
+          "You can destroy a soul trinket to use Wails from the Grave without expending a use.",
+          "You can destroy a soul trinket to ask the associated spirit one question, which it answers as concisely as possible."
+        ]
+      },
+      "ghost_walk": {
+        "description": "At 13th level, you can assume a spectral form, gaining flight and the ability to pass through objects.",
+        "mechanics": [
+          "As a bonus action, you become a spectral form with a flying speed of 10 feet and the ability to hover.",
+          "Attack rolls against you have disadvantage, and you can move through creatures and objects as if they were difficult terrain.",
+          "You take 1d10 force damage if you end your turn inside a creature or object.",
+          "This form lasts for 10 minutes or until you end it as a bonus action. You must finish a long rest or destroy a soul trinket to use this feature again."
+        ]
+      },
+      "death's_friend": {
+        "description": "At 17th level, your connection to death strengthens, allowing you to deal necrotic damage to both the first and second creatures with Wails from the Grave and automatically gaining a soul trinket after a long rest if you have none.",
+        "mechanics": [
+          "Wails from the Grave now deals necrotic damage to both the first and second creatures.",
+          "At the end of a long rest, if you have no soul trinkets, a new soul trinket appears in your hand."
+        ]
+      }
+    }
+  }
+  

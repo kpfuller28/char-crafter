@@ -1,0 +1,50 @@
+{
+    "name": "Order of Scribes",
+    "source": "Tasha's Cauldron of Everything",
+    "description": "The Order of Scribes is the most scholarly of the wizardly traditions, focusing on recording and preserving magical knowledge. Wizards in this order turn their spellbooks into sentient companions and use them to enhance their magical abilities.",
+    "features": {
+      "wizardly_quill": {
+        "description": "At 2nd level, you can magically create a Tiny quill as a bonus action. This quill can produce ink in any color, speed up the process of copying spells into your spellbook, and erase writing within 5 feet of you.",
+        "benefits": [
+          "Create a Tiny quill that doesn't require ink.",
+          "Reduce the time to copy spells into your spellbook to 2 minutes per spell level.",
+          "Erase writing within 5 feet by waving the quill."
+        ]
+      },
+      "awakened_spellbook": {
+        "description": "At 2nd level, you awaken an arcane sentience within your spellbook, granting it the ability to be used as a spellcasting focus and allowing you to alter the damage type of spells. You can also use ritual spells with their normal casting time and transfer the book's consciousness to a new book if necessary.",
+        "benefits": [
+          "Use the spellbook as a spellcasting focus.",
+          "Temporarily replace a spell's damage type with one from another spell in your spellbook.",
+          "Cast ritual spells with their normal casting time.",
+          "Transfer the book's consciousness to a new book during a short rest."
+        ]
+      },
+      "manifest_mind": {
+        "description": "At 6th level, you can manifest your spellbook's mind as a Tiny spectral object, allowing it to act as a sensor and enabling you to cast spells from its location. The spectral mind can move and has darkvision. You can use this feature a number of times per day equal to your proficiency bonus.",
+        "benefits": [
+          "Manifest the spellbook's mind as a Tiny spectral object.",
+          "Cast spells as if you were in the spectral mind's space.",
+          "Move the spectral mind up to 30 feet as a bonus action.",
+          "The spectral mind stops manifesting if it moves too far away or if other conditions are met."
+        ]
+      },
+      "master_scrivener": {
+        "description": "At 10th level, you can create a magic scroll once per long rest by copying a 1st or 2nd level spell from your spellbook onto it. The spell's power is enhanced, counting as one level higher. You can also craft spell scrolls more efficiently using your Wizardly Quill.",
+        "benefits": [
+          "Create a magic scroll with an enhanced 1st or 2nd level spell.",
+          "The spell on the scroll counts as one level higher.",
+          "Halve the cost and time to craft spell scrolls using the Wizardly Quill."
+        ]
+      },
+      "one_with_the_word": {
+        "description": "At 14th level, your connection to your spellbook allows you to gain advantage on Intelligence (Arcana) checks. If you take damage while the spellbook's mind is manifested, you can use your reaction to dismiss the mind and prevent the damage. You will lose spells of a combined level equal to 3d6 rolled and will be unable to cast them until you complete 1d6 long rests.",
+        "benefits": [
+          "Advantage on Intelligence (Arcana) checks.",
+          "Prevent damage by dismissing the spectral mind and losing spells.",
+          "Spells lost due to this feature reappear after 1d6 long rests."
+        ]
+      }
+    }
+  }
+  

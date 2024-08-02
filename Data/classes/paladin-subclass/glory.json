@@ -1,0 +1,46 @@
+{
+  "name": "Oath of Glory",
+  "source": ["Mythic Odysseys of Theros", "Tasha's Cauldron of Everything"],
+  "description": "Paladins who swear the Oath of Glory are driven to achieve heroic deeds and inspire greatness in themselves and their allies. They train rigorously and embrace challenges as opportunities to shine in legend.",
+  "tenets": {
+    "actions_over_words": "Strive to be known by glorious deeds, not words.",
+    "challenges_are_but_tests": "Face hardships with courage, and encourage your allies to face them with you.",
+    "hone_the_body": "Like raw stone, your body must be worked so its potential can be realized.",
+    "discipline_the_soul": "You must marshal the discipline to overcome failings within yourself that threaten to dim the glory of you and your friends."
+  },
+  "oath_spells": {
+    "3rd_level": ["Guiding Bolt", "Heroism"],
+    "5th_level": ["Enhance Ability", "Magic Weapon"],
+    "9th_level": ["Haste", "Protection from Energy"],
+    "13th_level": ["Compulsion", "Freedom of Movement"],
+    "17th_level": ["Commune", "Flame Strike"]
+  },
+  "channel_divinity": {
+    "peerless_athlete": {
+      "description": "Augment your athleticism for enhanced physical performance.",
+      "effect": "As a bonus action, gain advantage on Strength (Athletics) and Dexterity (Acrobatics) checks, double your carrying capacity, and increase your long and high jump distances by 10 feet for 10 minutes."
+    },
+    "inspiring_smite": {
+      "description": "Distribute temporary hit points to allies after a successful Divine Smite.",
+      "effect": "Immediately after dealing damage with Divine Smite, as a bonus action, grant temporary hit points equal to 2d8 + your paladin level to creatures within 30 feet of you. This can include yourself."
+    }
+  },
+  "aura_of_alacrity": {
+    "7th_level": {
+      "description": "Increase speed for you and nearby allies.",
+      "effect": "Your walking speed increases by 10 feet. Allies within 5 feet of you also gain a 10-foot speed increase until the end of their turn. The aura's range extends to 10 feet at 18th level."
+    }
+  },
+  "glorious_defense": {
+    "15th_level": {
+      "description": "Turn a defensive maneuver into a counterattack.",
+      "effect": "When you or an ally within 10 feet is hit by an attack, use your reaction to grant a bonus to the target's AC equal to your Charisma modifier. If the attack misses, you can make one weapon attack against the attacker. You can use this feature a number of times equal to your Charisma modifier (minimum of once), regaining uses after a long rest."
+    }
+  },
+  "living_legend": {
+    "20th_level": {
+      "description": "Empower yourself with the legends of your deeds.",
+      "effect": "As a bonus action, gain advantage on Charisma checks, turn a missed weapon attack into a hit, and reroll a failed saving throw (using the new roll). This effect lasts for 1 minute and can be used once per long rest unless you expend a 5th-level spell slot to use it again."
+    }
+  }
+}

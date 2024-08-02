@@ -1,0 +1,38 @@
+{
+  "name": "Life Domain",
+  "source": "Player's Handbook",
+  "description": "The Life Domain focuses on positive energy that sustains life, promoting health, vitality, and the defense against death and undeath. Deities of this domain include agricultural gods like Chauntea and Demeter, sun gods like Lathander and Pelor, gods of healing like Ilmater and Apollo, and gods of home and community like Hestia and Hathor.",
+  "spells": {
+    "1st": ["Bless", "Cure Wounds"],
+    "3rd": ["Lesser Restoration", "Spiritual Weapon"],
+    "5th": ["Beacon of Hope", "Revivify"],
+    "7th": ["Death Ward", "Guardian of Faith"],
+    "9th": ["Mass Cure Wounds", "Raise Dead"]
+  },
+  "features": {
+    "bonus_proficiency": {
+      "level": 1,
+      "description": "Gain proficiency with heavy armor."
+    },
+    "disciple_of_life": {
+      "level": 1,
+      "description": "Your healing spells are more effective. When you use a spell of 1st level or higher to restore hit points, the target regains additional hit points equal to 2 + the spell's level."
+    },
+    "channel_divinity_preserve_life": {
+      "level": 2,
+      "description": "Use Channel Divinity to restore hit points to creatures within 30 feet, up to a total number equal to five times your cleric level. Each creature can be restored to no more than half of its hit point maximum. This feature cannot be used on undead or constructs."
+    },
+    "blessed_healer": {
+      "level": 6,
+      "description": "When you cast a healing spell of 1st level or higher on another creature, you regain hit points equal to 2 + the spell's level."
+    },
+    "divine_strike": {
+      "level": 8,
+      "description": "Infuse your weapon strikes with divine energy. Once on each turn when you hit a creature with a weapon attack, you can deal an extra 1d8 radiant damage. At 14th level, this extra damage increases to 2d8."
+    },
+    "supreme_healing": {
+      "level": 17,
+      "description": "When you roll dice to restore hit points with a spell, use the highest number possible for each die instead of rolling. For example, 2d6 becomes 12 hit points restored."
+    }
+  }
+}

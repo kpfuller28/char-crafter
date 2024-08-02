@@ -1,0 +1,31 @@
+{
+  "name": "Way of the Kensei",
+  "source": ["Xanathar's Guide to Everything"],
+  "description": "Monks of the Way of the Kensei master the use of specific weapons, viewing them as extensions of their bodies and tools of martial expression. Their training extends beyond combat, incorporating calligraphy and painting.",
+  "features": {
+    "path_of_the_kensei": {
+      "level": 3,
+      "description": "Your training focuses on mastering specific weapons. Choose two types of weapons to be your kensei weapons—one melee and one ranged. You gain proficiency with these weapons if you don't already have it. These weapons are considered monk weapons for you.",
+      "kensei_weapons": "When you reach 6th, 11th, and 17th levels, you can choose another weapon to be a kensei weapon.",
+      "agile_parry": "When you make an unarmed strike as part of the Attack action and are holding a kensei melee weapon, you gain a +2 bonus to AC until the start of your next turn.",
+      "kensei_shot": "As a bonus action, you can make your ranged attacks with a kensei weapon deal an extra 1d4 damage of the weapon’s type until the end of the current turn.",
+      "way_of_the_brush": "Gain proficiency with calligrapher's supplies or painter's supplies."
+    },
+    "one_with_the_blade": {
+      "level": 6,
+      "description": "Extend your ki into your kensei weapons.",
+      "magic_kensei_weapons": "Attacks with kensei weapons count as magical for overcoming resistance and immunity to non-magical attacks and damage.",
+      "deft_strike": "Spend 1 ki point to deal extra damage with a kensei weapon equal to your Martial Arts die, usable once per turn."
+    },
+    "sharpen_the_blade": {
+      "level": 11,
+      "description": "Augment your weapons further with your ki.",
+      "bonus_attack_damage": "As a bonus action, expend up to 3 ki points to grant a kensei weapon you touch a bonus to attack and damage rolls. The bonus equals the ki points spent and lasts for 1 minute or until used again."
+    },
+    "unerring_accuracy": {
+      "level": 17,
+      "description": "Grant extraordinary accuracy with your weapons.",
+      "reroll_miss": "If you miss with an attack roll using a monk weapon on your turn, you can reroll it. Usable once per turn."
+    }
+  }
+}

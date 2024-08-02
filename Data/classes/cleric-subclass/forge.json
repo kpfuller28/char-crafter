@@ -1,0 +1,38 @@
+{
+  "name": "Forge Domain",
+  "source": "Xanathar's Guide to Everything",
+  "description": "The gods of the Forge Domain are patrons of artisans who work with metal, from humble blacksmiths to mighty artisans crafting magical items. Clerics of these deities seek to create and protect powerful artifacts and are skilled in crafting and combat. Deities of this domain include Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.",
+  "spells": {
+    "1st": ["Identify", "Searing Smite"],
+    "3rd": ["Heat Metal", "Magic Weapon"],
+    "5th": ["Elemental Weapon", "Protection from Energy"],
+    "7th": ["Fabricate", "Wall of Fire"],
+    "9th": ["Animate Objects", "Creation"]
+  },
+  "features": {
+    "bonus_proficiency": {
+      "level": 1,
+      "description": "You gain proficiency with heavy armor and smith's tools."
+    },
+    "blessing_of_the_forge": {
+      "level": 1,
+      "description": "You can imbue magic into a weapon or armor. At the end of a long rest, touch one nonmagical suit of armor or weapon to make it a magic item with a +1 bonus to AC or attack and damage rolls, respectively. This feature can be used once per long rest."
+    },
+    "channel_divinity_artisans_blessing": {
+      "level": 2,
+      "description": "You can use Channel Divinity to create nonmagical metal items worth up to 100 gp. The item forms at the end of an hour-long ritual and includes some metal used in the creation."
+    },
+    "soul_of_the_forge": {
+      "level": 6,
+      "description": "You gain resistance to fire damage and a +1 bonus to AC while wearing heavy armor."
+    },
+    "divine_strike": {
+      "level": 8,
+      "description": "You can infuse weapon strikes with fiery power. Once per turn, when you hit a creature with a weapon attack, you can deal an extra 1d8 fire damage. At 14th level, this increases to 2d8."
+    },
+    "saint_of_forge_and_fire": {
+      "level": 17,
+      "description": "You gain immunity to fire damage and, while wearing heavy armor, resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+    }
+  }
+}

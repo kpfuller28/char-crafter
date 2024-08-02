@@ -1,0 +1,45 @@
+{
+  "name": "Oath of the Watchers",
+  "source": "Tasha's Cauldron of Everything",
+  "description": "The Oath of the Watchers binds paladins to protect mortal realms from extraplanar creatures. Watchers are vigilant, honing their minds, spirits, and bodies to be ultimate weapons against such threats, and often establish networks to gather information on cults and other influences.",
+  "tenets": {
+    "vigilance": "The threats you face are cunning, powerful, and subversive. Be ever alert for their corruption.",
+    "loyalty": "Never accept gifts or favors from fiends or those who truck with them. Stay true to your order, your comrades, and your duty.",
+    "discipline": "You are the shield against the endless terrors that lie beyond the stars. Your blade must be forever sharp and your mind keen to survive what lies beyond."
+  },
+  "oath_spells": {
+    "3rd_level": ["Alarm", "Detect Magic"],
+    "5th_level": ["Moonbeam", "See Invisibility"],
+    "9th_level": ["Counterspell", "Nondetection"],
+    "13th_level": ["Aura of Purity", "Banishment"],
+    "17th_level": ["Hold Monster", "Scrying"]
+  },
+  "channel_divinity": {
+    "watchers_will": {
+      "description": "Invest your presence with warding power, granting advantage on saving throws.",
+      "effect": "As an action, choose up to a number of creatures within 30 feet equal to your Charisma modifier (minimum of one). For 1 minute, you and the chosen creatures have advantage on Intelligence, Wisdom, and Charisma saving throws."
+    },
+    "abjure_the_extraplanar": {
+      "description": "Castigate unworldly beings to force them to flee.",
+      "effect": "As an action, present your holy symbol. Each aberration, celestial, elemental, fey, or fiend within 30 feet that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage. The creature must try to move as far away from you as it can and can't willingly end its move within 30 feet of you. It can only use the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, it can take the Dodge action."
+    }
+  },
+  "aura_of_the_sentinel": {
+    "7th_level": {
+      "description": "Emit an aura of alertness to improve initiative rolls.",
+      "effect": "You and any creatures of your choice within 10 feet gain a bonus to initiative rolls equal to your proficiency bonus. At 18th level, the range of this aura increases to 30 feet."
+    }
+  },
+  "vigilant_rebuke": {
+    "15th_level": {
+      "description": "Chastise those who use beguilements against you or your wards.",
+      "effect": "When you or a creature within 30 feet succeeds on an Intelligence, Wisdom, or Charisma saving throw, you can use your reaction to deal 2d8 + your Charisma modifier force damage to the creature that forced the saving throw."
+    }
+  },
+  "mortal_bulwark": {
+    "20th_level": {
+      "description": "Manifest a spark of divine power to defend the mortal realms.",
+      "effect": "As a bonus action, for 1 minute you gain truesight with a range of 120 feet, advantage on attack rolls against aberrations, celestials, elementals, fey, and fiends, and when you hit a creature with an attack roll, you can force it to make a Charisma saving throw against your spell save DC. On a failed save, the creature is banished to its native plane if it's not currently there. On a successful save, the creature can't be banished by this feature for 24 hours. You can use this feature once per long rest, or expend a 5th-level spell slot to use it again."
+    }
+  }
+}

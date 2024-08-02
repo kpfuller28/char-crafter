@@ -1,0 +1,39 @@
+{
+    "name": "Graviturgy Magic",
+    "source": "Explorer's Guide to Wildemount",
+    "description": "Graviturgy mages harness the fundamental forces of gravity to manipulate weight and the physical movement of objects and creatures. This magic allows them to adjust density, control gravitational fields, and enhance or diminish the force of attacks.",
+    "features": {
+      "adjust_density": {
+        "description": "At 2nd level, you can alter the weight of an object or creature you can see within 30 feet. The weight of the target is halved or doubled for up to 1 minute, affecting its speed, jumping ability, and Strength checks or saving throws. Upon reaching 10th level, you can target Huge or smaller objects or creatures.",
+        "benefits": [
+          "Halve or double the weight of a Large or smaller object or creature for up to 1 minute.",
+          "Halved weight: Increase speed by 10 feet, double jump distance, disadvantage on Strength checks and saves.",
+          "Doubled weight: Reduce speed by 10 feet, advantage on Strength checks and saves."
+        ]
+      },
+      "gravity_well": {
+        "description": "Starting at 6th level, you can move a creature you target with a spell by 5 feet to an unoccupied space of your choice if the target is willing, the spell hits it, or it fails a saving throw against the spell.",
+        "benefits": [
+          "Move the target of your spell by 5 feet if it is willing, hit by the spell, or fails a saving throw."
+        ]
+      },
+      "violent_attraction": {
+        "description": "At 10th level, you can use your reaction to increase the damage of a weapon attack or fall damage for creatures within 60 feet. The extra damage for weapon attacks is 1d10 of the weapon's type, and for falls, it is increased by 2d10.",
+        "benefits": [
+          "Increase damage of a weapon attack by 1d10 of the weapon's type.",
+          "Increase fall damage by 2d10.",
+          "Can be used a number of times equal to your Intelligence modifier (minimum once), regains uses after a long rest."
+        ]
+      },
+      "event_horizon": {
+        "description": "At 14th level, you can emit a field of gravitational energy that affects creatures hostile to you within 30 feet. Creatures must make a Strength saving throw or take 2d10 force damage and have their speed reduced to 0. On a successful save, they take half damage and move costs 2 extra feet per foot moved. This lasts for 1 minute or until your concentration ends. You can't use this feature again until you finish a long rest or expend a spell slot of 3rd level or higher.",
+        "benefits": [
+          "Emit a field of gravitational energy affecting hostile creatures within 30 feet.",
+          "Failed save: 2d10 force damage and speed reduced to 0.",
+          "Successful save: Half damage and movement costs 2 extra feet per foot.",
+          "Lasts 1 minute or until concentration ends. Can't be used again until long rest or expending a 3rd level or higher spell slot."
+        ]
+      }
+    }
+  }
+  

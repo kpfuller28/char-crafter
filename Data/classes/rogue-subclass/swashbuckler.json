@@ -1,0 +1,43 @@
+{
+    "name": "Swashbuckler",
+    "source": "Xanathar's Guide to Everything",
+    "description": "Swashbucklers are masters of the blade who use speed, charm, and elegance in combat. They excel in one-on-one duels and are adept at dodging attacks while engaging in flashy, graceful fighting styles.",
+    "features": {
+      "fancy_footwork": {
+        "description": "At 3rd level, you can strike and slip away gracefully. After making a melee attack against a creature on your turn, that creature can't make opportunity attacks against you for the rest of your turn.",
+        "mechanics": [
+          "Make a melee attack against a creature.",
+          "The creature can't make opportunity attacks against you for the rest of your turn."
+        ]
+      },
+      "rakish_audacity": {
+        "description": "Starting at 3rd level, your confidence boosts your initiative and enhances your Sneak Attack capabilities. You can add your Charisma modifier to initiative rolls and use Sneak Attack if you are within 5 feet of a creature without advantage, provided no other creatures are within 5 feet of you and you don't have disadvantage.",
+        "mechanics": [
+          "Add your Charisma modifier to your initiative rolls.",
+          "Use Sneak Attack without advantage if you are within 5 feet of the target, no other creatures are within 5 feet of you, and you don't have disadvantage."
+        ]
+      },
+      "panache": {
+        "description": "At 9th level, your charm can sway others in combat. Use a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. If successful and the creature is hostile, it has disadvantage on attacks against others and can't make opportunity attacks against others. If the creature isn't hostile, it is charmed by you for 1 minute.",
+        "mechanics": [
+          "Make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check.",
+          "If the creature is hostile, it has disadvantage on attacks against others and can't make opportunity attacks against others for 1 minute or until you or your companions act against it.",
+          "If the creature isn't hostile, it is charmed by you for 1 minute, regarding you as a friendly acquaintance. The effect ends if you or your companions harm it."
+        ]
+      },
+      "elegant_maneuver": {
+        "description": "At 13th level, you can use a bonus action to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make during the same turn.",
+        "mechanics": [
+          "Use a bonus action to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make during the same turn."
+        ]
+      },
+      "master_duelist": {
+        "description": "At 17th level, your skill with the blade allows you to reroll a missed attack with advantage. Once used, you can't use this feature again until you finish a short or long rest.",
+        "mechanics": [
+          "If you miss with an attack roll, you can roll it again with advantage.",
+          "Once used, you must finish a short or long rest to use this feature again."
+        ]
+      }
+    }
+  }
+  

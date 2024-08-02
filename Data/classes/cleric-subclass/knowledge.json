@@ -1,0 +1,42 @@
+{
+  "name": "Knowledge Domain",
+  "source": "Player's Handbook",
+  "description": "Gods of the Knowledge Domain value learning and understanding above all. They may teach that knowledge should be gathered and shared, kept secret, or used to gain power. Followers study esoteric lore, collect old tomes, and delve into hidden places to gain knowledge. Notable deities include Oghma, Boccob, Gilean, Aureon, and Thoth, as well as smith deities like Gond and Moradin.",
+  "spells": {
+    "1st": ["Command", "Identify"],
+    "3rd": ["Augury", "Suggestion"],
+    "5th": ["Nondetection", "Speak with Dead"],
+    "7th": ["Arcane Eye", "Confusion"],
+    "9th": ["Legend Lore", "Scrying"]
+  },
+  "features": {
+    "blessings_of_knowledge": {
+      "level": 1,
+      "description": "You learn two languages of your choice and become proficient in two skills: Arcana, History, Nature, or Religion. Your proficiency bonus is doubled for ability checks using these skills."
+    },
+    "channel_divinity_knowledge_of_the_ages": {
+      "level": 2,
+      "description": "You can use Channel Divinity to gain proficiency with a chosen skill or tool for 10 minutes."
+    },
+    "channel_divinity_read_thoughts": {
+      "level": 6,
+      "description": "You can use Channel Divinity to read a creature's surface thoughts within 60 feet of you. If the creature fails a Wisdom saving throw, you can read its thoughts for 1 minute and cast Suggestion on it without expending a spell slot. The target automatically fails its saving throw against Suggestion."
+    },
+    "potent_spellcasting": {
+      "level": 8,
+      "description": "Add your Wisdom modifier to the damage you deal with any cleric cantrip."
+    },
+    "visions_of_the_past": {
+      "level": 17,
+      "description": "You can spend time in meditation to receive visions of recent events related to an object or your surroundings. This includes Object Reading and Area Reading."
+    },
+    "object_reading": {
+      "level": 17,
+      "description": "Holding an object during meditation reveals visions of its previous owner, how they acquired and lost it, and recent significant events involving them. You can extend this to learn about multiple previous owners if applicable."
+    },
+    "area_reading": {
+      "level": 17,
+      "description": "Meditation reveals visions of significant recent events in an area up to a 50-foot cube. You learn about one significant event per minute of meditation, starting with the most recent."
+    }
+  }
+}

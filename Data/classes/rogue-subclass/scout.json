@@ -1,0 +1,42 @@
+{
+    "name": "Scout",
+    "source": "Xanathar's Guide to Everything",
+    "description": "Scouts are skilled in stealth and survival, excelling in tracking and ambushing enemies. They are adept at navigating wilderness and serving as the eyes and ears for their allies.",
+    "features": {
+      "skirmisher": {
+        "description": "At 3rd level, you can move up to half your speed as a reaction when an enemy ends its turn within 5 feet of you, without provoking opportunity attacks.",
+        "mechanics": [
+          "Move up to half your speed as a reaction when an enemy ends its turn within 5 feet.",
+          "This movement does not provoke opportunity attacks."
+        ]
+      },
+      "survivalist": {
+        "description": "At 3rd level, you gain proficiency in Nature and Survival skills, and your proficiency bonus is doubled for any checks using these proficiencies.",
+        "mechanics": [
+          "Gain proficiency in Nature and Survival skills if you don't already have them.",
+          "Double proficiency bonus for checks using these skills."
+        ]
+      },
+      "superior_mobility": {
+        "description": "At 9th level, your speed increases by 10 feet, including climbing and swimming speeds if applicable.",
+        "mechanics": [
+          "Increase walking, climbing, and swimming speed by 10 feet."
+        ]
+      },
+      "ambush_master": {
+        "description": "At 13th level, you gain advantage on initiative rolls and the first creature you hit in the first round of combat has advantage on attack rolls against it until the start of your next turn.",
+        "mechanics": [
+          "Advantage on initiative rolls.",
+          "First creature you hit in the first round of combat has advantage on attack rolls against it until the start of your next turn."
+        ]
+      },
+      "sudden_strike": {
+        "description": "At 17th level, you can make an additional attack as a bonus action when you take the Attack action on your turn. This attack can benefit from Sneak Attack, but not against the same target more than once per turn.",
+        "mechanics": [
+          "Make one additional attack as a bonus action when taking the Attack action.",
+          "This attack can benefit from Sneak Attack, but not against the same target more than once per turn."
+        ]
+      }
+    }
+  }
+  

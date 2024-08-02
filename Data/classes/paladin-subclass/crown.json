@@ -1,0 +1,46 @@
+{
+  "name": "Oath of the Crown",
+  "source": "Sword Coast Adventurer's Guide",
+  "description": "Paladins who swear the Oath of the Crown dedicate themselves to serving society and upholding the laws that bind it together. Known as guardians, exemplars, or sentinels, they stand against the chaotic forces threatening civilization and often belong to knightly orders in service to a nation or sovereign.",
+  "tenets": {
+    "law": "The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.",
+    "loyalty": "Your word is your bond. Without loyalty, oaths and laws are meaningless.",
+    "courage": "You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?",
+    "responsibility": "You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations."
+  },
+  "oath_spells": {
+    "3rd_level": ["Command", "Compelled Duel"],
+    "5th_level": ["Warding Bond", "Zone of Truth"],
+    "9th_level": ["Aura of Vitality", "Spirit Guardians"],
+    "13th_level": ["Banishment", "Guardian of Faith"],
+    "17th_level": ["Circle of Power", "Geas"]
+  },
+  "channel_divinity": {
+    "champion_challenge": {
+      "description": "Compel creatures to do battle with you.",
+      "effect": "As a bonus action, each creature you choose within 30 feet must make a Wisdom saving throw. On a failed save, the creature can't willingly move more than 30 feet away from you. This effect ends if you are incapacitated, die, or the creature is more than 30 feet away from you."
+    },
+    "turn_the_tide": {
+      "description": "Bolster injured allies with healing.",
+      "effect": "As a bonus action, each creature of your choice within 30 feet that can hear you regains hit points equal to 1d6 + your Charisma modifier (minimum of 1) if it has no more than half of its hit points."
+    }
+  },
+  "divine_allegiance": {
+    "7th_level": {
+      "description": "Substitute your own health for an injured ally.",
+      "effect": "When a creature within 5 feet of you takes damage, you can use your reaction to take the damage instead. This damage can't be reduced or prevented in any way."
+    }
+  },
+  "unyielding_saint": {
+    "15th_level": {
+      "description": "Advantage on saving throws against being paralyzed or stunned.",
+      "effect": "You have advantage on saving throws to avoid becoming paralyzed or stunned."
+    }
+  },
+  "exalted_champion": {
+    "20th_level": {
+      "description": "Inspire allies and gain defensive benefits.",
+      "effect": "For 1 hour, you gain the following benefits: resistance to bludgeoning, piercing, and slashing damage from non-magical weapons; your allies have advantage on death saving throws while within 30 feet of you; you have advantage on Wisdom saving throws, as do your allies within 30 feet of you. This effect ends early if you are incapacitated or die. This feature can be used once per long rest."
+    }
+  }
+}

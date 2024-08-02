@@ -1,0 +1,42 @@
+{
+    "name": "School of Abjuration",
+    "source": "Player's Handbook",
+    "description": "The School of Abjuration focuses on magic that blocks, banishes, or protects. Abjurers are skilled in ending harmful effects, protecting others, and closing portals to other planes. They are valued for their ability to defend and safeguard against magical threats.",
+    "features": {
+      "abjuration_savant": {
+        "description": "At 2nd level, the gold and time required to copy an abjuration spell into your spellbook is halved.",
+        "benefits": [
+          "Reduced cost and time for copying abjuration spells into your spellbook."
+        ]
+      },
+      "arcane_ward": {
+        "description": "Starting at 2nd level, you can create a magical ward around yourself when casting an abjuration spell of 1st level or higher. The ward has hit points equal to twice your wizard level plus your Intelligence modifier. It absorbs damage until depleted, and regenerates when you cast another abjuration spell.",
+        "benefits": [
+          "Create a magical ward with hit points equal to twice your wizard level plus your Intelligence modifier.",
+          "Ward absorbs damage and regenerates when you cast another abjuration spell."
+        ],
+        "restrictions": "You can't create a new ward until you finish a long rest."
+      },
+      "projected_ward": {
+        "description": "At 6th level, you can use your reaction to have your Arcane Ward absorb damage dealt to a creature within 30 feet. If the ward is depleted, the remaining damage is transferred to the warded creature.",
+        "benefits": [
+          "Arcane Ward can absorb damage dealt to a creature within 30 feet.",
+          "Remaining damage is transferred if the ward is depleted."
+        ]
+      },
+      "improved_abjuration": {
+        "description": "At 10th level, when casting an abjuration spell that requires an ability check (such as Counterspell or Dispel Magic), you add your proficiency bonus to the check.",
+        "benefits": [
+          "Add your proficiency bonus to ability checks for abjuration spells."
+        ]
+      },
+      "spell_resistance": {
+        "description": "At 14th level, you gain advantage on saving throws against spells and resistance against spell damage.",
+        "benefits": [
+          "Advantage on saving throws against spells.",
+          "Resistance to damage from spells."
+        ]
+      }
+    }
+  }
+  
