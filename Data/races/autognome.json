@@ -39,13 +39,13 @@
     },
     "Languages": "Common and one other language chosen with your DM",
     "Autognome History": {
-      "d8": [
-        "Your creator gave you autonomy and urged you to follow your dreams.",
-        "Your creator died, leaving you to fend for yourself.",
-        "A glitch caused you to forget your original programming. You don’t remember who made you or where you came from.",
-        "You didn’t like how you were being treated by your creator, so you ran away from home.",
-        "Your creator built you to complete a special mission.",
-        "You felt trapped in the role for which you were built and abandoned your creator, determined to find a greater purpose."
+      "history": [
+        {"1": "Your creator gave you autonomy and urged you to follow your dreams."},
+        {"2": "Your creator died, leaving you to fend for yourself."},
+        {"3": "A glitch caused you to forget your original programming. You don’t remember who made you or where you came from."},
+        {"4": "You didn’t like how you were being treated by your creator, so you ran away from home."},
+        {"5": "Your creator built you to complete a special mission."},
+        {"6": "You felt trapped in the role for which you were built and abandoned your creator, determined to find a greater purpose."}
       ]
     }
   }
