@@ -6,6 +6,95 @@
         "Strength": 13
       }
     },
+    "Class Features": {
+      "Hit Points": {
+        "Hit Dice": "1d10 per paladin level",
+        "Hit Points at 1st Level": "10 + your Constitution modifier",
+        "Hit Points at Higher Levels": "1d10 (or 6) + your Constitution modifier per paladin level after 1st"
+      },
+      "Proficiencies": {
+        "Armor": "All armor, shields",
+        "Weapons": "Simple weapons, martial weapons",
+        "Tools": "None",
+        "Saving Throws": "Wisdom, Charisma",
+        "Skills": "Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion"
+      },
+      "Equipment": {
+        "Starting Equipment": {
+          "Weapon": "a martial weapon and a shield or two martial weapons",
+          "Additional Weapon": "five javelins or any simple melee weapon",
+          "Pack": "a priest's pack or an explorer's pack",
+          "Armor": "Chain mail",
+          "Other": "a holy symbol"
+        }
+      },
+      "Divine Sense": {
+        "Description": "As an action, you can detect the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You also detect any consecrated or desecrated places or objects. You can use this feature a number of times equal to 1 + your Charisma modifier. You regain all expended uses after a long rest."
+      },
+      "Lay on Hands": {
+        "Description": "You have a pool of healing power equal to your paladin level x 5. As an action, you can restore hit points or cure a disease or neutralize a poison. The feature has no effect on undead and constructs."
+      },
+      "Fighting Style": {
+        "Description": "Choose one of the following options to adopt as your fighting style. You can't take the same Fighting Style option more than once.",
+        "Options": {
+          "Blessed Warrior": "Learn two cantrips from the cleric spell list. Charisma is your spellcasting ability for them.",
+          "Blind Fighting": "Blindsight with a range of 10 feet.",
+          "Defense": "Gain a +1 bonus to AC while wearing armor.",
+          "Dueling": "Gain a +2 bonus to damage rolls with a melee weapon in one hand and no other weapons.",
+          "Great Weapon Fighting": "Reroll a 1 or 2 on damage dice with a two-handed or versatile weapon.",
+          "Interception": "Reduce damage to a target within 5 feet of you by 1d10 + your proficiency bonus.",
+          "Protection": "Impose disadvantage on an attack roll against a target within 5 feet of you.",
+          "Close Quarters Shooter (UA)": "Ranged attacks while within 5 feet of a hostile creature have no disadvantage.",
+          "Mariner (UA)": "Gain swimming and climbing speeds, and a +1 bonus to AC when not wearing heavy armor or using a shield.",
+          "Thrown Weapon Fighting (UA)": "Draw a thrown weapon as part of the attack, and gain a +1 bonus to damage rolls with thrown weapons.",
+          "Tunnel Fighter (UA)": "Make opportunity attacks without using your reaction, and react to creatures moving within reach.",
+          "Unarmed Fighting (UA)": "Unarmed strikes deal 1d6 bludgeoning damage, or 1d8 if you strike with two free hands."
+        }
+      },
+      "Spellcasting": {
+        "Description": "You can cast spells as a cleric does, using Charisma as your spellcasting ability. You prepare a list of paladin spells based on your Charisma modifier and half your paladin level, rounded down.",
+        "Spellcasting Ability": "Charisma",
+        "Spell Save DC": "8 + your proficiency bonus + your Charisma modifier",
+        "Spell Attack Modifier": "Your proficiency bonus + your Charisma modifier",
+        "Spellcasting Focus": "You can use a holy symbol as a spellcasting focus."
+      },
+      "Divine Smite": {
+        "Description": "When you hit a creature with a melee weapon attack, you can expend a spell slot to deal radiant damage in addition to the weapon's damage. Extra damage is 2d8 for a 1st-level spell slot, plus 1d8 per spell level higher than 1st, to a maximum of 6d8 if the target is an undead or fiend."
+      },
+      "Divine Health": {
+        "Description": "You are immune to disease."
+      },
+      "Sacred Oath": {
+        "Description": "At 3rd level, you swear an oath that grants you features, oath spells, and Channel Divinity options. You gain features at 3rd, 7th, 15th, and 20th levels."
+      },
+      "Channel Divinity": {
+        "Description": "Channel divine energy to fuel magical effects based on your oath. Some effects require saving throws with a DC equal to your paladin spell save DC."
+      },
+      "Harness Divine Power (Optional)": {
+        "Description": "You can use a use of Channel Divinity to regain one expended spell slot. The number of uses depends on your level in this class."
+      },
+      "Ability Score Improvement": {
+        "Description": "Increase one ability score by 2, or two ability scores by 1, up to a maximum of 20."
+      },
+      "Martial Versatility (Optional)": {
+        "Description": "Replace a fighting style you know with another fighting style available to paladins."
+      },
+      "Extra Attack": {
+        "Description": "Attack twice, instead of once, whenever you take the Attack action on your turn."
+      },
+      "Aura of Protection": {
+        "Description": "Grant a bonus to saving throws equal to your Charisma modifier to you and friendly creatures within 10 feet. The range increases to 30 feet at 18th level."
+      },
+      "Aura of Courage": {
+        "Description": "You and friendly creatures within 10 feet can't be frightened while you are conscious. The range increases to 30 feet at 18th level."
+      },
+      "Improved Divine Smite": {
+        "Description": "All melee weapon strikes carry divine power, dealing an extra 1d8 radiant damage."
+      },
+      "Cleansing Touch": {
+        "Description": "Use your action to end one spell on yourself or on a willing creature you touch. You can use this feature a number of times equal to your Charisma modifier."
+      }
+    },
     "Levels": {
       "1st": {
         "Proficiency Bonus": "+2",
@@ -149,95 +238,6 @@
           "5th": "2"
         },
         "Features": ["Sacred Oath feature"]
-      }
-    },
-    "Class Features": {
-      "Hit Points": {
-        "Hit Dice": "1d10 per paladin level",
-        "Hit Points at 1st Level": "10 + your Constitution modifier",
-        "Hit Points at Higher Levels": "1d10 (or 6) + your Constitution modifier per paladin level after 1st"
-      },
-      "Proficiencies": {
-        "Armor": "All armor, shields",
-        "Weapons": "Simple weapons, martial weapons",
-        "Tools": "None",
-        "Saving Throws": "Wisdom, Charisma",
-        "Skills": "Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion"
-      },
-      "Equipment": {
-        "Starting Equipment": {
-          "Weapon": "a martial weapon and a shield or two martial weapons",
-          "Additional Weapon": "five javelins or any simple melee weapon",
-          "Pack": "a priest's pack or an explorer's pack",
-          "Armor": "Chain mail",
-          "Other": "a holy symbol"
-        }
-      },
-      "Divine Sense": {
-        "Description": "As an action, you can detect the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You also detect any consecrated or desecrated places or objects. You can use this feature a number of times equal to 1 + your Charisma modifier. You regain all expended uses after a long rest."
-      },
-      "Lay on Hands": {
-        "Description": "You have a pool of healing power equal to your paladin level x 5. As an action, you can restore hit points or cure a disease or neutralize a poison. The feature has no effect on undead and constructs."
-      },
-      "Fighting Style": {
-        "Description": "Choose one of the following options to adopt as your fighting style. You can't take the same Fighting Style option more than once.",
-        "Options": {
-          "Blessed Warrior": "Learn two cantrips from the cleric spell list. Charisma is your spellcasting ability for them.",
-          "Blind Fighting": "Blindsight with a range of 10 feet.",
-          "Defense": "Gain a +1 bonus to AC while wearing armor.",
-          "Dueling": "Gain a +2 bonus to damage rolls with a melee weapon in one hand and no other weapons.",
-          "Great Weapon Fighting": "Reroll a 1 or 2 on damage dice with a two-handed or versatile weapon.",
-          "Interception": "Reduce damage to a target within 5 feet of you by 1d10 + your proficiency bonus.",
-          "Protection": "Impose disadvantage on an attack roll against a target within 5 feet of you.",
-          "Close Quarters Shooter (UA)": "Ranged attacks while within 5 feet of a hostile creature have no disadvantage.",
-          "Mariner (UA)": "Gain swimming and climbing speeds, and a +1 bonus to AC when not wearing heavy armor or using a shield.",
-          "Thrown Weapon Fighting (UA)": "Draw a thrown weapon as part of the attack, and gain a +1 bonus to damage rolls with thrown weapons.",
-          "Tunnel Fighter (UA)": "Make opportunity attacks without using your reaction, and react to creatures moving within reach.",
-          "Unarmed Fighting (UA)": "Unarmed strikes deal 1d6 bludgeoning damage, or 1d8 if you strike with two free hands."
-        }
-      },
-      "Spellcasting": {
-        "Description": "You can cast spells as a cleric does, using Charisma as your spellcasting ability. You prepare a list of paladin spells based on your Charisma modifier and half your paladin level, rounded down.",
-        "Spellcasting Ability": "Charisma",
-        "Spell Save DC": "8 + your proficiency bonus + your Charisma modifier",
-        "Spell Attack Modifier": "Your proficiency bonus + your Charisma modifier",
-        "Spellcasting Focus": "You can use a holy symbol as a spellcasting focus."
-      },
-      "Divine Smite": {
-        "Description": "When you hit a creature with a melee weapon attack, you can expend a spell slot to deal radiant damage in addition to the weapon's damage. Extra damage is 2d8 for a 1st-level spell slot, plus 1d8 per spell level higher than 1st, to a maximum of 6d8 if the target is an undead or fiend."
-      },
-      "Divine Health": {
-        "Description": "You are immune to disease."
-      },
-      "Sacred Oath": {
-        "Description": "At 3rd level, you swear an oath that grants you features, oath spells, and Channel Divinity options. You gain features at 3rd, 7th, 15th, and 20th levels."
-      },
-      "Channel Divinity": {
-        "Description": "Channel divine energy to fuel magical effects based on your oath. Some effects require saving throws with a DC equal to your paladin spell save DC."
-      },
-      "Harness Divine Power (Optional)": {
-        "Description": "You can use a use of Channel Divinity to regain one expended spell slot. The number of uses depends on your level in this class."
-      },
-      "Ability Score Improvement": {
-        "Description": "Increase one ability score by 2, or two ability scores by 1, up to a maximum of 20."
-      },
-      "Martial Versatility (Optional)": {
-        "Description": "Replace a fighting style you know with another fighting style available to paladins."
-      },
-      "Extra Attack": {
-        "Description": "Attack twice, instead of once, whenever you take the Attack action on your turn."
-      },
-      "Aura of Protection": {
-        "Description": "Grant a bonus to saving throws equal to your Charisma modifier to you and friendly creatures within 10 feet. The range increases to 30 feet at 18th level."
-      },
-      "Aura of Courage": {
-        "Description": "You and friendly creatures within 10 feet can't be frightened while you are conscious. The range increases to 30 feet at 18th level."
-      },
-      "Improved Divine Smite": {
-        "Description": "All melee weapon strikes carry divine power, dealing an extra 1d8 radiant damage."
-      },
-      "Cleansing Touch": {
-        "Description": "Use your action to end one spell on yourself or on a willing creature you touch. You can use this feature a number of times equal to your Charisma modifier."
       }
     }
   }
