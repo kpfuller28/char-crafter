@@ -1,228 +1,408 @@
 {
-  "Barbarian": {
-    "Level": {
-      "1st": {
-        "Proficiency Bonus": "+2",
-        "Features": ["Rage", "Unarmored Defense"],
-        "Rages": 2,
-        "Rage Damage": "+2"
-      },
-      "2nd": {
-        "Proficiency Bonus": "+2",
-        "Features": ["Reckless Attack", "Danger Sense"],
-        "Rages": 2,
-        "Rage Damage": "+2"
-      },
-      "3rd": {
-        "Proficiency Bonus": "+2",
-        "Features": ["Primal Path", "Primal Knowledge (Optional)"],
-        "Rages": 3,
-        "Rage Damage": "+2"
-      },
-      "4th": {
-        "Proficiency Bonus": "+2",
-        "Features": ["Ability Score Improvement"],
-        "Rages": 3,
-        "Rage Damage": "+2"
-      },
-      "5th": {
-        "Proficiency Bonus": "+3",
-        "Features": ["Extra Attack", "Fast Movement"],
-        "Rages": 3,
-        "Rage Damage": "+2"
-      },
-      "6th": {
-        "Proficiency Bonus": "+3",
-        "Features": ["Path feature"],
-        "Rages": 4,
-        "Rage Damage": "+2"
-      },
-      "7th": {
-        "Proficiency Bonus": "+3",
-        "Features": ["Feral Instinct", "Instinctive Pounce (Optional)"],
-        "Rages": 4,
-        "Rage Damage": "+2"
-      },
-      "8th": {
-        "Proficiency Bonus": "+3",
-        "Features": ["Ability Score Improvement"],
-        "Rages": 4,
-        "Rage Damage": "+2"
-      },
-      "9th": {
-        "Proficiency Bonus": "+4",
-        "Features": ["Brutal Critical (1 die)"],
-        "Rages": 4,
-        "Rage Damage": "+3"
-      },
-      "10th": {
-        "Proficiency Bonus": "+4",
-        "Features": ["Path feature", "Primal Knowledge (Optional)"],
-        "Rages": 4,
-        "Rage Damage": "+3"
-      },
-      "11th": {
-        "Proficiency Bonus": "+4",
-        "Features": ["Relentless Rage"],
-        "Rages": 4,
-        "Rage Damage": "+3"
-      },
-      "12th": {
-        "Proficiency Bonus": "+4",
-        "Features": ["Ability Score Improvement"],
-        "Rages": 5,
-        "Rage Damage": "+3"
-      },
-      "13th": {
-        "Proficiency Bonus": "+5",
-        "Features": ["Brutal Critical (2 dice)"],
-        "Rages": 5,
-        "Rage Damage": "+3"
-      },
-      "14th": {
-        "Proficiency Bonus": "+5",
-        "Features": ["Path feature"],
-        "Rages": 5,
-        "Rage Damage": "+3"
-      },
-      "15th": {
-        "Proficiency Bonus": "+5",
-        "Features": ["Persistent Rage"],
-        "Rages": 5,
-        "Rage Damage": "+3"
-      },
-      "16th": {
-        "Proficiency Bonus": "+5",
-        "Features": ["Ability Score Improvement"],
-        "Rages": 5,
-        "Rage Damage": "+4"
-      },
-      "17th": {
-        "Proficiency Bonus": "+6",
-        "Features": ["Brutal Critical (3 dice)"],
-        "Rages": 6,
-        "Rage Damage": "+4"
-      },
-      "18th": {
-        "Proficiency Bonus": "+6",
-        "Features": ["Indomitable Might"],
-        "Rages": 6,
-        "Rage Damage": "+4"
-      },
-      "19th": {
-        "Proficiency Bonus": "+6",
-        "Features": ["Ability Score Improvement"],
-        "Rages": 6,
-        "Rage Damage": "+4"
-      },
-      "20th": {
-        "Proficiency Bonus": "+6",
-        "Features": ["Primal Champion"],
-        "Rages": "Unlimited",
-        "Rage Damage": "+4"
-      }
+  "Class": "Barbarian",
+  "Hit Points": {
+    "Hit Dice": "1d12 per barbarian level",
+    "Hit Points at 1st Level": "12 + your Constitution modifier",
+    "Hit Points at Higher Levels": "1d12 (or 7) + your Constitution modifier per barbarian level after 1st"
+  },
+  "Proficiencies": {
+    "Armor": ["Light armor", "Medium armor", "Shields"],
+    "Weapons": ["Simple weapons", "Martial weapons"],
+    "Tools": ["None"],
+    "Saving Throws": ["Strength", "Constitution"],
+    "Skills": ["Choose two from Animal Handling", "Athletics", "Intimidation", "Nature", "Perception", "Survival"]
+  },
+  "Equipment": [
+    "(a) a greataxe or (b) any martial melee weapon",
+    "(a) two handaxes or (b) any simple weapon",
+    "An explorer's pack and four javelins"
+  ],
+  "Class Features": [
+    {
+      "name": "Rage",
+      "desc": "In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor: You have advantage on Strength checks and Strength saving throws. When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table. You have resistance to bludgeoning, piercing, and slashing damage. If you are able to cast spells, you can't cast them or concentrate on them while raging. Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action. Once you have raged the number of times shown for your barbarian level in the Rages column of the Barbarian table, you must finish a long rest before you can rage again."
     },
-    "Class Features": {
-      "Hit Points": {
-        "Hit Dice": "1d12 per barbarian level",
-        "Hit Points at 1st Level": "12 + Constitution modifier",
-        "Hit Points at Higher Levels": "1d12 (or 7) + Constitution modifier per barbarian level after 1st"
-      },
-      "Proficiencies": {
-        "Armor": ["Light armor", "Medium armor", "Shields"],
-        "Weapons": ["Simple weapons", "Martial weapons"],
-        "Tools": "None",
-        "Saving Throws": ["Strength", "Constitution"],
-        "Skills": [
-          "Animal Handling",
-          "Athletics",
-          "Intimidation",
-          "Nature",
-          "Perception",
-          "Survival"
-        ]
-      },
-      "Equipment": {
-        "Starting Equipment": [
-          "Greataxe or any martial melee weapon",
-          "Two handaxes or any simple weapon",
-          "An explorer's pack and four javelins"
-        ],
-        "Alternative": "5d4x10 starting gold"
-      },
-      "Rage": {
-        "Benefits": [
-          "Advantage on Strength checks and Strength saving throws",
-          "Bonus damage to melee weapon attacks using Strength",
-          "Resistance to bludgeoning, piercing, and slashing damage"
-        ],
-        "Restrictions": [
-          "Cannot cast spells or concentrate on them while raging"
-        ],
-        "Duration": "1 minute",
-        "Ending Early": [
-          "If knocked unconscious",
-          "If no hostile creature attacked or you took damage since last turn"
-        ],
-        "Uses": "Number of times per long rest as indicated by Rages"
-      },
-      "Unarmored Defense": {
-        "AC Calculation": "10 + Dexterity modifier + Constitution modifier",
-        "Shield Use": "Can use a shield and still gain this benefit"
-      },
-      "Danger Sense": {
-        "Benefit": "Advantage on Dexterity saving throws against effects you can see (traps, spells)",
-        "Requirements": "Cannot be blinded, deafened, or incapacitated"
-      },
-      "Reckless Attack": {
-        "Effect": "Advantage on melee weapon attack rolls using Strength during the turn",
-        "Downside": "Attack rolls against you have advantage until your next turn"
-      },
-      "Primal Path": {
-        "Features": [
-          "Path-specific features at 3rd, 6th, 10th, and 14th levels"
-        ],
-        "Optional": ["Primal Knowledge"]
-      },
-      "Ability Score Improvement": {
-        "Levels": [4, 8, 12, 16, 19],
-        "Options": "Increase one ability score by 2, or increase two ability scores by 1 each"
-      },
-      "Extra Attack": {
-        "Effect": "Attack twice when you take the Attack action on your turn"
-      },
-      "Fast Movement": {
-        "Benefit": "Speed increases by 10 feet while not wearing heavy armor"
-      },
-      "Feral Instinct": {
-        "Benefits": [
-          "Advantage on initiative rolls",
-          "Act normally on your first turn if surprised and not incapacitated, if you rage first"
-        ]
-      },
-      "Instinctive Pounce (Optional)": {
-        "Effect": "Move up to half your speed as part of entering your rage"
-      },
-      "Brutal Critical": {
-        "Levels": [9, 13, 17],
-        "Effect": "Roll additional weapon damage dice on a critical hit"
-      },
-      "Relentless Rage": {
-        "Effect": "Drop to 1 hit point instead of 0 if you succeed a Constitution saving throw",
-        "DC Increases": "Each use after the first increases DC by 5"
-      },
-      "Persistent Rage": {
-        "Effect": "Rage ends early only if you fall unconscious or choose to end it"
-      },
-      "Indomitable Might": {
-        "Effect": "Use Strength score in place of total for Strength checks if higher"
-      },
-      "Primal Champion": {
-        "Benefits": [
-          "Increase Strength and Constitution scores by 4",
-          "Maximum for these scores is now 24"
-        ]
-      }
+    {
+      "name": "Unarmored Defense",
+      "desc": "While you are not wearing any armor, your armor class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit."
+    },
+    {
+      "name": "Danger Sense",
+      "desc": "At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated."
+    },
+    {
+      "name": "Reckless Attack",
+      "desc": "Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn."
+    },
+    {
+      "name": "Primal Path",
+      "desc": "At 3rd level, you choose a path that shapes the nature of your rage. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels."
+    },
+    {
+      "name": "Primal Knowledge (Optional)",
+      "desc": "When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "desc": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    },
+    {
+      "name": "Extra Attack",
+      "desc": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+    },
+    {
+      "name": "Fast Movement",
+      "desc": "Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor."
+    },
+    {
+      "name": "Feral Instinct",
+      "desc": "By 7th level, your instincts are so honed that you have advantage on initiative rolls. Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn."
+    },
+    {
+      "name": "Instinctive Pounce (Optional)",
+      "desc": "At 7th level, as part of the bonus action you take to enter your rage, you can move up to half your speed."
+    },
+    {
+      "name": "Brutal Critical",
+      "desc": "Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack. This increases to two additional dice at 13th level and three additional dice at 17th level."
+    },
+    {
+      "name": "Relentless Rage",
+      "desc": "Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead. Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10."
+    },
+    {
+      "name": "Persistent Rage",
+      "desc": "Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it."
+    },
+    {
+      "name": "Indomitable Might",
+      "desc": "Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total."
+    },
+    {
+      "name": "Primal Champion",
+      "desc": "At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24."
     }
-  }
+  ],
+  "Levels": [
+    {
+      "1": [
+        {
+          "name": "Rages",
+          "value": 2
+        },
+        {
+          "name": "Rage Damage",
+          "value": 2
+        },
+        {
+          "name": "Features",
+          "value": ["Rage", "Unarmored Defense"]
+        }
+      ]
+    },
+    {
+      "2": [
+        {
+          "name": "Rages",
+          "value": 2
+        },
+        {
+          "name": "Rage Damage",
+          "value": 2
+        },
+        {
+          "name": "Features",
+          "value": ["Reckless Attack", "Danger Sense"]
+        }
+      ]
+    },
+    {
+      "3": [
+        {
+          "name": "Rages",
+          "value": 3
+        },
+        {
+          "name": "Rage Damage",
+          "value": 2
+        },
+        {
+          "name": "Features",
+          "value": ["Primal Path", "Primal Knowledge (Optional)"]
+        }
+      ]
+    },
+    {
+      "4": [
+        {
+          "name": "Rages",
+          "value": 3
+        },
+        {
+          "name": "Rage Damage",
+          "value": 2
+        },
+        {
+          "name": "Features",
+          "value": ["Ability Score Improvement"]
+        }
+      ]
+    },
+    {
+      "5": [
+        {
+          "name": "Rages",
+          "value": 3
+        },
+        {
+          "name": "Rage Damage",
+          "value": 2
+        },
+        {
+          "name": "Features",
+          "value": ["Extra Attack", "Fast Movement"]
+        }
+      ]
+    },
+    {
+      "6": [
+        {
+          "name": "Rages",
+          "value": 4
+        },
+        {
+          "name": "Rage Damage",
+          "value": 2
+        },
+        {
+          "name": "Features",
+          "value": ["Path feature"]
+        }
+      ]
+    },
+    {
+      "7": [
+        {
+          "name": "Rages",
+          "value": 4
+        },
+        {
+          "name": "Rage Damage",
+          "value": 2
+        },
+        {
+          "name": "Features",
+          "value": ["Feral Instinct", "Instinctive Pounce (Optional)"]
+        }
+      ]
+    },
+    {
+      "8": [
+        {
+          "name": "Rages",
+          "value": 4
+        },
+        {
+          "name": "Rage Damage",
+          "value": 2
+        },
+        {
+          "name": "Features",
+          "value": ["Ability Score Improvement"]
+        }
+      ]
+    },
+    {
+      "9": [
+        {
+          "name": "Rages",
+          "value": 4
+        },
+        {
+          "name": "Rage Damage",
+          "value": 3
+        },
+        {
+          "name": "Features",
+          "value": ["Brutal Critical (1 die)"]
+        }
+      ]
+    },
+    {
+      "10": [
+        {
+          "name": "Rages",
+          "value": 4
+        },
+        {
+          "name": "Rage Damage",
+          "value": 3
+        },
+        {
+          "name": "Features",
+          "value": ["Path feature", "Primal Knowledge (Optional)"]
+        }
+      ]
+    },
+    {
+      "11": [
+        {
+          "name": "Rages",
+          "value": 4
+        },
+        {
+          "name": "Rage Damage",
+          "value": 3
+        },
+        {
+          "name": "Features",
+          "value": ["Relentless Rage"]
+        }
+      ]
+    },
+    {
+      "12": [
+        {
+          "name": "Rages",
+          "value": 5
+        },
+        {
+          "name": "Rage Damage",
+          "value": 3
+        },
+        {
+          "name": "Features",
+          "value": ["Ability Score Improvement"]
+        }
+      ]
+    },
+    {
+      "13": [
+        {
+          "name": "Rages",
+          "value": 5
+        },
+        {
+          "name": "Rage Damage",
+          "value": 3
+        },
+        {
+          "name": "Features",
+          "value": ["Brutal Critical (2 dice)"]
+        }
+      ]
+    },
+    {
+      "14": [
+        {
+          "name": "Rages",
+          "value": 5
+        },
+        {
+          "name": "Rage Damage",
+          "value": 3
+        },
+        {
+          "name": "Features",
+          "value": ["Path feature"]
+        }
+      ]
+    },
+    {
+      "15": [
+        {
+          "name": "Rages",
+          "value": 5
+        },
+        {
+          "name": "Rage Damage",
+          "value": 3
+        },
+        {
+          "name": "Features",
+          "value": ["Persistent Rage"]
+        }
+      ]
+    },
+    {
+      "16": [
+        {
+          "name": "Rages",
+          "value": 5
+        },
+        {
+          "name": "Rage Damage",
+          "value": 4
+        },
+        {
+          "name": "Features",
+          "value": ["Ability Score Improvement"]
+        }
+      ]
+    },
+    {
+      "17": [
+        {
+          "name": "Rages",
+          "value": 6
+        },
+        {
+          "name": "Rage Damage",
+          "value": 4
+        },
+        {
+          "name": "Features",
+          "value": ["Brutal Critical (3 dice)"]
+        }
+      ]
+    },
+    {
+      "18": [
+        {
+          "name": "Rages",
+          "value": 6
+        },
+        {
+          "name": "Rage Damage",
+          "value": 4
+        },
+        {
+          "name": "Features",
+          "value": ["Indomitable Might"]
+        }
+      ]
+    },
+    {
+      "19": [
+        {
+          "name": "Rages",
+          "value": 6
+        },
+        {
+          "name": "Rage Damage",
+          "value": 4
+        },
+        {
+          "name": "Features",
+          "value": ["Ability Score Improvement"]
+        }
+      ]
+    },
+    {
+      "20": [
+        {
+          "name": "Rages",
+          "value": "Unlimited"
+        },
+        {
+          "name": "Rage Damage",
+          "value": 4
+        },
+        {
+          "name": "Features",
+          "value": ["Primal Champion"]
+        }
+      ]
+    }
+  ]
 }

@@ -1,227 +1,280 @@
 {
-  "Rogue": {
-    "Prerequisites": "Dexterity score of 13 or higher required to multiclass in or out of this class.",
-    "Levels": {
-      "1st": {
-        "Proficiency Bonus": "+2",
-        "Sneak Attack": "1d6",
-        "Features": ["Expertise", "Sneak Attack", "Thieves' Cant"]
-      },
-      "2nd": {
-        "Proficiency Bonus": "+2",
-        "Sneak Attack": "1d6",
-        "Features": ["Cunning Action"]
-      },
-      "3rd": {
-        "Proficiency Bonus": "+2",
-        "Sneak Attack": "2d6",
-        "Features": ["Roguish Archetype", "Steady Aim (Optional)"]
-      },
-      "4th": {
-        "Proficiency Bonus": "+2",
-        "Sneak Attack": "2d6",
-        "Features": ["Ability Score Improvement"]
-      },
-      "5th": {
-        "Proficiency Bonus": "+3",
-        "Sneak Attack": "3d6",
-        "Features": ["Uncanny Dodge"]
-      },
-      "6th": {
-        "Proficiency Bonus": "+3",
-        "Sneak Attack": "3d6",
-        "Features": ["Expertise"]
-      },
-      "7th": {
-        "Proficiency Bonus": "+3",
-        "Sneak Attack": "4d6",
-        "Features": ["Evasion"]
-      },
-      "8th": {
-        "Proficiency Bonus": "+3",
-        "Sneak Attack": "4d6",
-        "Features": ["Ability Score Improvement"]
-      },
-      "9th": {
-        "Proficiency Bonus": "+4",
-        "Sneak Attack": "5d6",
-        "Features": ["Roguish Archetype feature"]
-      },
-      "10th": {
-        "Proficiency Bonus": "+4",
-        "Sneak Attack": "5d6",
-        "Features": ["Ability Score Improvement"]
-      },
-      "11th": {
-        "Proficiency Bonus": "+4",
-        "Sneak Attack": "6d6",
-        "Features": ["Reliable Talent"]
-      },
-      "12th": {
-        "Proficiency Bonus": "+4",
-        "Sneak Attack": "6d6",
-        "Features": ["Ability Score Improvement"]
-      },
-      "13th": {
-        "Proficiency Bonus": "+5",
-        "Sneak Attack": "7d6",
-        "Features": ["Roguish Archetype feature"]
-      },
-      "14th": {
-        "Proficiency Bonus": "+5",
-        "Sneak Attack": "7d6",
-        "Features": ["Blindsense"]
-      },
-      "15th": {
-        "Proficiency Bonus": "+5",
-        "Sneak Attack": "8d6",
-        "Features": ["Slippery Mind"]
-      },
-      "16th": {
-        "Proficiency Bonus": "+5",
-        "Sneak Attack": "8d6",
-        "Features": ["Ability Score Improvement"]
-      },
-      "17th": {
-        "Proficiency Bonus": "+6",
-        "Sneak Attack": "9d6",
-        "Features": ["Roguish Archetype feature"]
-      },
-      "18th": {
-        "Proficiency Bonus": "+6",
-        "Sneak Attack": "9d6",
-        "Features": ["Elusive"]
-      },
-      "19th": {
-        "Proficiency Bonus": "+6",
-        "Sneak Attack": "10d6",
-        "Features": ["Ability Score Improvement"]
-      },
-      "20th": {
-        "Proficiency Bonus": "+6",
-        "Sneak Attack": "10d6",
-        "Features": ["Stroke of Luck"]
-      }
+  "Hit Points": {
+    "Hit Dice": "1d8 per rogue level",
+    "Hit Points at 1st Level": "8 + your Constitution modifier",
+    "Hit Points at Higher Levels": "1d8 (or 5) + your Constitution modifier per rogue level after 1st"
+  },
+  "Proficiencies": {
+    "Armor": "Light armor",
+    "Weapons": "Simple weapons, hand crossbows, longswords, rapiers, shortswords",
+    "Tools": "Thieves' tools",
+    "Saving Throws": "Dexterity, Intelligence",
+    "Skills": "Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth"
+  },
+  "Equipment": [
+    "a rapier or a shortsword",
+    "a shortbow and quiver of 20 arrows or a shortsword",
+    "a burglar's pack, a dungeoneer's pack, or an explorer's pack",
+    "Leather armor, two daggers, and thieves' tools"
+  ],
+  "Class Features": [
+    {
+      "name": "Expertise",
+      "desc": "At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit."
     },
-    "Class Features": {
-      "Hit Points": {
-        "Hit Dice": "1d8 per rogue level",
-        "Hit Points at 1st Level": "8 + your Constitution modifier",
-        "Hit Points at Higher Levels": "1d8 (or 5) + your Constitution modifier per rogue level after 1st"
-      },
-      "Proficiencies": {
-        "Armor": ["Light armor"],
-        "Weapons": [
-          "Simple weapons",
-          "Hand crossbows",
-          "Longswords",
-          "Rapiers",
-          "Shortswords"
-        ],
-        "Tools": ["Thieves' tools"],
-        "Saving Throws": ["Dexterity", "Intelligence"],
-        "Skills": [
-          "Acrobatics",
-          "Athletics",
-          "Deception",
-          "Insight",
-          "Intimidation",
-          "Investigation",
-          "Perception",
-          "Performance",
-          "Persuasion",
-          "Sleight of Hand",
-          "Stealth"
-        ]
-      },
-      "Equipment": [
-        "(a) a rapier or (b) a shortsword",
-        "(a) a shortbow and quiver of 20 arrows or (b) a shortsword",
-        "(a) a burglar's pack, (b) dungeoneer's pack, or (c) an explorer's pack",
-        "Leather armor, two daggers, and thieves' tools"
-      ],
-      "Expertise": {
-        "Description": "Choose two skill proficiencies or one skill proficiency and thieves' tools proficiency to double proficiency bonus for those checks.",
-        "Additional Expertise": "Choose two more proficiencies at 6th level."
-      },
-      "Sneak Attack": {
-        "Description": "Deal extra damage with an attack if you have advantage or if an enemy is within 5 feet of your target.",
-        "Damage": {
-          "1st Level": "1d6",
-          "2nd Level": "1d6",
-          "3rd Level": "2d6",
-          "4th Level": "2d6",
-          "5th Level": "3d6",
-          "6th Level": "3d6",
-          "7th Level": "4d6",
-          "8th Level": "4d6",
-          "9th Level": "5d6",
-          "10th Level": "5d6",
-          "11th Level": "6d6",
-          "12th Level": "6d6",
-          "13th Level": "7d6",
-          "14th Level": "7d6",
-          "15th Level": "8d6",
-          "16th Level": "8d6",
-          "17th Level": "9d6",
-          "18th Level": "9d6",
-          "19th Level": "10d6",
-          "20th Level": "10d6"
-        }
-      },
-      "Thieves' Cant": {
-        "Description": "Secret dialect and code for hiding messages in normal conversation and understanding secret signs."
-      },
-      "Cunning Action": {
-        "Description": "Take a bonus action to Dash, Disengage, or Hide on each of your turns in combat."
-      },
-      "Roguish Archetype": {
-        "Description": "Choose an archetype at 3rd level, gaining features at 3rd, 9th, 13th, and 17th levels.",
-        "Archetypes": [
-          "Arcane Trickster",
-          "Assassin",
-          "Inquisitive",
-          "Mastermind",
-          "Phantom",
-          "Scout",
-          "Soulknife",
-          "Swashbuckler",
-          "Thief"
-        ],
-        "Source": [
-          "Player's Handbook",
-          "Xanathar's Guide to Everything",
-          "Tasha's Cauldron of Everything",
-          "Unearthed Arcana"
-        ]
-      },
-      "Steady Aim (Optional)": {
-        "Description": "Gain advantage on your next attack roll as a bonus action, but you can't move during the turn."
-      },
-      "Ability Score Improvement": {
-        "Description": "Increase one ability score by 2 or two ability scores by 1 at specific levels."
-      },
-      "Uncanny Dodge": {
-        "Description": "Use reaction to halve the damage of an attack you can see."
-      },
-      "Evasion": {
-        "Description": "Take no damage on a successful Dexterity saving throw for effects that allow half damage."
-      },
-      "Reliable Talent": {
-        "Description": "Treat a d20 roll of 9 or lower as a 10 on ability checks with proficiency."
-      },
-      "Blindsense": {
-        "Description": "Aware of hidden or invisible creatures within 10 feet if you can hear."
-      },
-      "Slippery Mind": {
-        "Description": "Gain proficiency in Wisdom saving throws."
-      },
-      "Elusive": {
-        "Description": "No attack roll has advantage against you while you aren't incapacitated."
-      },
-      "Stroke of Luck": {
-        "Description": "Turn a miss into a hit or a failed ability check into a success once per short or long rest."
-      }
+    {
+      "name": "Sneak Attack",
+      "desc": "Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon. The amount of the extra damage increases as you gain levels in this class."
+    },
+    {
+      "name": "Thieves' Cant",
+      "desc": "During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly."
+    },
+    {
+      "name": "Cunning Action",
+      "desc": "Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action."
+    },
+    {
+      "name": "Roguish Archetype",
+      "desc": "At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level."
+    },
+    {
+      "name": "Steady Aim",
+      "desc": "At 3rd level, as a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "desc": "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    },
+    {
+      "name": "Uncanny Dodge",
+      "desc": "Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+    },
+    {
+      "name": "Evasion",
+      "desc": "Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an Ice Storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+    },
+    {
+      "name": "Reliable Talent",
+      "desc": "By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10."
+    },
+    {
+      "name": "Blindsense",
+      "desc": "Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you."
+    },
+    {
+      "name": "Slippery Mind",
+      "desc": "By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws."
+    },
+    {
+      "name": "Elusive",
+      "desc": "Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated."
+    },
+    {
+      "name": "Stroke of Luck",
+      "desc": "At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20. Once you use this feature, you can't use it again until you finish a short or long rest."
     }
+  ],
+  "Levels": {
+    "1": [
+      {
+        "name": "Sneak Attack",
+        "value": "1d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Expertise", "Sneak Attack", "Thieves' Cant"]
+      }
+    ],
+    "2": [
+      {
+        "name": "Sneak Attack",
+        "value": "1d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Cunning Action"]
+      }
+    ],
+    "3": [
+      {
+        "name": "Sneak Attack",
+        "value": "2d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Roguish Archetype", "Steady Aim (Optional)"]
+      }
+    ],
+    "4": [
+      {
+        "name": "Sneak Attack",
+        "value": "2d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      }
+    ],
+    "5": [
+      {
+        "name": "Sneak Attack",
+        "value": "3d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Uncanny Dodge"]
+      }
+    ],
+    "6": [
+      {
+        "name": "Sneak Attack",
+        "value": "3d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Expertise"]
+      }
+    ],
+    "7": [
+      {
+        "name": "Sneak Attack",
+        "value": "4d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Evasion"]
+      }
+    ],
+    "8": [
+      {
+        "name": "Sneak Attack",
+        "value": "4d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      }
+    ],
+    "9": [
+      {
+        "name": "Sneak Attack",
+        "value": "5d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Roguish Archetype feature"]
+      }
+    ],
+    "10": [
+      {
+        "name": "Sneak Attack",
+        "value": "5d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      }
+    ],
+    "11": [
+      {
+        "name": "Sneak Attack",
+        "value": "6d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Reliable Talent"]
+      }
+    ],
+    "12": [
+      {
+        "name": "Sneak Attack",
+        "value": "6d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      }
+    ],
+    "13": [
+      {
+        "name": "Sneak Attack",
+        "value": "7d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Roguish Archetype feature"]
+      }
+    ],
+    "14": [
+      {
+        "name": "Sneak Attack",
+        "value": "7d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Blindsense"]
+      }
+    ],
+    "15": [
+      {
+        "name": "Sneak Attack",
+        "value": "8d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Slippery Mind"]
+      }
+    ],
+    "16": [
+      {
+        "name": "Sneak Attack",
+        "value": "8d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      }
+    ],
+    "17": [
+      {
+        "name": "Sneak Attack",
+        "value": "9d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Roguish Archetype feature"]
+      }
+    ],
+    "18": [
+      {
+        "name": "Sneak Attack",
+        "value": "9d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Elusive"]
+      }
+    ],
+    "19": [
+      {
+        "name": "Sneak Attack",
+        "value": "10d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      }
+    ],
+    "20": [
+      {
+        "name": "Sneak Attack",
+        "value": "10d6"
+      },
+      {
+        "name": "Features",
+        "value": ["Stroke of Luck"]
+      }
+    ]
   }
 }
