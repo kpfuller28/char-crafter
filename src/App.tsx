@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import Question from "./Components/Question";
-// @ts-expect-error miss type declaration
-import { characterDecider } from "./helpers/characterDecider.js";
+import { characterDecider } from "./helpers/characterDecider.ts";
 const questions = [
   "Do you want to weapon, cast spells, or a bit of both?",
   "Do you want to be melee or ranged?",
