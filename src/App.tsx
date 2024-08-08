@@ -17,7 +17,6 @@ both, melee = paladin
 both, ranged = ranger
 */
 const options = [
-
   ["Weapon", "Spells", "Both"],
   ["Melee", "Ranged"],
   ["Human", "Elf", "Dwarf", "Halfling"],
@@ -59,11 +58,9 @@ function App() {
         </div>
       ) : (
         <div className={`fade ${fade ? "fade-enter" : "fade-exit"}`}>
-          <div>Here are your answers bitch</div>
           <div>
             You clearly want to play a {answers[2]} {characterClass}
           </div>
-        <div className={`fade ${fade ? "fade-enter" : "fade-exit"}`}>
           <div>Here are your answers bitch</div>
           <ul style={{ listStyleType: "none" }}>
             {answers.map((answer) => {
