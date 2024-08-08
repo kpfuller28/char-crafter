@@ -1,0 +1,27 @@
+{
+  "name": "Tabaxi",
+  "description": "Created by the Cat Lord—a divine being of the Upper Planes—to blend the qualities of humanoids and cats, tabaxi are a varied people in both attitude and appearance. Some live like the cats they resemble, while others exhibit less feline behavior. Their appearance can range from big cat patterns to house cat features, or even unique patterns and hairlessness.",
+  "features": {
+    "ability_score_increase": "When determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20.",
+    "creature_type": "Humanoid",
+    "size": "You are Medium or Small. You choose the size when you select this race.",
+    "speed": {
+      "walking": "30 feet",
+      "climbing": "equal to your walking speed"
+    },
+    "cats_claws": {
+      "description": "You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.",
+      "damage": "1d6 + Strength modifier"
+    },
+    "cats_talent": {
+      "description": "You have proficiency in the Perception and Stealth skills."
+    },
+    "darkvision": {
+      "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+    },
+    "feline_agility": {
+      "description": "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns."
+    },
+    "languages": "You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character."
+  }
+}

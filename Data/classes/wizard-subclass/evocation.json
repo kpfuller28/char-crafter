@@ -1,0 +1,41 @@
+{
+    "name": "Evocation Magic",
+    "source": "Player's Handbook",
+    "description": "Evokers specialize in harnessing and unleashing powerful elemental forces. Their magic can create devastating effects such as searing flames, crackling lightning, and chilling cold. Evokers are often found in roles that require significant destructive power or protection.",
+    "features": {
+      "evocation_savant": {
+        "description": "At 2nd level, the gold and time required to copy an Evocation spell into your spellbook is halved.",
+        "benefits": [
+          "Halve the gold and time required to copy Evocation spells into your spellbook."
+        ]
+      },
+      "sculpt_spells": {
+        "description": "Beginning at 2nd level, you can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures you can see, you can choose a number of them equal to 1 + the spell's level. These creatures automatically succeed on their saving throws against the spell and take no damage if they would normally take half damage on a successful save.",
+        "benefits": [
+          "Choose a number of creatures affected by your evocation spell equal to 1 + the spell's level.",
+          "These chosen creatures automatically succeed on saving throws and take no damage on a successful save."
+        ]
+      },
+      "potent_cantrip": {
+        "description": "Starting at 6th level, your damaging cantrips affect creatures that succeed on their saving throws. When a creature succeeds on a saving throw against your cantrip, it takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.",
+        "benefits": [
+          "Creatures that succeed on saving throws against your damaging cantrips take half the damage but suffer no additional effects."
+        ]
+      },
+      "empowered_evocation": {
+        "description": "Beginning at 10th level, you can add your Intelligence modifier (minimum of +1) to one damage roll of any wizard evocation spell that you cast.",
+        "benefits": [
+          "Add your Intelligence modifier (minimum +1) to one damage roll of any evocation spell."
+        ]
+      },
+      "overchannel": {
+        "description": "At 14th level, you can maximize the damage of your spells. When you cast a wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell. The first time you use this feature, you suffer no adverse effects. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage per level of the spell immediately after casting it. Each subsequent use before finishing a long rest increases the necrotic damage per spell level by 1d12. This damage ignores resistance and immunity.",
+        "benefits": [
+          "Deal maximum damage with a 1st through 5th level evocation spell.",
+          "Suffer no adverse effect the first time you use this feature.",
+          "Take 2d12 necrotic damage per spell level if used again before finishing a long rest, increasing by 1d12 per spell level for each subsequent use."
+        ]
+      }
+    }
+  }
+  

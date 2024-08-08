@@ -1,0 +1,41 @@
+{
+  "name": "Shifter",
+  "description": "Shifters, also known as weretouched, are humanoids with a bestial aspect who can temporarily enhance their animalistic features through a state called shifting. They are descendants of individuals who contracted lycanthropy and exhibit traits reminiscent of their lycanthropic ancestors.",
+  "features": {
+    "ability_score_increase": "When determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20.",
+    "creature_type": "You are a Humanoid.",
+    "size": "You are Medium.",
+    "speed": "Your walking speed is 30 feet.",
+    "bestial_instincts": "Channeling the beast within, you have proficiency in one of the following skills of your choice: Acrobatics, Athletics, Intimidation, or Survival.",
+    "darkvision": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.",
+    "shifting": "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to 2 x your proficiency bonus. You can shift a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. You gain an additional benefit based on one of the following options (choose when you select this race): Beasthide, Longtooth, Swiftstride, or Wildhunt.",
+    "languages": "You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character."
+  },
+  "subraces": {
+    "beasthide": {
+      "description": "Stoic and solid, beasthide shifters are tied to creatures known for their toughness, like bears or boars.",
+      "ability_score_increase": "Your Constitution score increases by 2, and your Strength score increases by 1.",
+      "natural_athlete": "You have proficiency in the Athletics skill.",
+      "shifting_feature": "Whenever you shift, you gain 1d6 additional temporary hit points, and while shifted, you have a +1 bonus to your Armor Class."
+    },
+    "longtooth": {
+      "description": "Fierce and aggressive, longtooth shifters often have canine traits or draw on other predators.",
+      "ability_score_increase": "Your Strength score increases by 2, and your Dexterity score increases by 1.",
+      "fierce": "You have proficiency in the Intimidation skill.",
+      "shifting_feature": "While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal piercing damage equal to 1d6 + your Strength modifier."
+    },
+    "swiftstride": {
+      "description": "Graceful and quick, swiftstride shifters are often feline in nature and excel at moving swiftly.",
+      "ability_score_increase": "Your Dexterity score increases by 2, and your Charisma score increases by 1.",
+      "graceful": "You have proficiency in the Acrobatics skill.",
+      "shifting_feature": "While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when an enemy ends its turn within 5 feet of you, without provoking opportunity attacks."
+    },
+    "wildhunt": {
+      "description": "Sharp and insightful, wildhunt shifters are excellent hunters and spiritual leaders.",
+      "ability_score_increase": "Your Wisdom score increases by 2.",
+      "natural_tracker": "You have proficiency in the Survival skill.",
+      "mark_the_scent": "As a bonus action, you can mark one creature you can see within 10 feet of you. Until the end of your next long rest, your proficiency bonus is doubled for any ability check you make to find the marked creature, and you always know the location of that creature if it is within 60 feet of you.",
+      "shifting_feature": "While shifted, you have advantage on Wisdom checks."
+    }
+  }
+}

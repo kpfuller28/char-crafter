@@ -1,0 +1,61 @@
+{
+    "name": "Draconic Bloodline",
+    "source": "Player's Handbook",
+    "description": "Sorcerers with a Draconic Bloodline trace their magic back to a dragon or a draconic ancestor. Their innate magic flows from their connection to dragon-kind, granting them traits and powers associated with their draconic heritage. These sorcerers can command dragon-like abilities and harness the elemental power of their dragon ancestor.",
+    "features": {
+      "dragon_ancestor": {
+        "description": "At 1st level, you choose a type of dragon as your ancestor. This choice determines the damage type associated with your dragon lineage and influences the features you gain later.",
+        "choices": {
+          "Black": "Acid",
+          "Blue": "Lightning",
+          "Brass": "Fire",
+          "Bronze": "Lightning",
+          "Copper": "Acid",
+          "Gold": "Fire",
+          "Green": "Poison",
+          "Red": "Fire",
+          "Silver": "Cold",
+          "White": "Cold"
+        }
+      },
+      "draconic_ancestry": {
+        "description": "You can speak, read, and write Draconic. When interacting with dragons, your proficiency bonus is doubled if it applies to the Charisma check.",
+        "mechanics": [
+          "Speak, read, and write Draconic.",
+          "Double proficiency bonus on Charisma checks when interacting with dragons."
+        ]
+      },
+      "draconic_resilience": {
+        "description": "Starting at 1st level, the magic of your dragon ancestry enhances your physical resilience. Your hit point maximum increases by 1 at 1st level and by 1 again with each level you gain in this class. You also gain a natural armor: When not wearing armor, your AC equals 13 + your Dexterity modifier.",
+        "mechanics": [
+          "Increase hit point maximum by 1 at 1st level and by 1 per class level thereafter.",
+          "AC equals 13 + Dexterity modifier when not wearing armor."
+        ]
+      },
+      "elemental_affinity": {
+        "description": "At 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, you can add your Charisma modifier to one damage roll of that spell. You can also spend 1 sorcery point to gain resistance to that damage type for 1 hour.",
+        "mechanics": [
+          "Add Charisma modifier to one damage roll of spells dealing your dragon's damage type.",
+          "Spend 1 sorcery point to gain resistance to that damage type for 1 hour."
+        ]
+      },
+      "dragon_wings": {
+        "description": "At 14th level, you can manifest dragon wings as a bonus action, granting you a flying speed equal to your current speed. The wings last until you dismiss them or are incapacitated. You can't manifest wings while wearing armor unless it is designed for it, and clothing not meant for wings may be destroyed.",
+        "mechanics": [
+          "Gain a flying speed equal to your walking speed.",
+          "Wings last until dismissed or incapacitated.",
+          "Can't manifest wings while wearing armor unless armor is designed for wings."
+        ]
+      },
+      "draconic_presence": {
+        "description": "At 18th level, you can exude an aura of awe or fear. As an action, you spend 5 sorcery points to create an aura with a 60-foot radius. Hostile creatures that start their turn in the aura must succeed on a Wisdom saving throw or be charmed (if awe) or frightened (if fear) for 1 minute. Creatures that succeed are immune to your aura for 24 hours.",
+        "mechanics": [
+          "Exude an aura of awe or fear with a 60-foot radius.",
+          "Hostile creatures must succeed on a Wisdom saving throw or be charmed or frightened.",
+          "Aura lasts for 1 minute or until concentration is broken.",
+          "Creatures that succeed are immune for 24 hours."
+        ]
+      }
+    }
+  }
+  

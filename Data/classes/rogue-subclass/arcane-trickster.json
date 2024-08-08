@@ -1,0 +1,104 @@
+{
+  "name": "Arcane Trickster",
+  "source": "Player's Handbook",
+  "description": "Arcane Tricksters enhance their skills of stealth and agility with magic, learning enchantment and illusion spells. These rogues include pickpockets, burglars, pranksters, and adventurers.",
+  "spellcasting": {
+    "description": "Starting at 3rd level, you augment your martial prowess with the ability to cast spells.",
+    "cantrips": {
+      "initial": [
+        "Mage Hand",
+        "Two other cantrips of your choice from the wizard spell list"
+      ],
+      "additional": "Learn another wizard cantrip at 10th level."
+    },
+    "spell_slots": {
+      "3rd_level": {
+        "cantrips_known": 2,
+        "spells_known": 3,
+        "1st": 2,
+        "2nd": 0,
+        "3rd": 0,
+        "4th": 0
+      },
+      "7th_level": {
+        "cantrips_known": 2,
+        "spells_known": 5,
+        "1st": 4,
+        "2nd": 2,
+        "3rd": 0,
+        "4th": 0
+      },
+      "10th_level": {
+        "cantrips_known": 3,
+        "spells_known": 7,
+        "1st": 4,
+        "2nd": 3,
+        "3rd": 0,
+        "4th": 0
+      },
+      "13th_level": {
+        "cantrips_known": 3,
+        "spells_known": 9,
+        "1st": 4,
+        "2nd": 3,
+        "3rd": 2,
+        "4th": 0
+      },
+      "17th_level": {
+        "cantrips_known": 3,
+        "spells_known": 12,
+        "1st": 4,
+        "2nd": 3,
+        "3rd": 3,
+        "4th": 1
+      },
+      "20th_level": {
+        "cantrips_known": 3,
+        "spells_known": 13,
+        "1st": 4,
+        "2nd": 3,
+        "3rd": 3,
+        "4th": 1
+      }
+    },
+    "spells_known": {
+      "initial": [
+        "Three 1st-level wizard spells of your choice, two of which must be from enchantment or illusion spells."
+      ],
+      "level_up": [
+        "Learn one new spell of 1st or 2nd level at 7th level.",
+        "Spells learned at 8th, 14th, and 20th level can come from any school of magic.",
+        "Replace one known wizard spell with another from the wizard spell list when gaining a level."
+      ]
+    },
+    "spellcasting_ability": {
+      "description": "Intelligence is your spellcasting ability for your wizard spells.",
+      "spell_save_dc": "8 + your proficiency bonus + your Intelligence modifier",
+      "spell_attack_modifier": "Your proficiency bonus + your Intelligence modifier"
+    }
+  },
+  "features": {
+    "mage_hand_legerdemain": {
+      "description": "At 3rd level, when you cast Mage Hand, you can make the hand invisible and perform additional tasks.",
+      "tasks": [
+        "Stow an object the hand is holding in a container worn or carried by another creature.",
+        "Retrieve an object in a container worn or carried by another creature.",
+        "Use thieves' tools to pick locks and disarm traps at range."
+      ],
+      "stealth_check": "You can perform these tasks without being noticed if you succeed on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check.",
+      "bonus_action": "You can use the bonus action granted by your Cunning Action to control the hand."
+    },
+    "magical_ambush": {
+      "description": "At 9th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn."
+    },
+    "versatile_trickster": {
+      "description": "At 13th level, you can use Mage Hand to distract targets.",
+      "mechanics": "As a bonus action, you can designate a creature within 5 feet of the hand to gain advantage on attack rolls against that creature until the end of the turn."
+    },
+    "spell_thief": {
+      "description": "At 17th level, you can steal the knowledge of a spell from another spellcaster.",
+      "mechanics": "After a creature casts a spell targeting you or including you in its area of effect, you can use your reaction to force the creature to make a saving throw. On a failed save, you negate the spell's effect against you and steal the spell knowledge if it is at least 1st level and of a level you can cast. You know the spell for 8 hours, and the creature can't cast it during this time.",
+      "recharge": "Once you use this feature, you can't use it again until you finish a long rest."
+    }
+  }
+}

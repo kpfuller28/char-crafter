@@ -1,0 +1,36 @@
+{
+  "name": "Warforged",
+  "description": "The warforged were built to fight in the Last War. Initially mindless automatons, they evolved into fully sentient beings blending organic and inorganic materials. Though built as weapons, warforged now seek purpose beyond the war.",
+  "features": {
+    "ability_score_increase": {
+      "description": "Your Constitution score increases by 2, and one other ability score of your choice increases by 1."
+    },
+    "age": {
+      "description": "A typical warforged is between two and thirty years old. The maximum lifespan remains a mystery, and warforged show no signs of aging. They are immune to magical aging effects."
+    },
+    "alignment": {
+      "description": "Most warforged lean toward law and neutrality, reflecting their origins in order and discipline, but some adopt the morality or lack thereof of their former comrades."
+    },
+    "size": {
+      "description": "Your size is Medium. To determine your height and weight, roll a size modifier: 2d6. Height = 5 feet + 10 inches + your size modifier in inches. Weight = 270 + (4 x your size modifier) pounds."
+    },
+    "speed": {
+      "description": "Your base walking speed is 30 feet."
+    },
+    "constructed_resilience": {
+      "description": "You have advantage on saving throws against being poisoned, and resistance to poison damage. You don’t need to eat, drink, or breathe, are immune to disease, and cannot be put to sleep by magic."
+    },
+    "sentrys_rest": {
+      "description": "When taking a long rest, you must spend at least six hours in an inactive, motionless state instead of sleeping. You appear inert but can see and hear as normal."
+    },
+    "integrated_protection": {
+      "description": "Your body includes built-in defensive layers. You gain a +1 bonus to Armor Class and can incorporate armor into your body, taking 1 hour to don or doff it. While you live, armor can't be removed against your will."
+    },
+    "specialized_design": {
+      "description": "You gain proficiency in one skill and one tool of your choice."
+    },
+    "languages": {
+      "description": "You can speak, read, and write Common and one other language of your choice."
+    }
+  }
+}

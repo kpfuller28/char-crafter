@@ -1,0 +1,96 @@
+{
+  "name": "Human",
+  "description": "In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that's why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.",
+  "features": {
+    "age": "Humans reach adulthood in their late teens and live less than a century.",
+    "size": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+    "speed": "Your base walking speed is 30 feet.",
+    "languages": "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
+  },
+  "variants": {
+    "standard_human": {
+      "source": "Player's Handbook",
+      "ability_score_increase": "Your ability scores each increase by 1."
+    },
+    "variant_human": {
+      "source": "Player's Handbook",
+      "ability_score_increase": "Two different ability scores of your choice increase by 1.",
+      "skills": "You gain proficiency in one skill of your choice.",
+      "feat": "You gain one Feat of your choice."
+    },
+    "mark_of_finding": {
+      "source": "Eberron - Rising from the Last War",
+      "ability_score_increase": "Your Wisdom score increases by 2, and your Constitution score increases by 1.",
+      "darkvision": "You can see in dim light within 60ft. of you as if it were bright light, and in darkness as if it were dim light. You can't discern colors in darkness, only shades of grey.",
+      "hunter's_intuition": "Whenever you make a Wisdom (Perception) or a Wisdom (Survival) check, you can roll a d4 and add the number rolled to the total ability check.",
+      "finders_magic": {
+        "description": "You can cast the Hunter's Mark spell with this trait. Starting at 3rd level, you can also cast the Locate Object spell with it. Once you cast either spell with this trait, you can't cast that spell again until you finish a Long Rest.",
+        "spellcasting_ability": "Wisdom"
+      },
+      "languages": "You can speak, read, and write Common and Goblin.",
+      "spells_of_the_mark": {
+        "1st": ["Faerie Fire", "Longstrider"],
+        "2nd": ["Locate Animals or Plants", "Locate Object"],
+        "3rd": ["Clairvoyance", "Speak With Plants"],
+        "4th": ["Divination", "Locate Creature"],
+        "5th": ["Commune With Nature"]
+      }
+    },
+    "mark_of_handling": {
+      "source": "Eberron - Rising from the Last War",
+      "ability_score_increase": "Your Wisdom score increases by 2, and one other Ability Score of your choice increases by 1.",
+      "wild_intuition": "Whenever you make a Wisdom (Animal Handling) or an Intelligence (Nature) check, you can roll a d4 and add the number rolled to the total ability check.",
+      "primal_connection": "You can cast the Animal Friendship spell and the Speak With Animals with this trait, requiring no material components. Once you cast either spell with this trait, you can't cast that spell again until you finish a Long Rest.",
+      "the_bigger_they_are": "Starting at 3rd level, you can target a Beast or a Monstrosity when you cast Animal Friendship or Speak With Animals, provided that the creature's intelligence is 3 or lower.",
+      "spells_of_the_mark": {
+        "1st": ["Animal Friendship", "Speak With Animals"],
+        "2nd": ["Beast Sense", "Calm Emotions"],
+        "3rd": ["Beacon of Hope", "Conjure Animals"],
+        "4th": ["Aura of Life", "Dominate Beast"],
+        "5th": ["Awaken"]
+      }
+    },
+    "mark_of_making": {
+      "source": "Eberron - Rising from the Last War",
+      "ability_score_increase": "Your Intelligence score increases by 2, and one other Ability Score of your choice increases by 1.",
+      "artisan's_intuition": "Whenever you make an Intelligence (Arcana) or an Ability Check involving Artisan's Tools, you can roll a d4 and add the number rolled to the total ability check.",
+      "artisan's_gift": "You gain proficiency in one type of Artisan's Tools of your choice.",
+      "spellsmith": "You learn the Mending cantrip. You can also cast the Magic Weapon spell with this trait. When you do so, the spell lasts for 1 hour and doesn't require concentration. Once you cast this spell with this trait, you can't cast that spell again until you finish a Long Rest.",
+      "spells_of_the_mark": {
+        "1st": ["Identify", "Tenser's Floating Disk"],
+        "2nd": ["Continual Flame", "Magic Weapon"],
+        "3rd": ["Conjure Barrage", "Elemental Weapon"],
+        "4th": ["Fabricate", "Stone Shape"],
+        "5th": ["Creation"]
+      }
+    },
+    "mark_of_passage": {
+      "source": "Eberron - Rising from the Last War",
+      "ability_score_increase": "Your Dexterity score increases by 2, and one other Ability Score of your choice increases by 1.",
+      "courier's_speed": "You gain a base walking speed of 35ft.",
+      "intuitive_motion": "Whenever you make a Dexterity (Acrobatics) or an Ability Check involving operating or maintaining a Land Vehicle, you can roll a d4 and add the number rolled to the total ability check.",
+      "magical_passage": "You can cast the Misty Step spell with this trait. Once you cast this spell with this trait, you can't cast that spell again until you finish a Long Rest.",
+      "spells_of_the_mark": {
+        "1st": ["Expeditious Retreat", "Jump"],
+        "2nd": ["Misty Step", "Pass Without Trace"],
+        "3rd": ["Blink", "Phantom Steed"],
+        "4th": ["Dimension Door", "Freedom of Movement"],
+        "5th": ["Teleportation Circle"]
+      }
+    },
+    "mark_of_sentinel": {
+      "source": "Eberron - Rising from the Last War",
+      "ability_score_increase": "Your Constitution score increases by 2, and your Wisdom score increases by 1.",
+      "sentinel's_intuition": "Whenever you make a Wisdom (Insight) or a Wisdom (Perception) check, you can roll a d4 and add the number rolled to the total ability check.",
+      "guardian's_shield": "You can cast the Shield spell with this trait. Once you cast this spell with this trait, you can't cast that spell again until you finish a Long Rest.",
+      "vigilant_guardian": "Once a creature that you can see within 5ft of you is hit with an attack roll, you can use your reaction to swap places with the creature, and you are hit by the attack instead. Once you use this trait, you can't do so again until you finish a long rest.",
+      "spells_of_the_mark": {
+        "1st": ["Compelled Duel", "Shield of Faith"],
+        "2nd": ["Warding Bond", "Zone of Truth"],
+        "3rd": ["Counterspell", "Protection From Energy"],
+        "4th": ["Death Ward", "Guardian of Faith"],
+        "5th": ["Bigby's Hand"]
+      }
+    }
+  }
+}

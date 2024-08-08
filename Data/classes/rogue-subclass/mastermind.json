@@ -1,0 +1,47 @@
+{
+    "name": "Mastermind",
+    "source": "Xanathar's Guide to Everything",
+    "description": "Masterminds focus on people, using their influence and understanding of secrets to manipulate and control. They excel in intrigue, espionage, and diplomacy, wielding words and secrets as their primary tools.",
+    "features": {
+      "master_of_intrigue": {
+        "description": "At 3rd level, you gain proficiency with tools and languages to aid in deception and disguise.",
+        "mechanics": [
+          "Gain proficiency with the disguise kit, forgery kit, and one gaming set of your choice.",
+          "Learn two languages of your choice.",
+          "Can mimic the speech patterns and accent of a creature you've heard speak for at least 1 minute, allowing you to pass as a native speaker if you know the language."
+        ]
+      },
+      "master_of_tactics": {
+        "description": "At 3rd level, you can use your Help action more effectively.",
+        "mechanics": [
+          "Use the Help action as a bonus action.",
+          "When you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than 5 feet, provided the target can see or hear you."
+        ]
+      },
+      "insightful_manipulator": {
+        "description": "At 9th level, you can discern a creature's capabilities compared to your own.",
+        "mechanics": [
+          "Spend at least 1 minute observing or interacting with a creature outside combat to learn if it is your equal, superior, or inferior in two of the following characteristics:",
+          "Intelligence score",
+          "Wisdom score",
+          "Charisma score",
+          "Class levels (if any)",
+          "At the DM's discretion, you might also learn a piece of the creature's history or a personality trait."
+        ]
+      },
+      "misdirection": {
+        "description": "Beginning at 13th level, you can redirect an attack meant for you to another creature.",
+        "mechanics": [
+          "When targeted by an attack while a creature within 5 feet of you is granting you cover, you can use your reaction to have the attack target that creature instead of you."
+        ]
+      },
+      "soul_of_deceit": {
+        "description": "At 17th level, your thoughts are shielded from magical probing, and you can present falsehoods as truth.",
+        "mechanics": [
+          "Your thoughts can't be read by telepathy or other means unless you allow it. You can present false thoughts with a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.",
+          "Magic that would determine if you are telling the truth indicates you are truthful if you choose, and you can't be compelled to tell the truth by magic."
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,66 @@
+{
+  "name": "Circle of Wildfire",
+  "source": ["Tasha's Cauldron of Everything"],
+  "description": "Druids of the Circle of Wildfire channel both destruction and creation through a primal spirit of fire. They use controlled flames to burn away the old and foster new growth, embracing the cyclical nature of destruction and creation.",
+  "features": {
+    "circle_spells": {
+      "level": 2,
+      "description": "Your bond with a wildfire spirit grants you access to specific spells. These spells are always prepared and do not count against the number of spells you can prepare each day.",
+      "spells": {
+        "2nd": ["Burning Hands", "Cure Wounds"],
+        "3rd": ["Flaming Sphere", "Scorching Ray"],
+        "5th": ["Plant Growth", "Revivify"],
+        "7th": ["Aura of Life", "Fire Shield"],
+        "9th": ["Flame Strike", "Mass Cure Wounds"]
+      }
+    },
+    "summon_wildfire_spirit": {
+      "level": 2,
+      "description": "You can summon a wildfire spirit by expending a use of your Wild Shape feature. The spirit appears within 30 feet of you, deals fire damage to creatures nearby, and shares your initiative count. The spirit lasts for 1 hour or until reduced to 0 hit points or dismissed.",
+      "wildfire_spirit": {
+        "type": "Small elemental",
+        "armor_class": 13,
+        "hit_points": "5 + 5 times your druid level",
+        "speed": "30 ft., fly 30 ft. (hover)",
+        "abilities": {
+          "STR": 10,
+          "DEX": 14,
+          "CON": 14,
+          "INT": 13,
+          "WIS": 15,
+          "CHA": 11
+        },
+        "damage_immunities": ["fire"],
+        "condition_immunities": [
+          "charmed",
+          "frightened",
+          "grappled",
+          "prone",
+          "restrained"
+        ],
+        "senses": ["darkvision 60 ft.", "passive Perception 12"],
+        "languages": ["understands the languages you speak"],
+        "actions": {
+          "flame_seed": {
+            "description": "Ranged Weapon Attack: your spell attack modifier to hit, range 60 ft., one target you can see. Hit: 1d6 + PB fire damage."
+          },
+          "fiery_teleportation": {
+            "description": "The spirit and willing creatures within 5 feet can teleport up to 15 feet. Creatures in the space left by the spirit must succeed on a Dexterity saving throw or take 1d6 + PB fire damage."
+          }
+        }
+      }
+    },
+    "enhanced_bond": {
+      "level": 6,
+      "description": "The bond with your wildfire spirit enhances your spells. When you cast a spell that deals fire damage or restores hit points, roll a d8 to gain a bonus to one damage or healing roll of the spell. Spells with a range other than self can originate from either you or your wildfire spirit."
+    },
+    "cauterizing_flames": {
+      "level": 10,
+      "description": "When a Small or larger creature dies within 30 feet of you or your wildfire spirit, a harmless spectral flame appears. You can use your reaction to extinguish the flame and either heal or deal fire damage to a creature entering that space. The healing or damage equals 2d10 + your Wisdom modifier. You can use this feature a number of times equal to your proficiency bonus, regaining uses after a long rest."
+    },
+    "blazing_revival": {
+      "level": 14,
+      "description": "If the wildfire spirit is within 120 feet of you and you are reduced to 0 hit points, you can cause the spirit to drop to 0 hit points. You then regain half your hit points and rise to your feet. This feature can be used once per long rest."
+    }
+  }
+}

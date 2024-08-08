@@ -1,0 +1,50 @@
+{
+  "name": "Oath of the Ancients",
+  "source": "Player's Handbook",
+  "description": "Paladins who swear the Oath of the Ancients, also known as fey knights or green knights, fight to protect the light and life in the world. Their commitment is reflected in their armor and attire adorned with symbols of nature, and they cherish the preservation of all things beautiful and life-giving.",
+  "tenets": {
+    "kindle_the_light": "Through acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.",
+    "shelter_the_light": "Stand against wickedness that would swallow good, beauty, love, and laughter, and protect places where life flourishes.",
+    "preserve_your_own_light": "Delight in song, laughter, beauty, and art. Maintain the light in your own heart to preserve it in the world.",
+    "be_the_light": "Be a beacon of joy and courage, shining forth in all your deeds."
+  },
+  "oath_spells": {
+    "3rd_level": ["Ensnaring Strike", "Speak with Animals"],
+    "5th_level": ["Moonbeam", "Misty Step"],
+    "9th_level": ["Plant Growth", "Protection from Energy"],
+    "13th_level": ["Ice Storm", "Stoneskin"],
+    "17th_level": ["Commune with Nature", "Tree Stride"]
+  },
+  "channel_divinity": {
+    "nature's_wrath": {
+      "description": "Invoke primeval forces to ensnare a foe.",
+      "effect": "As an action, cause spectral vines to restrain a creature within 10 feet of you. The creature must succeed on a Strength or Dexterity saving throw to avoid being restrained. The creature can repeat the saving throw at the end of each of its turns."
+    },
+    "turn_the_faithless": {
+      "description": "Utter ancient words that cause fey and fiends pain.",
+      "effect": "As an action, present your holy symbol. Each fey or fiend within 30 feet must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage. Turned creatures must move away from you and can only Dash or try to escape."
+    }
+  },
+  "aura_of_warding": {
+    "7th_level": {
+      "description": "Ancient magic forms an eldritch ward.",
+      "effect": "You and friendly creatures within 10 feet have resistance to damage from spells."
+    },
+    "18th_level": {
+      "description": "Extended aura of warding.",
+      "effect": "The range of your Aura of Warding increases to 30 feet."
+    }
+  },
+  "undying_sentinel": {
+    "15th_level": {
+      "description": "Drop to 1 hit point instead of 0 and resist the effects of old age.",
+      "effect": "When reduced to 0 hit points, you can choose to drop to 1 hit point instead. Additionally, you suffer none of the drawbacks of old age and can't be aged magically."
+    }
+  },
+  "elder_champion": {
+    "20th_level": {
+      "description": "Transform into an ancient force of nature.",
+      "effect": "For 1 minute, gain the following benefits: regain 10 hit points at the start of each turn, cast paladin spells with a casting time of 1 action as a bonus action, and enemies within 10 feet have disadvantage on saving throws against your spells and Channel Divinity options. This feature can be used once per long rest."
+    }
+  }
+}

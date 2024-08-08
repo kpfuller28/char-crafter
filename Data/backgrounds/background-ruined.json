@@ -24,20 +24,20 @@
     },
     "suggested_characteristics": {
       "personality_traits": [
-        { "d6": 1, "trait": "I’ve changed from my past, and I work to live up to my new path. (Balance, Throne)" },
-        { "d6": 2, "trait": "Every moment is a gift I refuse to squander. (Euryale, Skull)" },
-        { "d6": 3, "trait": "Now that I’ve overcome having nothing, I can survive anything. (Fool, Ruin, Talons)" },
-        { "d6": 4, "trait": "I know enemies are set against me, and I always prepare for the worst. (Flames, Rogue)" },
-        { "d6": 5, "trait": "I interpret every event as part of a larger pattern I just haven’t worked out yet. (Puzzle, Star)" },
-        { "d6": 6, "trait": "I must make up for so much time I’ve already lost. (Donjon, Void)" }
+        { "1": "I’ve changed from my past, and I work to live up to my new path. (Balance, Throne)" },
+        { "2": "Every moment is a gift I refuse to squander. (Euryale, Skull)" },
+        { "3": "Now that I’ve overcome having nothing, I can survive anything. (Fool, Ruin, Talons)" },
+        { "4": "I know enemies are set against me, and I always prepare for the worst. (Flames, Rogue)" },
+        { "5": "I interpret every event as part of a larger pattern I just haven’t worked out yet. (Puzzle, Star)" },
+        { "6": "I must make up for so much time I’ve already lost. (Donjon, Void)" }
       ],
       "ruined_trinkets": [
-        { "d6": 1, "trinket": "A rusted scrap of a once-beloved family heirloom" },
-        { "d6": 2, "trinket": "A land deed, but all the names and markings that once tied it to you have faded into obscurity" },
-        { "d6": 3, "trinket": "A bauble once imbued with powerful magic" },
-        { "d6": 4, "trinket": "A battered playing card with a hole pierced in it, its face depicting the card that affected you" },
-        { "d6": 5, "trinket": "A yellowed Humanoid tooth that whispers eerily when placed under a pillow" },
-        { "d6": 6, "trinket": "A keepsake from someone you were once close to but who is now your enemy" }
+        { "1": "A rusted scrap of a once-beloved family heirloom" },
+        { "2": "A land deed, but all the names and markings that once tied it to you have faded into obscurity" },
+        { "3": "A bauble once imbued with powerful magic" },
+        { "4": "A battered playing card with a hole pierced in it, its face depicting the card that affected you" },
+        { "5": "A yellowed Humanoid tooth that whispers eerily when placed under a pillow" },
+        { "6": "A keepsake from someone you were once close to but who is now your enemy" }
       ]
     }
   }

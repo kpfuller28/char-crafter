@@ -1,0 +1,30 @@
+{
+  "name": "Way of the Sun Soul",
+  "sources": [
+    "Sword Coast Adventurer's Guide",
+    "Xanathar's Guide to Everything"
+  ],
+  "description": "Monks of the Way of the Sun Soul channel their life energy into searing bolts of light, unleashing the radiant power of their souls. Their training allows them to harness and direct the indomitable light within.",
+  "features": {
+    "radiant_sun_bolt": {
+      "level": 3,
+      "description": "Hurl searing bolts of magical radiance.",
+      "effect": "Gain a new ranged spell attack with a range of 30 feet, using Dexterity for attack and damage rolls. Damage die is d4, changing with monk level. Spend 1 ki point to make the special attack twice as a bonus action. Use with Extra Attack feature if applicable."
+    },
+    "searing_arc_strike": {
+      "level": 6,
+      "description": "Channel ki into searing waves of energy.",
+      "effect": "Immediately after the Attack action, spend 2 ki points to cast Burning Hands as a bonus action. Spend additional ki points to cast the spell at a higher level, up to half your monk level."
+    },
+    "searing_sunburst": {
+      "level": 11,
+      "description": "Create an orb of light that erupts in a sphere of radiant damage.",
+      "effect": "As an action, create an orb and hurl it to a point within 150 feet, dealing 2d6 radiant damage in a 20-foot-radius sphere. Spend up to 3 additional ki points to increase the damage by 2d6 per point."
+    },
+    "sun_shield": {
+      "level": 17,
+      "description": "Wreathed in a luminous aura that deals radiant damage.",
+      "effect": "Shed bright light in a 30-foot radius and dim light for an additional 30 feet. Extinguish or restore the light as a bonus action. When hit by a melee attack, use your reaction to deal radiant damage equal to 5 + your Wisdom modifier."
+    }
+  }
+}

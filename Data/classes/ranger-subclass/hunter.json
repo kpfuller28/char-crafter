@@ -1,0 +1,95 @@
+{
+  "name": "Hunter Conclave",
+  "source": "Player's Handbook",
+  "description": "Hunters are rangers who specialize in fighting against the most dangerous threats to civilization. They develop techniques for battling formidable foes, including giants, dragons, and hordes of enemies.",
+  "features": {
+    "hunters_prey": {
+      "description": "At 3rd level, you gain one of the following features of your choice to enhance your combat effectiveness against specific threats.",
+      "options": [
+        {
+          "name": "Colossus Slayer",
+          "details": {
+            "extra_damage": "When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it’s below its hit point maximum.",
+            "limit": "You can deal this extra damage only once per turn."
+          }
+        },
+        {
+          "name": "Giant Killer",
+          "details": {
+            "reaction_attack": "When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature."
+          }
+        },
+        {
+          "name": "Horde Breaker",
+          "details": {
+            "additional_attack": "Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
+          }
+        }
+      ]
+    },
+    "defensive_tactics": {
+      "description": "At 7th level, you gain one of the following defensive features to help you survive against attacks.",
+      "options": [
+        {
+          "name": "Escape the Horde",
+          "details": {
+            "disadvantage_on_opportunity_attacks": "Opportunity attacks against you are made with disadvantage."
+          }
+        },
+        {
+          "name": "Multiattack Defense",
+          "details": {
+            "bonus_to_ac": "When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn."
+          }
+        },
+        {
+          "name": "Steel Will",
+          "details": {
+            "advantage_on_saving_throws": "You have advantage on saving throws against being frightened."
+          }
+        }
+      ]
+    },
+    "multiattack": {
+      "description": "At 11th level, you gain one of the following multiattack options to deal with groups of enemies more effectively.",
+      "options": [
+        {
+          "name": "Volley",
+          "details": {
+            "ranged_attack": "You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon’s range.",
+            "ammunition_requirement": "You must have ammunition for each target, as normal, and you make a separate attack roll for each target."
+          }
+        },
+        {
+          "name": "Whirlwind Attack",
+          "details": {
+            "melee_attack": "You can use your action to make melee attacks against any number of creatures within 5 feet of you, with a separate attack roll for each target."
+          }
+        }
+      ]
+    },
+    "superior_hunters_defense": {
+      "description": "At 15th level, you gain one of the following defensive features to further enhance your survivability in combat.",
+      "options": [
+        {
+          "name": "Evasion",
+          "details": {
+            "dexterity_saving_throw": "When subjected to an effect that allows a Dexterity saving throw to take half damage, you take no damage on a success and only half damage on a failure."
+          }
+        },
+        {
+          "name": "Stand Against the Tide",
+          "details": {
+            "reaction_attack": "When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice."
+          }
+        },
+        {
+          "name": "Uncanny Dodge",
+          "details": {
+            "reaction_damage_reduction": "When an attacker you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you."
+          }
+        }
+      ]
+    }
+  }
+}

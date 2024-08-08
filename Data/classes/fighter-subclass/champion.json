@@ -1,0 +1,27 @@
+{
+  "name": "Champion",
+  "source": ["Player's Handbook"],
+  "description": "Champions focus on honing raw physical power and combat skills to deal devastating blows. They combine rigorous training with physical excellence to achieve greatness in battle.",
+  "features": {
+    "improved_critical": {
+      "level": 3,
+      "description": "Your weapon attacks score a critical hit on a roll of 19 or 20."
+    },
+    "remarkable_athlete": {
+      "level": 7,
+      "description": "You can add half your proficiency bonus (rounded up) to any Strength, Dexterity, or Constitution check that doesn't already use your proficiency bonus. When making a running long jump, the distance you cover increases by a number of feet equal to your Strength modifier."
+    },
+    "additional_fighting_style": {
+      "level": 10,
+      "description": "You can choose a second option from the Fighting Style class feature."
+    },
+    "superior_critical": {
+      "level": 15,
+      "description": "Your weapon attacks score a critical hit on a roll of 18-20."
+    },
+    "survivor": {
+      "level": 18,
+      "description": "At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You do not gain this benefit if you have 0 hit points."
+    }
+  }
+}

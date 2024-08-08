@@ -1,0 +1,52 @@
+{
+  "Autognome": {
+    "Description": "Mechanical beings created by rock gnomes, autognomes resemble their creators and are often programmed to speak and understand Gnomish. Their internal components vary, from beating hearts to stardust or intricate clockwork gears. Autognomes can live up to 500 years.",
+    "Ability Score Increase": {
+      "Option1": {
+        "Score1": "+2",
+        "Score2": "+1",
+        "Restrictions": "You can't raise any of your scores above 20."
+      },
+      "Option2": {
+        "Score1": "+1",
+        "Score2": "+1",
+        "Score3": "+1",
+        "Restrictions": "You can't raise any of your scores above 20."
+      }
+    },
+    "Creature Type": "Construct",
+    "Size": "Small",
+    "Speed": "30 feet",
+    "Traits": {
+      "Armored Casing": {
+        "Description": "While you aren't wearing armor, your base Armor Class is 13 + your Dexterity modifier."
+      },
+      "Built for Success": {
+        "Description": "You can add a d4 to one attack roll, ability check, or saving throw you make, and you can do so after seeing the d20 roll but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+      },
+      "Healing Machine": {
+        "Description": "If the Mending spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point). You also benefit from spells that preserve life but normally don't affect Constructs: Cure Wounds, Healing Word, Mass Cure Wounds, Mass Healing Word, and Spare the Dying."
+      },
+      "Mechanical Nature": {
+        "Description": "You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don't need to eat, drink, or breathe."
+      },
+      "Sentry's Rest": {
+        "Description": "When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. You remain conscious during this state but appear inert."
+      },
+      "Specialized Design": {
+        "Description": "You gain two tool proficiencies of your choice, selected from the Player's Handbook."
+      }
+    },
+    "Languages": "Common and one other language chosen with your DM",
+    "Autognome History": {
+      "history": [
+        {"1": "Your creator gave you autonomy and urged you to follow your dreams."},
+        {"2": "Your creator died, leaving you to fend for yourself."},
+        {"3": "A glitch caused you to forget your original programming. You don’t remember who made you or where you came from."},
+        {"4": "You didn’t like how you were being treated by your creator, so you ran away from home."},
+        {"5": "Your creator built you to complete a special mission."},
+        {"6": "You felt trapped in the role for which you were built and abandoned your creator, determined to find a greater purpose."}
+      ]
+    }
+  }
+}

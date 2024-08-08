@@ -1,0 +1,788 @@
+{
+  "Hit Points": {
+    "Hit Dice": "1d8 per bard level",
+    "Hit Points at 1st Level": "8 + your Constitution modifier",
+    "Hit Points at Higher Levels": "1d8 (or 5) + your Constitution modifier per bard level after 1st"
+  },
+  "Proficiencies": {
+    "Armor": "Light armor",
+    "Weapons": "Simple weapons, hand crossbows, longswords, rapiers, shortswords",
+    "Tools": "Three musical instruments of your choice",
+    "Saving Throws": "Dexterity, Charisma",
+    "Skills": "Choose any three"
+  },
+  "Equipment": [
+    "a rapier, a longsword, or any simple weapon",
+    "a diplomat's pack or an entertainer's pack",
+    "a lute or any other musical instrument",
+    "Leather armor and a dagger"
+  ],
+  "Class Features": [
+    {
+      "name": "Spellcasting",
+      "desc": "You can cast spells using Charisma as your spellcasting ability."
+    },
+    {
+      "name": "Bardic Inspiration",
+      "desc": "You can inspire others through stirring words or music."
+    },
+    {
+      "name": "Jack of All Trades",
+      "desc": "You gain a bonus to any ability check not already including your proficiency bonus."
+    },
+    {
+      "name": "Song of Rest",
+      "desc": "You can use soothing music or oration to help revitalize your wounded allies during a short rest."
+    },
+    {
+      "name": "Magical Inspiration",
+      "desc": "When you use Bardic Inspiration, you can give the target an extra bonus to their spellcasting or attack roll."
+    },
+    {
+      "name": "Bard College",
+      "desc": "At 3rd level, you choose a Bard College which grants you additional features."
+    },
+    {
+      "name": "Expertise",
+      "desc": "You can choose two of your skill proficiencies or one skill and your proficiency with musical instruments to double your proficiency bonus for any ability check you make that uses either of the chosen proficiencies."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "desc": "You can increase one ability score by 2 or two ability scores by 1 each."
+    },
+    {
+      "name": "Font of Inspiration",
+      "desc": "You regain all expended uses of Bardic Inspiration when you finish a short or long rest."
+    },
+    {
+      "name": "Countercharm",
+      "desc": "You can use your action to start a performance that lasts until the end of your next turn."
+    },
+    {
+      "name": "Bardic Versatility",
+      "desc": "You can swap one of your Bardic Inspiration features or a spell."
+    },
+    {
+      "name": "Magical Secrets",
+      "desc": "You learn two spells from any class and can cast them using Bard spell slots."
+    },
+    {
+      "name": "Superior Inspiration",
+      "desc": "You regain one use of Bardic Inspiration when you roll initiative if you have no uses remaining."
+    }
+  ],
+  "Levels": {
+    "1": [
+      {
+        "name": "Features",
+        "value": ["Spellcasting", "Bardic Inspiration"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 2
+      },
+      {
+        "name": "Spells Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 2
+      }
+    ],
+    "2": [
+      {
+        "name": "Features",
+        "value": ["Jack of All Trades", "Song of Rest"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 2
+      },
+      {
+        "name": "Spells Known",
+        "value": 5
+      },
+      {
+        "name": "1st",
+        "value": 3
+      }
+    ],
+    "3": [
+      {
+        "name": "Features",
+        "value": ["Bard College", "Magical Inspiration"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 2
+      },
+      {
+        "name": "Spells Known",
+        "value": 6
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 2
+      }
+    ],
+    "4": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 7
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      }
+    ],
+    "5": [
+      {
+        "name": "Features",
+        "value": ["Font of Inspiration"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 8
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 2
+      }
+    ],
+    "6": [
+      {
+        "name": "Features",
+        "value": ["Countercharm", "Bard College Feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 9
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      }
+    ],
+    "7": [
+      {
+        "name": "Features",
+        "value": ["Magical Secrets"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 10
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 1
+      }
+    ],
+    "8": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 11
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 2
+      }
+    ],
+    "9": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 12
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 1
+      }
+    ],
+    "10": [
+      {
+        "name": "Features",
+        "value": ["Bard College Feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 14
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      }
+    ],
+    "11": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 15
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      },
+      {
+        "name": "6th",
+        "value": 1
+      }
+    ],
+    "12": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 15
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      },
+      {
+        "name": "6th",
+        "value": 1
+      }
+    ],
+    "13": [
+      {
+        "name": "Features",
+        "value": ["Magical Secrets"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 16
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      },
+      {
+        "name": "6th",
+        "value": 1
+      },
+      {
+        "name": "7th",
+        "value": 1
+      }
+    ],
+    "14": [
+      {
+        "name": "Features",
+        "value": ["Bard College Feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 18
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      },
+      {
+        "name": "6th",
+        "value": 1
+      },
+      {
+        "name": "7th",
+        "value": 1
+      }
+    ],
+    "15": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 19
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      },
+      {
+        "name": "6th",
+        "value": 1
+      },
+      {
+        "name": "7th",
+        "value": 1
+      },
+      {
+        "name": "8th",
+        "value": 1
+      }
+    ],
+    "16": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 19
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      },
+      {
+        "name": "6th",
+        "value": 1
+      },
+      {
+        "name": "7th",
+        "value": 1
+      },
+      {
+        "name": "8th",
+        "value": 1
+      }
+    ],
+    "17": [
+      {
+        "name": "Features",
+        "value": ["Magical Secrets"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 20
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      },
+      {
+        "name": "6th",
+        "value": 1
+      },
+      {
+        "name": "7th",
+        "value": 1
+      },
+      {
+        "name": "8th",
+        "value": 1
+      },
+      {
+        "name": "9th",
+        "value": 1
+      }
+    ],
+    "18": [
+      {
+        "name": "Features",
+        "value": ["Bard College Feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 22
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 1
+      },
+      {
+        "name": "7th",
+        "value": 1
+      },
+      {
+        "name": "8th",
+        "value": 1
+      },
+      {
+        "name": "9th",
+        "value": 1
+      }
+    ],
+    "19": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 22
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 2
+      },
+      {
+        "name": "7th",
+        "value": 1
+      },
+      {
+        "name": "8th",
+        "value": 1
+      },
+      {
+        "name": "9th",
+        "value": 1
+      }
+    ],
+    "20": [
+      {
+        "name": "Features",
+        "value": ["Superior Inspiration"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 22
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 2
+      },
+      {
+        "name": "7th",
+        "value": 2
+      },
+      {
+        "name": "8th",
+        "value": 1
+      },
+      {
+        "name": "9th",
+        "value": 1
+      }
+    ]
+}
+}

@@ -1,0 +1,44 @@
+{
+    "name": "Fiend",
+    "source": "Player's Handbook",
+    "description": "You have forged a pact with a fiend from the lower planes, beings with aims of corruption and destruction. Such entities include demon lords like Demogorgon and Orcus, archdevils such as Asmodeus and Mephistopheles, and powerful yugoloths. Even if you strive against their evil goals, their influence shapes your power and destiny.",
+    "expanded_spell_list": {
+      "1st": ["Burning Hands", "Command"],
+      "2nd": ["Blindness/Deafness", "Scorching Ray"],
+      "3rd": ["Fireball", "Stinking Cloud"],
+      "4th": ["Fire Shield", "Wall of Fire"],
+      "5th": ["Flame Strike", "Hallow"]
+    },
+    "features": {
+      "dark_ones_blessing": {
+        "description": "Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier plus your warlock level (minimum of 1).",
+        "mechanics": [
+          "Gain temporary hit points equal to Charisma modifier + warlock level (minimum of 1) when reducing a hostile creature to 0 hit points."
+        ]
+      },
+      "dark_ones_own_luck": {
+        "description": "Starting at 6th level, you can call on your patron to alter fate in your favor. You can add a d10 to an ability check or saving throw after seeing the initial roll but before any effects occur. This feature can be used once per short or long rest.",
+        "mechanics": [
+          "Add a d10 to an ability check or saving throw after seeing the initial roll but before any effects occur.",
+          "Use once per short or long rest."
+        ]
+      },
+      "fiendish_resilience": {
+        "description": "Starting at 10th level, you can choose one damage type when you finish a short or long rest to gain resistance to. Damage from magical or silver weapons ignores this resistance.",
+        "mechanics": [
+          "Choose one damage type to gain resistance to at the end of a short or long rest.",
+          "Resistance is ignored by magical or silver weapons."
+        ]
+      },
+      "hurl_through_hell": {
+        "description": "Starting at 14th level, when you hit a creature with an attack, you can use this feature to transport the target through the lower planes. The target returns at the end of your next turn, taking 10d10 psychic damage if it is not a fiend. This feature can be used once per long rest.",
+        "mechanics": [
+          "Transport the target through the lower planes when hitting with an attack.",
+          "Target returns at the end of your next turn.",
+          "Target takes 10d10 psychic damage if it is not a fiend.",
+          "Use once per long rest."
+        ]
+      }
+    }
+  }
+  

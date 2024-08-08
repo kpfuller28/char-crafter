@@ -1,0 +1,47 @@
+{
+  "name": "Tempest Domain",
+  "source": "Player's Handbook",
+  "description": "The Tempest Domain is associated with storms, sea, and sky. Clerics of this domain embody the power of lightning, thunder, and violent weather, and they use this power to inspire fear, uphold righteousness, and protect sailors. Tempest gods govern elements such as lightning, thunder, earthquakes, and sometimes fire.",
+  "deities": [
+    { "name": "Talos", "pantheon": "Forgotten Realms" },
+    { "name": "Umberlee", "pantheon": "Forgotten Realms" },
+    { "name": "Kord", "pantheon": "Greyhawk" },
+    { "name": "Zeboim", "pantheon": "Greyhawk" },
+    { "name": "The Devourer", "pantheon": "Eberron" },
+    { "name": "Zeus", "pantheon": "Greek" },
+    { "name": "Thor", "pantheon": "Norse" }
+  ],
+  "spells": {
+    "1st": ["Fog Cloud", "Thunderwave"],
+    "3rd": ["Gust of Wind", "Shatter"],
+    "5th": ["Call Lightning", "Sleet Storm"],
+    "7th": ["Control Water", "Ice Storm"],
+    "9th": ["Destructive Wave", "Insect Plague"]
+  },
+  "features": {
+    "bonus_proficiencies": {
+      "level": 1,
+      "description": "Gain proficiency with martial weapons and heavy armor."
+    },
+    "wrath_of_the_storm": {
+      "level": 1,
+      "description": "When a creature within 5 feet hits you with an attack, you can use your reaction to force it to make a Dexterity saving throw. On a failed save, it takes 2d8 lightning or thunder damage (your choice), or half as much on a successful save. Uses per long rest equal to your Wisdom modifier (minimum of once)."
+    },
+    "channel_divinity_destructive_wrath": {
+      "level": 2,
+      "description": "Use Channel Divinity to maximize lightning or thunder damage instead of rolling."
+    },
+    "thunderous_strike": {
+      "level": 6,
+      "description": "When you deal lightning damage to a Large or smaller creature, you can push it up to 10 feet away from you."
+    },
+    "divine_strike": {
+      "level": 8,
+      "description": "Add 1d8 thunder damage to your weapon attacks. Increases to 2d8 at 14th level."
+    },
+    "stormborn": {
+      "level": 17,
+      "description": "Gain a flying speed equal to your walking speed when not underground or indoors."
+    }
+  }
+}

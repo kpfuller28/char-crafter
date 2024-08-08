@@ -1,0 +1,733 @@
+{
+  "Class Name": "Wizard",
+  "Hit Points": {
+    "Hit Dice": "1d6 per wizard level",
+    "Hit Points at 1st Level": "6 + your Constitution modifier",
+    "Hit Points at Higher Levels": "1d6 (or 4) + your Constitution modifier per wizard level after 1st"
+  },
+  "Proficiencies": {
+    "Armor": "None",
+    "Weapons": "Daggers, darts, slings, quarterstaffs, light crossbows",
+    "Tools": "None",
+    "Saving Throws": "Intelligence, Wisdom",
+    "Skills": "Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion"
+  },
+  "Equipment": [
+    "a quarterstaff or a dagger",
+    "a component pouch or an arcane focus",
+    "a scholar's pack or an explorer's pack",
+    "a spellbook"
+  ],
+  "Class Features": [
+    {
+      "name": "Spellcasting",
+      "desc": "You have a spellbook containing spells and can prepare spells from it each day."
+    },
+    {
+      "name": "Arcane Recovery",
+      "desc": "Once per day when you finish a short rest, you can recover spell slots."
+    },
+    {
+      "name": "Arcane Tradition",
+      "desc": "Choose an arcane tradition at 2nd level that grants additional features."
+    },
+    {
+      "name": "Cantrip Formulas (Optional)",
+      "desc": "At 3rd level, you can replace one cantrip you know with another from the wizard spell list."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "desc": "Increase one ability score by 2, or two ability scores by 1 at levels 4, 8, 12, 16, and 19."
+    },
+    {
+      "name": "Spell Mastery",
+      "desc": "At 18th level, you can cast one 1st-level and one 2nd-level spell at will."
+    },
+    {
+      "name": "Signature Spells",
+      "desc": "At 20th level, you can cast two 3rd-level spells without expending spell slots."
+    }
+  ],
+  "Levels": {
+    "1": [
+      {
+        "name": "Features",
+        "value": ["Spellcasting", "Arcane Recovery"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 6
+      },
+      {
+        "name": "1st",
+        "value": 2
+      }
+    ],
+    "2": [
+      {
+        "name": "Features",
+        "value": ["Arcane Tradition"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 6
+      },
+      {
+        "name": "1st",
+        "value": 3
+      },
+      {
+        "name": "2nd",
+        "value": 0
+      }
+    ],
+    "3": [
+      {
+        "name": "Features",
+        "value": ["Cantrip Formulas (Optional)"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 7
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 2
+      }
+    ],
+    "4": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 8
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      }
+    ],
+    "5": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 9
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 2
+      }
+    ],
+    "6": [
+      {
+        "name": "Features",
+        "value": ["Arcane Tradition feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 10
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      }
+    ],
+    "7": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 11
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 1
+      }
+    ],
+    "8": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 12
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 2
+      }
+    ],
+    "9": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 13
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      }
+    ],
+    "10": [
+      {
+        "name": "Features",
+        "value": ["Arcane Tradition feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 5
+      },
+      {
+        "name": "Spells Known",
+        "value": 14
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      }
+    ],
+    "11": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 5
+      },
+      {
+        "name": "Spells Known",
+        "value": 15
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      }
+    ],
+    "12": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 5
+      },
+      {
+        "name": "Spells Known",
+        "value": 16
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 1
+      }
+    ],
+    "13": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 5
+      },
+      {
+        "name": "Spells Known",
+        "value": 17
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 2
+      }
+    ],
+    "14": [
+      {
+        "name": "Features",
+        "value": ["Arcane Tradition feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 5
+      },
+      {
+        "name": "Spells Known",
+        "value": 18
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 2
+      },
+      {
+        "name": "7th",
+        "value": 1
+      }
+    ],
+    "15": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 5
+      },
+      {
+        "name": "Spells Known",
+        "value": 19
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 2
+      },
+      {
+        "name": "7th",
+        "value": 2
+      }
+    ],
+    "16": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 5
+      },
+      {
+        "name": "Spells Known",
+        "value": 20
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 3
+      },
+      {
+        "name": "7th",
+        "value": 2
+      }
+    ],
+    "17": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 5
+      },
+      {
+        "name": "Spells Known",
+        "value": 21
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 3
+      },
+      {
+        "name": "7th",
+        "value": 3
+      }
+    ],
+    "18": [
+      {
+        "name": "Features",
+        "value": ["Spell Mastery"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 5
+      },
+      {
+        "name": "Spells Known",
+        "value": 22
+      },
+      {
+        "name": "1st",
+        "value": 5
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 3
+      },
+      {
+        "name": "7th",
+        "value": 3
+      },
+      {
+        "name": "8th",
+        "value": 1
+      }
+    ],
+    "19": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 5
+      },
+      {
+        "name": "Spells Known",
+        "value": 23
+      },
+      {
+        "name": "1st",
+        "value": 5
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 3
+      },
+      {
+        "name": "7th",
+        "value": 3
+      },
+      {
+        "name": "8th",
+        "value": 2
+      }
+    ],
+    "20": [
+      {
+        "name": "Features",
+        "value": ["Signature Spells"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 5
+      },
+      {
+        "name": "Spells Known",
+        "value": 24
+      },
+      {
+        "name": "1st",
+        "value": 5
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 3
+      },
+      {
+        "name": "7th",
+        "value": 3
+      },
+      {
+        "name": "8th",
+        "value": 2
+      },
+      {
+        "name": "9th",
+        "value": 1
+      }
+    ]
+  }
+}

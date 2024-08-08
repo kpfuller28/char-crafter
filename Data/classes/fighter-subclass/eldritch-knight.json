@@ -1,0 +1,31 @@
+{
+  "name": "Eldritch Knight",
+  "source": ["Player's Handbook"],
+  "description": "Eldritch Knights blend martial prowess with spellcasting, focusing on abjuration and evocation magic to enhance their combat abilities. They use spells to protect themselves and deal damage, learning spells and creating magical bonds with their weapons.",
+  "features": {
+    "spellcasting": {
+      "level": 3,
+      "description": "You gain the ability to cast spells, learning two cantrips from the wizard spell list. You have spell slots to cast wizard spells of 1st level and higher, with the number of slots and spells known detailed in the Eldritch Knight Spellcasting table. You can replace spells you know with others from the wizard spell list."
+    },
+    "weapon_bond": {
+      "level": 3,
+      "description": "You learn a ritual to bond with a weapon, making it magical and preventing you from being disarmed unless incapacitated. You can summon the bonded weapon as a bonus action, and you can have up to two bonded weapons but summon only one at a time."
+    },
+    "war_magic": {
+      "level": 7,
+      "description": "When you use your action to cast a cantrip, you can make one weapon attack as a bonus action."
+    },
+    "eldritch_strike": {
+      "level": 10,
+      "description": "When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn."
+    },
+    "arcane_charge": {
+      "level": 15,
+      "description": "When you use Action Surge, you can teleport up to 30 feet to an unoccupied space you can see, before or after taking the additional action."
+    },
+    "improved_war_magic": {
+      "level": 18,
+      "description": "When you use your action to cast a spell, you can make one weapon attack as a bonus action."
+    }
+  }
+}

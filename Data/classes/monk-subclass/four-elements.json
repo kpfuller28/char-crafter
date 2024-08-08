@@ -1,0 +1,21 @@
+{
+  "name": "Way of the Four Elements",
+  "source": ["Player's Handbook"],
+  "description": "Monks of the Way of the Four Elements harness the power of the four elements—earth, air, fire, and water. They use their ki to channel these elemental forces and bend them to their will, often through tattoos or other physical manifestations. Monks of this tradition might focus on one element or weave the elements together.",
+  "features": {
+    "disciple_of_the_elements": {
+      "level": 3,
+      "description": "You learn magical disciplines to harness elemental power. You start with Elemental Attunement and one other elemental discipline of your choice. You learn one additional elemental discipline at 6th, 11th, and 17th levels. You can replace one discipline you know with a different one when you learn a new discipline.",
+      "casting_elemental_spells": "At 5th level, you can spend additional ki points to cast an elemental spell at a higher level, increasing its effect. The maximum number of ki points you can spend to cast a spell is determined by your monk level (see the Spells and Ki Points table)."
+    },
+    "spells_and_ki_points": {
+      "description": "Monk Levels determine the maximum ki points for casting a spell:",
+      "levels": {
+        "5th-8th": "3 ki points",
+        "9th-12th": "4 ki points",
+        "13th-16th": "5 ki points",
+        "17th-20th": "6 ki points"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "name": "Enchantment Magic",
+    "source": "Player's Handbook",
+    "description": "Enchanters excel in magic that influences the minds and emotions of others. They can charm, beguile, and manipulate, making them powerful diplomats or tyrants, depending on their intentions.",
+    "features": {
+      "enchantment_savant": {
+        "description": "At 2nd level, the gold and time required to copy an Enchantment spell into your spellbook is halved.",
+        "benefits": [
+          "Halve the gold and time required to copy Enchantment spells into your spellbook."
+        ]
+      },
+      "hypnotic_gaze": {
+        "description": "Starting at 2nd level, you can use your action to charm a creature within 5 feet of you. The creature must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn. The creature's speed drops to 0, and it is incapacitated and visibly dazed. You can maintain this effect on subsequent turns by using your action, but it ends if you move more than 5 feet away from the creature, if the creature can neither see nor hear you, or if the creature takes damage. Once the effect ends or if the creature succeeds on its saving throw, you can't use this feature on that creature again until you finish a long rest.",
+        "benefits": [
+          "Charm a creature within 5 feet by making it succeed on a Wisdom saving throw.",
+          "Maintain the effect by using your action on subsequent turns.",
+          "Effect ends if you move more than 5 feet away, the creature can't see or hear you, or the creature takes damage."
+        ]
+      },
+      "instinctive_charm": {
+        "description": "Beginning at 6th level, when a creature within 30 feet of you makes an attack roll against you, you can use your reaction to divert the attack if another creature is within range. The attacker must make a Wisdom saving throw against your wizard spell save DC. On a failed save, the attacker targets the closest creature to it (excluding you and itself). On a successful save, you can't use this feature on the attacker again until you finish a long rest. Creatures that can't be charmed are immune to this effect.",
+        "benefits": [
+          "Use a reaction to divert an attack from you to the closest creature (excluding you and itself).",
+          "Attacker must make a Wisdom saving throw against your wizard spell save DC."
+        ]
+      },
+      "split_enchantment": {
+        "description": "Starting at 10th level, when you cast an enchantment spell of 1st level or higher that targets only one creature, you can choose to have it target a second creature as well.",
+        "benefits": [
+          "Target a second creature with enchantment spells that normally target only one creature."
+        ]
+      },
+      "alter_memories": {
+        "description": "At 14th level, when you cast an enchantment spell to charm one or more creatures, you can alter one creature's memory so that it remains unaware of being charmed. Additionally, before the spell expires, you can use your action to make the creature forget some of the time it spent charmed. The creature must succeed on an Intelligence saving throw against your wizard spell save DC or lose a number of hours of its memories equal to 1 + your Charisma modifier (minimum 1). You can choose to make the creature forget less time, up to the duration of your enchantment spell.",
+        "benefits": [
+          "Alter a creature's memory so it remains unaware of being charmed.",
+          "Make the creature forget up to 1 + your Charisma modifier hours of its memory."
+        ]
+      }
+    }
+  }
+  

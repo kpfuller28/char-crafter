@@ -1,0 +1,63 @@
+{
+    "name": "Soulknife",
+    "source": "Tasha's Cauldron of Everything",
+    "description": "Soulknives harness psionic power to enhance their stealth and combat abilities. They use psychic energy to manifest blades and manipulate minds, making them adept spies and assassins.",
+    "features": {
+      "psionic_power": {
+        "description": "At 3rd level, you gain Psionic Energy dice, which you can use to fuel various psionic powers. Your Psionic Energy dice are d6s, and their size increases at certain levels.",
+        "mechanics": [
+          "Gain Psionic Energy dice equal to twice your proficiency bonus.",
+          "Dice are d6s at 3rd level, increasing to d8 at 5th level, d10 at 11th level, and d12 at 17th level.",
+          "Regain all expended Psionic Energy dice after a long rest. You can regain one expended die as a bonus action once per short or long rest."
+        ]
+      },
+      "psi_bolstered_knack": {
+        "description": "When failing an ability check using a skill or tool you're proficient with, you can roll a Psionic Energy die and add the result to the check, potentially turning failure into success.",
+        "mechanics": [
+          "Roll a Psionic Energy die when you fail an ability check with a proficiency.",
+          "You expend the die only if the roll succeeds."
+        ]
+      },
+      "psychic_whispers": {
+        "description": "You can establish telepathic communication with creatures you can see, up to a number equal to your proficiency bonus, for a number of hours equal to the Psionic Energy die roll.",
+        "mechanics": [
+          "Choose up to your proficiency bonus number of creatures to communicate telepathically.",
+          "The telepathic connection lasts for hours equal to the Psionic Energy die roll.",
+          "No common language is needed to understand each other.",
+          "The first use of this power after a long rest doesn't expend the Psionic Energy die; all other uses do."
+        ]
+      },
+      "psychic_blades": {
+        "description": "At 3rd level, you can manifest psychic blades that function as finesse and thrown weapons, dealing psychic damage. You can use a bonus action to make a second attack with a psychic blade.",
+        "mechanics": [
+          "Manifest a psychic blade as a simple melee weapon when you take the Attack action.",
+          "The blade deals 1d6 psychic damage plus your ability modifier for the attack roll.",
+          "The blade vanishes after hitting or missing its target.",
+          "Make a second attack with another psychic blade as a bonus action, dealing 1d4 damage."
+        ]
+      },
+      "soul_blades": {
+        "description": "At 9th level, your Psychic Blades gain additional psionic powers. You can use your Psionic Energy dice to enhance attacks and teleport.",
+        "mechanics": [
+          "Homing Strikes: Reroll an attack roll with your Psychic Blades if you miss, using a Psionic Energy die.",
+          "Psychic Teleportation: Expend a Psionic Energy die to teleport to a space up to 10 times the die roll away."
+        ]
+      },
+      "psychic_veil": {
+        "description": "At 13th level, you can become invisible for up to 1 hour or until you attack or force a saving throw. You can use this feature again by expending a Psionic Energy die.",
+        "mechanics": [
+          "Become invisible for 1 hour or until you attack or force a saving throw.",
+          "Once used, you must finish a long rest to use this feature again, or expend a Psionic Energy die to use it again."
+        ]
+      },
+      "rend_mind": {
+        "description": "At 17th level, you can use your Psychic Blades to stun a creature you deal Sneak Attack damage to. The target must make a Wisdom saving throw or be stunned for 1 minute.",
+        "mechanics": [
+          "Use Psychic Blades with Sneak Attack damage to force a Wisdom saving throw.",
+          "On a failed save, the target is stunned for 1 minute and can repeat the saving throw at the end of its turns.",
+          "Once used, you must finish a long rest or expend three Psionic Energy dice to use it again."
+        ]
+      }
+    }
+  }
+  

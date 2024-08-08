@@ -1,0 +1,49 @@
+{
+  "name": "Oath of Conquest",
+  "source": "Xanathar's Guide to Everything",
+  "description": "Paladins who swear the Oath of Conquest seek glory in battle and the subjugation of their enemies. They believe in crushing chaos and ruling with an iron fist. Often associated with grim orders and even consorting with the powers of the Nine Hells, these paladins, sometimes called knight tyrants or iron mongers, cover their armor with trophies taken from fallen enemies as a warning to their foes.",
+  "tenets": {
+    "douse_the_flame_of_hope": "Victory must be overwhelming, shattering the enemy’s will to fight forever. Fear can end an empire.",
+    "rule_with_an_iron_fist": "Once conquered, tolerate no dissent. Your word is law. Those who obey are favored; those who defy are punished.",
+    "strength_above_all": "Rule until a stronger one arises. Grow mightier or fall to ruin."
+  },
+  "oath_spells": {
+    "3rd_level": ["Armor of Agathys", "Command"],
+    "5th_level": ["Hold Person", "Spiritual Weapon"],
+    "9th_level": ["Bestow Curse", "Fear"],
+    "13th_level": ["Dominate Beast", "Stoneskin"],
+    "17th_level": ["Cloudkill", "Dominate Person"]
+  },
+  "channel_divinity": {
+    "conquering_presence": {
+      "description": "Exude a terrifying presence to frighten foes.",
+      "effect": "As an action, force each creature you can see within 30 feet to make a Wisdom saving throw. On a failed save, they are frightened for 1 minute. Frightened creatures can repeat the saving throw at the end of their turns."
+    },
+    "guided_strike": {
+      "description": "Strike with supernatural accuracy.",
+      "effect": "When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. This choice is made after seeing the roll but before the DM says whether it hits or misses."
+    }
+  },
+  "aura_of_conquest": {
+    "7th_level": {
+      "description": "Emit a menacing aura that affects frightened creatures.",
+      "effect": "You emanate a 10-foot aura (not through total cover). Frightened creatures in the aura have their speed reduced to 0 and take psychic damage equal to half your paladin level if they start their turn there."
+    },
+    "18th_level": {
+      "description": "Extended aura of conquest.",
+      "effect": "The range of your Aura of Conquest increases to 30 feet."
+    }
+  },
+  "scornful_rebuke": {
+    "15th_level": {
+      "description": "Punish those who attack you with psychic damage.",
+      "effect": "Whenever a creature hits you with an attack, it takes psychic damage equal to your Charisma modifier (minimum of 1) if you’re not incapacitated."
+    }
+  },
+  "invincible_conqueror": {
+    "20th_level": {
+      "description": "Become an avatar of conquest with extraordinary martial prowess.",
+      "effect": "For 1 minute, you gain the following benefits: resistance to all damage, an additional attack when taking the Attack action, and your melee weapon attacks score a critical hit on a roll of 19 or 20 on the d20. This feature can be used once per long rest."
+    }
+  }
+}

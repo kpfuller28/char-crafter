@@ -1,0 +1,61 @@
+{
+    "name": "Clockwork Soul",
+    "source": "Tasha's Cauldron of Everything",
+    "description": "Clockwork Soul sorcerers draw their power from the cosmic force of order, arising from Mechanus or similar realms governed by clockwork efficiency. Their abilities embody a grand system of order and precision, often manifesting through visual and auditory cues that reflect their connection to this plane.",
+    "features": {
+      "clockwork_magic": {
+        "description": "Starting at 1st level, you learn additional spells that count as sorcerer spells for you, but do not count against the number of sorcerer spells you know. You can replace one of these spells with another abjuration or transmutation spell whenever you gain a sorcerer level.",
+        "spells": {
+          "1st_level": ["Alarm", "Protection from Evil and Good"],
+          "3rd_level": ["Aid", "Lesser Restoration"],
+          "5th_level": ["Dispel Magic", "Protection from Energy"],
+          "7th_level": ["Freedom of Movement", "Summon Construct"],
+          "9th_level": ["Greater Restoration", "Wall of Force"]
+        }
+      },
+      "manifestations_of_order": {
+        "description": "When you cast any of your sorcerer spells, your connection to order manifests in a specific way. Consult or roll on the Manifestations of Order table to determine how this appears.",
+        "manifestations": {
+          "1": "Spectral cogwheels hover behind you.",
+          "2": "The hands of a clock spin in your eyes.",
+          "3": "Your skin glows with a brassy sheen.",
+          "4": "Floating equations and geometric objects overlay your body.",
+          "5": "Your spellcasting focus temporarily takes the form of a Tiny clockwork mechanism.",
+          "6": "The ticking of gears or ringing of a clock can be heard by you and those affected by your magic."
+        }
+      },
+      "restore_balance": {
+        "description": "Starting at 1st level, you can use your reaction to neutralize advantage or disadvantage on a roll made by a creature you can see within 60 feet. You can use this feature a number of times equal to your proficiency bonus, regaining expended uses after a long rest.",
+        "mechanics": [
+          "Neutralize advantage or disadvantage on a roll.",
+          "Uses equal to proficiency bonus, regained after a long rest."
+        ]
+      },
+      "bastion_of_law": {
+        "description": "At 6th level, you can create a magical ward around yourself or another creature within 30 feet. The ward lasts until you finish a long rest or use this feature again. The ward is represented by d8s equal to the number of sorcery points spent. The warded creature can use these dice to reduce damage taken.",
+        "mechanics": [
+          "Create a magical ward around a creature.",
+          "Ward lasts until a long rest or feature is used again.",
+          "Damage reduction by expending and rolling d8s equal to sorcery points spent."
+        ]
+      },
+      "trance_of_order": {
+        "description": "Starting at 14th level, you can enter a state of order for 1 minute as a bonus action. During this time, attack rolls against you can’t benefit from advantage, and you can treat a roll of 9 or lower on d20 rolls as a 10. This feature can be used again after a long rest or by spending 5 sorcery points.",
+        "mechanics": [
+          "Enter a state of order for 1 minute.",
+          "Attack rolls against you can't benefit from advantage.",
+          "Treat rolls of 9 or lower as a 10.",
+          "Use again after a long rest or by spending 5 sorcery points."
+        ]
+      },
+      "clockwork_cavalcade": {
+        "description": "At 18th level, you can summon spirits of order in a 30-foot cube. The spirits restore up to 100 hit points among creatures, repair damaged objects, and end spells of 6th level or lower on creatures and objects in the cube. This feature can be used again after a long rest or by spending 7 sorcery points.",
+        "mechanics": [
+          "Summon spirits in a 30-foot cube.",
+          "Spirits restore up to 100 hit points, repair objects, and end lower-level spells.",
+          "Use again after a long rest or by spending 7 sorcery points."
+        ]
+      }
+    }
+  }
+  

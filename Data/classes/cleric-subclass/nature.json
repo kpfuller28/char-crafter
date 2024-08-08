@@ -1,0 +1,38 @@
+{
+  "name": "Nature Domain",
+  "source": "Player's Handbook",
+  "description": "Gods of nature are varied, from deities of deep forests to those associated with springs and groves. Clerics of nature gods may hunt evil creatures, bless harvests, or wither crops of those who anger their gods. They take an active role in preserving and advancing the interests of nature.",
+  "spells": {
+    "1st": ["Animal Friendship", "Speak with Animals"],
+    "3rd": ["Barkskin", "Spike Growth"],
+    "5th": ["Plant Growth", "Wind Wall"],
+    "7th": ["Dominate Beast", "Grasping Vine"],
+    "9th": ["Insect Plague", "Tree Stride"]
+  },
+  "features": {
+    "acolyte_of_nature": {
+      "level": 1,
+      "description": "Learn one cantrip from the druid spell list. This cantrip counts as a cleric cantrip and does not count against the number of cleric cantrips you know. Gain proficiency in one of the following skills: Animal Handling, Nature, or Survival."
+    },
+    "bonus_proficiency": {
+      "level": 1,
+      "description": "Gain proficiency with heavy armor."
+    },
+    "channel_divinity_charm_animals_and_plants": {
+      "level": 2,
+      "description": "As an action, present your holy symbol to charm animals and plants. Each beast or plant creature within 30 feet must make a Wisdom saving throw. If it fails, it is charmed by you for 1 minute or until it takes damage. While charmed, it is friendly to you and designated creatures."
+    },
+    "dampen_elements": {
+      "level": 6,
+      "description": "When you or a creature within 30 feet takes acid, cold, fire, lightning, or thunder damage, use your reaction to grant resistance to that instance of the damage."
+    },
+    "divine_strike": {
+      "level": 8,
+      "description": "Once per turn, when you hit a creature with a weapon attack, you can deal an extra 1d8 cold, fire, or lightning damage (your choice). The extra damage increases to 2d8 at 14th level."
+    },
+    "master_of_nature": {
+      "level": 17,
+      "description": "While creatures are charmed by your Charm Animals and Plants feature, you can use a bonus action to command what each charmed creature will do on its next turn."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Oath of Devotion",
+  "source": "Player's Handbook",
+  "description": "Paladins who swear the Oath of Devotion commit themselves to the highest ideals of justice, virtue, and order. Known as cavaliers, white knights, or holy warriors, they uphold the standards of conduct and honor, seeking to protect the innocent and uphold the greater good.",
+  "tenets": {
+    "honesty": "Don't lie or cheat. Let your word be your promise.",
+    "courage": "Never fear to act, though caution is wise.",
+    "compassion": "Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.",
+    "honor": "Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.",
+    "duty": "Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you."
+  },
+  "oath_spells": {
+    "3rd_level": ["Protection from Evil and Good", "Sanctuary"],
+    "5th_level": ["Lesser Restoration", "Zone of Truth"],
+    "9th_level": ["Beacon of Hope", "Dispel Magic"],
+    "13th_level": ["Freedom of Movement", "Guardian of Faith"],
+    "17th_level": ["Commune", "Flame Strike"]
+  },
+  "channel_divinity": {
+    "sacred_weapon": {
+      "description": "Imbue your weapon with positive energy.",
+      "effect": "As an action, add your Charisma modifier to attack rolls made with the weapon (minimum bonus of +1) for 1 minute. The weapon emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not magical, it becomes magical for the duration. The effect ends if you drop the weapon, fall unconscious, or end it on your turn."
+    },
+    "turn_the_unholy": {
+      "description": "Turn fiends and undead away from you.",
+      "effect": "As an action, present your holy symbol to turn fiends and undead. Each fiend or undead within 30 feet must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage. A turned creature must move away from you and can't willingly move within 30 feet of you."
+    }
+  },
+  "aura_of_devotion": {
+    "7th_level": {
+      "description": "Aura prevents charm effects.",
+      "effect": "You and friendly creatures within 10 feet of you can't be charmed while you are conscious. The aura extends to 30 feet at 18th level."
+    }
+  },
+  "purity_of_spirit": {
+    "15th_level": {
+      "description": "Always under the effects of Protection from Evil and Good.",
+      "effect": "You are continuously affected by the Protection from Evil and Good spell."
+    }
+  },
+  "holy_nimbus": {
+    "20th_level": {
+      "description": "Emanate an aura of sunlight.",
+      "effect": "As an action, emit bright light in a 30-foot radius and dim light 30 feet beyond that for 1 minute. Enemies in the bright light take 10 radiant damage at the start of their turn. You have advantage on saving throws against spells cast by fiends or undead. This feature can be used once per long rest."
+    }
+  }
+}

@@ -17,6 +17,7 @@ both, melee = paladin
 both, ranged = ranger
 */
 const options = [
+
   ["Weapon", "Spells", "Both"],
   ["Melee", "Ranged"],
   ["Human", "Elf", "Dwarf", "Halfling"],
@@ -62,6 +63,8 @@ function App() {
           <div>
             You clearly want to play a {answers[2]} {characterClass}
           </div>
+        <div className={`fade ${fade ? "fade-enter" : "fade-exit"}`}>
+          <div>Here are your answers bitch</div>
           <ul style={{ listStyleType: "none" }}>
             {answers.map((answer) => {
               return <li>{answer}</li>;
@@ -85,8 +88,8 @@ function App() {
       )}
 
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1000)}>
-          THIS IS KIELS UPDATE FOR ONE LAST TEST is {count}
+        <button onClick={() => setCount((count) => count + 69)}>
+          This is Nate's newest update 8/2 is {count}
         </button>
         <p>
           Edit <code>src/App.tsx</code> and Nate to Nate HMR

@@ -1,0 +1,50 @@
+{
+  "name": "Way of Mercy",
+  "source": ["Tasha's Cauldron of Everything"],
+  "description": "Monks of the Way of Mercy are wandering physicians who use their understanding of life force to aid the needy and bring a swift end to those beyond help. They might be gentle healers or masked bringers of grim mercies, often wearing robes and masks.",
+  "features": {
+    "implements_of_mercy": {
+      "level": 3,
+      "description": "Gain proficiency in Insight, Medicine, and with the herbalism kit. Also, you receive a special mask.",
+      "effect": {
+        "proficiencies": ["Insight", "Medicine", "herbalism kit"],
+        "mask": "You determine the mask's appearance or roll on the Merciful Mask table."
+      },
+      "merciful_mask_table": {
+        "d6": [
+          "Raven",
+          "Blank and white",
+          "Crying visage",
+          "Laughing visage",
+          "Skull",
+          "Butterfly"
+        ]
+      }
+    },
+    "hands_of_healing": {
+      "level": 3,
+      "description": "Your touch can heal wounds.",
+      "effect": "As an action, spend 1 ki point to restore hit points equal to a roll of your Martial Arts die + your Wisdom modifier. You can use this feature without spending a ki point when using Flurry of Blows."
+    },
+    "hands_of_harm": {
+      "level": 3,
+      "description": "Use your ki to inflict necrotic damage.",
+      "effect": "When you hit a creature with an unarmed strike, you can spend 1 ki point to deal extra necrotic damage equal to one roll of your Martial Arts die + your Wisdom modifier. This can be used only once per turn."
+    },
+    "physicians_touch": {
+      "level": 6,
+      "description": "Administer greater cures or cause harm with your touch.",
+      "effect": "When using Hands of Healing, you can also end one disease or one of the following conditions: blinded, deafened, paralyzed, poisoned, or stunned. When using Hands of Harm, you can inflict the poisoned condition until the end of your next turn."
+    },
+    "flurry_of_healing_and_harm": {
+      "level": 11,
+      "description": "Replace each unarmed strike in Flurry of Blows with Hands of Healing, or use Hands of Harm without spending ki points.",
+      "effect": "When using Flurry of Blows, replace each unarmed strike with Hands of Healing without spending ki points. Hands of Harm can be used with a Flurry of Blows strike without spending ki points, but only once per turn."
+    },
+    "hand_of_ultimate_mercy": {
+      "level": 17,
+      "description": "Return a creature to life as an ultimate mercy.",
+      "effect": "As an action, touch the corpse of a creature that died within the past 24 hours and expend 5 ki points. The creature returns to life with hit points equal to 4d10 + your Wisdom modifier, and any conditions it died with (blinded, deafened, paralyzed, poisoned, stunned) are removed. This feature can be used once per long rest."
+    }
+  }
+}

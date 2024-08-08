@@ -1,0 +1,645 @@
+{
+  "Hit Points": {
+    "Hit Dice": "1d8 per cleric level",
+    "Hit Points at 1st Level": "8 + your Constitution modifier",
+    "Hit Points at Higher Levels": "1d8 (or 5) + your Constitution modifier per cleric level after 1st"
+  },
+  "Proficiencies": {
+    "Armor": "Light armor, medium armor, heavy armor, shields",
+    "Weapons": "Simple weapons",
+    "Tools": "None",
+    "Saving Throws": "Wisdom, Charisma",
+    "Skills": "Choose two from History, Insight, Medicine, Persuasion, and Religion"
+  },
+  "Equipment": [
+    "a mace or a warhammer (if proficient)",
+    "a shield",
+    "a priest's pack or an explorer's pack",
+    "a holy symbol",
+    "a set of cleric's robes and a dagger"
+  ],
+  "Class Features": [
+    {
+      "name": "Spellcasting",
+      "desc": "You can cast cleric spells using Wisdom as your spellcasting ability."
+    },
+    {
+      "name": "Divine Domain",
+      "desc": "You choose a Divine Domain at 1st level, which grants you additional features."
+    },
+    {
+      "name": "Channel Divinity",
+      "desc": "You can use Channel Divinity to fuel various domain features and other abilities."
+    },
+    {
+      "name": "Divine Intervention",
+      "desc": "At 10th level, you can call on your deity to intervene on your behalf in times of great need."
+    },
+    {
+      "name": "Destroy Undead",
+      "desc": "At 5th level, you can use Channel Divinity to destroy undead creatures of a certain challenge rating."
+    },
+    {
+      "name": "Improved Divine Intervention",
+      "desc": "At 20th level, your call for Divine Intervention is more likely to be answered."
+    }
+  ],
+  "Levels": {
+    "1": [
+      {
+        "name": "Features",
+        "value": ["Spellcasting", "Divine Domain"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 2
+      },
+      {
+        "name": "Spells Known",
+        "value": 2
+      },
+      {
+        "name": "1st",
+        "value": 2
+      }
+    ],
+    "2": [
+      {
+        "name": "Features",
+        "value": ["Channel Divinity"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 2
+      },
+      {
+        "name": "Spells Known",
+        "value": 3
+      },
+      {
+        "name": "1st",
+        "value": 3
+      }
+    ],
+    "3": [
+      {
+        "name": "Features",
+        "value": ["Divine Domain"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 2
+      }
+    ],
+    "4": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 5
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      }
+    ],
+    "5": [
+      {
+        "name": "Features",
+        "value": ["Destroy Undead"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 6
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 2
+      }
+    ],
+    "6": [
+      {
+        "name": "Features",
+        "value": ["Channel Divinity Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 7
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      }
+    ],
+    "7": [
+      {
+        "name": "Features",
+        "value": ["Divine Domain Feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 8
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 1
+      }
+    ],
+    "8": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 9
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 2
+      }
+    ],
+    "9": [
+      {
+        "name": "Features",
+        "value": ["Divine Domain Feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 10
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      }
+    ],
+    "10": [
+      {
+        "name": "Features",
+        "value": ["Divine Intervention"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 11
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 1
+      }
+    ],
+    "11": [
+      {
+        "name": "Features",
+        "value": ["Channel Divinity Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 12
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      }
+    ],
+    "12": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 13
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      }
+    ],
+    "13": [
+      {
+        "name": "Features",
+        "value": ["Divine Domain Feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 14
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      }
+    ],
+    "14": [
+      {
+        "name": "Features",
+        "value": ["Divine Domain Feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 15
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      }
+    ],
+    "15": [
+      {
+        "name": "Features",
+        "value": ["Divine Intervention Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 16
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 4
+      }
+    ],
+    "16": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 17
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 4
+      }
+    ],
+    "17": [
+      {
+        "name": "Features",
+        "value": ["Divine Domain Feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 18
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 4
+      }
+    ],
+    "18": [
+      {
+        "name": "Features",
+        "value": ["Divine Domain Feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 19
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 4
+      }
+    ],
+    "19": [
+      {
+        "name": "Features",
+        "value": ["Divine Domain Feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 20
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 4
+      }
+    ],
+    "20": [
+      {
+        "name": "Features",
+        "value": ["Divine Intervention Improvement"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 21
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 4
+      }
+    ]
+  }
+}

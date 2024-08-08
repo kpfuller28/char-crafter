@@ -1,0 +1,66 @@
+{
+    "name": "Shadow Sorcery",
+    "source": "Xanathar's Guide to Everything",
+    "description": "Shadow Sorcerers draw their magic from the Shadowfell, imbuing them with dark and eerie powers. Their connection to this realm of gloom and despair affects their physical presence and grants them abilities tied to shadow and darkness.",
+    "quirks": {
+      "description": "At your option, you can choose or roll on the Shadow Sorcerer Quirks table to add a quirk to your character.",
+      "table": {
+        "d6": [
+          "1: You are always icy cold to the touch.",
+          "2: When you are asleep, you don't appear to breathe (though you must still breathe to survive).",
+          "3: You barely bleed, even when badly injured.",
+          "4: Your heart beats once per minute. This event sometimes surprises you.",
+          "5: You have trouble remembering that living creatures and corpses should be treated differently.",
+          "6: You blinked. Once. Last week."
+        ]
+      }
+    },
+    "features": {
+      "eyes_of_the_dark": {
+        "description": "At 1st level, you gain darkvision with a range of 120 feet. When you reach 3rd level, you also learn the Darkness spell, which doesn't count against your number of sorcerer spells known. You can cast Darkness using 2 sorcery points or a spell slot, and if cast with sorcery points, you can see through the darkness.",
+        "mechanics": [
+          "Darkvision range of 120 feet.",
+          "Learn Darkness spell.",
+          "Cast Darkness with 2 sorcery points or a spell slot; see through the Darkness if cast with sorcery points."
+        ]
+      },
+      "strength_of_the_grave": {
+        "description": "Starting at 1st level, when damage reduces you to 0 hit points, you can make a Charisma saving throw (DC 5 + the damage taken). On a success, you drop to 1 hit point instead. This feature cannot be used if reduced to 0 hit points by radiant damage or a critical hit. You can't use this feature again until you finish a long rest if successful.",
+        "mechanics": [
+          "Charisma saving throw (DC 5 + damage taken) to drop to 1 hit point instead of 0.",
+          "Cannot be used if reduced to 0 hit points by radiant damage or a critical hit.",
+          "Recharge after a long rest if successful."
+        ]
+      },
+      "hound_of_ill_omen": {
+        "description": "At 6th level, you can summon a shadowy hound to harass your foes. As a bonus action, spend 3 sorcery points to summon a hound with the dire wolf's statistics but modified to be Medium and a monstrosity. It appears with temporary hit points equal to half your sorcerer level and targets one creature you can see within 120 feet. The hound can move through objects as difficult terrain and makes opportunity attacks only against its target, which also has disadvantage on saving throws against your spells while the hound is within 5 feet of it.",
+        "mechanics": [
+          "Spend 3 sorcery points to summon a shadowy hound.",
+          "Hound uses dire wolf statistics, size Medium, monstrosity type.",
+          "Hound appears with temporary hit points equal to half your sorcerer level.",
+          "Hound moves through objects as difficult terrain and takes 5 force damage if it ends its turn inside an object.",
+          "Target's location is automatically known by the hound, and it is no longer hidden if it was.",
+          "Hound appears within 30 feet of target and makes opportunity attacks only against its target.",
+          "Target has disadvantage on saving throws against your spells while the hound is within 5 feet.",
+          "Hound disappears if reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes."
+        ]
+      },
+      "shadow_walk": {
+        "description": "At 14th level, you can step through shadows to teleport. As a bonus action, when in dim light or darkness, you can teleport up to 120 feet to an unoccupied space in dim light or darkness that you can see.",
+        "mechanics": [
+          "Teleport up to 120 feet to an unoccupied space in dim light or darkness.",
+          "Bonus action when in dim light or darkness."
+        ]
+      },
+      "umbral_form": {
+        "description": "At 18th level, you can transform into a shadowy form by spending 6 sorcery points as a bonus action. In this form, you have resistance to all damage except force and radiant, can move through objects as difficult terrain, and take 5 force damage if you end your turn inside an object. This form lasts for 1 minute or until dismissed as a bonus action, or if you are incapacitated or die.",
+        "mechanics": [
+          "Spend 6 sorcery points to transform into a shadowy form.",
+          "Resistance to all damage except force and radiant.",
+          "Move through objects as difficult terrain; take 5 force damage if ending turn inside an object.",
+          "Lasts for 1 minute, or until dismissed, incapacitated, or dead."
+        ]
+      }
+    }
+  }
+  

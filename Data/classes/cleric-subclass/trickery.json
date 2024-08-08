@@ -1,0 +1,42 @@
+{
+  "name": "Trickery Domain",
+  "source": "Player's Handbook",
+  "description": "The Trickery Domain is associated with mischief, deception, and subversion. Clerics of this domain are agents of chaos, disrupting the status quo and challenging established norms. They use their powers to deceive, steal, and create confusion, often favoring indirect approaches over direct confrontation.",
+  "deities": [
+    { "name": "Tymora", "pantheon": "Forgotten Realms" },
+    { "name": "Beshaba", "pantheon": "Forgotten Realms" },
+    { "name": "Olidammara", "pantheon": "Greyhawk" },
+    { "name": "The Traveler", "pantheon": "Eberron" },
+    { "name": "Garl Glittergold", "pantheon": "Greyhawk" },
+    { "name": "Loki", "pantheon": "Norse" }
+  ],
+  "spells": {
+    "1st": ["Charm Person", "Disguise Self"],
+    "3rd": ["Mirror Image", "Pass without Trace"],
+    "5th": ["Blink", "Dispel Magic"],
+    "7th": ["Dimension Door", "Polymorph"],
+    "9th": ["Dominate Person", "Modify Memory"]
+  },
+  "features": {
+    "blessing_of_the_trickster": {
+      "level": 1,
+      "description": "Touch a willing creature to give it advantage on Dexterity (Stealth) checks for 1 hour or until you use this feature again."
+    },
+    "channel_divinity_invoke_duplicity": {
+      "level": 2,
+      "description": "Create an illusory duplicate of yourself that lasts for 1 minute. You can cast spells as though you were in the illusion's space and gain advantage on attack rolls against creatures within 5 feet of both you and the illusion."
+    },
+    "channel_divinity_cloak_of_shadows": {
+      "level": 6,
+      "description": "Become invisible until the end of your next turn. You become visible if you attack or cast a spell."
+    },
+    "divine_strike": {
+      "level": 8,
+      "description": "Add 1d8 poison damage to your weapon attacks. Increases to 2d8 at 14th level."
+    },
+    "improved_duplicity": {
+      "level": 17,
+      "description": "Create up to four duplicates of yourself with Invoke Duplicity. You can move any number of them up to 30 feet, to a maximum range of 120 feet."
+    }
+  }
+}

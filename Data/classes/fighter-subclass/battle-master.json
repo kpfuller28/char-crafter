@@ -1,0 +1,27 @@
+{
+  "name": "Battle Master",
+  "source": ["Player's Handbook"],
+  "description": "Battle Masters are fighters who treat combat as an academic field, incorporating lessons from history, theory, and artistry into their martial prowess. They are skilled and knowledgeable warriors who use specialized techniques to dominate the battlefield.",
+  "features": {
+    "combat_superiority": {
+      "level": 3,
+      "description": "You learn maneuvers and gain superiority dice. You start with three maneuvers and four superiority dice (d8s). You can learn additional maneuvers at 7th, 10th, and 15th levels, and you can replace known maneuvers when learning new ones. Superiority dice are used to fuel maneuvers and are regained after a short or long rest. The saving throw DC for maneuvers is 8 + proficiency bonus + Strength or Dexterity modifier."
+    },
+    "student_of_war": {
+      "level": 3,
+      "description": "You gain proficiency with one type of artisan's tools of your choice."
+    },
+    "know_your_enemy": {
+      "level": 7,
+      "description": "If you spend at least 1 minute observing or interacting with a creature outside combat, you learn if it is equal, superior, or inferior compared to you in two of the following characteristics: Strength score, Dexterity score, Constitution score, Armor Class, Current hit points, Total class levels, Fighter class levels."
+    },
+    "improved_combat_superiority": {
+      "level": 10,
+      "description": "Your superiority dice turn into d10s. At 18th level, they turn into d12s."
+    },
+    "relentless": {
+      "level": 15,
+      "description": "When you roll initiative and have no superiority dice remaining, you regain 1 superiority die."
+    }
+  }
+}

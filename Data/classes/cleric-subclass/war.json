@@ -1,0 +1,53 @@
+{
+  "name": "War Domain",
+  "source": "Player's Handbook",
+  "description": "The War Domain represents the tumult and valor of conflict. Clerics of this domain are battle-ready, excelling in combat and inspiring others to fight. They serve gods who oversee all aspects of war, from honor and chivalry to destruction and conquest.",
+  "deities": [
+    { "name": "Torm", "pantheon": "Forgotten Realms" },
+    { "name": "Heironeous", "pantheon": "Greyhawk" },
+    { "name": "Kiri-Jolith", "pantheon": "Dragonlance" },
+    { "name": "Erythnul", "pantheon": "Greyhawk" },
+    { "name": "The Fury", "pantheon": "Forgotten Realms" },
+    { "name": "Gruumsh", "pantheon": "Forgotten Realms" },
+    { "name": "Ares", "pantheon": "Greek" },
+    { "name": "Bane", "pantheon": "Forgotten Realms" },
+    { "name": "Hextor", "pantheon": "Greyhawk" },
+    { "name": "Maglubiyet", "pantheon": "Forgotten Realms" },
+    { "name": "Tempus", "pantheon": "Forgotten Realms" },
+    { "name": "Nike", "pantheon": "Greek" },
+    { "name": "Nuada", "pantheon": "Celtic" }
+  ],
+  "spells": {
+    "1st": ["Divine Favor", "Shield of Faith"],
+    "3rd": ["Magic Weapon", "Spiritual Weapon"],
+    "5th": ["Crusader's Mantle", "Spirit Guardians"],
+    "7th": ["Freedom of Movement", "Stoneskin"],
+    "9th": ["Flame Strike", "Hold Monster"]
+  },
+  "features": {
+    "bonus_proficiency": {
+      "level": 1,
+      "description": "Gain proficiency with martial weapons and heavy armor."
+    },
+    "war_priest": {
+      "level": 1,
+      "description": "When you use the Attack action, you can make one weapon attack as a bonus action. Usable a number of times equal to your Wisdom modifier (minimum of once), regained on a long rest."
+    },
+    "channel_divinity_guided_strike": {
+      "level": 2,
+      "description": "Gain a +10 bonus to an attack roll using your Channel Divinity. Choose after you see the roll but before the DM says if it hits or misses."
+    },
+    "channel_divinity_war_gods_blessing": {
+      "level": 6,
+      "description": "Grant a creature within 30 feet a +10 bonus to their attack roll using your Channel Divinity. Choose after you see the roll but before the DM says if it hits or misses."
+    },
+    "divine_strike": {
+      "level": 8,
+      "description": "Add 1d8 damage of the same type dealt by the weapon to your weapon attacks. Increases to 2d8 at 14th level."
+    },
+    "avatar_of_battle": {
+      "level": 17,
+      "description": "Gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Monster Slayer",
+  "source": "Xanathar's Guide to Everything",
+  "description": "Monster Slayers are dedicated to hunting down and defeating creatures of the night and wielders of dark magic. They are experts at overcoming formidable magical threats such as vampires, dragons, evil fey, and fiends.",
+  "features": {
+    "monster_slayer_magic": {
+      "description": "Starting at 3rd level, you gain access to additional spells that enhance your ability to combat supernatural foes.",
+      "spells": [
+        {
+          "ranger_level": 3,
+          "spell": "Protection from Evil and Good"
+        },
+        {
+          "ranger_level": 5,
+          "spell": "Zone of Truth"
+        },
+        {
+          "ranger_level": 9,
+          "spell": "Magic Circle"
+        },
+        {
+          "ranger_level": 13,
+          "spell": "Banishment"
+        },
+        {
+          "ranger_level": 17,
+          "spell": "Hold Monster"
+        }
+      ]
+    },
+    "hunters_sense": {
+      "description": "At 3rd level, you gain the ability to discern a creature's weaknesses and resistances. As an action, you can choose a creature you can see within 60 feet to learn whether it has any damage immunities, resistances, or vulnerabilities.",
+      "details": {
+        "uses": "You can use this feature a number of times equal to your Wisdom modifier (minimum of once).",
+        "recharge": "You regain all expended uses when you finish a long rest."
+      }
+    },
+    "slayers_prey": {
+      "description": "Starting at 3rd level, you can designate a creature as your prey to increase the damage you inflict on it. As a bonus action, you designate one creature you can see within 60 feet as your prey. The first time each turn that you hit that target with a weapon attack, it takes an extra 1d6 damage from the weapon.",
+      "details": {
+        "duration": "This benefit lasts until you finish a short or long rest or until you designate a different creature as your prey."
+      }
+    },
+    "supernatural_defense": {
+      "description": "At 7th level, you gain extra resilience against the attacks of your designated prey. Whenever the target of your Slayer's Prey forces you to make a saving throw or when you make an ability check to escape its grapple, you add 1d6 to your roll."
+    },
+    "magic_users_nemesis": {
+      "description": "At 11th level, you can thwart a creature's magic. When you see a creature casting a spell or teleporting within 60 feet of you, you can use your reaction to try to disrupt it. The creature must succeed on a Wisdom saving throw against your spell save DC, or its spell or teleport fails and is wasted.",
+      "details": {
+        "uses": "You can use this feature once per short or long rest."
+      }
+    },
+    "slayers_counter": {
+      "description": "At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer’s Prey forces you to make a saving throw, you can use your reaction to make one weapon attack against the quarry. If the attack hits, your saving throw automatically succeeds, in addition to the attack’s normal effects."
+    }
+  }
+}

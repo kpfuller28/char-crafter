@@ -14,17 +14,17 @@
     "features": {
       "origin": {
         "description": "You've been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character.",
-        "options": [
-          "Forester",
-          "Trapper",
-          "Homesteader",
-          "Guide",
-          "Exile or outcast",
-          "Bounty hunter",
-          "Pilgrim",
-          "Tribal nomad",
-          "Hunter-gatherer",
-          "Tribal marauder"
+        "origin": [
+          {"1": "Forester"},
+          {"2": "Trapper"},
+          {"3": "Homesteader"},
+          {"4": "Guide"},
+          {"5": "Exile or outcast"},
+          {"6": "Bounty hunter"},
+          {"7": "Pilgrim"},
+          {"8": "Tribal nomad"},
+          {"9": "Hunter-gatherer"},
+          {"10": "Tribal marauder"}
         ]
       },
       "wanderer": {
@@ -33,38 +33,38 @@
     },
     "suggested_characteristics": {
       "personality_traits": [
-        { "d8": 1, "trait": "I'm driven by a wanderlust that led me away from home." },
-        { "d8": 2, "trait": "I watch over my friends as if they were a litter of newborn pups." },
-        { "d8": 3, "trait": "I once ran twenty-five miles without stopping to warn my clan of an approaching orc horde. I'd do it again if I had to." },
-        { "d8": 4, "trait": "I have a lesson for every situation, drawn from observing nature." },
-        { "d8": 5, "trait": "I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear." },
-        { "d8": 6, "trait": "I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them." },
-        { "d8": 7, "trait": "I feel far more comfortable around animals than people." },
-        { "d8": 8, "trait": "I was, in fact, raised by wolves." }
+        { "1": "I'm driven by a wanderlust that led me away from home." },
+        { "2": "I watch over my friends as if they were a litter of newborn pups." },
+        { "3": "I once ran twenty-five miles without stopping to warn my clan of an approaching orc horde. I'd do it again if I had to." },
+        { "4": "I have a lesson for every situation, drawn from observing nature." },
+        { "5": "I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear." },
+        { "6": "I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them." },
+        { "7": "I feel far more comfortable around animals than people." },
+        { "8": "I was, in fact, raised by wolves." }
       ],
       "ideals": [
-        { "d6": 1, "ideal": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)" },
-        { "d6": 2, "ideal": "Greater Good. It is each person's responsibility to make the most happiness for the whole tribe. (Good)" },
-        { "d6": 3, "ideal": "Honor. If I dishonor myself, I dishonor my whole clan. (Lawful)" },
-        { "d6": 4, "ideal": "Might. The strongest are meant to rule. (Evil)" },
-        { "d6": 5, "ideal": "Nature. The natural world is more important than all the constructs of civilization. (Neutral)" },
-        { "d6": 6, "ideal": "Glory. I must earn glory in battle, for myself and my clan. (Any)" }
+        { "1": "Change. Life is like the seasons, in constant change, and we must change with it.", "alignment": " (Chaotic)" },
+        { "2": "Greater Good. It is each person's responsibility to make the most happiness for the whole tribe.", "alignment": " (Good)" },
+        { "3": "Honor. If I dishonor myself, I dishonor my whole clan.", "alignment": " (Lawful)" },
+        { "4": "Might. The strongest are meant to rule.", "alignment": " (Evil)" },
+        { "5": "Nature. The natural world is more important than all the constructs of civilization.", "alignment": " (Neutral)" },
+        { "6": "Glory. I must earn glory in battle, for myself and my clan.", "alignment": " (Any)" }
       ],
       "bonds": [
-        { "d6": 1, "bond": "My family, clan, or tribe is the most important thing in my life, even when they are far from me." },
-        { "d6": 2, "bond": "An injury to the unspoiled wilderness of my home is an injury to me." },
-        { "d6": 3, "bond": "I will bring terrible wrath down on the evildoers who destroyed my homeland." },
-        { "d6": 4, "bond": "I am the last of my tribe, and it is up to me to ensure their names enter legend." },
-        { "d6": 5, "bond": "I suffer awful visions of a coming disaster and will do anything to prevent it." },
-        { "d6": 6, "bond": "It is my duty to provide children to sustain my tribe." }
+        { "1": "My family, clan, or tribe is the most important thing in my life, even when they are far from me." },
+        { "2": "An injury to the unspoiled wilderness of my home is an injury to me." },
+        { "3": "I will bring terrible wrath down on the evildoers who destroyed my homeland." },
+        { "4": "I am the last of my tribe, and it is up to me to ensure their names enter legend." },
+        { "5": "I suffer awful visions of a coming disaster and will do anything to prevent it." },
+        { "6": "It is my duty to provide children to sustain my tribe." }
       ],
       "flaws": [
-        { "d6": 1, "flaw": "I am too enamored of ale, wine, and other intoxicants." },
-        { "d6": 2, "flaw": "There's no room for caution in a life lived to the fullest." },
-        { "d6": 3, "flaw": "I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me." },
-        { "d6": 4, "flaw": "I am slow to trust members of other races, tribes, and societies." },
-        { "d6": 5, "flaw": "Violence is my answer to almost any challenge." },
-        { "d6": 6, "flaw": "Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish." }
+        { "1": "I am too enamored of ale, wine, and other intoxicants." },
+        { "2": "There's no room for caution in a life lived to the fullest." },
+        { "3": "I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me." },
+        { "4": "I am slow to trust members of other races, tribes, and societies." },
+        { "5": "Violence is my answer to almost any challenge." },
+        { "6": "Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish." }
       ]
     }
   }

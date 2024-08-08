@@ -1,0 +1,683 @@
+{
+  "Hit Points": {
+    "Hit Dice": "1d8 per druid level",
+    "Hit Points at 1st Level": "8 + your Constitution modifier",
+    "Hit Points at Higher Levels": "1d8 (or 5) + your Constitution modifier per druid level after 1st"
+  },
+  "Proficiencies": {
+    "Armor": "Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)",
+    "Weapons": "Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears",
+    "Tools": "Herbalism kit",
+    "Saving Throws": "Intelligence, Wisdom",
+    "Skills": "Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival"
+  },
+  "Equipment": [
+    "a wooden shield or any simple weapon",
+    "a scimitar or any simple melee weapon",
+    "Leather armor, an explorer's pack, and a druidic focus"
+  ],
+  "Class Features": [
+    {
+      "name": "Druidic",
+      "desc": "You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. Wisdom is your spellcasting ability for your druid spells. You can use a druidic focus as a spellcasting focus for your druid spells."
+    },
+    {
+      "name": "Wild Shape",
+      "desc": "Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest. Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table."
+    },
+    {
+      "name": "Druid Circle",
+      "desc": "At 2nd level, you choose to identify with a circle of druids. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
+    },
+    {
+      "name": "Wild Companion (Optional)",
+      "desc": "At 2nd level, you gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the Find Familiar spell, without material components. When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "desc": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    },
+    {
+      "name": "Cantrip Versatility (Optional)",
+      "desc": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list."
+    },
+    {
+      "name": "Timeless Body",
+      "desc": "Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
+    },
+    {
+      "name": "Beast Spells",
+      "desc": "Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components."
+    },
+    {
+      "name": "Archdruid",
+      "desc": "At 20th level, you can use your Wild Shape an unlimited number of times. Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape."
+    }
+  ],
+  "Levels": {
+    "1": [
+      {
+        "name": "Features",
+        "value": ["Druidic", "Spellcasting"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 2
+      },
+      {
+        "name": "1st",
+        "value": 2
+      }
+    ],
+    "2": [
+      {
+        "name": "Features",
+        "value": ["Wild Shape", "Druid Circle", "Wild Companion (Optional)"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 2
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      }
+    ],
+    "3": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 2
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 2
+      }
+    ],
+    "4": [
+      {
+        "name": "Features",
+        "value": ["Wild Shape improvement", "Ability Score Improvement", "Cantrip Versatility (Optional)"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      }
+    ],
+    "5": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 2
+      }
+    ],
+    "6": [
+      {
+        "name": "Features",
+        "value": ["Druid Circle feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      }
+    ],
+    "7": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 1
+      }
+    ],
+    "8": [
+      {
+        "name": "Features",
+        "value": ["Wild Shape improvement", "Ability Score Improvement", "Cantrip Versatility (Optional)"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 2
+      }
+    ],
+    "9": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 1
+      }
+    ],
+    "10": [
+      {
+        "name": "Features",
+        "value": ["Druid Circle feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      }
+    ],
+    "11": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      },
+      {
+        "name": "6th",
+        "value": 1
+      }
+    ],
+    "12": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement", "Cantrip Versatility (Optional)"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      },
+      {
+        "name": "6th",
+        "value": 1
+      }
+    ],
+    "13": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      },
+      {
+        "name": "6th",
+        "value": 1
+      },
+      {
+        "name": "7th",
+        "value": 1
+      }
+    ],
+    "14": [
+      {
+        "name": "Features",
+        "value": ["Druid Circle feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      },
+      {
+        "name": "6th",
+        "value": 1
+      },
+      {
+        "name": "7th",
+        "value": 1
+      }
+    ],
+    "15": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 1
+      }
+    ],
+    "16": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement", "Cantrip Versatility (Optional)"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 1
+      },
+      {
+        "name": "7th",
+        "value": 1
+      }
+    ],
+    "17": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 2
+      },
+      {
+        "name": "7th",
+        "value": 1
+      },
+      {
+        "name": "8th",
+        "value": 1
+      }
+    ],
+    "18": [
+      {
+        "name": "Features",
+        "value": ["Timeless Body", "Beast Spells"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 3
+      },
+      {
+        "name": "7th",
+        "value": 1
+      },
+      {
+        "name": "8th",
+        "value": 1
+      },
+      {
+        "name": "9th",
+        "value": 1
+      }
+    ],
+    "19": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement", "Cantrip Versatility (Optional)"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 2
+      },
+      {
+        "name": "7th",
+        "value": 1
+      },
+      {
+        "name": "8th",
+        "value": 1
+      },
+      {
+        "name": "9th",
+        "value": 1
+      }
+    ],
+    "20": [
+      {
+        "name": "Features",
+        "value": ["Archdruid"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 4
+      },
+      {
+        "name": "2nd",
+        "value": 4
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "6th",
+        "value": 2
+      },
+      {
+        "name": "7th",
+        "value": 2
+      },
+      {
+        "name": "8th",
+        "value": 1
+      },
+      {
+        "name": "9th",
+        "value": 1
+      }
+    ]
+  }
+}

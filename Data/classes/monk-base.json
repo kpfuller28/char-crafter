@@ -1,0 +1,455 @@
+{
+  "Hit Points": {
+    "Hit Dice": "1d8 per monk level",
+    "Hit Points at 1st Level": "8 + your Constitution modifier",
+    "Hit Points at Higher Levels": "1d8 (or 5) + your Constitution modifier per monk level after 1st"
+  },
+  "Proficiencies": {
+    "Armor": "None",
+    "Weapons": "Simple weapons, shortswords",
+    "Tools": "Choose one type of artisan's tools or one musical instrument",
+    "Saving Throws": "Strength, Dexterity",
+    "Skills": "Choose two from Acrobatics, Athletics, History, Insight, Religion, and Stealth"
+  },
+  "Equipment": [
+    "a shortsword or any simple weapon",
+    "a dungeoneer's pack or an explorer's pack",
+    "10 darts"
+  ],
+  "Class Features": [
+    {
+      "name": "Unarmored Defense",
+      "desc": "While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+    },
+    {
+      "name": "Martial Arts",
+      "desc": "You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons. You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. When you use the Attack action with an unarmed strike or a monk weapon, you can make one unarmed strike as a bonus action."
+    },
+    {
+      "name": "Ki",
+      "desc": "You can use ki points to fuel various features such as Flurry of Blows, Patient Defense, and Step of the Wind."
+    },
+    {
+      "name": "Unarmored Movement",
+      "desc": "Your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases as you gain levels."
+    },
+    {
+      "name": "Dedicated Weapon (Optional)",
+      "desc": "You can count a chosen weapon as a monk weapon until you use this feature again."
+    },
+    {
+      "name": "Monastic Tradition",
+      "desc": "At 3rd level, you commit to a monastic tradition that grants you additional features at 6th, 11th, and 17th levels."
+    },
+    {
+      "name": "Deflect Missiles",
+      "desc": "You can use your reaction to deflect or catch a missile when hit by a ranged weapon attack."
+    },
+    {
+      "name": "Ki-Fueled Attack (Optional)",
+      "desc": "If you spend 1 ki point or more as part of your action, you can make one attack with an unarmed strike or a monk weapon as a bonus action before the end of the turn."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "desc": "At 4th, 8th, 12th, 16th, and 19th levels, you can increase one ability score by 2, or two ability scores by 1."
+    },
+    {
+      "name": "Slow Fall",
+      "desc": "You can reduce falling damage by an amount equal to five times your monk level."
+    },
+    {
+      "name": "Quickened Healing (Optional)",
+      "desc": "You can spend 2 ki points and roll a Martial Arts die to regain hit points equal to the roll plus your proficiency bonus."
+    },
+    {
+      "name": "Extra Attack",
+      "desc": "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+    },
+    {
+      "name": "Stunning Strike",
+      "desc": "You can spend 1 ki point to attempt a stunning strike when you hit a creature with a melee weapon attack."
+    },
+    {
+      "name": "Focused Aim (Optional)",
+      "desc": "When you miss with an attack roll, you can spend 1 to 3 ki points to increase your attack roll by 2 for each ki point spent."
+    },
+    {
+      "name": "Ki-Empowered Strikes",
+      "desc": "Your unarmed strikes count as magical for overcoming resistance and immunity to nonmagical attacks and damage."
+    },
+    {
+      "name": "Evasion",
+      "desc": "You take no damage on a successful Dexterity saving throw against effects that allow a save for half damage, and only half damage if you fail."
+    },
+    {
+      "name": "Stillness of Mind",
+      "desc": "You can use your action to end one effect on yourself that is causing you to be charmed or frightened."
+    },
+    {
+      "name": "Purity of Body",
+      "desc": "You are immune to disease and poison."
+    },
+    {
+      "name": "Tongue of the Sun and Moon",
+      "desc": "You understand all spoken languages and any creature that can understand a language can understand you."
+    },
+    {
+      "name": "Diamond Soul",
+      "desc": "You gain proficiency in all saving throws and can spend 1 ki point to reroll a saving throw."
+    },
+    {
+      "name": "Timeless Body",
+      "desc": "You suffer none of the frailty of old age and no longer need food or water."
+    },
+    {
+      "name": "Empty Body",
+      "desc": "You can become invisible for 1 minute and gain resistance to all damage except force damage by spending 4 ki points. You can also cast the astral projection spell by spending 8 ki points."
+    },
+    {
+      "name": "Perfect Self",
+      "desc": "When you roll for initiative and have no ki points remaining, you regain 4 ki points."
+    }
+  ],
+  "Levels": {
+    "1": [
+      {
+        "name": "Martial Arts",
+        "value": "1d4"
+      },
+      {
+        "name": "Features",
+        "value": ["Unarmored Defense", "Martial Arts"]
+      }
+    ],
+    "2": [
+      {
+        "name": "Ki Points",
+        "value": 2
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+10 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Ki", "Unarmored Movement", "Dedicated Weapon (Optional)"]
+      }
+    ],
+    "3": [
+      {
+        "name": "Ki Points",
+        "value": 3
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+10 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Monastic Tradition", "Deflect Missiles", "Ki-Fueled Attack (Optional)"]
+      }
+    ],
+    "4": [
+      {
+        "name": "Ki Points",
+        "value": 4
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+10 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement", "Slow Fall", "Quickened Healing (Optional)"]
+      }
+    ],
+    "5": [
+      {
+        "name": "Martial Arts",
+        "value": "1d6"
+      },
+      {
+        "name": "Ki Points",
+        "value": 5
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+10 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Extra Attack", "Stunning Strike", "Focused Aim (Optional)"]
+      }
+    ],
+    "6": [
+      {
+        "name": "Martial Arts",
+        "value": "1d6"
+      },
+      {
+        "name": "Ki Points",
+        "value": 6
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+15 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Ki-Empowered Strikes", "Monastic Tradition feature"]
+      }
+    ],
+    "7": [
+      {
+        "name": "Martial Arts",
+        "value": "1d6"
+      },
+      {
+        "name": "Ki Points",
+        "value": 7
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+15 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Evasion", "Stillness of Mind"]
+      }
+    ],
+    "8": [
+      {
+        "name": "Martial Arts",
+        "value": "1d6"
+      },
+      {
+        "name": "Ki Points",
+        "value": 8
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+15 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      }
+    ],
+    "9": [
+      {
+        "name": "Martial Arts",
+        "value": "1d6"
+      },
+      {
+        "name": "Ki Points",
+        "value": 9
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+15 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Unarmored Movement improvement"]
+      }
+    ],
+    "10": [
+      {
+        "name": "Martial Arts",
+        "value": "1d6"
+      },
+      {
+        "name": "Ki Points",
+        "value": 10
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+20 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Purity of Body"]
+      }
+    ],
+    "11": [
+      {
+        "name": "Martial Arts",
+        "value": "1d8"
+      },
+      {
+        "name": "Ki Points",
+        "value": 11
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+20 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Monastic Tradition feature"]
+      }
+    ],
+    "12": [
+      {
+        "name": "Martial Arts",
+        "value": "1d8"
+      },
+      {
+        "name": "Ki Points",
+        "value": 12
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+20 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      }
+    ],
+    "13": [
+      {
+        "name": "Martial Arts",
+        "value": "1d8"
+      },
+      {
+        "name": "Ki Points",
+        "value": 13
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+20 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Tongue of the Sun and Moon"]
+      }
+    ],
+    "14": [
+      {
+        "name": "Martial Arts",
+        "value": "1d8"
+      },
+      {
+        "name": "Ki Points",
+        "value": 14
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+25 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Diamond Soul"]
+      }
+    ],
+    "15": [
+      {
+        "name": "Martial Arts",
+        "value": "1d8"
+      },
+      {
+        "name": "Ki Points",
+        "value": 15
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+25 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Timeless Body"]
+      }
+    ],
+    "16": [
+      {
+        "name": "Martial Arts",
+        "value": "1d8"
+      },
+      {
+        "name": "Ki Points",
+        "value": 16
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+25 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      }
+    ],
+    "17": [
+      {
+        "name": "Martial Arts",
+        "value": "1d10"
+      },
+      {
+        "name": "Ki Points",
+        "value": 17
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+25 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Monastic Tradition feature"]
+      }
+    ],
+    "18": [
+      {
+        "name": "Martial Arts",
+        "value": "1d10"
+      },
+      {
+        "name": "Ki Points",
+        "value": 18
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+30 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Empty Body"]
+      }
+    ],
+    "19": [
+      {
+        "name": "Martial Arts",
+        "value": "1d10"
+      },
+      {
+        "name": "Ki Points",
+        "value": 19
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+30 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement"]
+      }
+    ],
+    "20": [
+      {
+        "name": "Martial Arts",
+        "value": "1d10"
+      },
+      {
+        "name": "Ki Points",
+        "value": 20
+      },
+      {
+        "name": "Unarmored Movement",
+        "value": "+30 ft."
+      },
+      {
+        "name": "Features",
+        "value": ["Perfect Self"]
+      }
+    ]
+  }
+}

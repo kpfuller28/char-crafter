@@ -1,0 +1,38 @@
+{
+  "name": "Arcana Domain",
+  "source": "Sword Coast Adventurer's Guide",
+  "description": "Clerics of the Arcana Domain are deeply connected to the essence of magic, understanding it as a force that fuels both creation and destruction. They may view magic as a profound responsibility or as pure power to wield as they see fit. Deities of this domain include Azuth, Mystra, Corellon Larethian, Hecate, Math Mathonwy, Isis, Solinari, Lunitari, Nuitari, Boccob, Vecna, and Wee Jas.",
+  "spells": {
+    "1st": ["Detect Magic", "Magic Missile"],
+    "3rd": ["Magic Weapon", "Nystul's Magic Aura"],
+    "5th": ["Dispel Magic", "Magic Circle"],
+    "7th": ["Arcane Eye", "Leomund's Secret Chest"],
+    "9th": ["Planar Binding", "Teleportation Circle"]
+  },
+  "features": {
+    "arcane_initiate": {
+      "level": 1,
+      "description": "You gain proficiency in the Arcana skill and two cantrips from the wizard spell list, which count as cleric cantrips for you."
+    },
+    "channel_divinity_arcane_abjuration": {
+      "level": 2,
+      "description": "You can use your Channel Divinity to turn or banish otherworldly creatures. Presenting your holy symbol, you force a celestial, elemental, fey, or fiend within 30 feet to make a Wisdom saving throw. If it fails, it is turned for 1 minute or until it takes damage. At 5th level, failed saving throws result in banishment for 1 minute if the creature’s challenge rating is at or below a threshold based on your level."
+    },
+    "arcane_banishment": {
+      "level": 5,
+      "description": "You can banish creatures based on their challenge rating when they fail their saving throw against Arcane Abjuration. Thresholds are: CR 1/2 or lower at 5th level, CR 1 or lower at 8th level, CR 2 or lower at 11th level, CR 3 or lower at 14th level, and CR 4 or lower at 17th level."
+    },
+    "spell_breaker": {
+      "level": 6,
+      "description": "When you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The spell level you end must be equal to or lower than the level of the spell slot used for the healing spell."
+    },
+    "potent_spellcasting": {
+      "level": 8,
+      "description": "You add your Wisdom modifier to the damage you deal with any cleric cantrip."
+    },
+    "arcane_mastery": {
+      "level": 17,
+      "description": "You choose four spells from the wizard spell list, one each from the 6th, 7th, 8th, and 9th levels. These spells are added to your list of domain spells, are always prepared, and count as cleric spells for you."
+    }
+  }
+}

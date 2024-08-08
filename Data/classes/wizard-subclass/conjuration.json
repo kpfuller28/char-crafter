@@ -1,0 +1,41 @@
+{
+    "name": "Conjuration Magic",
+    "source": "Player's Handbook",
+    "description": "Conjurers specialize in creating objects and creatures from nothing. They can summon allies to fight alongside them, produce magical items, and even teleport themselves and others across vast distances or between planes.",
+    "features": {
+      "conjuration_savant": {
+        "description": "At 2nd level, the gold and time required to copy a Conjuration spell into your spellbook is halved.",
+        "benefits": [
+          "Halve the gold and time required to copy Conjuration spells into your spellbook."
+        ]
+      },
+      "minor_conjuration": {
+        "description": "Starting at 2nd level, you can use your action to conjure an inanimate, non-magical object that you have seen. The object can be no larger than 3 feet on a side and weigh no more than 10 pounds. It radiates dim light out to 5 feet and disappears after 1 hour, if it takes or deals damage, or when you use this feature again.",
+        "benefits": [
+          "Conjure a non-magical object up to 3 feet on a side and 10 pounds.",
+          "Object disappears after 1 hour, if damaged, or when the feature is used again."
+        ]
+      },
+      "benign_transportation": {
+        "description": "At 6th level, you can use your action to teleport up to 30 feet to an unoccupied space you can see. Alternatively, you can teleport with a willing Small or Medium creature, swapping places. This feature recharges after a long rest or by casting a conjuration spell of 1st level or higher.",
+        "benefits": [
+          "Teleport up to 30 feet to an unoccupied space.",
+          "Teleport with a willing Small or Medium creature, swapping places.",
+          "Recharges after a long rest or by casting a conjuration spell of 1st level or higher."
+        ]
+      },
+      "focused_conjuration": {
+        "description": "Beginning at 10th level, while concentrating on a conjuration spell, your concentration cannot be broken by taking damage.",
+        "benefits": [
+          "Concentration on conjuration spells is not broken by damage."
+        ]
+      },
+      "durable_summons": {
+        "description": "At 14th level, any creature summoned or created with a conjuration spell has 30 temporary hit points.",
+        "benefits": [
+          "Summoned or created creatures have 30 temporary hit points."
+        ]
+      }
+    }
+  }
+  

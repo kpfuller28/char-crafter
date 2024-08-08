@@ -1,0 +1,744 @@
+{
+  "Hit Points": {
+    "Hit Dice": "1d8 per warlock level",
+    "Hit Points at 1st Level": "8 + your Constitution modifier",
+    "Hit Points at Higher Levels": "1d8 (or 5) + your Constitution modifier per warlock level after 1st"
+  },
+  "Proficiencies": {
+    "Armor": "Light armor",
+    "Weapons": "Simple weapons",
+    "Tools": "None",
+    "Saving Throws": "Wisdom, Charisma",
+    "Skills": "Choose two from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion"
+  },
+  "Equipment": [
+    "a light crossbow and 20 bolts or any simple weapon",
+    "a component pouch or an arcane focus",
+    "a scholar's pack or a dungeoneer's pack",
+    "Leather armor, any simple weapon, and two daggers"
+  ],
+  "Class Features": [
+    {
+      "name": "Otherworldly Patron",
+      "desc": "At 1st level, you have struck a bargain with an otherworldly being of your choice. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+    },
+    {
+      "name": "Pact Magic",
+      "desc": "Your arcane research and the magic bestowed on you by your patron have given you facility with spells. You know a number of cantrips and spells, and you have spell slots of a single level that you regain after a short or long rest."
+    },
+    {
+      "name": "Eldritch Invocations",
+      "desc": "At 2nd level, you gain two eldritch invocations of your choice. When you gain certain warlock levels, you gain additional invocations of your choice."
+    },
+    {
+      "name": "Pact Boon",
+      "desc": "At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice: Pact of the Blade, Pact of the Chain, Pact of the Tome, Pact of the Talisman, or Pact of the Star Chain (UA)."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "desc": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1."
+    },
+    {
+      "name": "Eldritch Versatility (Optional)",
+      "desc": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip, a Pact Boon feature, or a spell from your Mystic Arcanum feature."
+    },
+    {
+      "name": "Mystic Arcanum",
+      "desc": "At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from the warlock spell list as this arcanum. You gain additional arcana at 13th, 15th, and 17th levels."
+    },
+    {
+      "name": "Eldritch Master",
+      "desc": "At 20th level, you can spend 1 minute entreating your patron to regain all your expended spell slots from your Pact Magic feature. You must finish a long rest before you can use this feature again."
+    }
+  ],
+  "Levels": {
+    "1": [
+      {
+        "name": "Features",
+        "value": ["Otherworldly Patron", "Pact Magic"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 2
+      },
+      {
+        "name": "Spells Known",
+        "value": 2
+      },
+      {
+        "name": "1st",
+        "value": 1
+      }
+    ],
+    "2": [
+      {
+        "name": "Features",
+        "value": ["Eldritch Invocations"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 2
+      },
+      {
+        "name": "Spells Known",
+        "value": 3
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "Invocations Known",
+        "value": 2
+      }
+    ],
+    "3": [
+      {
+        "name": "Features",
+        "value": ["Pact Boon"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 2
+      },
+      {
+        "name": "Spells Known",
+        "value": 4
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 1
+      },
+      {
+        "name": "Invocations Known",
+        "value": 2
+      }
+    ],
+    "4": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement", "Eldritch Versatility (Optional)"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 5
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 2
+      },
+      {
+        "name": "Invocations Known",
+        "value": 2
+      }
+    ],
+    "5": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 6
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 2
+      },
+      {
+        "name": "3rd",
+        "value": 1
+      },
+      {
+        "name": "Invocations Known",
+        "value": 2
+      }
+    ],
+    "6": [
+      {
+        "name": "Features",
+        "value": ["Otherworldly Patron feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 7
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 2
+      },
+      {
+        "name": "3rd",
+        "value": 2
+      },
+      {
+        "name": "Invocations Known",
+        "value": 2
+      }
+    ],
+    "7": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 8
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 2
+      },
+      {
+        "name": "3rd",
+        "value": 2
+      },
+      {
+        "name": "4th",
+        "value": 1
+      },
+      {
+        "name": "Invocations Known",
+        "value": 3
+      }
+    ],
+    "8": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement", "Eldritch Versatility (Optional)"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 9
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 2
+      },
+      {
+        "name": "3rd",
+        "value": 2
+      },
+      {
+        "name": "4th",
+        "value": 2
+      },
+      {
+        "name": "Invocations Known",
+        "value": 3
+      }
+    ],
+    "9": [
+      {
+        "name": "Features",
+        "value": []
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 3
+      },
+      {
+        "name": "Spells Known",
+        "value": 10
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 2
+      },
+      {
+        "name": "3rd",
+        "value": 2
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "Invocations Known",
+        "value": 3
+      }
+    ],
+    "10": [
+      {
+        "name": "Features",
+        "value": ["Otherworldly Patron feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 11
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "Invocations Known",
+        "value": 3
+      }
+    ],
+    "11": [
+      {
+        "name": "Features",
+        "value": ["Mystic Arcanum"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 12
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 1
+      },
+      {
+        "name": "Invocations Known",
+        "value": 3
+      }
+    ],
+    "12": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement", "Eldritch Versatility (Optional)"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 13
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 2
+      },
+      {
+        "name": "Invocations Known",
+        "value": 3
+      }
+    ],
+    "13": [
+      {
+        "name": "Features",
+        "value": ["Mystic Arcanum"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 14
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "Invocations Known",
+        "value": 3
+      }
+    ],
+    "14": [
+      {
+        "name": "Features",
+        "value": ["Otherworldly Patron feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 15
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 3
+      },
+      {
+        "name": "Invocations Known",
+        "value": 3
+      }
+    ],
+    "15": [
+      {
+        "name": "Features",
+        "value": ["Mystic Arcanum"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 16
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 4
+      },
+      {
+        "name": "Invocations Known",
+        "value": 3
+      }
+    ],
+    "16": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement", "Eldritch Versatility (Optional)"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 17
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 4
+      },
+      {
+        "name": "Invocations Known",
+        "value": 3
+      }
+    ],
+    "17": [
+      {
+        "name": "Features",
+        "value": ["Mystic Arcanum"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 18
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 4
+      },
+      {
+        "name": "6th",
+        "value": 1
+      },
+      {
+        "name": "Invocations Known",
+        "value": 3
+      }
+    ],
+    "18": [
+      {
+        "name": "Features",
+        "value": ["Otherworldly Patron feature"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 19
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 4
+      },
+      {
+        "name": "6th",
+        "value": 2
+      },
+      {
+        "name": "Invocations Known",
+        "value": 3
+      }
+    ],
+    "19": [
+      {
+        "name": "Features",
+        "value": ["Ability Score Improvement", "Eldritch Versatility (Optional)"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 20
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 4
+      },
+      {
+        "name": "6th",
+        "value": 2
+      },
+      {
+        "name": "Invocations Known",
+        "value": 3
+      }
+    ],
+    "20": [
+      {
+        "name": "Features",
+        "value": ["Eldritch Master"]
+      },
+      {
+        "name": "Cantrips Known",
+        "value": 4
+      },
+      {
+        "name": "Spells Known",
+        "value": 21
+      },
+      {
+        "name": "1st",
+        "value": 2
+      },
+      {
+        "name": "2nd",
+        "value": 3
+      },
+      {
+        "name": "3rd",
+        "value": 3
+      },
+      {
+        "name": "4th",
+        "value": 3
+      },
+      {
+        "name": "5th",
+        "value": 4
+      },
+      {
+        "name": "6th",
+        "value": 2
+      },
+      {
+        "name": "7th",
+        "value": 1
+      },
+      {
+        "name": "Invocations Known",
+        "value": 4
+      }
+    ]
+  }
+}

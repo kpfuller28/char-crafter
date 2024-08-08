@@ -1,0 +1,77 @@
+{
+  "name": "College of Spirits",
+  "source": "Van Richten's Guide to Ravenloft",
+  "description": "Bards of the College of Spirits seek tales with inherent power—be they legends, histories, or fictions—and bring their subjects to life. Using occult trappings, these bards conjure spiritual embodiments of powerful forces to change the world once more. Such spirits are capricious, though, and what a bard summons isn't always entirely under their control.",
+  "features": {
+    "guiding_whispers": {
+      "level": 3,
+      "description": "You learn the Guidance cantrip, which doesn’t count against the number of bard cantrips you know. For you, it has a range of 60 feet when you cast it."
+    },
+    "spiritual_focus": {
+      "level": 3,
+      "description": "You can use a candle, crystal ball, skull, spirit board, or tarokka deck as a spellcasting focus for your bard spells. Starting at 6th level, when you cast a bard spell that deals damage or restores hit points through the Spiritual Focus, roll a d6, and you gain a bonus to one damage or healing roll of the spell equal to the number rolled."
+    },
+    "tales_from_beyond": {
+      "level": 3,
+      "description": "You can use a bonus action to expend one use of your Bardic Inspiration and roll on the Spirit Tales table to determine the tale the spirits direct you to tell. You retain the tale until you bestow its effect or finish a short or long rest. You can only retain one tale at a time, and rolling on the Spirit Tales table ends the effect of the previous tale.",
+      "spirit_tales": {
+        "1": {
+          "name": "Tale of the Clever Animal",
+          "effect": "For the next 10 minutes, the target can roll an extra die (same type as Bardic Inspiration die) for Intelligence, Wisdom, or Charisma checks."
+        },
+        "2": {
+          "name": "Tale of the Renowned Duelist",
+          "effect": "Make a melee spell attack against the target. On a hit, the target takes force damage equal to two rolls of your Bardic Inspiration die + your Charisma modifier."
+        },
+        "3": {
+          "name": "Tale of the Beloved Friends",
+          "effect": "The target and one other creature within 5 feet gain temporary hit points equal to a roll of your Bardic Inspiration die + your Charisma modifier."
+        },
+        "4": {
+          "name": "Tale of the Runaway",
+          "effect": "The target can teleport up to 30 feet. Creatures within 30 feet (up to Charisma modifier) can also use the reaction to teleport."
+        },
+        "5": {
+          "name": "Tale of the Avenger",
+          "effect": "For 1 minute, any creature that hits the target with a melee attack takes force damage equal to a roll of your Bardic Inspiration die."
+        },
+        "6": {
+          "name": "Tale of the Traveler",
+          "effect": "The target gains temporary hit points equal to a roll of your Bardic Inspiration die + your bard level, increased walking speed by 10 feet, and a +1 bonus to AC."
+        },
+        "7": {
+          "name": "Tale of the Beguiler",
+          "effect": "The target must succeed on a Wisdom saving throw or take psychic damage equal to two rolls of your Bardic Inspiration die and be incapacitated until the end of its next turn."
+        },
+        "8": {
+          "name": "Tale of the Phantom",
+          "effect": "The target becomes invisible until it hits a creature with an attack. If it hits, the creature takes necrotic damage equal to a roll of your Bardic Inspiration die and is frightened until the end of the frightened creature's next turn."
+        },
+        "9": {
+          "name": "Tale of the Brute",
+          "effect": "Each creature of the target’s choice within 30 feet must make a Strength saving throw. On a failed save, it takes thunder damage equal to three rolls of your Bardic Inspiration die and is knocked prone."
+        },
+        "10": {
+          "name": "Tale of the Dragon",
+          "effect": "The target breathes fire in a 30-foot cone. Creatures in the area make a Dexterity saving throw, taking fire damage equal to four rolls of your Bardic Inspiration die on a failed save."
+        },
+        "11": {
+          "name": "Tale of the Angel",
+          "effect": "The target regains hit points equal to two rolls of your Bardic Inspiration die + your Charisma modifier, and you end one condition from the list: blinded, deafened, paralyzed, petrified, or poisoned."
+        },
+        "12": {
+          "name": "Tale of the Mind-Bender",
+          "effect": "The target must succeed on an Intelligence saving throw or take psychic damage equal to three rolls of your Bardic Inspiration die and be stunned until the end of its next turn."
+        }
+      }
+    },
+    "spirit_session": {
+      "level": 6,
+      "description": "You can conduct an hour-long ritual channeling spirits using your Spiritual Focus. At the end of the ritual, you temporarily learn one spell of your choice from any class in the schools of Divination or Necromancy. The spell counts as a bard spell for you but doesn’t count against the number of bard spells you know."
+    },
+    "mystical_connection": {
+      "level": 14,
+      "description": "You can roll twice on the Spirit Tales table and choose the effect to bestow. If you roll the same number on both dice, you can ignore the number and choose any effect on the table."
+    }
+  }
+}

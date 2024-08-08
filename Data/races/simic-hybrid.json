@@ -1,0 +1,44 @@
+{
+  "name": "Simic Hybrid",
+  "description": "Simic Hybrids are creations of the Simic Combine, blending the traits of various animals into humanoid forms. They are part of the Guardian Project, intended to be superior soldiers adapted to diverse combat situations. They are often called guardians and are designed to be versatile and resilient.",
+  "features": {
+    "ability_score_increase": "Your Constitution score increases by 2, and another ability score of your choice increases by 1.",
+    "age": "Simic Hybrids are created at adulthood from humans, vedalkens, or elves. Their maximum life expectancy is probably reduced.",
+    "alignment": "Simic Hybrid's alignments vary from group to group.",
+    "size": "You are the same size as the race you were created from. Your size is Medium.",
+    "speed": "Your base walking speed is 30 feet.",
+    "darkvision": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+    "animal_enhancements": {
+      "description": "Your body has been altered with animal characteristics. You choose one animal enhancement now and one at 5th level.",
+      "1st_level_options": {
+        "manta_glide": {
+          "description": "You have ray-like fins that you use as wings to slow your fall or allow you to glide. When you fall and are not incapacitated, you can subtract up to 100 feet from your fall when calculating your fall damage and can move horizontally 2 feet for every 1 foot you fall."
+        },
+        "nimble_climber": {
+          "description": "You have a climb speed equal to your walking speed."
+        },
+        "underwater_adaptation": {
+          "description": "You can breathe air and water, and you gain a swim speed equal to your walking speed."
+        }
+      },
+      "5th_level_options": {
+        "grappling_appendages": {
+          "description": "You have two special appendages growing alongside your arms, which are either claws or tentacles. As an action, you can use one of them to grapple a creature. Each appendage is also a natural weapon, dealing 1d6 + your Strength modifier bludgeoning damage. Immediately after hitting, you can try to grapple the target as a bonus action. These appendages cannot use weapons or magical items.",
+          "damage": "1d6 + Strength modifier"
+        },
+        "carapace": {
+          "description": "Your skin in places is covered by a thick shell. You gain a +1 bonus to your AC when not wearing heavy armor."
+        },
+        "acid_spit": {
+          "description": "As an action, you can spray acid from glands in your mouth, targeting one creature or object you can see within 30 feet of you. The target must make a Dexterity saving throw against a DC of 8 + your proficiency bonus + your Constitution modifier. The target takes 2d10 acid damage on a failed save. The damage increases to 3d10 at 11th level and 4d10 at 17th level. You can use this up to your Constitution modifier's worth of times per long rest.",
+          "damage": {
+            "initial": "2d10",
+            "11th_level": "3d10",
+            "17th_level": "4d10"
+          }
+        }
+      }
+    },
+    "languages": "You can speak, read, and write Common and your choice of either Elven or Vedalken."
+  }
+}
