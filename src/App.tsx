@@ -1,26 +1,26 @@
 import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Question from "./Components/Question";
-
+import { characterDecider } from "./helpers/characterDecider.ts";
 const questions = [
-  "Do you have a class in mind that you'd like to play?",
-  "Do you have a race in mind that you'd like to play?",
-  "Do you have a background in mind that you'd like to play?",
-  "In combat, do you want to use weapons, cast spells, or a mix of both?",
-  "Do you want to be a standard race or something more exotic?",
-  "Do you want to fight in melee or ranged combat?",
-  "How would you like to assign ability scores? (Ask your DM if you're not sure)"
+  "Do you want to weapon, cast spells, or a bit of both?",
+  "Do you want to be melee or ranged?",
+  "Do you want to be a human, elf, dwarf, halfling?",
 ];
+
+/*
+weapon, melee = fighter
+weapon, ranged = rogue
+spells, melee = cleric
+spells, ranged = wizard
+both, melee = paladin
+both, ranged = ranger
+*/
 const options = [
-  ["Yes", "No"],
-  ["Yes", "No"],
-  ["Yes", "No"],
-  ["Use Weapons", "Cast Spells", "A Mix of Both"],
-  ["Standard", "Exotic", "Don't Know"],
+
+  ["Weapon", "Spells", "Both"],
   ["Melee", "Ranged"],
-  ["Standard Array", "Point Buy", "Roll for Stats"]
+  ["Human", "Elf", "Dwarf", "Halfling"],
 ];
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
   const [questionIndex, setQuestionIndex] = useState(0);
   const [optionIndex, setOptionIndex] = useState(0);
   const [fade, setFade] = useState(false);
+  const [characterClass, setCharacterClass] = useState("");
 
   function handleAnswer(answer) {
     setFade(true);
@@ -37,21 +38,16 @@ function App() {
       setAnswers([...answers, answer]);
       setQuestionIndex(questionIndex + 1);
       setOptionIndex(optionIndex + 1);
+      if (questionIndex === questions.length - 1) {
+        setCharacterClass(characterDecider(answers));
+      }
       setFade(false);
     }, 500);
   }
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Welcome Nate</h1>
+      <h1>Welcome Adventurer</h1>
 
       {questionIndex < questions.length ? (
         <div className={`fade ${fade ? "fade-enter" : "fade-exit"}`}>
@@ -62,13 +58,13 @@ function App() {
           />
         </div>
       ) : (
-<<<<<<< HEAD
-        <div>
-          <div>Here is your character</div>
-=======
         <div className={`fade ${fade ? "fade-enter" : "fade-exit"}`}>
           <div>Here are your answers bitch</div>
->>>>>>> 3265b3127c3ec43ec1dacbb2d6ab7b1a26d3f48f
+          <div>
+            You clearly want to play a {answers[2]} {characterClass}
+          </div>
+        <div className={`fade ${fade ? "fade-enter" : "fade-exit"}`}>
+          <div>Here are your answers bitch</div>
           <ul style={{ listStyleType: "none" }}>
             {answers.map((answer) => {
               return <li>{answer}</li>;
@@ -81,6 +77,7 @@ function App() {
                 setOptionIndex(0);
                 setQuestionIndex(0);
                 setAnswers([]);
+                setCharacterClass("");
                 setFade(false);
               }, 500);
             }}
