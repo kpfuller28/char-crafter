@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Question from "./Components/Question";
 import { characterDecider } from "./helpers/characterDecider.ts";
+import ClassInfo from "./Components/ClassInfo.tsx";
 const questions = [
   "Do you want to weapon, cast spells, or a bit of both?",
   "Do you want to be melee or ranged?",
@@ -35,10 +36,10 @@ function App() {
     setFade(true);
     setTimeout(() => {
       setAnswers([...answers, answer]);
-      setQuestionIndex(questionIndex + 1);
       setOptionIndex(optionIndex + 1);
+      setQuestionIndex(questionIndex + 1);
       if (questionIndex === questions.length - 1) {
-        setCharacterClass(characterDecider(answers));
+        setCharacterClass(() => characterDecider(answers));
       }
       setFade(false);
     }, 500);
@@ -67,6 +68,7 @@ function App() {
               return <li>{answer}</li>;
             })}
           </ul>
+          <ClassInfo characterClass={characterClass} />
           <button
             onClick={() => {
               setFade(true);
