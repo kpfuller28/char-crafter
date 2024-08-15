@@ -54,132 +54,83 @@
   "Levels": [
     {
       "level": "1",
-      "value": [
-        "Fighting Style",
-        "Second Wind"
-      ]
+      "value": ["Fighting Style", "Second Wind"]
     },
     {
       "level": "2",
-      "value": [
-        "Action Surge"
-      ]
+      "value": ["Action Surge"]
     },
     {
       "level": "3",
-      "value": [
-        "Martial Archetype"
-      ]
+      "value": ["Martial Archetype"]
     },
     {
       "level": "4",
-      "value": [
-        "Ability Score Improvement",
-        "Martial Versatility"
-      ]
+      "value": ["Ability Score Improvement", "Martial Versatility"]
     },
     {
       "level": "5",
-      "value": [
-        "Extra Attack"
-      ]
+      "value": ["Extra Attack"]
     },
     {
       "level": "6",
-      "value": [
-        "Ability Score Improvement",
-        "Martial Versatility"
-      ]
+      "value": ["Ability Score Improvement", "Martial Versatility"]
     },
     {
       "level": "7",
-      "value": [
-        "Martial Archetype feature"
-      ]
+      "value": ["Martial Archetype feature"]
     },
     {
       "level": "8",
-      "value": [
-        "Ability Score Improvement",
-        "Martial Versatility"
-      ]
+      "value": ["Ability Score Improvement", "Martial Versatility"]
     },
     {
       "level": "9",
-      "value": [
-        "Indomitable"
-      ]
+      "value": ["Indomitable"]
     },
     {
       "level": "10",
-      "value": [
-        "Martial Archetype feature"
-      ]
+      "value": ["Martial Archetype feature"]
     },
     {
       "level": "11",
-      "value": [
-        "Extra Attack"
-      ]
+      "value": ["Extra Attack"]
     },
     {
       "level": "12",
-      "value": [
-        "Ability Score Improvement",
-        "Martial Versatility"
-      ]
+      "value": ["Ability Score Improvement", "Martial Versatility"]
     },
     {
       "level": "13",
-      "value": [
-        "Indomitable"
-      ]
+      "value": ["Indomitable"]
     },
     {
       "level": "14",
-      "value": [
-        "Ability Score Improvement",
-        "Martial Versatility"
-      ]
+      "value": ["Ability Score Improvement", "Martial Versatility"]
     },
     {
       "level": "15",
-      "value": [
-        "Martial Archetype feature"
-      ]
+      "value": ["Martial Archetype feature"]
     },
     {
       "level": "16",
-      "value": [
-        "Ability Score Improvement",
-        "Martial Versatility"
-      ]
+      "value": ["Ability Score Improvement", "Martial Versatility"]
     },
     {
       "level": "17",
-      "value": [
-        "Action Surge",
-        "Indomitable"
-      ]
+      "value": ["Action Surge", "Indomitable"]
     },
     {
       "level": "18",
-      "value": [
-        "Martial Archetype feature"
-      ]
+      "value": ["Martial Archetype feature"]
     },
     {
       "level": "19",
-      "value": [
-        "Ability Score Improvement",
-        "Martial Versatility"
-      ]
+      "value": ["Ability Score Improvement", "Martial Versatility"]
     },
     {
       "level": "20",
-      "value": [
-        "Extra Attack"
-      ]
+      "value": ["Extra Attack"]
     }
   ]
 }
