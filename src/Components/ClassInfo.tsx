@@ -1,27 +1,24 @@
 import { useEffect, useState } from "react";
-import { buildClass } from "../helpers/classFetch.ts";
 import axios from "axios";
 
 export default function ClassInfo({ characterClass }) {
   const [classInfo, setClassInfo] = useState({});
-  const [data, setData] = useState({});
 
   useEffect(() => {
-    getData(characterClass);
-  }, [characterClass]);
-
-  useEffect(() => {
-    setClassInfo(data);
-  }, [data]);
-
-  async function getData(characterClass) {
-    const response = await buildClass(characterClass, 1);
-    setData(response);
-  }
+    const fetchData = async () => {
+      try {
+        const charClass = characterClass.toLowerCase();
+        const data = await axios.get(`/${charClass}`);
+        setClassInfo(data.data);
+      } catch (err) {
+        console.error(err);
+      }
+    };
+    fetchData();
+  }, []);
 
   return (
     <div>
-      {console.log("CLIENT SIDE CLASS INFO: ", classInfo)}
       {Object.keys(classInfo).length > 0 ? (
         <div>
           <div>Class Name: {characterClass}</div>
