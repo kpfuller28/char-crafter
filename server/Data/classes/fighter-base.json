@@ -19,118 +19,45 @@
   ],
   "Class Features": [
     {
+      "levels" : ["1"],
       "name": "Fighting Style",
       "desc": "You adopt a particular style of fighting as your specialty. Choose one of the following options: Archery, Blind Fighting, Defense, Dueling, Great Weapon Fighting, Interception, Protection, Superior Technique, Thrown Weapon Fighting, Two-Weapon Fighting, Unarmed Fighting, Close Quarters Shooter, Mariner, or Tunnel Fighter."
     },
     {
+      "levels" : ["1"],
       "name": "Second Wind",
       "desc": "You can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again."
     },
     {
+      "levels" : ["2"],
       "name": "Action Surge",
       "desc": "Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action. Starting at 17th level, you can use it twice before a rest, but only once on the same turn."
     },
     {
+      "levels" : ["3"],
       "name": "Martial Archetype",
       "desc": "At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. The archetype grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level."
     },
     {
+      "levels" : ["4", "6", "8", "12", "14", "16", "19"],
       "name": "Ability Score Improvement",
       "desc": "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
     },
     {
+      "levels" : ["4", "6", "8", "12", "14", "16", "19"],
       "name": "Martial Versatility",
       "desc": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to fighters or replace one maneuver you know from the Battle Master archetype with a different maneuver."
     },
     {
+      "levels" : ["5", "11", "20"],
       "name": "Extra Attack",
       "desc": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three at 11th level and to four at 20th level."
     },
     {
+      "levels" : ["9", "13", "17"],
       "name": "Indomitable",
       "desc": "Beginning at 9th level, you can reroll a saving throw that you fail. You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level."
     }
-  ],
-  "Levels": [
-    {
-      "level": "1",
-      "value": ["Fighting Style", "Second Wind"]
-    },
-    {
-      "level": "2",
-      "value": ["Action Surge"]
-    },
-    {
-      "level": "3",
-      "value": ["Martial Archetype"]
-    },
-    {
-      "level": "4",
-      "value": ["Ability Score Improvement", "Martial Versatility"]
-    },
-    {
-      "level": "5",
-      "value": ["Extra Attack"]
-    },
-    {
-      "level": "6",
-      "value": ["Ability Score Improvement", "Martial Versatility"]
-    },
-    {
-      "level": "7",
-      "value": ["Martial Archetype feature"]
-    },
-    {
-      "level": "8",
-      "value": ["Ability Score Improvement", "Martial Versatility"]
-    },
-    {
-      "level": "9",
-      "value": ["Indomitable"]
-    },
-    {
-      "level": "10",
-      "value": ["Martial Archetype feature"]
-    },
-    {
-      "level": "11",
-      "value": ["Extra Attack"]
-    },
-    {
-      "level": "12",
-      "value": ["Ability Score Improvement", "Martial Versatility"]
-    },
-    {
-      "level": "13",
-      "value": ["Indomitable"]
-    },
-    {
-      "level": "14",
-      "value": ["Ability Score Improvement", "Martial Versatility"]
-    },
-    {
-      "level": "15",
-      "value": ["Martial Archetype feature"]
-    },
-    {
-      "level": "16",
-      "value": ["Ability Score Improvement", "Martial Versatility"]
-    },
-    {
-      "level": "17",
-      "value": ["Action Surge", "Indomitable"]
-    },
-    {
-      "level": "18",
-      "value": ["Martial Archetype feature"]
-    },
-    {
-      "level": "19",
-      "value": ["Ability Score Improvement", "Martial Versatility"]
-    },
-    {
-      "level": "20",
-      "value": ["Extra Attack"]
-    }
   ]
 }
+   
