@@ -1,4 +1,6 @@
 {
-  "watch": ["src", "server.js"],
-  "ext": "ts,tsx, js, jsx"
+  "watch": ["src", "server"],
+  "ext": "ts,tsx, js, jsx",
+  "ignore": ["*.config.*"],
+  "exec": "tsx server/server.ts"
 }
