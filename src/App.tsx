@@ -25,7 +25,6 @@ const options = [
 
 function App() {
   const [count, setCount] = useState(0);
-  // const [monsters, setMonsters] = useState([]);
   const [answers, setAnswers] = useState([]);
   const [questionIndex, setQuestionIndex] = useState(0);
   const [optionIndex, setOptionIndex] = useState(0);
