@@ -1,7 +1,15 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
-export default function ClassInfo({ characterClass }) {
+export default function ClassInfo({ characterClass, charName, setCharName }) {
   const [classInfo, setClassInfo] = useState({});
 
   useEffect(() => {
@@ -17,7 +25,7 @@ export default function ClassInfo({ characterClass }) {
     }
   };
 
-  const test = classInfo.resources ? (
+  const resources = classInfo.resources ? (
     <div>
       <div>Class Resources:</div>
       <ul style={{ listStyleType: "none" }}>
@@ -33,33 +41,67 @@ export default function ClassInfo({ characterClass }) {
   ) : null;
 
   return (
-    <div>
+    <div className="flex items-center justify-center">
       {Object.keys(classInfo).length > 0 ? (
-        <div>
-          <div>Class Name: {characterClass}</div>
-          <div>Level: 1</div>
-          <div>Hit Dice: 1d{classInfo.hitDice.value}</div>
-          <div>Hit Points: {classInfo.hp.value} + (CON Mod * Level)</div>
-          <div>
-            Starting Equipment Choices:
+        <Card className="w-auto">
+          <CardHeader>
+            <CardTitle>
+              <input
+                className="focus:outline-none text-center"
+                name="charName"
+                type="text"
+                value={charName}
+                onChange={(e) => setCharName(e.target.value)}
+              ></input>
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="grid gap-4">
+            <div className="flex items-start">
+              <p>
+                <b>Class Name: </b> {characterClass}
+              </p>
+            </div>
+            <div className="flex items-start">
+              <p>
+                <b>Level: </b> 1
+              </p>
+            </div>
+            <div className="flex items-start">
+              <p>
+                <b>Hit Dice: </b> 1d{classInfo.hitDice.value}
+              </p>
+            </div>
+            <div className="flex items-start">
+              <p>
+                <b>Hit Points: </b> {classInfo.hp.value} + (CON Mod * Level)
+              </p>
+            </div>
+            <div>
+              <p>
+                <b>Starting Equipment Choices: </b>
+              </p>
+              <ul
+                // className="flex items-start"
+                style={{ listStyleType: "none" }}
+              >
+                {classInfo.equipment.map((item) => {
+                  return <li>{item}</li>;
+                })}
+              </ul>
+            </div>
+            {resources}
+            <div className="font-bold">Class Features: </div>
             <ul style={{ listStyleType: "none" }}>
-              {classInfo.equipment.map((item) => {
-                return <li>{item}</li>;
+              {classInfo.features.map((feature) => {
+                return (
+                  <li>
+                    <b>{feature.name}:</b> {feature.desc}
+                  </li>
+                );
               })}
             </ul>
-          </div>
-          {test}
-          <div>Class Features: </div>
-          <ul style={{ listStyleType: "none" }}>
-            {classInfo.features.map((feature) => {
-              return (
-                <li>
-                  <b>{feature.name}:</b> {feature.desc}
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+          </CardContent>
+        </Card>
       ) : (
         <div>One Moment Please</div>
       )}

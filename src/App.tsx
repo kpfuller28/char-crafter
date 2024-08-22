@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import Question from "./Components/Question";
 import { characterDecider } from "./helpers/characterDecider.ts";
 import ClassInfo from "./Components/ClassInfo.tsx";
+import { Button } from "./components/ui/button.tsx";
 const questions = [
   "Do you want to weapon, cast spells, or a bit of both?",
   "Do you want to be melee or ranged?",
@@ -30,6 +31,7 @@ function App() {
   const [optionIndex, setOptionIndex] = useState(0);
   const [fade, setFade] = useState(false);
   const [characterClass, setCharacterClass] = useState("");
+  const [charName, setCharName] = useState("Adventurer");
 
   function handleAnswer(answer) {
     setFade(true);
@@ -46,7 +48,9 @@ function App() {
 
   return (
     <>
-      <h1>Welcome Adventurer</h1>
+      <h1 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+        Welcome {charName}
+      </h1>
 
       {questionIndex < questions.length ? (
         <div className={`fade ${fade ? "fade-enter" : "fade-exit"}`}>
@@ -67,8 +71,13 @@ function App() {
               return <li>{answer}</li>;
             })}
           </ul>
-          <ClassInfo characterClass={characterClass} />
-          <button
+          <ClassInfo
+            characterClass={characterClass}
+            charName={charName}
+            setCharName={setCharName}
+          />
+          <Button
+            className="m-2"
             onClick={() => {
               setFade(true);
               setTimeout(() => {
@@ -81,7 +90,7 @@ function App() {
             }}
           >
             Go Back to Beginning
-          </button>
+          </Button>
         </div>
       )}
 
